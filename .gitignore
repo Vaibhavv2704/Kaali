@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+__pycache__/
+.venv/
+*.tsbuildinfo
+data-pipeline/private/
+data-pipeline/artifacts/
+.sites-runtime/
+.pnpm-store/
