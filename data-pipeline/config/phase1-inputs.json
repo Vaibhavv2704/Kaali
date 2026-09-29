@@ -1,0 +1,37 @@
+{
+  "scope": "Delhi first; news extraction separately enabled",
+  "inputs": [
+    {
+      "id": "opencity-metros-2022",
+      "path": "raw/opencity/metros-2022.csv",
+      "sourceUrl": "https://data.opencity.in/dataset/crime-in-india-2022/resource/a4496020-4d71-4533-9041-d18e3bedb911",
+      "licence": "Other (Public Domain), OpenCity resource metadata; credit NCRB and OpenCity",
+      "retrievedAt": "2026-09-30",
+      "sha256": "93a7596163c46f6acf303905f6b9cbb251d7e2f7eb6a0d228db67d82f72cb162"
+    },
+    {
+      "id": "datameet-delhi-wards",
+      "path": "raw/datameet/Delhi_Wards.geojson",
+      "sourceUrl": "https://github.com/datameet/Municipal_Spatial_Data/tree/master/Delhi",
+      "licence": "CC BY-SA 2.5 India",
+      "retrievedAt": "2026-09-30",
+      "sha256": "f331e967962383127eae891c01ed3f3762f2b029feb892641f2466787b3bed55"
+    },
+    {
+      "id": "osm-help",
+      "path": "raw/osm/help-2026-09-29.geojson",
+      "sourceUrl": "https://overpass-api.de/api/interpreter",
+      "licence": "ODbL 1.0; OpenStreetMap contributors",
+      "retrievedAt": "2026-09-29",
+      "sha256": "2ca3cf4fe30b4d214d78010a4ea2816851e130be94ad93ff24bc3cc66dce7048"
+    },
+    {
+      "id": "census-central-pca-2011",
+      "path": "raw/census/DDW_PCA0706_2011_MDDS with UI.xlsx",
+      "sourceUrl": "https://censusindia.gov.in/nada/index.php/catalog/6286/study-description",
+      "licence": "Government publication; resource terms and workbook metadata to review on retrieval",
+      "retrievedAt": null,
+      "sha256": null
+    }
+  ]
+}

@@ -141,3 +141,7 @@ Location messages search the next 24 hours using the region’s timezone and eac
 ### News-derived context
 
 Public news text can be processed in memory for reviewed facts. See [news extraction workflow](data-pipeline/NEWS.md). The first Delhi adapter extracts nine annual category counts and records provenance without retaining article bodies or victim details. `/evidence` labels these separately from official context; they are not neighbourhood/time-band training labels.
+
+### Delhi input audit
+
+Run `python data-pipeline/phase1.py --stage-existing` to verify and stage collected inputs. See [raw input paths and missing Census workbook](data-pipeline/RAW_INPUTS.md). The audit publishes data-readiness details, not predictions; optional environmental staging requires a working pyproj runtime.

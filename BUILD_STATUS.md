@@ -81,3 +81,12 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 2. Finish the Phase 1 raw input manifest/orchestrator for existing OpenCity, OSM and DataMeet inputs. DataMeet old Delhi wards remain a historical candidate (repo issue 57 flags them outdated), not current jurisdiction geometry.
 3. Fetch Census ward female-population exposure and reconcile geography vintage. Delhi Open Transit download forms require identity/terms acceptance; retain the OSM transit fallback until an anonymously usable input exists.
 4. Fit/evaluate only when admissible labels and exposure exist, using an environment where sklearn is allowed. Windows Application Control and missing granular labels still prevent a production model. Never manufacture risk scores to clear this gate.
+
+## Delhi raw-input milestone - 2026-09-30
+
+- Added checksum-pinned raw-input manifest and reproducible phase1.py audit; staged the three existing downloaded datasets without overwrites. Public report lists actual counts and missing inputs, with no sample or predicted crime values.
+- Corrected environmental lighting fraction: the lit-roads-only OSM help snapshot cannot provide its denominator. Missing tags/incomplete inventories return null. Regression tests cover this.
+- Verified DataMeet publisher issue 57 marks the boundary candidates outdated. Current geometry remains unverified.
+- Census catalog/robots requests fail SSL validation; no certificate bypass. One exact manual input requested in RAW_INPUTS.md: Central Delhi PCA2011 workbook. No data assumed from a missing workbook.
+- Additional runtime blocker identified: Windows Application Control blocks pyproj transformer DLL. Optional environment staging records unavailable and creates no feature rows. The audit and 11 Python tests pass. Existing frontend unchanged (47 tests/build passed previous milestone).
+- Next: review the Census workbook when supplied, acquire current boundary/exposure crosswalk, continue permitted incident extraction. Model fitting still requires real granular observations plus a permitted geospatial/ML runtime.
