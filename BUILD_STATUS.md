@@ -31,7 +31,7 @@ Production neighbourhood records are empty. The 18 synthetic sample cells are so
 ## Next independent work
 
 1. Audit location lifecycle: asynchronous boundary arrival, region changes, city detection independent of available risk records, and clearing all location UI on stop/error. Add tests without sending or retaining user coordinates.
-2. Correct upcoming time-window handling across midnight and weekday/weekend transitions. Keep unavailable scores unknown.
+2. Completed: upcoming windows now use future regional day types across midnight, show calendar dates, include tomorrow’s same band within 24 hours and preserve missing scores as unknown. Five regression tests cover these cases.
 3. Complete English/Hindi translation coverage across map controls, detail panels, traveller messaging and helplines, preserving factual content.
 4. Exercise Python preprocessing and publication gates with explicitly synthetic test fixtures kept separate from public production output. Do not claim model performance from fixtures.
 5. Continue legitimate boundary/data research. Record source permissions, exact retrieval dates, granularity and unresolved jurisdiction issues; do not turn camera bounding boxes into legal city boundaries.
@@ -51,7 +51,7 @@ An hourly heartbeat named “Continue Kaali build after usage reset” is active
 
 ## Verification commands
 
-Latest result: lint, TypeScript, 31 unit tests, publication-schema validation and production build passed. The build retains the existing large lazy MapLibre chunk warning. Browser checks used the keyless basemap fallback and labelled synthetic cells; live MapTiler services and physical-phone frame rate remain unverified.
+Latest result: lint, TypeScript, 36 unit tests, publication-schema validation and production build passed. The build retains the existing large lazy MapLibre chunk warning. Browser checks used the keyless basemap fallback and labelled synthetic cells; live MapTiler services and physical-phone frame rate remain unverified.
 
 `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm validate:data`, `pnpm build`.
 
