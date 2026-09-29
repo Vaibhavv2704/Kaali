@@ -1,0 +1,9 @@
+import {describe,it,expect,vi} from 'vitest';
+import type {Map as GLMap} from 'maplibre-gl';
+import {restoreRisk,selectFeature,applyScores,riskLayers} from './map-state';
+import {loadRisk} from './risk';
+import regions from '../../public/data/regions.json';
+import samples from '../../public/data/delhi-ncr/sample.json';
+const region=regions[0],records=loadRisk(samples);
+function fakeMap(){const sources=new Set<string>(),layers=new Set<string>(),images=new Set<string>();return {getSource:vi.fn((id:string)=>sources.has(id)),addSource:vi.fn((id:string)=>sources.add(id)),hasImage:vi.fn((id:string)=>images.has(id)),addImage:vi.fn((id:string)=>images.add(id)),getLayer:vi.fn((id:string)=>layers.has(id)),addLayer:vi.fn((l:{id:string})=>layers.add(l.id)),setFeatureState:vi.fn(),clearStyle:()=>{sources.clear();layers.clear();images.clear()},layers};}
+describe('map style lifecycle',()=>{it('restores all risk layers after theme style replacement without touching camera',()=>{const m=fakeMap();restoreRisk(m as unknown as GLMap,region,records,true);expect([...m.layers]).toEqual(riskLayers);restoreRisk(m as unknown as GLMap,region,records,true);expect(m.addSource).toHaveBeenCalledTimes(1);m.clearStyle();restoreRisk(m as unknown as GLMap,region,records,true);expect([...m.layers]).toEqual(riskLayers);expect(m.addSource).toHaveBeenCalledTimes(2)});it('clears previous selection and sets next feature state',()=>{const m=fakeMap();selectFeature(m as unknown as GLMap,region,true,'old','new');expect(m.setFeatureState.mock.calls).toEqual([[{source:'aegis-risk',id:'old'},{selected:false}],[{source:'aegis-risk',id:'new'},{selected:true}]])});it('updates scores without replacing source or layer',()=>{const m=fakeMap();applyScores(m as unknown as GLMap,region,records,true,0,'weekday','all','all');expect(m.setFeatureState).toHaveBeenCalledTimes(records.length);expect(m.addSource).not.toHaveBeenCalled();expect(m.addLayer).not.toHaveBeenCalled()})});

@@ -1,1 +1,2072 @@
-[]
+[
+  {
+    "id": "sample-delhi-0",
+    "name": "Sample cell 1.1",
+    "cityId": "delhi",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.19800000000001,
+            28.6139
+          ],
+          [
+            77.19200000000001,
+            28.62342627944163
+          ],
+          [
+            77.18,
+            28.62342627944163
+          ],
+          [
+            77.174,
+            28.6139
+          ],
+          [
+            77.18,
+            28.60437372055837
+          ],
+          [
+            77.19200000000001,
+            28.60437372055837
+          ],
+          [
+            77.19800000000001,
+            28.6139
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        12,
+        23,
+        34,
+        45,
+        56,
+        67
+      ],
+      "weekend:all": [
+        19,
+        30,
+        41,
+        52,
+        63,
+        74
+      ],
+      "weekday:harassment": [
+        0,
+        10,
+        21,
+        32,
+        43,
+        54
+      ],
+      "weekend:harassment": [
+        5,
+        16,
+        27,
+        38,
+        49,
+        60
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 12
+      },
+      {
+        "category": "Sexual assault",
+        "count": 5
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2023,
+        "count": 16
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 20
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-delhi-1",
+    "name": "Sample cell 1.2",
+    "cityId": "delhi",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.221,
+            28.6319
+          ],
+          [
+            77.215,
+            28.64142627944163
+          ],
+          [
+            77.203,
+            28.64142627944163
+          ],
+          [
+            77.197,
+            28.6319
+          ],
+          [
+            77.203,
+            28.62237372055837
+          ],
+          [
+            77.215,
+            28.62237372055837
+          ],
+          [
+            77.221,
+            28.6319
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        29,
+        40,
+        51,
+        62,
+        73,
+        84
+      ],
+      "weekend:all": [
+        36,
+        47,
+        58,
+        69,
+        80,
+        91
+      ],
+      "weekday:harassment": [
+        16,
+        27,
+        38,
+        49,
+        60,
+        71
+      ],
+      "weekend:harassment": [
+        22,
+        33,
+        44,
+        55,
+        66,
+        77
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 14
+      },
+      {
+        "category": "Sexual assault",
+        "count": 6
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 13
+      },
+      {
+        "year": 2023,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "count": 15
+      },
+      {
+        "year": 2025,
+        "count": 23
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-delhi-2",
+    "name": "Sample cell 1.3",
+    "cityId": "delhi",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.244,
+            28.6139
+          ],
+          [
+            77.238,
+            28.62342627944163
+          ],
+          [
+            77.226,
+            28.62342627944163
+          ],
+          [
+            77.22,
+            28.6139
+          ],
+          [
+            77.226,
+            28.60437372055837
+          ],
+          [
+            77.238,
+            28.60437372055837
+          ],
+          [
+            77.244,
+            28.6139
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        46,
+        57,
+        68,
+        79,
+        14,
+        25
+      ],
+      "weekend:all": [
+        53,
+        64,
+        75,
+        86,
+        21,
+        32
+      ],
+      "weekday:harassment": [
+        33,
+        44,
+        55,
+        66,
+        1,
+        12
+      ],
+      "weekend:harassment": [
+        39,
+        50,
+        61,
+        72,
+        7,
+        18
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 16
+      },
+      {
+        "category": "Sexual assault",
+        "count": 7
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "count": 16
+      },
+      {
+        "year": 2025,
+        "count": 26
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-gurugram-0",
+    "name": "Sample cell 2.1",
+    "cityId": "gurugram",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0156,
+            28.4595
+          ],
+          [
+            77.0096,
+            28.46902627944163
+          ],
+          [
+            76.9976,
+            28.46902627944163
+          ],
+          [
+            76.9916,
+            28.4595
+          ],
+          [
+            76.9976,
+            28.44997372055837
+          ],
+          [
+            77.0096,
+            28.44997372055837
+          ],
+          [
+            77.0156,
+            28.4595
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        25,
+        36,
+        47,
+        58,
+        69,
+        80
+      ],
+      "weekend:all": [
+        32,
+        43,
+        54,
+        65,
+        76,
+        87
+      ],
+      "weekday:harassment": [
+        12,
+        23,
+        34,
+        45,
+        56,
+        67
+      ],
+      "weekend:harassment": [
+        18,
+        29,
+        40,
+        51,
+        62,
+        73
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 12
+      },
+      {
+        "category": "Sexual assault",
+        "count": 5
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2023,
+        "count": 16
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 20
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-gurugram-1",
+    "name": "Sample cell 2.2",
+    "cityId": "gurugram",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0386,
+            28.4775
+          ],
+          [
+            77.0326,
+            28.48702627944163
+          ],
+          [
+            77.0206,
+            28.48702627944163
+          ],
+          [
+            77.0146,
+            28.4775
+          ],
+          [
+            77.0206,
+            28.46797372055837
+          ],
+          [
+            77.0326,
+            28.46797372055837
+          ],
+          [
+            77.0386,
+            28.4775
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        42,
+        53,
+        64,
+        75,
+        86,
+        21
+      ],
+      "weekend:all": [
+        49,
+        60,
+        71,
+        82,
+        93,
+        28
+      ],
+      "weekday:harassment": [
+        29,
+        40,
+        51,
+        62,
+        73,
+        8
+      ],
+      "weekend:harassment": [
+        35,
+        46,
+        57,
+        68,
+        79,
+        14
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 14
+      },
+      {
+        "category": "Sexual assault",
+        "count": 6
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 13
+      },
+      {
+        "year": 2023,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "count": 15
+      },
+      {
+        "year": 2025,
+        "count": 23
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-gurugram-2",
+    "name": "Sample cell 2.3",
+    "cityId": "gurugram",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.0616,
+            28.4595
+          ],
+          [
+            77.0556,
+            28.46902627944163
+          ],
+          [
+            77.0436,
+            28.46902627944163
+          ],
+          [
+            77.0376,
+            28.4595
+          ],
+          [
+            77.0436,
+            28.44997372055837
+          ],
+          [
+            77.0556,
+            28.44997372055837
+          ],
+          [
+            77.0616,
+            28.4595
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        59,
+        70,
+        81,
+        16,
+        27,
+        38
+      ],
+      "weekend:all": [
+        66,
+        77,
+        88,
+        23,
+        34,
+        45
+      ],
+      "weekday:harassment": [
+        46,
+        57,
+        68,
+        3,
+        14,
+        25
+      ],
+      "weekend:harassment": [
+        52,
+        63,
+        74,
+        9,
+        20,
+        31
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 16
+      },
+      {
+        "category": "Sexual assault",
+        "count": 7
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "count": 16
+      },
+      {
+        "year": 2025,
+        "count": 26
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-noida-0",
+    "name": "Sample cell 3.1",
+    "cityId": "noida",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.38000000000001,
+            28.5355
+          ],
+          [
+            77.37400000000001,
+            28.54502627944163
+          ],
+          [
+            77.36200000000001,
+            28.54502627944163
+          ],
+          [
+            77.35600000000001,
+            28.5355
+          ],
+          [
+            77.36200000000001,
+            28.52597372055837
+          ],
+          [
+            77.37400000000001,
+            28.52597372055837
+          ],
+          [
+            77.38000000000001,
+            28.5355
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        38,
+        49,
+        60,
+        71,
+        82,
+        17
+      ],
+      "weekend:all": [
+        45,
+        56,
+        67,
+        78,
+        89,
+        24
+      ],
+      "weekday:harassment": [
+        25,
+        36,
+        47,
+        58,
+        69,
+        4
+      ],
+      "weekend:harassment": [
+        31,
+        42,
+        53,
+        64,
+        75,
+        10
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 12
+      },
+      {
+        "category": "Sexual assault",
+        "count": 5
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2023,
+        "count": 16
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 20
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-noida-1",
+    "name": "Sample cell 3.2",
+    "cityId": "noida",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.403,
+            28.5535
+          ],
+          [
+            77.397,
+            28.56302627944163
+          ],
+          [
+            77.385,
+            28.56302627944163
+          ],
+          [
+            77.379,
+            28.5535
+          ],
+          [
+            77.385,
+            28.54397372055837
+          ],
+          [
+            77.397,
+            28.54397372055837
+          ],
+          [
+            77.403,
+            28.5535
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        55,
+        66,
+        77,
+        12,
+        23,
+        34
+      ],
+      "weekend:all": [
+        62,
+        73,
+        84,
+        19,
+        30,
+        41
+      ],
+      "weekday:harassment": [
+        42,
+        53,
+        64,
+        0,
+        10,
+        21
+      ],
+      "weekend:harassment": [
+        48,
+        59,
+        70,
+        5,
+        16,
+        27
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 14
+      },
+      {
+        "category": "Sexual assault",
+        "count": 6
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 13
+      },
+      {
+        "year": 2023,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "count": 15
+      },
+      {
+        "year": 2025,
+        "count": 23
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-noida-2",
+    "name": "Sample cell 3.3",
+    "cityId": "noida",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.426,
+            28.5355
+          ],
+          [
+            77.42,
+            28.54502627944163
+          ],
+          [
+            77.408,
+            28.54502627944163
+          ],
+          [
+            77.402,
+            28.5355
+          ],
+          [
+            77.408,
+            28.52597372055837
+          ],
+          [
+            77.42,
+            28.52597372055837
+          ],
+          [
+            77.426,
+            28.5355
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        72,
+        83,
+        18,
+        29,
+        40,
+        51
+      ],
+      "weekend:all": [
+        79,
+        90,
+        25,
+        36,
+        47,
+        58
+      ],
+      "weekday:harassment": [
+        59,
+        70,
+        5,
+        16,
+        27,
+        38
+      ],
+      "weekend:harassment": [
+        65,
+        76,
+        11,
+        22,
+        33,
+        44
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 16
+      },
+      {
+        "category": "Sexual assault",
+        "count": 7
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "count": 16
+      },
+      {
+        "year": 2025,
+        "count": 26
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-greater-noida-0",
+    "name": "Sample cell 4.1",
+    "cityId": "greater-noida",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.49300000000001,
+            28.4744
+          ],
+          [
+            77.48700000000001,
+            28.48392627944163
+          ],
+          [
+            77.47500000000001,
+            28.48392627944163
+          ],
+          [
+            77.46900000000001,
+            28.4744
+          ],
+          [
+            77.47500000000001,
+            28.46487372055837
+          ],
+          [
+            77.48700000000001,
+            28.46487372055837
+          ],
+          [
+            77.49300000000001,
+            28.4744
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        51,
+        62,
+        73,
+        84,
+        19,
+        30
+      ],
+      "weekend:all": [
+        58,
+        69,
+        80,
+        91,
+        26,
+        37
+      ],
+      "weekday:harassment": [
+        38,
+        49,
+        60,
+        71,
+        6,
+        17
+      ],
+      "weekend:harassment": [
+        44,
+        55,
+        66,
+        77,
+        12,
+        23
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 12
+      },
+      {
+        "category": "Sexual assault",
+        "count": 5
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2023,
+        "count": 16
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 20
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-greater-noida-1",
+    "name": "Sample cell 4.2",
+    "cityId": "greater-noida",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.516,
+            28.4924
+          ],
+          [
+            77.51,
+            28.50192627944163
+          ],
+          [
+            77.498,
+            28.50192627944163
+          ],
+          [
+            77.492,
+            28.4924
+          ],
+          [
+            77.498,
+            28.48287372055837
+          ],
+          [
+            77.51,
+            28.48287372055837
+          ],
+          [
+            77.516,
+            28.4924
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        68,
+        79,
+        14,
+        25,
+        36,
+        47
+      ],
+      "weekend:all": [
+        75,
+        86,
+        21,
+        32,
+        43,
+        54
+      ],
+      "weekday:harassment": [
+        55,
+        66,
+        1,
+        12,
+        23,
+        34
+      ],
+      "weekend:harassment": [
+        61,
+        72,
+        7,
+        18,
+        29,
+        40
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 14
+      },
+      {
+        "category": "Sexual assault",
+        "count": 6
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 13
+      },
+      {
+        "year": 2023,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "count": 15
+      },
+      {
+        "year": 2025,
+        "count": 23
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-greater-noida-2",
+    "name": "Sample cell 4.3",
+    "cityId": "greater-noida",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.539,
+            28.4744
+          ],
+          [
+            77.533,
+            28.48392627944163
+          ],
+          [
+            77.521,
+            28.48392627944163
+          ],
+          [
+            77.515,
+            28.4744
+          ],
+          [
+            77.521,
+            28.46487372055837
+          ],
+          [
+            77.533,
+            28.46487372055837
+          ],
+          [
+            77.539,
+            28.4744
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        85,
+        20,
+        31,
+        42,
+        53,
+        64
+      ],
+      "weekend:all": [
+        92,
+        27,
+        38,
+        49,
+        60,
+        71
+      ],
+      "weekday:harassment": [
+        72,
+        7,
+        18,
+        29,
+        40,
+        51
+      ],
+      "weekend:harassment": [
+        78,
+        13,
+        24,
+        35,
+        46,
+        57
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 16
+      },
+      {
+        "category": "Sexual assault",
+        "count": 7
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "count": 16
+      },
+      {
+        "year": 2025,
+        "count": 26
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-faridabad-0",
+    "name": "Sample cell 5.1",
+    "cityId": "faridabad",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.30680000000001,
+            28.4089
+          ],
+          [
+            77.30080000000001,
+            28.41842627944163
+          ],
+          [
+            77.28880000000001,
+            28.41842627944163
+          ],
+          [
+            77.28280000000001,
+            28.4089
+          ],
+          [
+            77.28880000000001,
+            28.39937372055837
+          ],
+          [
+            77.30080000000001,
+            28.39937372055837
+          ],
+          [
+            77.30680000000001,
+            28.4089
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        64,
+        75,
+        86,
+        21,
+        32,
+        43
+      ],
+      "weekend:all": [
+        71,
+        82,
+        93,
+        28,
+        39,
+        50
+      ],
+      "weekday:harassment": [
+        51,
+        62,
+        73,
+        8,
+        19,
+        30
+      ],
+      "weekend:harassment": [
+        57,
+        68,
+        79,
+        14,
+        25,
+        36
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 12
+      },
+      {
+        "category": "Sexual assault",
+        "count": 5
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2023,
+        "count": 16
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 20
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-faridabad-1",
+    "name": "Sample cell 5.2",
+    "cityId": "faridabad",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.3298,
+            28.4269
+          ],
+          [
+            77.3238,
+            28.43642627944163
+          ],
+          [
+            77.3118,
+            28.43642627944163
+          ],
+          [
+            77.3058,
+            28.4269
+          ],
+          [
+            77.3118,
+            28.41737372055837
+          ],
+          [
+            77.3238,
+            28.41737372055837
+          ],
+          [
+            77.3298,
+            28.4269
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        81,
+        16,
+        27,
+        38,
+        49,
+        60
+      ],
+      "weekend:all": [
+        88,
+        23,
+        34,
+        45,
+        56,
+        67
+      ],
+      "weekday:harassment": [
+        68,
+        3,
+        14,
+        25,
+        36,
+        47
+      ],
+      "weekend:harassment": [
+        74,
+        9,
+        20,
+        31,
+        42,
+        53
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 14
+      },
+      {
+        "category": "Sexual assault",
+        "count": 6
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 13
+      },
+      {
+        "year": 2023,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "count": 15
+      },
+      {
+        "year": 2025,
+        "count": 23
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-faridabad-2",
+    "name": "Sample cell 5.3",
+    "cityId": "faridabad",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.3528,
+            28.4089
+          ],
+          [
+            77.3468,
+            28.41842627944163
+          ],
+          [
+            77.3348,
+            28.41842627944163
+          ],
+          [
+            77.3288,
+            28.4089
+          ],
+          [
+            77.3348,
+            28.39937372055837
+          ],
+          [
+            77.3468,
+            28.39937372055837
+          ],
+          [
+            77.3528,
+            28.4089
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        22,
+        33,
+        44,
+        55,
+        66,
+        77
+      ],
+      "weekend:all": [
+        29,
+        40,
+        51,
+        62,
+        73,
+        84
+      ],
+      "weekday:harassment": [
+        9,
+        20,
+        31,
+        42,
+        53,
+        64
+      ],
+      "weekend:harassment": [
+        15,
+        26,
+        37,
+        48,
+        59,
+        70
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 16
+      },
+      {
+        "category": "Sexual assault",
+        "count": 7
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "count": 16
+      },
+      {
+        "year": 2025,
+        "count": 26
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-ghaziabad-0",
+    "name": "Sample cell 6.1",
+    "cityId": "ghaziabad",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.4428,
+            28.6692
+          ],
+          [
+            77.4368,
+            28.67872627944163
+          ],
+          [
+            77.4248,
+            28.67872627944163
+          ],
+          [
+            77.4188,
+            28.6692
+          ],
+          [
+            77.4248,
+            28.65967372055837
+          ],
+          [
+            77.4368,
+            28.65967372055837
+          ],
+          [
+            77.4428,
+            28.6692
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        77,
+        12,
+        23,
+        34,
+        45,
+        56
+      ],
+      "weekend:all": [
+        84,
+        19,
+        30,
+        41,
+        52,
+        63
+      ],
+      "weekday:harassment": [
+        64,
+        0,
+        10,
+        21,
+        32,
+        43
+      ],
+      "weekend:harassment": [
+        70,
+        5,
+        16,
+        27,
+        38,
+        49
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 12
+      },
+      {
+        "category": "Sexual assault",
+        "count": 5
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 12
+      },
+      {
+        "year": 2023,
+        "count": 16
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 20
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-ghaziabad-1",
+    "name": "Sample cell 6.2",
+    "cityId": "ghaziabad",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.4658,
+            28.6872
+          ],
+          [
+            77.4598,
+            28.69672627944163
+          ],
+          [
+            77.4478,
+            28.69672627944163
+          ],
+          [
+            77.4418,
+            28.6872
+          ],
+          [
+            77.4478,
+            28.67767372055837
+          ],
+          [
+            77.4598,
+            28.67767372055837
+          ],
+          [
+            77.4658,
+            28.6872
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        18,
+        29,
+        40,
+        51,
+        62,
+        73
+      ],
+      "weekend:all": [
+        25,
+        36,
+        47,
+        58,
+        69,
+        80
+      ],
+      "weekday:harassment": [
+        5,
+        16,
+        27,
+        38,
+        49,
+        60
+      ],
+      "weekend:harassment": [
+        11,
+        22,
+        33,
+        44,
+        55,
+        66
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 14
+      },
+      {
+        "category": "Sexual assault",
+        "count": 6
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 13
+      },
+      {
+        "year": 2023,
+        "count": 17
+      },
+      {
+        "year": 2024,
+        "count": 15
+      },
+      {
+        "year": 2025,
+        "count": 23
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  },
+  {
+    "id": "sample-ghaziabad-2",
+    "name": "Sample cell 6.3",
+    "cityId": "ghaziabad",
+    "regionId": "delhi-ncr",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            77.4888,
+            28.6692
+          ],
+          [
+            77.4828,
+            28.67872627944163
+          ],
+          [
+            77.4708,
+            28.67872627944163
+          ],
+          [
+            77.4648,
+            28.6692
+          ],
+          [
+            77.4708,
+            28.65967372055837
+          ],
+          [
+            77.4828,
+            28.65967372055837
+          ],
+          [
+            77.4888,
+            28.6692
+          ]
+        ]
+      ]
+    },
+    "boundaryStatus": "sample",
+    "provenance": "sample",
+    "confidence": "low",
+    "sources": [],
+    "scores": {
+      "weekday:all": [
+        35,
+        46,
+        57,
+        68,
+        79,
+        14
+      ],
+      "weekend:all": [
+        42,
+        53,
+        64,
+        75,
+        86,
+        21
+      ],
+      "weekday:harassment": [
+        22,
+        33,
+        44,
+        55,
+        66,
+        1
+      ],
+      "weekend:harassment": [
+        28,
+        39,
+        50,
+        61,
+        72,
+        7
+      ]
+    },
+    "incidents": [
+      {
+        "category": "Harassment",
+        "count": 16
+      },
+      {
+        "category": "Sexual assault",
+        "count": 7
+      },
+      {
+        "category": "Other",
+        "count": 3
+      }
+    ],
+    "trend": [
+      {
+        "year": 2022,
+        "count": 14
+      },
+      {
+        "year": 2023,
+        "count": 18
+      },
+      {
+        "year": 2024,
+        "count": 16
+      },
+      {
+        "year": 2025,
+        "count": 26
+      }
+    ],
+    "year": 2025,
+    "femalePopulation": null,
+    "periodDays": null,
+    "estimated": true
+  }
+]

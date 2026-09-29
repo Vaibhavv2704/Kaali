@@ -1,0 +1,148 @@
+[
+  {
+    "id": "erss",
+    "url": "https://112.gov.in/",
+    "status": "unavailable",
+    "reason": "fetch failed",
+    "checkedAt": "2026-09-28T23:57:37.879Z"
+  },
+  {
+    "id": "women",
+    "url": "https://wcd.gov.in/women/help",
+    "number": "181",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:38.667Z"
+  },
+  {
+    "id": "children",
+    "url": "https://ghaziabad.nic.in/en/helpline/",
+    "number": "1098",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:39.608Z"
+  },
+  {
+    "id": "cyber",
+    "url": "https://delhipolice.gov.in/index",
+    "number": "1930",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:41.088Z"
+  },
+  {
+    "id": "police",
+    "url": "https://www.112.gov.in/about",
+    "status": "unavailable",
+    "reason": "fetch failed",
+    "checkedAt": "2026-09-28T23:57:51.378Z"
+  },
+  {
+    "id": "women-police",
+    "url": "https://delhipolice.gov.in/index",
+    "number": "1091",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:51.378Z"
+  },
+  {
+    "id": "ambulance-108",
+    "url": "https://ghaziabad.nic.in/en/helpline/",
+    "number": "108",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:51.379Z"
+  },
+  {
+    "id": "ambulance-102",
+    "url": "https://ghaziabad.nic.in/en/helpline/",
+    "number": "102",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:51.379Z"
+  },
+  {
+    "id": "delhi-women",
+    "url": "https://delhipolice.gov.in/index",
+    "number": "1091",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:51.379Z"
+  },
+  {
+    "id": "delhi-112",
+    "url": "https://delhipolice.gov.in/index",
+    "number": "112",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:51.379Z"
+  },
+  {
+    "id": "haryana-women",
+    "url": "https://www.haryana.gov.in/",
+    "number": "1091",
+    "status": "number-present-manual-context-review-needed",
+    "checkedAt": "2026-09-28T23:57:51.554Z"
+  },
+  {
+    "id": "haryana-112",
+    "url": "https://112.gov.in/",
+    "status": "unavailable",
+    "reason": "fetch failed",
+    "checkedAt": "2026-09-28T23:58:02.064Z"
+  },
+  {
+    "id": "up-women",
+    "url": "https://uppolice.gov.in/article/en/about-us-mahila-samman-prakostha",
+    "status": "unavailable",
+    "reason": "fetch failed",
+    "checkedAt": "2026-09-28T23:58:12.744Z"
+  },
+  {
+    "id": "up-112",
+    "url": "https://112.gov.in/",
+    "status": "unavailable",
+    "reason": "fetch failed",
+    "checkedAt": "2026-09-28T23:58:23.425Z"
+  },
+  {
+    "url": "https://www.ncw.gov.in/",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://wcd.gov.in/women/help",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://cybercrime.gov.in/",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://delhipolice.gov.in/",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://dcw.delhi.gov.in/",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://haryanapolice.gov.in/",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://www.hscw.in/",
+    "status": "unavailable"
+  },
+  {
+    "url": "https://uppolice.gov.in/",
+    "status": "reachable",
+    "httpStatus": 200
+  },
+  {
+    "url": "https://mahilaayog.up.gov.in/",
+    "status": "unavailable"
+  },
+  {
+    "url": "https://ghaziabad.nic.in/en/helpline/",
+    "status": "reachable",
+    "httpStatus": 200
+  }
+]

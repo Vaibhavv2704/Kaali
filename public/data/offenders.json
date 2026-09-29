@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mukesh-singh",
+    "name": "Mukesh Singh",
+    "adultAtOffence": true,
+    "caseName": "2012 Delhi bus case",
+    "year": 2012,
+    "regionId": "delhi-ncr",
+    "cityId": "delhi",
+    "neighbourhoodId": null,
+    "crimeLocality": null,
+    "locationVerified": false,
+    "court": "Additional Sessions Court, Saket, Delhi",
+    "convictionDate": "2013-09-10",
+    "verdict": "Convicted",
+    "sentence": "Death penalty; carried out 20 March 2020",
+    "status": "executed",
+    "sources": [
+      "https://api.sci.gov.in/supremecourt/2017/35383/35383_2017_Judgement_09-Jul-2018.pdf",
+      "https://www.business-standard.com/article/current-affairs/delhi-gang-rape-verdict-who-is-judge-yogesh-khanna-113091000411_1.html",
+      "https://www.brecorder.com/news/581827/india-executes-four-men-convicted-in-2012-delhi-gang-rape-murder-case"
+    ],
+    "lastVerified": "2026-09-29",
+    "photo": null,
+    "privacyReviewed": true
+  },
+  {
+    "id": "vinay-sharma",
+    "name": "Vinay Sharma",
+    "adultAtOffence": true,
+    "caseName": "2012 Delhi bus case",
+    "year": 2012,
+    "regionId": "delhi-ncr",
+    "cityId": "delhi",
+    "neighbourhoodId": null,
+    "crimeLocality": null,
+    "locationVerified": false,
+    "court": "Additional Sessions Court, Saket, Delhi",
+    "convictionDate": "2013-09-10",
+    "verdict": "Convicted",
+    "sentence": "Death penalty; carried out 20 March 2020",
+    "status": "executed",
+    "sources": [
+      "https://api.sci.gov.in/supremecourt/2017/35383/35383_2017_Judgement_09-Jul-2018.pdf",
+      "https://www.business-standard.com/article/current-affairs/delhi-gang-rape-verdict-who-is-judge-yogesh-khanna-113091000411_1.html",
+      "https://www.brecorder.com/news/581827/india-executes-four-men-convicted-in-2012-delhi-gang-rape-murder-case"
+    ],
+    "lastVerified": "2026-09-29",
+    "photo": null,
+    "privacyReviewed": true
+  },
+  {
+    "id": "pawan-gupta",
+    "name": "Pawan Gupta",
+    "adultAtOffence": true,
+    "caseName": "2012 Delhi bus case",
+    "year": 2012,
+    "regionId": "delhi-ncr",
+    "cityId": "delhi",
+    "neighbourhoodId": null,
+    "crimeLocality": null,
+    "locationVerified": false,
+    "court": "Additional Sessions Court, Saket, Delhi",
+    "convictionDate": "2013-09-10",
+    "verdict": "Convicted",
+    "sentence": "Death penalty; carried out 20 March 2020",
+    "status": "executed",
+    "sources": [
+      "https://api.sci.gov.in/supremecourt/2017/35383/35383_2017_Judgement_09-Jul-2018.pdf",
+      "https://www.business-standard.com/article/current-affairs/delhi-gang-rape-verdict-who-is-judge-yogesh-khanna-113091000411_1.html",
+      "https://www.brecorder.com/news/581827/india-executes-four-men-convicted-in-2012-delhi-gang-rape-murder-case"
+    ],
+    "lastVerified": "2026-09-29",
+    "photo": null,
+    "privacyReviewed": true
+  },
+  {
+    "id": "akshay-thakur",
+    "name": "Akshay Thakur",
+    "adultAtOffence": true,
+    "caseName": "2012 Delhi bus case",
+    "year": 2012,
+    "regionId": "delhi-ncr",
+    "cityId": "delhi",
+    "neighbourhoodId": null,
+    "crimeLocality": null,
+    "locationVerified": false,
+    "court": "Additional Sessions Court, Saket, Delhi",
+    "convictionDate": "2013-09-10",
+    "verdict": "Convicted",
+    "sentence": "Death penalty; carried out 20 March 2020",
+    "status": "executed",
+    "sources": [
+      "https://api.sci.gov.in/supremecourt/2017/35383/35383_2017_Judgement_09-Jul-2018.pdf",
+      "https://www.business-standard.com/article/current-affairs/delhi-gang-rape-verdict-who-is-judge-yogesh-khanna-113091000411_1.html",
+      "https://www.brecorder.com/news/581827/india-executes-four-men-convicted-in-2012-delhi-gang-rape-murder-case"
+    ],
+    "lastVerified": "2026-09-29",
+    "photo": null,
+    "privacyReviewed": true
+  }
+]

@@ -1,0 +1,4 @@
+import {booleanPointInPolygon,point,feature,distance} from '@turf/turf';
+import type {RiskRecord,HelpFeature,UserPosition} from '../types';
+export function neighbourhoodAt(records:RiskRecord[],location:Pick<UserPosition,'lat'|'lng'>){const candidates=records.filter(r=>r.boundaryStatus==='verified'&&r.provenance!=='sample'&&booleanPointInPolygon(point([location.lng,location.lat]),feature(r.geometry),{ignoreBoundary:true}));return candidates.length===1?candidates[0]:null;}
+export function nearestPolice(features:HelpFeature[],location:Pick<UserPosition,'lat'|'lng'>,cityId:string){return features.filter(f=>f.properties.kind==='police'&&f.properties.cityId===cityId&&f.geometry.type==='Point').map(f=>({feature:f,km:distance(point([location.lng,location.lat]),f as GeoJSON.Feature<GeoJSON.Point>)})).sort((a,b)=>a.km-b.km)[0]??null;}
