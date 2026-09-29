@@ -1,4 +1,4 @@
-# Aegis model card
+# Kaali model card
 
 ## Release status
 

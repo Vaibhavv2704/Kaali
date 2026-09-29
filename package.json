@@ -1,5 +1,5 @@
 {
-  "name": "aegis",
+  "name": "kaali",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,9 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
     "verify:helplines": "node scripts/verify-helplines.mjs",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:data": "node scripts/validate-data.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc -b"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.0",
@@ -42,6 +44,9 @@
     "typescript": "~5.8.3",
     "vite": "^6.3.0",
     "vitest": "^3.2.0",
-    "esbuild": "^0.25.12"
-  }
+    "esbuild": "^0.25.12",
+    "eslint": "^9.30.0",
+    "@typescript-eslint/parser": "^8.35.0"
+  },
+  "description": "Kaali — Know your area. Walk with awareness."
 }

@@ -59,7 +59,7 @@ def main():
         if date and (datetime.now(timezone.utc).date()-datetime.fromisoformat(date).date()).days<7:raise SystemExit('Snapshot under 7 days old; using cache. --force only for deliberate refresh.')
     if a.input:data=json.loads(a.input.read_text())
     else:
-        request=urllib.request.Request(ENDPOINT,data=urllib.parse.urlencode({'data':query_for(region)}).encode(),headers={'User-Agent':'AegisResearch/0.1 (weekly static NCR snapshot)','Accept':'application/json'})
+        request=urllib.request.Request(ENDPOINT,data=urllib.parse.urlencode({'data':query_for(region)}).encode(),headers={'User-Agent':'KaaliResearch/0.1 (weekly static NCR snapshot)','Accept':'application/json'})
         with urllib.request.urlopen(request,timeout=60) as response:data=json.load(response)
     if data.get('remark'):raise ValueError('Overpass partial/error response; preserving previous snapshot: '+data['remark'])
     result=transform(data,region);temporary=output.with_suffix('.tmp');temporary.write_text(json.dumps(result,ensure_ascii=False),encoding='utf-8');temporary.replace(output)

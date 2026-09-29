@@ -1,4 +1,4 @@
-# Aegis
+# Kaali
 
 Neighbourhood safety awareness for Delhi NCR. React + Vite + TypeScript, Tailwind v4, locally owned shadcn-style Radix primitives, Framer Motion, Lucide and lazy Recharts. The map uses **MapLibre GL JS through react-map-gl**, MapTiler vector styles, Turf client-side geometry and optional static PMTiles.
 
@@ -111,3 +111,11 @@ Add only a verified adult conviction to `public/data/offenders.json`. The Zod sc
 ## Attribution / licences
 
 Map tiles: © MapTiler under Cloud terms. Open data: © OpenStreetMap contributors, ODbL 1.0; observe attribution and derived-database share-alike requirements. Photon data derives from OSM. MapLibre BSD-3-Clause; react-map-gl MIT; Turf MIT; PMTiles JS BSD-3-Clause. Inter and Space Grotesk are locally hosted under SIL Open Font License. Dependency licences are distributed in their packages. Court/news facts are linked, with no article bodies or source photographs republished.
+
+## Branding changelog
+
+Formerly Aegis. Renamed to Kaali; Know your area. Walk with awareness.
+
+Logo variants are in public/brand. The abstract mark uses no figurative or religious imagery. Existing browser preferences and recent searches migrate once to the new storage prefix. No factual datasets, licence text, third-party attribution, API credentials or external project identifiers change. App routes and manifest scope remain at the root, so no URL redirects are needed.
+
+Manual branding follow-ups: choose a domain and social handles, perform a trademark/name availability search, and update display names in the hosting, source repository and MapTiler consoles if applicable. No remote or deployed domain is configured in this checkout.

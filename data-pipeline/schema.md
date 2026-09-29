@@ -1,4 +1,4 @@
-# Aegis data contract · v1
+# Kaali data contract · v1
 
 Hierarchy: region → city → neighbourhood. All identifiers are stable strings. WGS84 GeoJSON uses longitude, latitude; metric area and distances use a suitable projected CRS selected in regional source configuration. Bounding rectangles are camera extents only, never jurisdiction classifiers.
 
