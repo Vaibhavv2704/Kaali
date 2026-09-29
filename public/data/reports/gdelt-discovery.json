@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-09-29T22:07:02.945321+00:00",
+  "provider": "GDELT DOC 2.0",
+  "query": "\"crime against women\" (Delhi OR Noida OR Gurugram OR Faridabad OR Ghaziabad)",
+  "maxRecords": 25,
+  "timeSpan": "1month",
+  "retainedArticleBodies": false,
+  "retainedRawHeadlines": false,
+  "eligibleForTraining": false,
+  "status": "unavailable",
+  "errorType": "HTTPError"
+}

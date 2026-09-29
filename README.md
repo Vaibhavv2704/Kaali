@@ -130,3 +130,9 @@ Run `.venv/Scripts/python.exe -m unittest discover -s data-pipeline/tests -v` on
 The [source register](data-pipeline/SOURCES.md) records official aggregate tables, date/geography caveats and access/reuse gates. No aggregate has been silently allocated into time bands or neighbourhood risk. MapTiler light and dark style endpoints accepted the locally configured key; browser rendering, account limits and domain restrictions require separate verification.
 
 Location messages search the next 24 hours using the region’s timezone and each future window’s weekday/weekend scores. Upcoming windows include a calendar date; missing scores never imply lower risk.
+
+### Historical crime data and reading links
+
+`/evidence` shows annual 2020–2022 Delhi City and Ghaziabad counts from the explicitly public-domain OpenCity transcription of NCRB 2022. Download the exact CSV linked in `data-pipeline/SOURCES.md` with its stated crawl delay, place it in ignored staging, then run `python data-pipeline/import_metro_context.py --input <csv>`. The importer checks SHA256; changed files require review. This context never becomes neighbourhood training labels. Rates are withheld until female-population exposure is verified.
+
+`public/data/news.json` stores only curated reading-link metadata and neutral editorial headlines. Article copyright remains with the publisher. No bodies, photos or identifying narratives are retained; news counts are not added to official totals. Case cards reuse validated adult-conviction profiles and are not placed on the map without verified localities.

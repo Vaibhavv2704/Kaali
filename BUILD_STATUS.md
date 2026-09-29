@@ -18,7 +18,7 @@ The header uses the Kaali wordmark alone. The user requested removal of the stan
 
 ## Data remains unchanged
 
-Production neighbourhood records are empty. The 18 synthetic sample cells are software fixtures only. The existing 3,733 OSM features are real retrieved map data with unverified city assignment. No production model, metrics, jurisdiction geometry or new case matches were created. No data source was fetched or newly verified in this UI milestone.
+Historical city context is now available on /evidence: six real rows from the OpenCity NCRB 2022 transcription for Delhi City and Ghaziabad (2020–2022), plus three curated news references and the four existing conviction profiles. Production neighbourhood records are empty. The 18 synthetic sample cells are software fixtures only. The existing 3,733 OSM features are real retrieved map data with unverified city assignment. No production model, metrics, jurisdiction geometry or new case matches were created. The earlier UI milestone did not fetch sources; the 2026-09-30 evidence milestone subsequently fetched the aggregate CSV and a private boundary candidate.
 
 ## Latest data/pipeline milestone
 
@@ -51,8 +51,16 @@ An hourly heartbeat named “Continue Kaali build after usage reset” is active
 
 ## Verification commands
 
-Latest result: lint, TypeScript, 36 unit tests, publication-schema validation and production build passed. The build retains the existing large lazy MapLibre chunk warning. Browser checks used the keyless basemap fallback and labelled synthetic cells; live MapTiler services and physical-phone frame rate remain unverified.
+Latest result: lint, TypeScript, 40 unit tests, publication-schema validation and production build passed. The build retains the existing large lazy MapLibre chunk warning. Browser checks used the keyless basemap fallback and labelled synthetic cells; live MapTiler services and physical-phone frame rate remain unverified.
 
 `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm validate:data`, `pnpm build`.
 
 Use the workspace’s installed tooling. On this Windows host, pnpm is available at `C:/Users/vaibh/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/pnpm.cmd`. Vite/esbuild checks may require the normal approved execution outside the filesystem sandbox because they inspect ancestor directories. Keep screenshots in `artifacts/screenshots/`; do not commit private credentials or local browser storage.
+
+## Evidence page milestone — 2026-09-30
+
+- `/evidence`: city-filtered historical annual counts, curated news links and existing verified adult conviction profiles; linked from desktop navigation and About. No victim identities, news bodies or imagery retained.
+- Reproducible checksum-pinned context importer, strict context/news validators and duplicate-URL checks.
+- Downloaded and assessed 290 DataMeet Delhi ward polygons privately. Geometry validity passes, but current vintage is unverified; no production boundaries activated.
+- Live MapTiler basemap renders with configured key. Evidence page browser check confirms Delhi/Ghaziabad filters and conviction cards. Light/dark screenshots stored locally. Desktop navigation and city filtering checked in browser; a final 390px check remains.
+- User supplied a broad source list and authorized news collection. Specific granular dataset/path and reuse evidence remain unavailable. Prepared unsubmitted jurisdiction-specific police/NGO request drafts in data-pipeline/DATA_REQUESTS.md. GDELT bounded discovery returned HTTPError; no raw records retained.

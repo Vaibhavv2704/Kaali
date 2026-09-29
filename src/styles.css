@@ -50,3 +50,5 @@
  .legend-level small{white-space:normal;display:block;font-size:8px;line-height:1.35}
  .map-status{left:12px;top:420px;transform:none;width:210px;text-align:left}
 }
+
+.evidence-city{display:flex;align-items:center;gap:12px;margin-top:20px}.evidence-city select{min-height:44px;min-width:160px;padding:8px 16px;background:var(--surface);border:1px solid var(--line);border-radius:16px;color:var(--text)}

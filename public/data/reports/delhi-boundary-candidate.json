@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-09-30",
+  "source": "https://raw.githubusercontent.com/datameet/Municipal_Spatial_Data/refs/heads/master/Delhi/Delhi_Wards.geojson",
+  "credit": "DataMeet Municipal Spatial Data contributors",
+  "licence": "CC BY-SA 2.5 India",
+  "licenceEvidence": "https://github.com/datameet/Municipal_Spatial_Data/tree/master/Delhi",
+  "sha256": "f331e967962383127eae891c01ed3f3762f2b029feb892641f2466787b3bed55",
+  "featureCount": 290,
+  "invalidGeometryCount": 0,
+  "emptyGeometryCount": 0,
+  "uniqueWardIds": 290,
+  "productionApproved": false,
+  "reason": "Publisher does not establish current boundary vintage. Ward numbering differs from the 2022 delimitation; current city/neighbourhood jurisdiction and exposure joins require review. No production configuration changed."
+}

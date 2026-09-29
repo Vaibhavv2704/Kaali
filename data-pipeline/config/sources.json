@@ -64,6 +64,15 @@
       "license": "ODbL 1.0; attribution and database obligations apply",
       "approved": false,
       "reason": "3,733 OSM features retrieved 2026-09-29 by dedicated overpass.py collector under ODbL; generic URL collector remains disabled. City assignment awaits reviewed boundaries."
+    },
+    {
+      "id": "opencity-metros-2022",
+      "url": "https://data.opencity.in/dataset/crime-in-india-2022/resource/a4496020-4d71-4533-9041-d18e3bedb911/download/2176f9d3-19ea-4280-9b82-e643cfb5255d.csv",
+      "kind": "aggregate-context",
+      "license": "Other (Public Domain), resource metadata; credit NCRB and OpenCity",
+      "termsReviewedAt": "2026-09-30",
+      "approved": true,
+      "reason": "Exact CSV imported using checksum-pinned import_metro_context.py. Historical context only, not neighbourhood labels."
     }
   ]
 }

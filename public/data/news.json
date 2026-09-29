@@ -1,0 +1,41 @@
+[
+  {
+    "id": "news-gurugram",
+    "regionId": "delhi-ncr",
+    "cityId": "gurugram",
+    "headline": "Gurugram: reporting trends and support services",
+    "publisher": "The Times of India",
+    "publishedAt": "2025-01-23",
+    "url": "https://timesofindia.indiatimes.com/city/gurgaon/gurgaon-records-rise-in-reports-on-crime-against-women-but-it-has-no-shelter/articleshow/117466959.cms",
+    "reviewedAt": "2026-09-30",
+    "privacyReviewed": true,
+    "kind": "aggregate-report",
+    "eligibleForTraining": false
+  },
+  {
+    "id": "news-ghaziabad",
+    "regionId": "delhi-ncr",
+    "cityId": "ghaziabad",
+    "headline": "Ghaziabad: police discuss changes in recorded crime",
+    "publisher": "Hindustan Times",
+    "publishedAt": "2025-11-25",
+    "url": "https://www.hindustantimes.com/cities/noida-news/ghaziabad-27-decline-in-crime-against-women-heinous-crimes-reduced-by-17-since-2024-101764097834838.html",
+    "reviewedAt": "2026-09-30",
+    "privacyReviewed": true,
+    "kind": "aggregate-report",
+    "eligibleForTraining": false
+  },
+  {
+    "id": "news-delhi",
+    "regionId": "delhi-ncr",
+    "cityId": "delhi",
+    "headline": "Delhi Police release 2025 crime statistics",
+    "publisher": "Hindustan Times",
+    "publishedAt": "2026-01-23",
+    "url": "https://www.hindustantimes.com/cities/delhi-news/crimes-in-delhi-went-down-in-2025-delhi-police-101769106398499.html",
+    "reviewedAt": "2026-09-30",
+    "privacyReviewed": true,
+    "kind": "aggregate-report",
+    "eligibleForTraining": false
+  }
+]

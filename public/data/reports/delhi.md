@@ -12,3 +12,7 @@ Reviewed: 2026-09-29. Region: delhi-ncr. Jurisdiction: Delhi.
 - Gates to publication: licensed geometry; aligned female population; reviewed observations; held-out validation; source and privacy review.
 
 Low reported or missing observations do not imply lower risk. This city is configured but not evidence-covered.
+
+## Historical context import — 2026-09-30
+
+Three annual NCRB metropolitan-area totals (2020–2022), transcribed by OpenCity under its stated public-domain licence, are now displayed on `/evidence`. The reporting area is not assumed to match current municipal boundaries. No time bands, neighbourhood assignments or model labels were created. Female exposure is unverified, so normalized rates remain unavailable. See `/data/crime-context.json` and `/data/SOURCES.md`. Neighbourhood coverage remains 0%.
