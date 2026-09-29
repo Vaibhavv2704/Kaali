@@ -71,3 +71,17 @@ The earlier audit remains a dated record; this successful CSV import supersedes 
 | [Central RTI portal](https://www.rtionline.gov.in/) / [guidelines](https://rtionline.gov.in/guidelines.php?appeal=&pageid=cfcd208495d565ef66e7dff9f98764da) | Request existing aggregate records | State authorities require the appropriate state route. Drafts in DATA_REQUESTS.md; applicant details, authority and fees unresolved. Nothing filed or sent. |
 
 Census ward/town tables, NFHS-5, GHSL, Delhi Economic Survey, Open Transit Data, municipal streetlights, Survey of India/Bhuvan, Breakthrough, UN Women and academic papers remain queued for resource-level review. They have not been claimed as downloaded or licensed. NFHS prevalence and NCW complaints must remain separate from police incidence. Google News, social-media feeds and Kaggle mirrors are discovery candidates only; no automated scraping enabled or licence assumed.
+
+
+## News extraction resumed - 2026-09-30
+
+The user's latest instruction explicitly includes public news text for factual extraction, superseding the preceding news-text exclusion. No article bodies are retained. No extra permission document is requested for public factual research.
+
+- Source: The Tribune, Rahul Gahlawat, Delhi police annual figures for 2023-2025; published 2026-01-22.
+- URL: https://www.tribuneindia.com/news/delhi/delhi-saw-dip-in-crime-snatching-extortion-least-solved-cases/
+- Robots: https://www.tribuneindia.com/robots.txt returned 200 and allows all paths. Live requests respected a two-second minimum delay.
+- Licence: publisher copyright; no open-text licence or article-republication right claimed. Only reviewed factual fields and an editorial headline are retained, with attribution/link. No restriction was found on the accessed article/footer; a guessed terms-and-conditions route was unavailable. This review covers one article, not bulk crawling.
+- Retrieval: 2026-09-30; exact UTC timestamp and decoded-HTML SHA256 are in public/data/news.json and ignored raw/news/4da9308a5bd296b3.facts.json.
+- Extracted nine category/year counts. These are news-reported Delhi city aggregates, not directly imported police records. Categories retain publisher wording. No geographic/time allocation, denominator, rate, risk score or model label was inferred.
+- HTML adaptation: the article lives inside #story-detail and a form wrapper that the generic extractor omitted. A reviewed selector reads that container only; missing containers/tokens fail closed. Bodies are processed in memory and discarded.
+- Access audit: the initial sandbox socket attempt failed; authorized network execution succeeded. Automatic review first cited the superseded news exclusion, then allowed the request after the latest user authorization was made explicit.

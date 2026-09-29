@@ -1,0 +1,29 @@
+{
+  "id": "news-delhi-tribune-2025",
+  "url": "https://www.tribuneindia.com/news/delhi/delhi-saw-dip-in-crime-snatching-extortion-least-solved-cases/",
+  "publisher": "The Tribune",
+  "headline": "Delhi: news-reported annual category counts",
+  "publishedAt": "2026-01-22",
+  "reviewedAt": "2026-09-30",
+  "regionId": "delhi-ncr",
+  "cityId": "delhi",
+  "privacyReviewed": true,
+  "access": {
+    "articleSelector": "#story-detail",
+    "approved": true,
+    "license": "Publisher copyright; individual factual extraction with attribution, no article republication",
+    "termsReviewedAt": "2026-09-30",
+    "reviewNote": "Public article and footer reviewed. robots.txt allows all paths. No scraping prohibition found on the accessed page; no open-text licence claimed. Guessed terms route was unavailable. Single article only; re-review before bulk collection."
+  },
+  "facts": [
+    {"category":"rape","year":2023,"count":2141},
+    {"category":"rape","year":2024,"count":2076},
+    {"category":"rape","year":2025,"count":1901},
+    {"category":"molestation","year":2023,"count":2345},
+    {"category":"molestation","year":2024,"count":2037},
+    {"category":"molestation","year":2025,"count":1708},
+    {"category":"eve-teasing","year":2023,"count":381},
+    {"category":"eve-teasing","year":2024,"count":362},
+    {"category":"eve-teasing","year":2025,"count":337}
+  ]
+}

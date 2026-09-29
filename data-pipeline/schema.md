@@ -8,6 +8,8 @@ Hierarchy: region → city → neighbourhood. All identifiers are stable strings
 
 Reject names, identities of victims/families, residential addresses, narratives, photos, and records without reviewed locality precision. Extract text in memory only; retain only URL and a redacted, human-approved headline for news. Never export precise incident coordinates. Unknown time is null, never randomly allocated. Same-event corroborating sources are separate provenance entries, not extra incidents. Deduplication uses publisher IDs, canonical URL and a locality/date/category fingerprint with manual review of ambiguous collisions.
 
+News aggregate context may additionally retain reviewed category/year/count facts and a content hash/retrieval timestamp, with `origin=news`, `eligibleForTraining=false`, `neighbourhoodId=null` and `timeBand=null`. This is factual extraction, not storage of article prose. See NEWS.md. Publication timestamps must never substitute for incident timestamps.
+
 ## Categories and normalization
 
 | Canonical category | Legacy coding example | Mapping rule |

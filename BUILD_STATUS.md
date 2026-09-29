@@ -30,7 +30,7 @@ Historical city context is now available on /evidence: six real rows from the Op
 
 ## Next independent work
 
-1. Audit location lifecycle: asynchronous boundary arrival, region changes, city detection independent of available risk records, and clearing all location UI on stop/error. Add tests without sending or retaining user coordinates.
+1. Completed in 2004f9e: location lifecycle, late boundary arrival, independent city detection, and clearing location UI on stop/error; six regression tests added without transmitting coordinates.
 2. Completed: upcoming windows now use future regional day types across midnight, show calendar dates, include tomorrow’s same band within 24 hours and preserve missing scores as unknown. Five regression tests cover these cases.
 3. Complete English/Hindi translation coverage across map controls, detail panels, traveller messaging and helplines, preserving factual content.
 4. Exercise Python preprocessing and publication gates with explicitly synthetic test fixtures kept separate from public production output. Do not claim model performance from fixtures.
@@ -64,3 +64,20 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 - Downloaded and assessed 290 DataMeet Delhi ward polygons privately. Geometry validity passes, but current vintage is unverified; no production boundaries activated.
 - Live MapTiler basemap renders with configured key. Evidence page browser check confirms Delhi/Ghaziabad filters and conviction cards. Light/dark screenshots stored locally. Desktop navigation and city filtering checked in browser; a final 390px check remains.
 - User supplied a broad source list and authorized news collection. Specific granular dataset/path and reuse evidence remain unavailable. Prepared unsubmitted jurisdiction-specific police/NGO request drafts in data-pipeline/DATA_REQUESTS.md. GDELT bounded discovery returned HTTPError; no raw records retained.
+
+
+## News extraction milestone - 2026-09-30
+
+- Latest user steering explicitly reinstates public media/article text extraction, superseding the earlier Phase 1 exclusion of news text. Start with Delhi. Do not ask for a permission document for public factual research. Robots, access restrictions, copyright and victim privacy still apply.
+- Added a reproducible single-article extractor and reviewed Tribune adapter. Live robots and article requests succeeded. Nine real annual category counts (2023-2025) are published separately as news-derived context on /evidence, with retrieval timestamp, hash and source link.
+- Article bodies are processed only in memory; ignored raw/news staging contains structured facts only. No victim identifiers, residential addresses, photos, incident coordinates or inferred time bands retained. No crime score, model metric or synthetic observation added.
+- Initial automatic approval rejection cited the superseded exclusion. Retried with the user's explicit latest authorization and approved; no remaining approval blocker.
+- Verification: 47 frontend unit tests, nine Python tests, lint, TypeScript through build, publication validation and production build passed. Known lazy MapLibre chunk size warning remains. Browser checked the real nine-row table at mobile width; screenshot artifacts/screenshots/news-facts-mobile-dark.png. Restored viewport override afterward.
+- No API key or user file is needed for this completed milestone.
+
+### Next data work
+
+1. Continue public Delhi article discovery with source-specific access checks; obtain actual event locality/date/time evidence, keeping publication time separate. Build reviewed incident adapters and deduplication; do not use city aggregates as neighbourhood targets.
+2. Finish the Phase 1 raw input manifest/orchestrator for existing OpenCity, OSM and DataMeet inputs. DataMeet old Delhi wards remain a historical candidate (repo issue 57 flags them outdated), not current jurisdiction geometry.
+3. Fetch Census ward female-population exposure and reconcile geography vintage. Delhi Open Transit download forms require identity/terms acceptance; retain the OSM transit fallback until an anonymously usable input exists.
+4. Fit/evaluate only when admissible labels and exposure exist, using an environment where sklearn is allowed. Windows Application Control and missing granular labels still prevent a production model. Never manufacture risk scores to clear this gate.

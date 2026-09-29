@@ -34,8 +34,10 @@ export default function Evidence({region}:{region:Region}){
       <details><summary>Data limitations</summary><ul>{context.limitations.map(text=><li key={text}>{text}</li>)}</ul></details>
     </Card></div>
     <h2 style={{marginTop:32}}>News coverage</h2>
-    <p>Curated reading links with neutral editorial headlines. Publisher articles may contain sensitive details. These reports are not added to official totals, conviction profiles or model labels.</p>
-    <div className="bento-grid">{news.filter(n=>n.regionId===region.id&&n.cityId===selected).map(n=><Card key={n.id}><h3><a href={n.url} target="_blank" rel="noreferrer">{n.headline} ↗</a></h3><p>{n.publisher} · {n.publishedAt}</p><small>Aggregate reporting · link reviewed {n.reviewedAt}</small></Card>)}</div>
+    <p>News-derived figures and curated links with neutral editorial headlines. Publisher articles may contain sensitive details. Figures retain the publisher’s category labels; legal classifications have not been harmonised. These reports are not added to official totals, conviction profiles or model labels.</p>
+    <div className="bento-grid">{news.filter(n=>n.regionId===region.id&&n.cityId===selected).map(n=><Card key={n.id}><h3><a href={n.url} target="_blank" rel="noreferrer">{n.headline} ↗</a></h3><p>{n.publisher} · {n.publishedAt}</p>
+      {'facts' in n&&<><table className="coverage-table"><caption>News-reported counts · city-wide, full calendar years</caption><thead><tr><th scope="col">Category</th><th scope="col">Year</th><th scope="col">Cases</th></tr></thead><tbody>{n.facts.map(f=><tr key={`${f.category}:${f.year}`}><th scope="row">{f.category}</th><td>{f.year}</td><td>{f.count.toLocaleString('en-IN')}</td></tr>)}</tbody></table><p className="page-footnote">No neighbourhood or incident-time data. These figures do not establish risk levels. {n.licence}</p></>}
+      <small>Aggregate reporting · reviewed {n.reviewedAt}</small></Card>)}</div>
     {!news.some(n=>n.regionId===region.id&&n.cityId===selected)&&<p>No reviewed news links are available for this city yet.</p>}
     <h2 style={{marginTop:32}}>Convicted offenders / notable cases</h2>
     <p>Only reviewed adult convictions are listed. A case appears on the map only after its crime locality is verified against a neighbourhood boundary. This list is not a neighbourhood incident census.</p>

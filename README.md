@@ -136,3 +136,8 @@ Location messages search the next 24 hours using the region’s timezone and eac
 `/evidence` shows annual 2020–2022 Delhi City and Ghaziabad counts from the explicitly public-domain OpenCity transcription of NCRB 2022. Download the exact CSV linked in `data-pipeline/SOURCES.md` with its stated crawl delay, place it in ignored staging, then run `python data-pipeline/import_metro_context.py --input <csv>`. The importer checks SHA256; changed files require review. This context never becomes neighbourhood training labels. Rates are withheld until female-population exposure is verified.
 
 `public/data/news.json` stores only curated reading-link metadata and neutral editorial headlines. Article copyright remains with the publisher. No bodies, photos or identifying narratives are retained; news counts are not added to official totals. Case cards reuse validated adult-conviction profiles and are not placed on the map without verified localities.
+
+
+### News-derived context
+
+Public news text can be processed in memory for reviewed facts. See [news extraction workflow](data-pipeline/NEWS.md). The first Delhi adapter extracts nine annual category counts and records provenance without retaining article bodies or victim details. `/evidence` labels these separately from official context; they are not neighbourhood/time-band training labels.
