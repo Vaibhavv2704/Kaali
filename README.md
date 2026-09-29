@@ -122,3 +122,9 @@ Formerly Aegis. Renamed to Kaali; Know your area. Walk with awareness.
 Logo variants are in public/brand. The abstract mark uses no figurative or religious imagery. Existing browser preferences and recent searches migrate once to the new storage prefix. No factual datasets, licence text, third-party attribution, API credentials or external project identifiers change. App routes and manifest scope remain at the root, so no URL redirects are needed.
 
 Manual branding follow-ups: choose a domain and social handles, perform a trademark/name availability search, and update display names in the hosting, source repository and MapTiler consoles if applicable. No remote or deployed domain is configured in this checkout.
+
+### Pipeline validation and collection status (2026-09-30)
+
+Run `.venv/Scripts/python.exe -m unittest discover -s data-pipeline/tests -v` on Windows (or `.venv/bin/python` on Unix). Fixtures are synthetic and remain under tests; passing these checks is not evidence of model accuracy. Training imports its ML libraries only when needed. This Windows host currently blocks scikit-learn’s `_libsvm` binary under Application Control; use an approved ML environment without weakening that policy.
+
+The [source register](data-pipeline/SOURCES.md) records official aggregate tables, date/geography caveats and access/reuse gates. No aggregate has been silently allocated into time bands or neighbourhood risk. MapTiler light and dark style endpoints accepted the locally configured key; browser rendering, account limits and domain restrictions require separate verification.

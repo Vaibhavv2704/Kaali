@@ -29,12 +29,12 @@ def assign_incidents(incidents, zones):
 
 def allocate(count, cells):
     """Cells must already be clipped to ONE official reporting unit."""
-    if count < 0:
-        raise ValueError('Negative count')
+    if not np.isfinite(count) or count < 0:
+        raise ValueError('Invalid count')
     weights = np.zeros(len(cells))
     for field, importance in [('area',.2),('female_population',.6),('road_length',.2)]:
         values = np.asarray(cells[field], dtype=float)
-        if np.isnan(values).any() or (values < 0).any():
+        if not np.isfinite(values).all() or (values < 0).any():
             raise ValueError(f'Invalid {field}')
         if values.sum() > 0:
             weights += importance * values / values.sum()

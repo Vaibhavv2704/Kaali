@@ -1,6 +1,6 @@
 # Kaali build status
 
-Updated 2026-09-29. Read this with README.md and the user’s requirements before continuing.
+Updated 2026-09-30. Read this with README.md and the user’s requirements before continuing.
 
 ## Latest design preference
 
@@ -20,6 +20,14 @@ The header uses the Kaali wordmark alone. The user requested removal of the stan
 
 Production neighbourhood records are empty. The 18 synthetic sample cells are software fixtures only. The existing 3,733 OSM features are real retrieved map data with unverified city assignment. No production model, metrics, jurisdiction geometry or new case matches were created. No data source was fetched or newly verified in this UI milestone.
 
+## Latest data/pipeline milestone
+
+- Installed the Python requirements in ignored .venv. Four synthetic-only validation tests pass; no fixture is published or used to claim model performance.
+- Reject unknown estimated flags, non-finite exposure/counts, fractional observed counts, missing source URLs/identifiers and reversed periods. Allocation now rejects infinity.
+- Training dependencies load when training is invoked so data validation can run independently. Actual scikit-learn execution is blocked by Windows Application Control on its _libsvm binary; no policy was changed. A permitted training environment is required.
+- Expanded both source registers with exact official table URLs, geography, partial-year caveats, reuse restrictions, access failures and all six city gaps. Corrected the stale OSM collection status. OpenCity robots disallows its API; do not retry that route.
+- No new incident counts, boundaries, model scores or metrics were published.
+
 ## Next independent work
 
 1. Audit location lifecycle: asynchronous boundary arrival, region changes, city detection independent of available risk records, and clearing all location UI on stop/error. Add tests without sending or retaining user coordinates.
@@ -31,7 +39,7 @@ Production neighbourhood records are empty. The 18 synthetic sample cells are so
 
 ## External launch gates
 
-- Domain-restricted MapTiler key and eligible account plan; numeric free-tier quota remains unverified.
+- MapTiler key configured in ignored .env.local; both configured style endpoints returned HTTP 200. Domain restrictions, account quota and full browser rendering still need verification.
 - Reviewed region/city/neighbourhood boundaries and admissible, normalized incident/exposure data.
 - Real training inputs, validated model evaluation and reviewed release approval.
 - Feedback/corrections destination, outstanding official helpline URL verification and current case-status review.
