@@ -2,6 +2,8 @@
 
 Neighbourhood safety awareness for Delhi NCR. React + Vite + TypeScript, Tailwind v4, locally owned shadcn-style Radix primitives, Framer Motion, Lucide and lazy Recharts. The map uses **MapLibre GL JS through react-map-gl**, MapTiler vector styles, Turf client-side geometry and optional static PMTiles.
 
+See [BUILD_STATUS.md](BUILD_STATUS.md) for the current milestone and next steps.
+
 ## Current delivery status
 
 - Runnable glass UI: map, neighbourhood sheet, location consent/messages, nearby help, helplines, methodology, design-system gallery.
@@ -103,7 +105,8 @@ Add only a verified adult conviction to `public/data/offenders.json`. The Zod sc
 
 ## Verification and remaining gates
 
-- Unit tests cover data bounds/missingness, schema gates, geographic holes/borders, jurisdiction-safe nearest lookup, style restoration, selection state, time updates and geocoder fallback/cache/abort.
+- 31 unit tests cover data bounds/missingness, schema gates, geographic holes/borders, jurisdiction-safe nearest lookup, style restoration, selection state, time updates, geocoder fallback/cache/abort, sheet snapping, camera padding, and real MapLibre style validation.
+- Mobile details support pointer dragging and arrow/Home/End resizing through peek, half and full heights. The map remains non-modal and adjusts camera padding. City filters apply to all risk layers, including PMTiles and empty results; style replacement reapplies them. Renderer failures offer a labelled geometry overview and retry.
 - Live UI checks and light/dark desktop/mobile captures are in `artifacts/screenshots/` when generated.
 - Helpline check: `pnpm verify:helplines`. It checks reachability and number presence; only manual context review advances lastVerified. Some official pages rejected/timed out direct requests despite being available through research search. Report stays visible; verification failures are not silently ignored.
 - Public launch still needs a MapTiler key/eligible plan, configured feedback channel, verified jurisdiction geometry, reviewed data and a validated model. Hindi covers key navigation/location messages; full translation of all explanatory text remains incomplete.

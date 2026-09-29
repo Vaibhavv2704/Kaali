@@ -1,8 +1,16 @@
-import type {Map as GLMap,ExpressionSpecification,StyleSpecification} from 'maplibre-gl';
+import type {Map as GLMap,ExpressionSpecification,StyleSpecification,FilterSpecification} from 'maplibre-gl';
 import type {RiskRecord,Region} from '../types';
 import {getScore} from './risk';
 export const riskSource='kaali-risk';
 export const riskLayers=['kaali-glow','kaali-fill','kaali-pattern','kaali-outline','kaali-3d'];
+// Tile archives contain all cities. Filter every layer by the reviewed metadata
+// IDs as well as filtering GeoJSON, including an explicit empty selection.
+export function filterRisk(map:Pick<GLMap,'getLayer'|'setFilter'>,records:RiskRecord[]){
+  const filter:FilterSpecification=records.length
+    ? ['in',['get','id'],['literal',records.map(r=>r.id)]]
+    : ['==',['literal',1],0];
+  for(const id of riskLayers)if(map.getLayer(id))map.setFilter(id,filter);
+}
 export const riskExpression:ExpressionSpecification=['case',['boolean',['feature-state','known'],false],['interpolate',['linear'],['coalesce',['feature-state','score'],0],0,'#f4b6c3',25,'#e77b92',50,'#c93958',75,'#a62344',100,'#710c2d'],'#838c93'];
 export function featureTarget(id:string,region:Region,sample:boolean){return {source:riskSource,id,...(region.pmtiles&&!sample?{sourceLayer:region.sourceLayer??'neighbourhoods'}:{})};}
 export function selectFeature(map:Pick<GLMap,'setFeatureState'>,region:Region,sample:boolean,previous:string|null,next:string|null){if(previous)map.setFeatureState(featureTarget(previous,region,sample),{selected:false});if(next)map.setFeatureState(featureTarget(next,region,sample),{selected:true});}
