@@ -2,6 +2,10 @@
 
 Updated 2026-09-29. Read this with README.md and the user’s requirements before continuing.
 
+## Latest design preference
+
+The header uses the Kaali wordmark alone. The user requested removal of the standalone red K mark beside it; preserve this in both themes and the monochrome wordmark.
+
 ## Completed in the latest milestone
 
 - Non-modal mobile neighbourhood sheet: continuous pointer drag, peek/half/full snap positions, fixed handle, independently scrolling content, arrow/Home/End controls, reduced-motion support and stable focus restoration.
