@@ -90,3 +90,10 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 - Census catalog/robots requests fail SSL validation; no certificate bypass. One exact manual input requested in RAW_INPUTS.md: Central Delhi PCA2011 workbook. No data assumed from a missing workbook.
 - Additional runtime blocker identified: Windows Application Control blocks pyproj transformer DLL. Optional environment staging records unavailable and creates no feature rows. The audit and 11 Python tests pass. Existing frontend unchanged (47 tests/build passed previous milestone).
 - Next: review the Census workbook when supplied, acquire current boundary/exposure crosswalk, continue permitted incident extraction. Model fitting still requires real granular observations plus a permitted geospatial/ML runtime.
+
+## Location Hindi milestone - 2026-09-30
+
+- Completed English/Hindi location consent, provider privacy explanation, status/error messages, sharing controls, risk labels and traveller tips in a typed copy module. Shared dialog supports translated close labels and descriptions.
+- Outside-coverage suggestion now depends on location state rather than searching English message text. Delayed geolocation errors use the currently selected language.
+- Verified Hindi consent dialog and search fallback in browser without requesting GPS or sharing coordinates. Screenshot: artifacts/screenshots/location-consent-hindi.png.
+- Lint, TypeScript/production build and 47 frontend tests pass. Known lazy MapLibre size warning remains. Other map/page translation work remains. No factual datasets changed in this UI milestone.

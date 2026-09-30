@@ -1,0 +1,48 @@
+import {displayLevel} from './risk';
+
+const en={
+  overlap:'Boundary overlap prevents a reliable jurisdiction match. National helpline 112 remains available.',
+  boundaries:'Verified boundaries are not available here yet. We cannot confirm your neighbourhood or jurisdiction.',
+  outside:'We don’t cover your area yet. Helplines are still available.',
+  cityUnknown:'Your region is covered, but your city jurisdiction could not be verified.',
+  riskUnknown:'Your city is identified. Neighbourhood risk estimates are not available yet.',
+  unavailable:'Location is unavailable in this browser. Search for a locality instead.',
+  denied:'Location was unavailable or denied. You can search for a locality instead.',
+  shareTitle:'My current location',shareText:'My current location, shared from Kaali.',
+  shareUnavailable:'Native sharing is unavailable in this browser. Use your device’s location sharing app.',
+  shareError:'Sharing could not be opened.',surroundings:'YOUR SURROUNDINGS',hide:'Hide location card',
+  greeting:'You’re in',privacy:'Your location. Your privacy.',next:'Next higher estimated window',
+  higherTip:'Consider well-lit main roads, and share your plans with someone you trust. Keep 112 handy.',
+  lowerTip:'Stay aware of your surroundings, keep a trusted contact handy, and choose a route that feels comfortable.',
+  police:'Nearest mapped police station',distance:'km straight-line distance.',
+  visitor:'Visitor tip: choose licensed cabs and well-lit routes. Check your pickup point before travelling.',
+  call:'Call 112',share:'Share location',helplines:'Helplines',suggest:'Suggest a city',stop:'Turn location off & clear',
+  locate:'Locate me',locating:'Locating…',title:'A little context, just for you',
+  consent:'With your permission, Kaali matches your location to neighbourhood boundaries on this device. Coordinates are never stored or sent to our servers.',
+  providers:'Map providers receive the map viewport when tiles load. Your exact GPS coordinates are not sent to the geocoder. Sharing sends your location only when you choose “Share location”.',
+  allow:'Allow location',search:'Use search instead',estimate:'Model estimate, not a guarantee.',
+};
+const hi:typeof en={
+  overlap:'सीमाओं के ओवरलैप के कारण सही क्षेत्राधिकार की पुष्टि नहीं हो सकी। राष्ट्रीय हेल्पलाइन 112 उपलब्ध है।',
+  boundaries:'यहाँ सत्यापित सीमाएँ अभी उपलब्ध नहीं हैं। हम आपके मोहल्ले या क्षेत्राधिकार की पुष्टि नहीं कर सकते।',
+  outside:'आपके क्षेत्र की जानकारी अभी उपलब्ध नहीं है। हेल्पलाइन फिर भी उपलब्ध हैं।',
+  cityUnknown:'आपका क्षेत्र शामिल है, लेकिन शहर के क्षेत्राधिकार की पुष्टि नहीं हो सकी।',
+  riskUnknown:'आपके शहर की पहचान हो गई है। मोहल्ले के जोखिम अनुमान अभी उपलब्ध नहीं हैं।',
+  unavailable:'इस ब्राउज़र में स्थान उपलब्ध नहीं है। आप इलाके का नाम खोज सकते हैं।',
+  denied:'स्थान उपलब्ध नहीं हुआ या अनुमति नहीं मिली। आप इलाके का नाम खोज सकते हैं।',
+  shareTitle:'मेरा वर्तमान स्थान',shareText:'Kaali से साझा किया गया मेरा वर्तमान स्थान।',
+  shareUnavailable:'इस ब्राउज़र में साझा करने की सुविधा उपलब्ध नहीं है। अपने डिवाइस के स्थान साझा करने वाले ऐप का उपयोग करें।',
+  shareError:'साझा करने की सुविधा नहीं खुल सकी।',surroundings:'आपके आस-पास',hide:'स्थान कार्ड छिपाएँ',
+  greeting:'आप यहाँ हैं',privacy:'आपकी जगह, आपकी निजता।',next:'अगला अधिक अनुमानित जोखिम वाला समय',
+  higherTip:'रोशनी वाली मुख्य सड़कें चुनने पर विचार करें और अपनी योजना किसी भरोसेमंद व्यक्ति से साझा करें। 112 याद रखें।',
+  lowerTip:'अपने आस-पास ध्यान रखें, किसी भरोसेमंद व्यक्ति का संपर्क तैयार रखें और अपनी सुविधा के अनुसार रास्ता चुनें।',
+  police:'मानचित्र में दर्ज निकटतम पुलिस स्टेशन',distance:'किमी सीधी दूरी।',
+  visitor:'यात्रियों के लिए: लाइसेंस प्राप्त टैक्सी और रोशनी वाले रास्ते चुनें। यात्रा से पहले मिलने की जगह जाँच लें।',
+  call:'112 पर कॉल करें',share:'स्थान साझा करें',helplines:'हेल्पलाइन',suggest:'शहर सुझाएँ',stop:'स्थान बंद करें और मिटाएँ',
+  locate:'मेरी जगह',locating:'स्थान खोज रहे हैं…',title:'अपनी जगह जानें',
+  consent:'आपकी अनुमति से Kaali इसी डिवाइस पर आपके स्थान का मिलान मोहल्ले की सीमाओं से करता है। निर्देशांक न सहेजे जाते हैं, न हमारे सर्वर पर भेजे जाते हैं।',
+  providers:'मानचित्र की टाइलें लोड होने पर मानचित्र प्रदाता को दिखाए जा रहे क्षेत्र की जानकारी मिलती है। आपके सटीक GPS निर्देशांक जियोकोडर को नहीं भेजे जाते। आपका स्थान केवल “स्थान साझा करें” चुनने पर साझा होता है।',
+  allow:'स्थान की अनुमति दें',search:'इसके बजाय खोजें',estimate:'मॉडल का अनुमान है, गारंटी नहीं।',
+};
+export const locationCopy=(lang:string)=>lang==='hi'?hi:en;
+export const locationRiskLabel=(score:number|null,lang:string)=>lang!=='hi'?displayLevel(score):score===null?'पर्याप्त जानकारी नहीं':score<25?'कम अनुमानित जोखिम':score<50?'मध्यम अनुमानित जोखिम':score<75?'अधिक अनुमानित जोखिम':'बहुत अधिक अनुमानित जोखिम';
