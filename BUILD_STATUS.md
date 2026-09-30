@@ -149,3 +149,9 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Remaining: browser layout checks for this new sheet; broader source acquisition and real model labels. Home summary does not substitute city statistics for selected map neighbourhood counts.
 
 - Follow-up verification (2026-10-01): pending production build completed successfully; lint and publication validation passed. Browser confirmed home totals, category tables and Nehru Place selection. Fixed shared dialog viewport overflow with bounded internal scrolling. Screenshot artifacts/screenshots/home-locality-records.png. A basemap network-error toast appeared during this check; data interactions remained functional. Map-click linkage to real locality records remains unfinished.
+
+## Home records resilience — 2026-10-01
+
+- Official context and news now load independently; one feed failure preserves the other. Cancelled loads do not update component state. A fetch failure is distinguished from expanding coverage.
+- Extracted city/region selection with regression checks for separate latest totals, absent cities, cross-region exclusion and partial feed failure. No factual dataset or prediction changed.
+- All 53 frontend tests, lint and TypeScript checks pass. Next: link verified locality records to map selection once matching geography is available, and continue public data acquisition.
