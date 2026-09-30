@@ -28,3 +28,9 @@ Central Delhi PCA2011 workbook supplied locally and imported into `/data/census-
 ## City detection and help assignment — 2026-09-30
 
 Activated the retrieved OSM Delhi state boundary (relation 1942586) after identity and topology checks. This community boundary is not a legal survey. It supports city-level location/helpline matching independently of missing neighbourhood risk records. Assigned 2,916 help features strictly inside Delhi; 817 regional features remain unassigned. Boundary-touching or crossing features are excluded. Other NCR city boundaries still need review. Neighbourhood coverage remains 0%; historical Census crosswalk and observation/exposure inputs are still missing. See SOURCES.md for provenance and licence.
+
+## Runtime recovery — 2026-09-30
+
+Fresh project-runtime checks now pass for tables, geometry, projection, news extraction and a tiny synthetic LightGBM fit. Installed the already-declared openpyxl dependency. No Application Control setting was changed. Earlier runtime-blocker statements are superseded by this successful check; the reason host behavior changed is unknown.
+
+`phase1.py --environment` now stages 290 historical candidate environmental rows privately. Boundaries remain historical/unverified, lighting fraction remains unknown for the incomplete inventory, and crime/exposure joins remain absent. No production model or metrics generated. 27 Python tests pass. Runtime readiness does not fix missing labels or coverage.

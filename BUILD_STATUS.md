@@ -134,3 +134,9 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 - Replaced permissive model export with exact feature/boundary/city joins, complete 12-cell checks, valid geometry/exposure, finite nonnegative prediction checks and reviewed artifact hashes. No silent clipping or unmatched-row omission. Output is staged atomically outside public/ for publication review.
 - Added five synthetic in-memory export tests covering invalid rates, missing/duplicate cells, mismatched jurisdictions, review failures and changed artifacts. All 27 Python tests pass. Frontend remains at 49 passing tests with lint/data validation/production build passed in the preceding milestone.
 - No model fitted, scores published or crime counts invented. Original data blockers remain: one real event reference is insufficient for training; city totals do not establish neighbourhood/time targets. Windows policy blocks sklearn/pyproj. Existing four adult conviction profiles and historical official/news counts remain accessible.
+
+## Runtime recovery — 2026-09-30
+
+Fresh project-runtime checks now pass for tables, geometry, projection, news extraction and a tiny synthetic LightGBM fit. Installed the already-declared openpyxl dependency. No Application Control setting was changed. Earlier runtime-blocker statements are superseded by this successful check; the reason host behavior changed is unknown.
+
+`phase1.py --environment` now stages 290 historical candidate environmental rows privately. Boundaries remain historical/unverified, lighting fraction remains unknown for the incomplete inventory, and crime/exposure joins remain absent. No production model or metrics generated. 27 Python tests pass. Runtime readiness does not fix missing labels or coverage.

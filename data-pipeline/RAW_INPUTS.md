@@ -37,3 +37,9 @@ On this Windows host, Application Control blocks pyproj's transformer DLL as wel
 ## Deferred inputs
 
 SafeCity, Safetipin, private police/RTI datasets remain unavailable stubs. Delhi Open Transit currently presents a download form requiring identity and terms acceptance; no form has been submitted. Existing OSM transit features remain available. Public news extraction is enabled separately in NEWS.md under the user's latest instruction.
+
+## Runtime recovery — 2026-09-30
+
+Fresh project-runtime checks now pass for tables, geometry, projection, news extraction and a tiny synthetic LightGBM fit. Installed the already-declared openpyxl dependency. No Application Control setting was changed. Earlier runtime-blocker statements are superseded by this successful check; the reason host behavior changed is unknown.
+
+`phase1.py --environment` now stages 290 historical candidate environmental rows privately. Boundaries remain historical/unverified, lighting fraction remains unknown for the incomplete inventory, and crime/exposure joins remain absent. No production model or metrics generated. 27 Python tests pass. Runtime readiness does not fix missing labels or coverage.

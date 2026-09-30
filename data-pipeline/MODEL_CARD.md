@@ -43,3 +43,9 @@ Run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV --validate-only`
 `predict.py` now stages to ignored `data-pipeline/artifacts/predictions.json` by default and refuses direct output under public/. It checks exact feature/boundary ID agreement, one row per six bands and two day types, city agreement, reviewed boundary flags, valid polygon topology and positive exposure. Invalid/negative/non-finite model rates are rejected rather than silently clipped. A review must bind the exact local model, feature CSV and boundary file with `artifactSha256` keys `model`, `features`, `boundaries`. Never load untrusted joblib files; hashes bind reviewed bytes but do not make an untrusted model safe. Sources, confidence, finite calibration scale and reporting metadata are mandatory.
 
 This is an export implementation with synthetic in-memory unit tests, not a trained or calibrated model. After a real model passes review, validate staged records with the frontend schema before copying to the region's configured neighbourhood file. Unsupported incident counts and trend remain null.
+
+## Runtime recovery — 2026-09-30
+
+Fresh project-runtime checks now pass for tables, geometry, projection, news extraction and a tiny synthetic LightGBM fit. Installed the already-declared openpyxl dependency. No Application Control setting was changed. Earlier runtime-blocker statements are superseded by this successful check; the reason host behavior changed is unknown.
+
+`phase1.py --environment` now stages 290 historical candidate environmental rows privately. Boundaries remain historical/unverified, lighting fraction remains unknown for the incomplete inventory, and crime/exposure joins remain absent. No production model or metrics generated. 27 Python tests pass. Runtime readiness does not fix missing labels or coverage.

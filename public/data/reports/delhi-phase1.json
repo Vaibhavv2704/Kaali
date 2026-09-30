@@ -1,7 +1,7 @@
 {
   "regionId": "delhi-ncr",
   "cityId": "delhi",
-  "checkedAt": "2026-09-30T09:53:55.465624+00:00",
+  "checkedAt": "2026-09-30T15:26:48.763035+00:00",
   "inputs": [
     {
       "id": "opencity-metros-2022",
@@ -76,5 +76,6 @@
     "Current neighbourhood boundaries and remaining NCR city jurisdictions are not verified.",
     "Held-out model evaluation has not been performed."
   ],
-  "sample": false
+  "sample": false,
+  "historicalEnvironmentRows": 290
 }

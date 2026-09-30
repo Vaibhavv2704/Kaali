@@ -166,3 +166,5 @@ Before fitting, run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV 
 ### Stage model predictions
 
 Use `python data-pipeline/predict.py --region delhi-ncr --model MODEL.joblib --features FEATURES.csv --boundaries BOUNDARIES.geojson --release-review REVIEW.json`. The review binds file hashes as described in MODEL_CARD.md. Output stays in ignored staging; it never overwrites public risk data. Complete model evaluation, calibration, source review and publication-schema validation before copying the result into the configured region file. No production model is currently available.
+
+See [next steps and your input](NEXT_STEPS.md) for the current handoff. Runtime checks now pass; real observation/exposure data remain the main prediction blocker.
