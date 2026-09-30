@@ -128,3 +128,9 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 - NDTV terms prohibit scraping/data mining, so no collector/import added. A different Tribune article gave only residence locality and was rejected for spatial assignment. Source reviews and actual extraction hash/time recorded in SOURCES.md.
 - 22 Python and 49 frontend tests, lint, publication validation passed. Browser confirms new reference on /evidence. Production build checked in this milestone; existing lazy map size warning remains.
 - Next: continue source collection and deduplication, finish reviewed prediction-export gates, remaining city geometry and translations. Training remains blocked by incomplete neighbourhood labels/exposure and ML runtime policy. All requested work is not complete.
+
+## Prediction export milestone — 2026-09-30
+
+- Replaced permissive model export with exact feature/boundary/city joins, complete 12-cell checks, valid geometry/exposure, finite nonnegative prediction checks and reviewed artifact hashes. No silent clipping or unmatched-row omission. Output is staged atomically outside public/ for publication review.
+- Added five synthetic in-memory export tests covering invalid rates, missing/duplicate cells, mismatched jurisdictions, review failures and changed artifacts. All 27 Python tests pass. Frontend remains at 49 passing tests with lint/data validation/production build passed in the preceding milestone.
+- No model fitted, scores published or crime counts invented. Original data blockers remain: one real event reference is insufficient for training; city totals do not establish neighbourhood/time targets. Windows policy blocks sklearn/pyproj. Existing four adult conviction profiles and historical official/news counts remain accessible.

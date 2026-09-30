@@ -144,7 +144,7 @@ Public news text can be processed in memory for reviewed facts. See [news extrac
 
 ### Delhi input audit
 
-Run `python data-pipeline/phase1.py --stage-existing` to verify and stage collected inputs. See [raw input paths and missing Census workbook](data-pipeline/RAW_INPUTS.md). The audit publishes data-readiness details, not predictions; optional environmental staging requires a working pyproj runtime.
+Run `python data-pipeline/phase1.py --stage-existing` to verify and stage collected inputs. See [raw input paths and Census provenance](data-pipeline/RAW_INPUTS.md). The audit publishes data-readiness details, not predictions; optional environmental staging requires a working pyproj runtime.
 
 ### Reproduce Delhi city boundary and help assignments
 
@@ -162,3 +162,7 @@ Review refreshed source bytes before replacing the pinned manifest hash. The con
 The map overview offers **Preview red zones · sample**. This explicitly enables existing synthetic cells; it does not enable production predictions. Select a cell or change the time band to inspect the interaction. Exit returns to evidence-backed coverage.
 
 Before fitting, run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV --validate-only`. See `data-pipeline/schema.md` for documented observation-coverage and exposure requirements. City annual totals and missing news reports are not neighbourhood training labels.
+
+### Stage model predictions
+
+Use `python data-pipeline/predict.py --region delhi-ncr --model MODEL.joblib --features FEATURES.csv --boundaries BOUNDARIES.geojson --release-review REVIEW.json`. The review binds file hashes as described in MODEL_CARD.md. Output stays in ignored staging; it never overwrites public risk data. Complete model evaluation, calibration, source review and publication-schema validation before copying the result into the configured region file. No production model is currently available.
