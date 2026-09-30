@@ -9,6 +9,14 @@ function fakeMap(){const sources=new Set<string>(),layers=new Set<string>(),imag
 describe('map style lifecycle',()=>{it('restores all risk layers after theme style replacement without touching camera',()=>{const m=fakeMap();restoreRisk(m as unknown as GLMap,region,records,true);expect([...m.layers]).toEqual(riskLayers);restoreRisk(m as unknown as GLMap,region,records,true);expect(m.addSource).toHaveBeenCalledTimes(1);m.clearStyle();restoreRisk(m as unknown as GLMap,region,records,true);expect([...m.layers]).toEqual(riskLayers);expect(m.addSource).toHaveBeenCalledTimes(2)});it('clears previous selection and sets next feature state',()=>{const m=fakeMap();selectFeature(m as unknown as GLMap,region,true,'old','new');expect(m.setFeatureState.mock.calls).toEqual([[{source:'kaali-risk',id:'old'},{selected:false}],[{source:'kaali-risk',id:'new'},{selected:true}]])});it('updates scores without replacing source or layer',()=>{const m=fakeMap();applyScores(m as unknown as GLMap,region,records,true,0,'weekday','all','all');expect(m.setFeatureState).toHaveBeenCalledTimes(records.length);expect(m.addSource).not.toHaveBeenCalled();expect(m.addLayer).not.toHaveBeenCalled()})});
 
 describe('risk layer filtering',()=>{
+ it('requires a known score before drawing the high-risk glow or pattern',()=>{
+  const m=fakeMap();restoreRisk(m as unknown as GLMap,region,records,true);
+  for(const id of ['kaali-glow','kaali-pattern']){
+   const layer=m.addLayer.mock.calls.map(([entry])=>entry).find(entry=>entry.id===id) as unknown as {paint:Record<string,unknown>};
+   const opacity=layer.paint[id==='kaali-glow'?'line-opacity':'fill-opacity'];
+   expect(JSON.stringify(opacity)).toContain('"feature-state","known"');
+  }
+ });
  it('filters every visual layer to selected records, including after style replacement',()=>{
   const m=fakeMap();restoreRisk(m as unknown as GLMap,region,records,true);
   const selected=records.slice(0,2);filterRisk(m as unknown as GLMap,selected);

@@ -155,3 +155,10 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Official context and news now load independently; one feed failure preserves the other. Cancelled loads do not update component state. A fetch failure is distinguished from expanding coverage.
 - Extracted city/region selection with regression checks for separate latest totals, absent cities, cross-region exclusion and partial feed failure. No factual dataset or prediction changed.
 - All 53 frontend tests, lint and TypeScript checks pass. Next: link verified locality records to map selection once matching geography is available, and continue public data acquisition.
+
+## Red-zone explorer — 2026-10-01
+
+- Added a time-aware red-zone summary and ranked sheet, available from the overview and floating map controls. Selecting a row opens its map neighbourhood panel. The list follows city, search, day type, crime type, year, and time-band selections.
+- Unknown scores remain excluded from rankings and count separately. Glow and hatch layers now require a known score, so changing to an unsupported filter cannot briefly present a stale high-risk visual. Existing sample cells remain opt-in and prominently labelled synthetic.
+- Browser checked the dark MapTiler map: the evening slider updated sample values, ranked sheet showed 9 high/very-high sample cells, and selecting a cell opened its detail panel and flew the map. All 56 frontend tests, lint, TypeScript check, and production build passed. The build still reports a large lazy MapLibre chunk.
+- No real neighbourhood red zones are published: current NCRB values are annual city totals and the single reviewed news event does not establish complete neighbourhood/time observations. Continue public Delhi sourcing, boundary/exposure crosswalk work, then train and validate before publishing model scores.
