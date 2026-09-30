@@ -24,3 +24,7 @@ See `/data/reports/delhi-phase1.json` for checksum-verified inputs and missing f
 ## Historical Census exposure input received
 
 Central Delhi PCA2011 workbook supplied locally and imported into `/data/census-central-2011.json`: 21 ward-part rows, reconciled to 582,320 total residents, including 274,499 female residents. These figures cover the 2011 district geography only. No current neighbourhood crosswalk, projection or valid crime-rate join exists yet. Earlier missing-workbook status is superseded.
+
+## City detection and help assignment — 2026-09-30
+
+Activated the retrieved OSM Delhi state boundary (relation 1942586) after identity and topology checks. This community boundary is not a legal survey. It supports city-level location/helpline matching independently of missing neighbourhood risk records. Assigned 2,916 help features strictly inside Delhi; 817 regional features remain unassigned. Boundary-touching or crossing features are excluded. Other NCR city boundaries still need review. Neighbourhood coverage remains 0%; historical Census crosswalk and observation/exposure inputs are still missing. See SOURCES.md for provenance and licence.

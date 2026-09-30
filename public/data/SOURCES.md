@@ -101,3 +101,12 @@ The user's latest instruction explicitly includes public news text for factual e
 The previously requested DDW_PCA0706_2011_MDDS with UI.xlsx is now present at raw/census/. Acquisition: user-supplied local file, original download date unknown. The official catalog https://censusindia.gov.in/nada/index.php/catalog/6286/study-description names the matching PC11_PCA-TV-0706 workbook; remote bytes were not independently verified. Publisher: ORGI, Census of India 2011. Public government population table, attribution retained; no additional open licence claimed.
 
 Imported 21 ward-part rows using the complete geographic key, excluding parent summary rows and unrelated demographic columns. Female/male/total population reconciles for each row, each parent town and the Central district total. Output includes source URL, checksum, receipt/review date and historical limitations. No current boundary match, projection or crime-rate denominator was inferred. Source workbook preserved unchanged.
+
+## Delhi administrative boundary — 2026-09-30
+
+- Source: OpenStreetMap relation 1942586, https://www.openstreetmap.org/relation/1942586 ; retrieved 2026-09-30 via https://overpass-api.de/api/interpreter with bounded query `[out:json][timeout:50][maxsize:33554432];relation(1942586);out body geom;`.
+- Licence: Open Database Licence (ODbL) 1.0, https://www.openstreetmap.org/copyright . Attribution: © OpenStreetMap contributors.
+- Raw file: `data-pipeline/raw/osm/delhi-boundary-1942586.json`; SHA-256 `1d6df2cf5cd50e0b61e6cf61964bb003de42a4d34450dd929c8c914f47a96e0d`. The raw Overpass timestamp is preserved in the public GeoJSON.
+- Reviewed ISO3166-2 IN-DL / admin_level 4 identity, all 119 outer ways and closed-ring topology. One valid polygon, no dangling edges or invalid rings. Delhi centre falls inside; configured centres of the other five NCR cities fall outside.
+- Community mapping, not a legal survey or verified neighbourhood geography. Used for city detection and help assignment only. Whole features must lie strictly inside; boundary-touching/crossing features remain unassigned. 2,916 of 3,733 help features assigned Delhi; 817 remain unassigned. No population tags, crime labels or model scores inferred.
+- OpenCity boundary catalog remained inaccessible (HTTP 403); historical DataMeet wards remain unverified for current use. No access restriction bypassed.

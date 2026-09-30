@@ -105,3 +105,11 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 - Public census-central-2011.json includes source, checksum, historical scope and explicit no-boundary-match/no-training labels. No current population projection, normalized crime rate or new risk score created.
 - 14 Python tests pass; live workbook import and refreshed phase1 audit succeed using bundled Python for openpyxl. requirements.txt now includes openpyxl. No additional manual file requested.
 - Next: verify historical/current boundary crosswalk before exposure joins; continue permitted Delhi incident sourcing, then other cities. Census import resolves one missing input, not the missing neighbourhood/time labels or blocked ML/geospatial runtime.
+
+## Delhi city-boundary milestone — 2026-09-30
+
+- Retrieved OSM Delhi state relation 1942586 through bounded public Overpass requests. Checked administrative identity and closed topology of all 119 ways; activated this community boundary for city location/helpline matching. It is not a legal survey or neighbourhood geometry.
+- Assigned 2,916 of 3,733 OSM help features strictly within Delhi. Other 817 remain unassigned. Confirmed all original feature geometry and factual properties preserved; only cityId changed. Original raw snapshot and pinned checksum preserved.
+- Added reproducible converter, source hash/provenance, config path, input-audit entry and quality-report updates. No crime data, exposure estimates or risk scores created. OpenCity boundary catalog remains inaccessible (403); historical DataMeet wards remain unverified for current use.
+- Verification: 17 Python tests, 48 frontend tests, lint, publication validation and TypeScript/production build pass. Regression covers real Delhi and surrounding city centres, absent risk records, incomplete rings, holes and boundary-crossing help features. Existing lazy MapLibre chunk warning remains. No new GPS/browser check performed in this milestone.
+- Next: continue permitted Delhi incident sourcing and reviewed locality/date/time extraction; obtain historical Census geography crosswalk and remaining NCR city boundaries. Production training still lacks neighbourhood/time observations and exposure coverage, and this host blocks required sklearn/pyproj DLLs. No additional API key or manual file requested now.

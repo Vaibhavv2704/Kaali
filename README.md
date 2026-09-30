@@ -145,3 +145,14 @@ Public news text can be processed in memory for reviewed facts. See [news extrac
 ### Delhi input audit
 
 Run `python data-pipeline/phase1.py --stage-existing` to verify and stage collected inputs. See [raw input paths and missing Census workbook](data-pipeline/RAW_INPUTS.md). The audit publishes data-readiness details, not predictions; optional environmental staging requires a working pyproj runtime.
+
+### Reproduce Delhi city boundary and help assignments
+
+Delhi city detection uses the OSM community state boundary, not the historical ward candidates. Attribution: © OpenStreetMap contributors, ODbL 1.0. The original help snapshot stays unchanged in raw inputs. With both checksum-reviewed raw files present:
+
+```sh
+python data-pipeline/osm_boundary.py --input data-pipeline/raw/osm/delhi-boundary-1942586.json --relation 1942586 --iso IN-DL --city delhi --output public/data/delhi-ncr/delhi-boundary.geojson --help-input data-pipeline/raw/osm/help-2026-09-29.geojson --help-output public/data/delhi-ncr/help.geojson
+python data-pipeline/phase1.py
+```
+
+Review refreshed source bytes before replacing the pinned manifest hash. The converter rejects incomplete rings, wrong administrative identity and conflicting help assignments. This command regenerates the original Delhi-only assignment snapshot; preserve later city assignments when refreshing. City detection is available even without neighbourhood observations; it does not create risk predictions.

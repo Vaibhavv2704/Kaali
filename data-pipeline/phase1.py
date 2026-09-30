@@ -36,7 +36,7 @@ def audit(root=ROOT):
               'inputs':[], 'productionModelReady':False, 'productionNeighbourhoodObservations':0,
               'blockers':['No reviewed neighbourhood/time-band observations or observation coverage denominator.',
                           'Current female exposure and a reviewed historical-to-current boundary crosswalk are unavailable.',
-                          'Current jurisdiction boundaries are not verified.',
+                          'Current neighbourhood boundaries and remaining NCR city jurisdictions are not verified.',
                           'Held-out model evaluation has not been performed.'], 'sample':False}
     for entry in manifest['inputs']:
         item = {k:entry[k] for k in ('id','path','sourceUrl','licence','retrievedAt','sha256')}
@@ -59,6 +59,12 @@ def audit(root=ROOT):
         elif path and entry['id']=='census-central-pca-2011':
             item.update(geography='Central district, 2011',currentExposureVerified=False,
                         boundaryCrosswalkVerified=False,acquisition=entry.get('acquisition'))
+        elif path and entry['id']=='osm-delhi-boundary':
+            from osm_boundary import relation_polygon
+            polygon,ways=relation_polygon(json.loads(path.read_text(encoding='utf-8')),1942586,'IN-DL')
+            item.update(boundaryWayCount=ways,topologyValid=polygon.is_valid,
+                        scope='OSM community Delhi state boundary; not a legal survey or neighbourhood geometry',
+                        eligibleForTraining=False)
         result['inputs'].append(item)
     return result
 

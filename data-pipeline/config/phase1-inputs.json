@@ -33,6 +33,14 @@
       "retrievedAt": "2026-09-30",
       "sha256": "246efe27f565776816610095baa8fd2586f4665122e9ec8ac87d778972f06e9e",
       "acquisition": "User-supplied workbook observed locally; original download time unknown"
+    },
+    {
+      "id": "osm-delhi-boundary",
+      "path": "raw/osm/delhi-boundary-1942586.json",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1942586",
+      "licence": "ODbL 1.0; OpenStreetMap contributors",
+      "retrievedAt": "2026-09-30",
+      "sha256": "1d6df2cf5cd50e0b61e6cf61964bb003de42a4d34450dd929c8c914f47a96e0d"
     }
   ]
 }
