@@ -140,3 +140,12 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 Fresh project-runtime checks now pass for tables, geometry, projection, news extraction and a tiny synthetic LightGBM fit. Installed the already-declared openpyxl dependency. No Application Control setting was changed. Earlier runtime-blocker statements are superseded by this successful check; the reason host behavior changed is unknown.
 
 `phase1.py --environment` now stages 290 historical candidate environmental rows privately. Boundaries remain historical/unverified, lighting fraction remains unknown for the incomplete inventory, and crime/exposure joins remain absent. No production model or metrics generated. 27 Python tests pass. Runtime readiness does not fix missing labels or coverage.
+
+## Home crime records — 2026-09-30
+
+- Added home-screen available crime records card filtered by city chips. Shows latest imported NCRB total separately for each reporting area; no cross-city sum.
+- Opens a sheet with source-linked category/year tables and selectable locality references. Nehru Place shows the existing reviewed event, allegation status, time band and inferred-year disclosure. Collection reference count is not represented as total locality crimes.
+- Neutral coverage-expanding copy used for unpopulated sections. No factual records changed and no production risk labels added. Publication schema validation passes; lint and production build run for this change.
+- Remaining: browser layout checks for this new sheet; broader source acquisition and real model labels. Home summary does not substitute city statistics for selected map neighbourhood counts.
+
+- Follow-up verification (2026-10-01): pending production build completed successfully; lint and publication validation passed. Browser confirmed home totals, category tables and Nehru Place selection. Fixed shared dialog viewport overflow with bounded internal scrolling. Screenshot artifacts/screenshots/home-locality-records.png. A basemap network-error toast appeared during this check; data interactions remained functional. Map-click linkage to real locality records remains unfinished.

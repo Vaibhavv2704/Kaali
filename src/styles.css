@@ -55,3 +55,5 @@
 
 .risk-preview-control{margin:16px 0}.risk-preview-control .ui-button{width:100%;min-height:44px}.risk-preview-control p{font-size:11px;line-height:1.6;color:var(--muted);margin:8px 0 0}
 @media(max-width:760px){.overview .intro{display:none}.overview h1{font-size:23px;margin:8px 0}.risk-preview-control{margin:8px 0}.risk-preview-control p{font-size:10px}}
+
+.home-crime-records{padding:16px;border:1px solid var(--line);border-radius:20px;background:var(--subtle);margin:16px 0}.home-crime-records h2{font-size:14px;margin:0 0 12px}.home-crime-records p{font-size:12px}.home-crime-records strong{font-size:26px;font-variant-numeric:tabular-nums}.home-crime-records small{color:var(--muted)}.home-crime-records .ui-button{width:100%;min-height:44px}
