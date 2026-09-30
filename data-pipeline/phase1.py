@@ -35,7 +35,7 @@ def audit(root=ROOT):
     result = {'regionId':'delhi-ncr','cityId':'delhi','checkedAt':datetime.now(timezone.utc).isoformat(),
               'inputs':[], 'productionModelReady':False, 'productionNeighbourhoodObservations':0,
               'blockers':['No reviewed neighbourhood/time-band observations or observation coverage denominator.',
-                          'Census female exposure and matching boundary vintage are not imported.',
+                          'Current female exposure and a reviewed historical-to-current boundary crosswalk are unavailable.',
                           'Current jurisdiction boundaries are not verified.',
                           'Held-out model evaluation has not been performed.'], 'sample':False}
     for entry in manifest['inputs']:
@@ -56,6 +56,9 @@ def audit(root=ROOT):
             data=json.loads(path.read_text(encoding='utf-8'))
             item.update(featureCount=len(data['features']),cityAssignment='Unverified',
                         completeRoadInventory=False,footfallObserved=False)
+        elif path and entry['id']=='census-central-pca-2011':
+            item.update(geography='Central district, 2011',currentExposureVerified=False,
+                        boundaryCrosswalkVerified=False,acquisition=entry.get('acquisition'))
         result['inputs'].append(item)
     return result
 

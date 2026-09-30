@@ -97,3 +97,11 @@ Use the workspace’s installed tooling. On this Windows host, pnpm is available
 - Outside-coverage suggestion now depends on location state rather than searching English message text. Delayed geolocation errors use the currently selected language.
 - Verified Hindi consent dialog and search fallback in browser without requesting GPS or sharing coordinates. Screenshot: artifacts/screenshots/location-consent-hindi.png.
 - Lint, TypeScript/production build and 47 frontend tests pass. Known lazy MapLibre size warning remains. Other map/page translation work remains. No factual datasets changed in this UI milestone.
+
+## Census input milestone - 2026-09-30
+
+- Found the requested Central Delhi PCA2011 workbook locally; previous request is fulfilled. Workbook preserved unchanged. Acquisition is user-supplied; official catalog metadata matches, remote bytes not independently compared. Original download time unknown.
+- Imported 21 historical urban ward-part population rows with complete geographic keys. Sex totals reconcile per row, parent town and district. Excluded parent summaries from the detail output and all unrelated demographic columns.
+- Public census-central-2011.json includes source, checksum, historical scope and explicit no-boundary-match/no-training labels. No current population projection, normalized crime rate or new risk score created.
+- 14 Python tests pass; live workbook import and refreshed phase1 audit succeed using bundled Python for openpyxl. requirements.txt now includes openpyxl. No additional manual file requested.
+- Next: verify historical/current boundary crosswalk before exposure joins; continue permitted Delhi incident sourcing, then other cities. Census import resolves one missing input, not the missing neighbourhood/time labels or blocked ML/geospatial runtime.

@@ -1,7 +1,7 @@
 {
   "regionId": "delhi-ncr",
   "cityId": "delhi",
-  "checkedAt": "2026-09-29T22:33:53.993343+00:00",
+  "checkedAt": "2026-09-30T09:43:11.675895+00:00",
   "inputs": [
     {
       "id": "opencity-metros-2022",
@@ -45,20 +45,24 @@
       "id": "census-central-pca-2011",
       "path": "raw/census/DDW_PCA0706_2011_MDDS with UI.xlsx",
       "sourceUrl": "https://censusindia.gov.in/nada/index.php/catalog/6286/study-description",
-      "licence": "Government publication; resource terms and workbook metadata to review on retrieval",
-      "retrievedAt": null,
-      "sha256": null,
-      "status": "missing"
+      "licence": "ORGI public government population table; source attribution retained; no additional open-licence claim",
+      "retrievedAt": "2026-09-30",
+      "sha256": "246efe27f565776816610095baa8fd2586f4665122e9ec8ac87d778972f06e9e",
+      "status": "present",
+      "geography": "Central district, 2011",
+      "currentExposureVerified": false,
+      "boundaryCrosswalkVerified": false,
+      "acquisition": "User-supplied workbook observed locally; original download time unknown"
     }
   ],
   "productionModelReady": false,
   "productionNeighbourhoodObservations": 0,
   "blockers": [
     "No reviewed neighbourhood/time-band observations or observation coverage denominator.",
-    "Census female exposure and matching boundary vintage are not imported.",
+    "Current female exposure and a reviewed historical-to-current boundary crosswalk are unavailable.",
     "Current jurisdiction boundaries are not verified.",
     "Held-out model evaluation has not been performed."
   ],
   "sample": false,
-  "environmentStatus": "Unavailable: required geospatial runtime failed to import. No environment rows generated."
+  "historicalEnvironmentRows": 290
 }

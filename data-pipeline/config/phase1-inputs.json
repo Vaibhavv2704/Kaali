@@ -29,9 +29,10 @@
       "id": "census-central-pca-2011",
       "path": "raw/census/DDW_PCA0706_2011_MDDS with UI.xlsx",
       "sourceUrl": "https://censusindia.gov.in/nada/index.php/catalog/6286/study-description",
-      "licence": "Government publication; resource terms and workbook metadata to review on retrieval",
-      "retrievedAt": null,
-      "sha256": null
+      "licence": "ORGI public government population table; source attribution retained; no additional open-licence claim",
+      "retrievedAt": "2026-09-30",
+      "sha256": "246efe27f565776816610095baa8fd2586f4665122e9ec8ac87d778972f06e9e",
+      "acquisition": "User-supplied workbook observed locally; original download time unknown"
     }
   ]
 }

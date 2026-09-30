@@ -14,15 +14,19 @@ The first run copies previously downloaded files into ignored `data-pipeline/raw
 | `opencity/metros-2022.csv` | Three Delhi annual NCRB context rows | Retrieved, hash pinned |
 | `datameet/Delhi_Wards.geojson` | 290 historical boundary candidates | Retrieved; current vintage unverified |
 | `osm/help-2026-09-29.geojson` | 3,733 NCR help features | Retrieved; individual city assignment unverified |
-| `census/DDW_PCA0706_2011_MDDS with UI.xlsx` | Central Delhi 2011 ward population candidate | Missing; official catalog/download access failed |
+| `census/DDW_PCA0706_2011_MDDS with UI.xlsx` | Central Delhi 2011 ward population candidate | Supplied locally; 21 ward-part rows imported and reconciled |
 
-## One file needed next
+## Census workbook received and reviewed
 
-Download **DDW_PCA0706_2011_MDDS with UI.xlsx** from the [official Census catalog, PC11_PCA-TV-0706](https://censusindia.gov.in/nada/index.php/catalog/6286/study-description) and place it at:
+The requested workbook is now present. Its 21 urban ward-part rows reconcile to the district and town totals. Only population and geographic identifiers are imported; caste, employment and other columns are excluded. The checksum is pinned in the input manifest.
 
-`data-pipeline/raw/census/DDW_PCA0706_2011_MDDS with UI.xlsx`
+```powershell
+python data-pipeline/import_census.py --input "data-pipeline/raw/census/DDW_PCA0706_2011_MDDS with UI.xlsx"
+```
 
-The official site returned SSL errors through Python and 502 through web access on 2026-09-30. Certificate checks were not disabled. Once supplied, the workbook needs column, geographic-code, licence and vintage review before adding its checksum and parser. The manifest deliberately refuses to import an unreviewed file. This is Central district only; it is a starting input, not all-Delhi coverage. Ward numbers alone are not unique join keys and 2011 geography must not be treated as current boundaries.
+The importer requires openpyxl from requirements.txt. This run used the bundled Python environment. Output is `public/data/census-central-2011.json`. Original workbook bytes remain unchanged and ignored by Git. Acquisition is labelled user-supplied: the official catalog metadata matches, but remote bytes could not be independently compared. The original download timestamp is unknown; 2026-09-30 is the local review/receipt date.
+
+This is Central district only, according to 2011 geography. Composite state/district/subdistrict/town/ward keys preserve split ward parts. No current neighbourhood boundary join or current crime-rate denominator is claimed. No further manual file is requested at this milestone.
 
 ## Environmental preprocessing
 
