@@ -24,6 +24,9 @@ def fixture():
                 'feature_cutoff': start - timedelta(days=1), 'count': 2,
                 'female_population': 1000, 'period_days': 5, 'estimated': False,
                 'provenance': 'observed', 'source_url': 'https://example.invalid/test-only',
+                'observation_coverage':'complete','boundary_status':'verified',
+                'coverage_source_url':'https://example.invalid/coverage',
+                'exposure_source_url':'https://example.invalid/exposure',
             })
     return pd.DataFrame(rows)
 
@@ -66,6 +69,23 @@ class ValidationTests(unittest.TestCase):
         cells.loc[0, 'area'] = np.inf
         with self.assertRaises(ValueError):
             allocate(17, cells)
+
+    def test_rejects_unobserved_cells_and_wrong_exposure(self):
+        for col,value in [('observation_coverage','unknown'),('boundary_status','sample'),
+                          ('coverage_source_url',None),('exposure_source_url',None),
+                          ('period_days',7),('lighting',1.5),('distance_police',-1),
+                          ('poi_density',np.inf)]:
+            with self.subTest(col=col):
+                frame=fixture().astype({col:object});frame.loc[0,col]=value
+                with self.assertRaises(ValueError):validate_frame(frame)
+
+    def test_rejects_overlapping_periods_with_different_start_dates(self):
+        frame=fixture()
+        frame.loc[1,'period_start']=frame.loc[0,'period_start']+timedelta(days=1)
+        frame.loc[1,'feature_cutoff']=frame.loc[1,'period_start']-timedelta(days=1)
+        dates=pd.date_range(frame.loc[1,'period_start'],frame.loc[1,'period_end'])
+        frame.loc[1,'period_days']=sum(d.dayofweek<5 for d in dates)
+        with self.assertRaisesRegex(ValueError,'Overlapping'):validate_frame(frame)
 
 
 if __name__ == '__main__':

@@ -52,3 +52,6 @@
 }
 
 .evidence-city{display:flex;align-items:center;gap:12px;margin-top:20px}.evidence-city select{min-height:44px;min-width:160px;padding:8px 16px;background:var(--surface);border:1px solid var(--line);border-radius:16px;color:var(--text)}
+
+.risk-preview-control{margin:16px 0}.risk-preview-control .ui-button{width:100%;min-height:44px}.risk-preview-control p{font-size:11px;line-height:1.6;color:var(--muted);margin:8px 0 0}
+@media(max-width:760px){.overview .intro{display:none}.overview h1{font-size:23px;margin:8px 0}.risk-preview-control{margin:8px 0}.risk-preview-control p{font-size:10px}}

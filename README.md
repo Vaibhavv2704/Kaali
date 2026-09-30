@@ -156,3 +156,9 @@ python data-pipeline/phase1.py
 ```
 
 Review refreshed source bytes before replacing the pinned manifest hash. The converter rejects incomplete rings, wrong administrative identity and conflicting help assignments. This command regenerates the original Delhi-only assignment snapshot; preserve later city assignments when refreshing. City detection is available even without neighbourhood observations; it does not create risk predictions.
+
+### Red-zone preview and training validation
+
+The map overview offers **Preview red zones · sample**. This explicitly enables existing synthetic cells; it does not enable production predictions. Select a cell or change the time band to inspect the interaction. Exit returns to evidence-backed coverage.
+
+Before fitting, run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV --validate-only`. See `data-pipeline/schema.md` for documented observation-coverage and exposure requirements. City annual totals and missing news reports are not neighbourhood training labels.

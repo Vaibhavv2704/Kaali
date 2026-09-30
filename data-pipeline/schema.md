@@ -35,3 +35,9 @@ Confidence: high requires ≥3 independent source families, verified geometry an
 ## Region additions
 
 `public/data/regions.json` declares all files, cities, map extents, IANA timezone, languages and helpline sets. Supply verified region/city boundaries and neighbourhood polygons (or jurisdiction-clipped H3 cells at resolution 8/9). Grid cells intersecting a border are clipped separately and given jurisdiction-specific IDs. Do not use nearest-city or rectangle membership for jurisdiction. Holes and MultiPolygons must be respected.
+
+## Training input checks — 2026-09-30
+
+Target rows now require `observation_coverage=complete`, a `coverage_source_url`, `boundary_status=verified` and an `exposure_source_url`. These declarations need source review; passing schema checks does not verify their truth. News-only absence cannot be converted to observed zero counts. Reporting dates are inclusive whole days. `period_days` must equal the number of weekdays or weekend days matching `day_type` in that interval. Each row describes one four-hour band; rates are band-specific annualized reported counts, not individual probabilities. Overlapping periods within the same neighbourhood/band/day type are rejected. Numeric features allow missing values but reject infinity, negative values and lighting outside 0–1.
+
+Run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV --validate-only` to check evidence structure before loading the ML runtime. It writes no model or metrics. No admissible production training CSV currently exists. Test fixtures remain synthetic, in memory and excluded from published data. Production training is still blocked by missing observations/exposure and the host ML runtime policy.
