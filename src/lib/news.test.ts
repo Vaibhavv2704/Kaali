@@ -2,6 +2,13 @@ import {describe,it,expect} from 'vitest';
 import {loadNews} from './news';
 import data from '../../public/data/news.json';
 describe('news references',()=>{
+  it('rejects duplicate events, identifying fields and unsupported dates',()=>{
+    const row=data.find(n=>'event' in n)!;
+    expect(()=>loadNews([row,{...row,id:'second-source',url:'https://example.org/corroboration'}])).toThrow();
+    expect(()=>loadNews([{...row,event:{...row.event,name:'Unreviewed person'}}])).toThrow();
+    expect(()=>loadNews([{...row,event:{...row.event,date:'2027-01-01'}}])).toThrow();
+    expect(()=>loadNews([{...row,event:{...row.event,timeBand:6}}])).toThrow();
+  });
   it('keeps reading links separate from training observations',()=>{expect(loadNews(data).every(n=>!n.eligibleForTraining&&n.privacyReviewed)).toBe(true)});
   it('rejects article bodies and URL duplicates including tracking variants',()=>{
     expect(()=>loadNews([{...data[0],body:'Do not store article bodies'}])).toThrow();

@@ -5,6 +5,7 @@ import {loadOffenders,type Offender} from '../lib/offenders';
 import {loadCrimeContext,type CrimeContext} from '../lib/crime-context';
 import {loadNews,type NewsReference} from '../lib/news';
 import {Card,Skeleton} from '../components/ui';
+import {bands} from '../lib/risk';
 
 export default function Evidence({region}:{region:Region}){
   const [city,setCity]=useState(region.cities[0]?.id??'');
@@ -37,7 +38,8 @@ export default function Evidence({region}:{region:Region}){
     <p>News-derived figures and curated links with neutral editorial headlines. Publisher articles may contain sensitive details. Figures retain the publisher’s category labels; legal classifications have not been harmonised. These reports are not added to official totals, conviction profiles or model labels.</p>
     <div className="bento-grid">{news.filter(n=>n.regionId===region.id&&n.cityId===selected).map(n=><Card key={n.id}><h3><a href={n.url} target="_blank" rel="noreferrer">{n.headline} ↗</a></h3><p>{n.publisher} · {n.publishedAt}</p>
       {'facts' in n&&<><table className="coverage-table"><caption>News-reported counts · city-wide, full calendar years</caption><thead><tr><th scope="col">Category</th><th scope="col">Year</th><th scope="col">Cases</th></tr></thead><tbody>{n.facts.map(f=><tr key={`${f.category}:${f.year}`}><th scope="row">{f.category}</th><td>{f.year}</td><td>{f.count.toLocaleString('en-IN')}</td></tr>)}</tbody></table><p className="page-footnote">No neighbourhood or incident-time data. These figures do not establish risk levels. {n.licence}</p></>}
-      <small>Aggregate reporting · reviewed {n.reviewedAt}</small></Card>)}</div>
+      {'event' in n&&<><dl><dt>Reported incident locality</dt><dd>{n.event.locality}</dd><dt>Incident date</dt><dd>{n.event.date??'Unknown'}{n.event.dateBasis==='day-month-with-publication-year'?' (year inferred from publication context)':''}</dd><dt>Reported time band</dt><dd>{n.event.timeBand===null?'Unknown':`${bands[n.event.timeBand]} IST`}</dd><dt>Source category</dt><dd>{n.event.category}</dd></dl><p>Reported allegation, not a conviction. One event reference; not a count of all crimes in this locality. No verified polygon match or training label.</p></>}
+      <small>{n.kind==='incident-report'?'Incident reporting':'Aggregate reporting'} · reviewed {n.reviewedAt}</small></Card>)}</div>
     {!news.some(n=>n.regionId===region.id&&n.cityId===selected)&&<p>No reviewed news links are available for this city yet.</p>}
     <h2 style={{marginTop:32}}>Convicted offenders / notable cases</h2>
     <p>Only reviewed adult convictions are listed. A case appears on the map only after its crime locality is verified against a neighbourhood boundary. This list is not a neighbourhood incident census.</p>

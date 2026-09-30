@@ -103,5 +103,33 @@
     "sha256": "9ab119416b6cecc3b1685913b06ea7aa3507c9a02c1c027f6fc83f7776638a81",
     "retrievedAt": "2026-09-29T22:22:44.802936+00:00",
     "licence": "Publisher copyright; linked factual extraction only. No article republication."
+  },
+  {
+    "id": "news-delhi-nehru-place-2026",
+    "url": "https://www.tribuneindia.com/news/delhi/delhi-2-northeastern-women-assaulted-molested-outside-nehru-place-hotel/",
+    "publisher": "The Tribune / PTI",
+    "headline": "Nehru Place: police investigate reported assault",
+    "publishedAt": "2026-05-11",
+    "reviewedAt": "2026-09-30",
+    "regionId": "delhi-ncr",
+    "cityId": "delhi",
+    "privacyReviewed": true,
+    "event": {
+      "id": "delhi-nehru-place-2026-05-10",
+      "locality": "Nehru Place",
+      "date": "2026-05-10",
+      "dateBasis": "day-month-with-publication-year",
+      "timeBand": 1,
+      "category": "molestation",
+      "status": "reported-allegation"
+    },
+    "kind": "incident-report",
+    "origin": "news",
+    "eligibleForTraining": false,
+    "neighbourhoodId": null,
+    "observationCoverage": "unknown",
+    "sha256": "6b2bca19385382b9b701ef42e47e4fcf4f2fd8270c42b531e9c4cc244e72ce9b",
+    "retrievedAt": "2026-09-30T15:06:21.988241+00:00",
+    "licence": "Publisher copyright; linked factual extraction only. No article republication."
   }
 ]

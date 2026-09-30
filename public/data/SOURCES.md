@@ -110,3 +110,11 @@ Imported 21 ward-part rows using the complete geographic key, excluding parent s
 - Reviewed ISO3166-2 IN-DL / admin_level 4 identity, all 119 outer ways and closed-ring topology. One valid polygon, no dangling edges or invalid rings. Delhi centre falls inside; configured centres of the other five NCR cities fall outside.
 - Community mapping, not a legal survey or verified neighbourhood geography. Used for city detection and help assignment only. Whole features must lie strictly inside; boundary-touching/crossing features remain unassigned. 2,916 of 3,733 help features assigned Delhi; 817 remain unassigned. No population tags, crime labels or model scores inferred.
 - OpenCity boundary catalog remained inaccessible (HTTP 403); historical DataMeet wards remain unverified for current use. No access restriction bypassed.
+
+## Delhi incident report import — 2026-09-30
+
+Source: The Tribune / PTI, https://www.tribuneindia.com/news/delhi/delhi-2-northeastern-women-assaulted-molested-outside-nehru-place-hotel/ (published 2026-05-11). Retrieved 2026-09-30T15:06:21.988241+00:00; decoded HTML SHA-256 `6b2bca19385382b9b701ef42e47e4fcf4f2fd8270c42b531e9c4cc244e72ce9b`. Publisher copyright; linked factual extraction only, no open-text licence claimed. Existing single-article access review applied; live robots and canonical article requests returned HTTP 200. Body processed in memory and discarded.
+
+One reviewed reported event in Nehru Place on May 10, with 2026 inferred from publication context; reported 06:30 maps to band 04:00–08:00. Source label molestation retained, no legal code mapping asserted. Retained no victim/accused names, age, ethnicity, venue address, imagery or narrative. Police-station location is not used as incident locality. No exact coordinates, polygon assignment, coverage denominator or training eligibility. Reports from other outlets about the same event must not become extra events.
+
+Excluded NDTV from automated collection after its linked terms page explicitly prohibited scraping/data mining: https://www.ndtv.com/convergence/ndtv/new/TermsAndConditions.aspx (reviewed 2026-09-30). Robots allowing a path does not override terms. Also rejected a Tribune August 2025 party-report locality candidate because the article supplied a residence rather than incident locality. No values from either candidate added to model inputs.

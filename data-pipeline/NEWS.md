@@ -24,3 +24,7 @@ News observation frequency measures media coverage as well as reporting; it is n
 ## Access failure
 
 Do not substitute invented figures if the command fails. Existing published facts retain their original retrieval date. A failure requires another publicly permitted source or an explicitly reviewed manual factual record, never silent use of a search snippet as a downloaded article.
+
+## Reviewed event adapter
+
+`python data-pipeline/incident_extract.py --review data-pipeline/config/news-nehru-place-review.json` reproduces the first event facts into ignored raw/news staging. It requires manually reviewed relationships and drift tokens, excludes personal fields, and retains missing/ambiguous time as null. The public record is an allegation/reference, never a conviction or complete crime census. Event IDs prevent duplicate event publication. Future corroboration requires merging references rather than counting another event.

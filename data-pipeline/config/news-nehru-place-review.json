@@ -1,0 +1,31 @@
+{
+  "id": "news-delhi-nehru-place-2026",
+  "url": "https://www.tribuneindia.com/news/delhi/delhi-2-northeastern-women-assaulted-molested-outside-nehru-place-hotel/",
+  "publisher": "The Tribune / PTI",
+  "headline": "Nehru Place: police investigate reported assault",
+  "publishedAt": "2026-05-11",
+  "reviewedAt": "2026-09-30",
+  "regionId": "delhi-ncr",
+  "cityId": "delhi",
+  "privacyReviewed": true,
+  "event": {
+    "id": "delhi-nehru-place-2026-05-10",
+    "locality": "Nehru Place",
+    "date": "2026-05-10",
+    "dateBasis": "day-month-with-publication-year",
+    "timeBand": 1,
+    "category": "molestation",
+    "status": "reported-allegation"
+  },
+  "access": {
+    "approved": true,
+    "license": "Publisher copyright; individual factual extraction with attribution, no article republication",
+    "termsReviewedAt": "2026-09-30",
+    "reviewNote": "Public article and footer reviewed. robots.txt allows all paths. No scraping prohibition found on the accessed page; no open-text licence claimed. Guessed terms route was unavailable. Single article only; re-review before bulk collection."
+  },
+  "evidenceTokens": [
+    "Nehru Place",
+    "6.30 am on May 10",
+    "molested"
+  ]
+}
