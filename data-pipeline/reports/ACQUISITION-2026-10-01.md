@@ -49,3 +49,9 @@ Reviewed all 26 sampled seconds of the user's local video visually, including ca
 ## Model implications
 
 This pass adds genuine historical district data, but still no neighbourhood/time-band observations, matched female exposure or complete reporting coverage. No model metrics, current red-zone scores or neighbourhood counts were invented. Annual aggregates cannot directly supervise six daily time bands.
+
+## Follow-up: district table review
+
+The Haryana scanned table on pages 16–18 has now been visually reviewed. Eight selected category rows (four each for Faridabad and Gurugram) are reproducibly staged by `python data-pipeline/import_haryana_police.py`. See `config/haryana-2022-reviewed.json` for original Hindi labels, legal sections, pages and explicit column order. This supersedes the pending-review status above for these cells only; the remainder of the report is not fully transcribed.
+
+`python data-pipeline/import_parliament.py` now stages three Delhi Police annual totals for 2023–2025 from the visually reviewed Parliament answer. Total normalized rows across the four importers: 113. None is eligible for neighbourhood/time-band training. These new rows are not yet published in the frontend; publication requires a multi-source aggregate schema that preserves distinct reporting geographies and overlapping periods instead of appending to the existing single-source NCRB series.

@@ -1,0 +1,14 @@
+{
+  "sourcePath": "haryana-police/annual-admin-2022.pdf",
+  "sourceUrl": "https://haryanapolice.gov.in/PDF/Annual_Admin_Report_2022.pdf",
+  "sourceSha256": "4db1733c60bb70728a7fe1ad5c38780b7f1cf670a91f1e1b9928f121e662f633",
+  "reviewedAt": "2026-10-01",
+  "extraction": "Manual transcription from rotated rendered PDF pages; source is a scanned Hindi district-by-IPC table. Column headings are on page 16 and continue through page 18.",
+  "districts": ["Faridabad", "Gurugram"],
+  "rows": [
+    {"category": "cruelty-by-husband-or-relatives", "sourceLabel": "पति या उसके रिश्तेदार द्वारा क्रूरता", "legalSection": "498A IPC", "page": 16, "counts": [286, 418]},
+    {"category": "dowry-death", "sourceLabel": "दहेज हत्या", "legalSection": "304B IPC", "page": 17, "counts": [20, 15]},
+    {"category": "insult-to-modesty", "sourceLabel": "महिलाओं की मर्यादा का अपमान", "legalSection": "509 IPC", "page": 17, "counts": [13, 84]},
+    {"category": "rape", "sourceLabel": "बलात्कार", "legalSection": "376–376E IPC", "page": 18, "counts": [167, 194]}
+  ]
+}

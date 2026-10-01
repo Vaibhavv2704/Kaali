@@ -172,3 +172,10 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Added policy-aware bounded downloader, signature checks, immutable raw-file reuse checks, and regression tests. All 32 Python tests pass. Frontend unchanged; preceding 56-test/build verification remains applicable.
 - NCRB/data.gov.in automated collection stopped at live robots restrictions. Delhi transit static downloads require an identity/purpose form; left untouched. Existing OSM/DataMeet/Census inputs retained. No new key needed.
 - Next: inspect Haryana scanned tables; normalize the Parliament totals with geography separation; extract remaining UP historical categories/range-month tables without treating them as neighbourhood/time bands; continue permitted recent district-source discovery and geography/exposure crosswalk. Production model training still requires granular labels and observed coverage.
+
+## Haryana district extraction and recent Delhi totals — 2026-10-01
+
+- Visually reviewed rotated Haryana 2022 district table, pages 16–18. Added explicit source transcription and hash-checked importer for eight cells: Faridabad/Gurugram × four source legal categories. District headers and page references retained; selected categories are not presented as total crimes against women.
+- Visually reviewed Parliament answer 4220/2026 page 1. New importer extracts Delhi Police totals for 2023–2025 independently of NCRB metropolitan totals, excludes adjacent children/elderly columns and preserves leap-year period length.
+- Normalized source-backed aggregate records now total 113 across four staged importers. No UI counts, neighbourhood model labels or scores changed. All 34 Python tests pass; frontend unchanged.
+- Next: a validated multi-source aggregate publication/feed that preserves source, geography, category and period identity, then show district records as historical context in the home/evidence views. Continue remaining UP category extraction, recent district discovery and boundary/exposure matching. Never merge Delhi Police and NCRB metropolitan series without a documented crosswalk.
