@@ -187,3 +187,7 @@ Government locality-context pages reviewed, no statistical files downloaded: htt
 Overpass endpoint https://overpass-api.de/api/interpreter: bounded NCR emergency-facility collection stopped by robots policy before query. No file downloaded; no retrieval date/hash asserted. Receipt sources/ncr-emergency-2026-10-02.json records UTC attempts (local 2026-10-02). Existing partial OSM help snapshot reused, no imaginary fire-station records.
 
 Map style documentation: https://docs.maptiler.com/sdk-js/api/map-styles/ ; https://docs.maptiler.com/cloud/api/maps/ . Reviewed 2026-10-02. MapTiler proprietary service terms/account quotas apply, © MapTiler; styles are not redistributed as open datasets. Detailed light/dark streets and hybrid styles returned HTTP 200 with the locally configured key, which is never stored in audit files.
+
+### Police-jurisdiction candidate review — 2026-10-02
+
+Source: https://dmsouthwest.delhi.gov.in/jurisdiction-maps-of-district/ . Government District South West Delhi page, public reader review only, headings West/South West/Dwarka. Licence: government website, open reuse licence not asserted. Page update September 1, 2026 is not the geometry's effective date. Policy-aware HTML acquisition failed because robots policy was unreadable; no retrieved file, SHA-256 or matching police polygon asserted. Candidate not used in map/allocation.

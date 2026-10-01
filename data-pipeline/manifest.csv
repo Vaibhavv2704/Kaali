@@ -15,3 +15,4 @@ raw/ncrb/cii-2021-volume-1.pdf,https://data.opencity.in/dataset/national-crime-d
 ,https://gbnagar.nic.in/contact-us/,,,2026-10-02,,Public government directory; open licence not asserted,web_page_review_no_file_download,Noida locality context; GBN retained as one reporting unit
 ,https://ghaziabad.nic.in/en/police/,,,2026-10-02,,Public government directory; open licence not asserted,web_page_review_no_file_download,Sahibabad station/locality context only; no verified police polygon
 ,https://overpass-api.de/api/interpreter,,,,,ODbL-1.0,blocked_robots_policy,Emergency refresh blocked before data query; receipt sources/ncr-emergency-2026-10-02.json; existing OSM snapshot reused
+,https://dmsouthwest.delhi.gov.in/jurisdiction-maps-of-district/,,,,,Government website; reuse unverified,blocked_unreadable_robots_policy,Web reader shows three police-district headings; HTML acquisition failed; no geometry imported

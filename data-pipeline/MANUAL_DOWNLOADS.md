@@ -20,3 +20,7 @@ The indexed 2021 Volume I link `https://data.opencity.in/dataset/09182f51-d3da-4
 ## NCR emergency refresh — 2026-10-02
 
 Automatic collection from https://overpass-api.de/api/interpreter was blocked by robots policy. If a permitted open OSM export is supplied, place the original file and source/licence/date receipt under data-pipeline/raw/osm/ for parser review. Do not bypass policy or claim an absent refresh. Existing mapped help remains available; fire records are missing. No specific downloadable file URL was verified, so none is guessed.
+
+### Police-jurisdiction maps candidate — 2026-10-02
+
+Government page: https://dmsouthwest.delhi.gov.in/jurisdiction-maps-of-district/ . Its police-district headings are visible in the web reader, but automated HTML download stopped at unreadable robots policy. Exact downloadable map URLs were not exposed; none are guessed. A manually obtained published map may be placed under raw/police-boundaries/ with its original source and effective date for review. Do not substitute revenue districts or assume a current raster matches 2024 crime reporting.

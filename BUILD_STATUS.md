@@ -270,3 +270,8 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Verification: all 79 frontend tests, lint, TypeScript and publication validation pass. Production build result recorded below. Next: permitted refreshed OSM export, matching police geography/context and actual occurrence-time observations; complete visual QA when browser access is available. Existing untracked artifacts preserved.
 - Final production build passes. Existing large lazy MapLibre chunk warning persists; no browser screenshots/interaction claims. Full Python regression result recorded after completion.
 - All 57 Python pipeline regression tests pass. New publisher reproduced the NCR feed with source/reconciliation checks intact.
+
+## Police-geography discovery follow-up — 2026-10-02
+
+- Usage available; tracked working tree clean, existing artifacts preserved. Reviewed government South West police-jurisdiction page with West/South West/Dwarka headings. Page-update date does not verify geometry vintage or correspondence to 2024 records. Policy-aware HTML acquisition stopped because robots policy could not be read; no file, polygon, coordinate or model input added. Exact URL, failure and reuse caveats recorded in source/acquisition/manual notes and manifest.
+- Matching neighbourhood allocation remains gated on reviewed police geography/context. No new user action or changed blocker; app/data/model untouched. Documentation-only follow-up; no repeat tests needed.
