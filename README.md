@@ -210,3 +210,11 @@ Map filters offer detailed streets (light/dark), muted vector and satellite with
 An optional time/activity scenario uses disclosed judgement factors and mapped transit proximity. It is low-confidence, not a trained neighbourhood safety prediction. Missing context is unknown. Real recorded totals remain unchanged. The formula, exact references, provenance, missing boundaries and acquisition limits are documented in `data-pipeline/NCR_MAP_METHODOLOGY.md`. Neighbourhood estimates remain gated on a verified police-geography crosswalk and context weights.
 
 Convicted-person details are removed. Our approach navigation is removed; old `/about` and `/methodology` links redirect to `/evidence`, which retains crime sources and data limitations.
+
+## Supplied traffic and population integration
+
+Reproduce with `python data-pipeline/prepare_locality_context.py`. Reads the three supplied CSVs and twenty Aug 11–30, 2024 road-probe files; originals are not edited. Corrects swapped headings in memory; preserves 153 locality references, 78 with traffic matches, six density matches and 73 population matches. No crime counts invented. Source hashes/coverage: data-pipeline/sources/supplied-locality-context.json. See data-pipeline/SUPPLIED_CONTEXT_REPORT.md for joins, scoring rules and reuse limits.
+
+Main-map location is consent-only, with a blue device dot, accuracy circle, native sharing and an on-device awareness summary. No GPS is sent to a server/geocoder/AI service. Advice uses local rules, not live LLM inference. Square emergency pins/clusters differ from risk circles. Transparent H3 reference-cell colours are an assumed activity scenario; not locality boundaries or a calibrated crime forecast.
+
+Layout picker includes 43 public MapTiler catalogue variants plus three presets; provider/account availability can vary. Refresh with `python data-pipeline/refresh_map_catalog.py`. Source/hash: src/data/map-catalog.json. Original supplied CSV/probe licences and population year/units remain unverified; confirm before redistribution. Large raw traffic files are not committed or copied to the public app.
