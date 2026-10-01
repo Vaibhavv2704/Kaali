@@ -1,0 +1,8 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "metadata": {
+    "status": "unknown",
+    "reason": "No matching police boundaries or reviewed ward/H3 crosswalk; no polygons invented."
+  }
+}

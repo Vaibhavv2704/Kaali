@@ -1,0 +1,648 @@
+[
+  {
+    "state": "Haryana",
+    "source_name": "Faridabad",
+    "year": 2022,
+    "count": 1317,
+    "source_row": 260,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Faridabad",
+    "city": "faridabad",
+    "unit_id": "faridabad:Faridabad"
+  },
+  {
+    "state": "Haryana",
+    "source_name": "Gurugram",
+    "year": 2022,
+    "count": 1360,
+    "source_row": 263,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Gurugram",
+    "city": "gurugram",
+    "unit_id": "gurugram:Gurugram"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_name": "Gautambudh Nagar",
+    "year": 2022,
+    "count": 940,
+    "source_row": 844,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Gautambudh Nagar",
+    "city": "gautam-buddh-nagar",
+    "unit_id": "gautam-buddh-nagar:Gautambudh Nagar"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_name": "Ghaziabad",
+    "year": 2022,
+    "count": 1597,
+    "source_row": 845,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Ghaziabad",
+    "city": "ghaziabad",
+    "unit_id": "ghaziabad:Ghaziabad"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Central",
+    "year": 2022,
+    "count": 625,
+    "source_row": 979,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Central",
+    "city": "delhi",
+    "unit_id": "delhi:Central"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "East",
+    "year": 2022,
+    "count": 840,
+    "source_row": 981,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "East",
+    "city": "delhi",
+    "unit_id": "delhi:East"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "New Delhi",
+    "year": 2022,
+    "count": 103,
+    "source_row": 985,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "New Delhi",
+    "city": "delhi",
+    "unit_id": "delhi:New Delhi"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "North",
+    "year": 2022,
+    "count": 734,
+    "source_row": 986,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "North",
+    "city": "delhi",
+    "unit_id": "delhi:North"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "North-East",
+    "year": 2022,
+    "count": 1156,
+    "source_row": 987,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "North-East",
+    "city": "delhi",
+    "unit_id": "delhi:North-East"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "North-West",
+    "year": 2022,
+    "count": 786,
+    "source_row": 988,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "North-West",
+    "city": "delhi",
+    "unit_id": "delhi:North-West"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Outer",
+    "year": 2022,
+    "count": 1054,
+    "source_row": 989,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Outer",
+    "city": "delhi",
+    "unit_id": "delhi:Outer"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "South",
+    "year": 2022,
+    "count": 1253,
+    "source_row": 991,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "South",
+    "city": "delhi",
+    "unit_id": "delhi:South"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "South-East",
+    "year": 2022,
+    "count": 1284,
+    "source_row": 992,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "South-East",
+    "city": "delhi",
+    "unit_id": "delhi:South-East"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "South-West",
+    "year": 2022,
+    "count": 790,
+    "source_row": 993,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "South-West",
+    "city": "delhi",
+    "unit_id": "delhi:South-West"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "West",
+    "year": 2022,
+    "count": 957,
+    "source_row": 997,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "West",
+    "city": "delhi",
+    "unit_id": "delhi:West"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Rohini",
+    "year": 2022,
+    "count": 1109,
+    "source_row": 998,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Rohini",
+    "city": "delhi",
+    "unit_id": "delhi:Rohini"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Shahdara",
+    "year": 2022,
+    "count": 850,
+    "source_row": 999,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Shahdara",
+    "city": "delhi",
+    "unit_id": "delhi:Shahdara"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Dwarka",
+    "year": 2022,
+    "count": 1411,
+    "source_row": 1000,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Dwarka",
+    "city": "delhi",
+    "unit_id": "delhi:Dwarka"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Outer North",
+    "year": 2022,
+    "count": 1167,
+    "source_row": 1001,
+    "source_path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+    "source_sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "category_mismatches": [],
+    "unit": "Outer North",
+    "city": "delhi",
+    "unit_id": "delhi:Outer North"
+  },
+  {
+    "state": "Haryana",
+    "source_name": "Faridabad",
+    "year": 2024,
+    "count": 1341,
+    "source_row": 261,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 15,
+        "child_sum": 5,
+        "difference": 10
+      }
+    ],
+    "unit": "Faridabad",
+    "city": "faridabad",
+    "unit_id": "faridabad:Faridabad"
+  },
+  {
+    "state": "Haryana",
+    "source_name": "Gurugram",
+    "year": 2024,
+    "count": 1377,
+    "source_row": 264,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 41,
+        "child_sum": 20,
+        "difference": 21
+      }
+    ],
+    "unit": "Gurugram",
+    "city": "gurugram",
+    "unit_id": "gurugram:Gurugram"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_name": "Gautambudh Nagar",
+    "year": 2024,
+    "count": 431,
+    "source_row": 878,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 16,
+        "child_sum": 8,
+        "difference": 8
+      }
+    ],
+    "unit": "Gautambudh Nagar",
+    "city": "gautam-buddh-nagar",
+    "unit_id": "gautam-buddh-nagar:Gautambudh Nagar"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "source_name": "Ghaziabad",
+    "year": 2024,
+    "count": 2399,
+    "source_row": 879,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 34,
+        "child_sum": 28,
+        "difference": 6
+      }
+    ],
+    "unit": "Ghaziabad",
+    "city": "ghaziabad",
+    "unit_id": "ghaziabad:Ghaziabad"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Central",
+    "year": 2024,
+    "count": 541,
+    "source_row": 1010,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 7,
+        "child_sum": 4,
+        "difference": 3
+      }
+    ],
+    "unit": "Central",
+    "city": "delhi",
+    "unit_id": "delhi:Central"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "East",
+    "year": 2024,
+    "count": 766,
+    "source_row": 1012,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 3,
+        "child_sum": 1,
+        "difference": 2
+      }
+    ],
+    "unit": "East",
+    "city": "delhi",
+    "unit_id": "delhi:East"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "New Delhi",
+    "year": 2024,
+    "count": 98,
+    "source_row": 1016,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 7,
+        "child_sum": 5,
+        "difference": 2
+      }
+    ],
+    "unit": "New Delhi",
+    "city": "delhi",
+    "unit_id": "delhi:New Delhi"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "North",
+    "year": 2024,
+    "count": 621,
+    "source_row": 1017,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 5,
+        "child_sum": 3,
+        "difference": 2
+      }
+    ],
+    "unit": "North",
+    "city": "delhi",
+    "unit_id": "delhi:North"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "North-East",
+    "year": 2024,
+    "count": 1145,
+    "source_row": 1018,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 18,
+        "child_sum": 11,
+        "difference": 7
+      }
+    ],
+    "unit": "North-East",
+    "city": "delhi",
+    "unit_id": "delhi:North-East"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "North-West",
+    "year": 2024,
+    "count": 748,
+    "source_row": 1019,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 13,
+        "child_sum": 6,
+        "difference": 7
+      }
+    ],
+    "unit": "North-West",
+    "city": "delhi",
+    "unit_id": "delhi:North-West"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Outer",
+    "year": 2024,
+    "count": 1179,
+    "source_row": 1020,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 10,
+        "child_sum": 3,
+        "difference": 7
+      }
+    ],
+    "unit": "Outer",
+    "city": "delhi",
+    "unit_id": "delhi:Outer"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "South",
+    "year": 2024,
+    "count": 1227,
+    "source_row": 1022,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 23,
+        "child_sum": 11,
+        "difference": 12
+      }
+    ],
+    "unit": "South",
+    "city": "delhi",
+    "unit_id": "delhi:South"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "South-East",
+    "year": 2024,
+    "count": 1280,
+    "source_row": 1023,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 20,
+        "child_sum": 6,
+        "difference": 14
+      }
+    ],
+    "unit": "South-East",
+    "city": "delhi",
+    "unit_id": "delhi:South-East"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "South-West",
+    "year": 2024,
+    "count": 716,
+    "source_row": 1024,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 14,
+        "child_sum": 9,
+        "difference": 5
+      }
+    ],
+    "unit": "South-West",
+    "city": "delhi",
+    "unit_id": "delhi:South-West"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "West",
+    "year": 2024,
+    "count": 825,
+    "source_row": 1028,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 11,
+        "child_sum": 7,
+        "difference": 4
+      }
+    ],
+    "unit": "West",
+    "city": "delhi",
+    "unit_id": "delhi:West"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Rohini",
+    "year": 2024,
+    "count": 883,
+    "source_row": 1029,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 6,
+        "child_sum": 2,
+        "difference": 4
+      }
+    ],
+    "unit": "Rohini",
+    "city": "delhi",
+    "unit_id": "delhi:Rohini"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Shahdara",
+    "year": 2024,
+    "count": 808,
+    "source_row": 1030,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 15,
+        "child_sum": 6,
+        "difference": 9
+      }
+    ],
+    "unit": "Shahdara",
+    "city": "delhi",
+    "unit_id": "delhi:Shahdara"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Dwarka",
+    "year": 2024,
+    "count": 1177,
+    "source_row": 1031,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 12,
+        "child_sum": 0,
+        "difference": 12
+      }
+    ],
+    "unit": "Dwarka",
+    "city": "delhi",
+    "unit_id": "delhi:Dwarka"
+  },
+  {
+    "state": "Delhi",
+    "source_name": "Outer North",
+    "year": 2024,
+    "count": 1216,
+    "source_row": 1032,
+    "source_path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+    "source_sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+    "category_mismatches": [
+      {
+        "column": 23,
+        "label": "Stalking (Total a+b)",
+        "reported_parent": 11,
+        "child_sum": 2,
+        "difference": 9
+      }
+    ],
+    "unit": "Outer North",
+    "city": "delhi",
+    "unit_id": "delhi:Outer North"
+  }
+]

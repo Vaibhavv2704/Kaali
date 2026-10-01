@@ -1,0 +1,80 @@
+[
+  {
+    "state": "Delhi",
+    "year": 2022,
+    "units": 23,
+    "sum_units": 14247,
+    "workbook_state_total": 14247,
+    "difference": 0,
+    "independent_report_total": 14247,
+    "independent_difference": 0,
+    "independent_source": "raw/ncrb/vol1-crimeinindia2024.pdf",
+    "independent_pdf_page": 327,
+    "independent_table": "3A.1"
+  },
+  {
+    "state": "Haryana",
+    "year": 2022,
+    "units": 25,
+    "sum_units": 16743,
+    "workbook_state_total": 16743,
+    "difference": 0,
+    "independent_report_total": 16743,
+    "independent_difference": 0,
+    "independent_source": "raw/ncrb/vol1-crimeinindia2024.pdf",
+    "independent_pdf_page": 327,
+    "independent_table": "3A.1"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "year": 2022,
+    "units": 78,
+    "sum_units": 65743,
+    "workbook_state_total": 65743,
+    "difference": 0,
+    "independent_report_total": 65743,
+    "independent_difference": 0,
+    "independent_source": "raw/ncrb/vol1-crimeinindia2024.pdf",
+    "independent_pdf_page": 327,
+    "independent_table": "3A.1"
+  },
+  {
+    "state": "Delhi",
+    "year": 2024,
+    "units": 23,
+    "sum_units": 13396,
+    "workbook_state_total": 13396,
+    "difference": 0,
+    "independent_report_total": 13396,
+    "independent_difference": 0,
+    "independent_source": "raw/ncrb/vol1-crimeinindia2024.pdf",
+    "independent_pdf_page": 327,
+    "independent_table": "3A.1"
+  },
+  {
+    "state": "Haryana",
+    "year": 2024,
+    "units": 26,
+    "sum_units": 13945,
+    "workbook_state_total": 13945,
+    "difference": 0,
+    "independent_report_total": 13945,
+    "independent_difference": 0,
+    "independent_source": "raw/ncrb/vol1-crimeinindia2024.pdf",
+    "independent_pdf_page": 327,
+    "independent_table": "3A.1"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "year": 2024,
+    "units": 76,
+    "sum_units": 66398,
+    "workbook_state_total": 66398,
+    "difference": 0,
+    "independent_report_total": 66398,
+    "independent_difference": 0,
+    "independent_source": "raw/ncrb/vol1-crimeinindia2024.pdf",
+    "independent_pdf_page": 327,
+    "independent_table": "3A.1"
+  }
+]

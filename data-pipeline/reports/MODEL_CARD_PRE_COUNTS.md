@@ -1,0 +1,53 @@
+# Kaali model card
+
+## Release status
+
+**No production model is trained or published.** Verified neighbourhood labels, exposure, environmental features and validation evidence are not yet available. Production JSON is empty and UI confidence is limited. The sample map is synthetic software test material, not a prediction, probability or empirical crime dataset.
+
+An experimental **annual police-district recorded-rape forecast** was trained on 1 October 2026 with 131 real secondary-source observations. It is a different target from this proposed neighbourhood/time risk model. See reports/DISTRICT-FORECAST.md and its JSON for actual grouped and temporal metrics. The overall 2024 test MAE was 19.07 cases versus a 22.11 last-observation baseline; Delhi and GBN did not improve over their baselines. No neighbourhood scores or future forecasts are published. Historical red map reference markers use observed 2024 subtotals, never this model's outputs.
+
+## Intended task
+
+Estimate relative intensity of reported crimes against women by neighbourhood, six four-hour bands and weekday/weekend. Scores 0–100 are a monotonic display transformation of a predicted annualized reported-incident rate, **not the probability of a crime or an individual's safety**. Thresholds require calibration before a production release. Labels: Low (UI: lower estimated risk), Moderate, High, Very High.
+
+## Proposed model / executable training path
+
+`train.py` uses LightGBM regression with Poisson objective and female-person-year exposure weights. Required lagged historical density must predate every row's label window. Inputs include lighting, OSM POI density, opening_hours-derived late-opening indicators, police/metro/road distance, land use, population density, city, jurisdiction, band and day type. Estimated aggregate allocations may be features, never ground-truth labels. Source quality is tracked separately from risk.
+
+Validation: GroupKFold by entire neighbourhood; leave-one-city-out; final reporting period held out temporally. Preprocessing is fitted within each fold. Each split reports overall and per-city MAE / mean Poisson deviance. Any folds with missing denominators or insufficient cities fail. Model artifacts and metrics stay in ignored staging until reviewed. Static predictions can be exported without a backend once release gates pass.
+
+| City | Observed training rows | Spatial validation | Temporal validation | Release |
+|---|---:|---|---|---|
+| Delhi | 0 | Not run | Not run | Blocked by evidence |
+| Gurugram | 0 | Not run | Not run | Blocked by evidence |
+| Noida / Greater Noida | 0 | Not run | Not run | Blocked by evidence |
+| Faridabad | 0 | Not run | Not run | Blocked by evidence |
+| Ghaziabad | 0 | Not run | Not run | Blocked by evidence |
+
+## Limitations and bias
+
+Reporting rates differ between the three police systems and between affluent, visible neighbourhoods and low-reporting areas. News and crowdsourcing are selection-biased. Missing lighting tags do not mean no lighting. OSM opening_hours are not measured footfall. Census denominators may be stale or geographically incompatible. Station/district allocations are ecological estimates and cannot establish street-level incident risk. H3 cells are analytical units, not legal jurisdictions. Distance to police does not guarantee response or availability. A higher estimated score does not imply that residents are dangerous.
+
+## Privacy / responsible use
+
+No victim identities or addresses. No individual-level prediction. No surveillance, policing allocation or denial of services based on scores. Location stays in volatile browser memory; explicit share action is the only user-triggered location export. Feedback endpoint must be configured before public release.
+
+Last updated: 2026-09-29.
+
+## Training input checks — 2026-09-30
+
+Target rows now require `observation_coverage=complete`, a `coverage_source_url`, `boundary_status=verified` and an `exposure_source_url`. These declarations need source review; passing schema checks does not verify their truth. News-only absence cannot be converted to observed zero counts. Reporting dates are inclusive whole days. `period_days` must equal the number of weekdays or weekend days matching `day_type` in that interval. Each row describes one four-hour band; rates are band-specific annualized reported counts, not individual probabilities. Overlapping periods within the same neighbourhood/band/day type are rejected. Numeric features allow missing values but reject infinity, negative values and lighting outside 0–1.
+
+Run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV --validate-only` to check evidence structure before loading the ML runtime. It writes no model or metrics. No admissible production training CSV currently exists. Test fixtures remain synthetic, in memory and excluded from published data. Production training is still blocked by missing observations/exposure and the host ML runtime policy.
+
+## Prediction export checks — 2026-09-30
+
+`predict.py` now stages to ignored `data-pipeline/artifacts/predictions.json` by default and refuses direct output under public/. It checks exact feature/boundary ID agreement, one row per six bands and two day types, city agreement, reviewed boundary flags, valid polygon topology and positive exposure. Invalid/negative/non-finite model rates are rejected rather than silently clipped. A review must bind the exact local model, feature CSV and boundary file with `artifactSha256` keys `model`, `features`, `boundaries`. Never load untrusted joblib files; hashes bind reviewed bytes but do not make an untrusted model safe. Sources, confidence, finite calibration scale and reporting metadata are mandatory.
+
+This is an export implementation with synthetic in-memory unit tests, not a trained or calibrated model. After a real model passes review, validate staged records with the frontend schema before copying to the region's configured neighbourhood file. Unsupported incident counts and trend remain null.
+
+## Runtime recovery — 2026-09-30
+
+Fresh project-runtime checks now pass for tables, geometry, projection, news extraction and a tiny synthetic LightGBM fit. Installed the already-declared openpyxl dependency. No Application Control setting was changed. Earlier runtime-blocker statements are superseded by this successful check; the reason host behavior changed is unknown.
+
+`phase1.py --environment` now stages 290 historical candidate environmental rows privately. Boundaries remain historical/unverified, lighting fraction remains unknown for the incomplete inventory, and crime/exposure joins remain absent. No production model or metrics generated. 27 Python tests pass. Runtime readiness does not fix missing labels or coverage.

@@ -1,0 +1,2665 @@
+{
+  "version": "counts-v1",
+  "records": [
+    {
+      "id": "faridabad:Faridabad",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1341,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1341,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1341,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          832.0,
+          2143.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "gurugram:Gurugram",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1377,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1377,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1377,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          868.0,
+          2179.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "gautam-buddh-nagar:Gautambudh Nagar",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 431,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 431,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 431,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          0,
+          1233.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "ghaziabad:Ghaziabad",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 2399,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 2399,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 2399,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          1890.0,
+          3201.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:Central",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 541,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 541,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 541,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          32.0,
+          1343.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:East",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 766,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 766,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 766,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          257.0,
+          1568.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:New Delhi",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 98,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 98,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 98,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          0,
+          900.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:North",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 621,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 621,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 621,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          112.0,
+          1423.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:North-East",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1145,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1145,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1145,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          636.0,
+          1947.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:North-West",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 748,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 748,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 748,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          239.0,
+          1550.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:Outer",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1179,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1179,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1179,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          670.0,
+          1981.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:South",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1227,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1227,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1227,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          718.0,
+          2029.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:South-East",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1280,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1280,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1280,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          771.0,
+          2082.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:South-West",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 716,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 716,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 716,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          207.0,
+          1518.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:West",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 825,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 825,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 825,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          316.0,
+          1627.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:Rohini",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 883,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 883,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 883,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          374.0,
+          1685.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:Shahdara",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 808,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 808,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 808,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          299.0,
+          1610.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:Dwarka",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1177,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1177,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1177,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          668.0,
+          1979.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    },
+    {
+      "id": "delhi:Outer North",
+      "reporting_unit": "police district",
+      "year": 2024,
+      "source_list": [
+        "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx"
+      ],
+      "data_type": "real",
+      "confidence": 0.25,
+      "confidence_basis": "Heuristic completeness score, not calibrated model probability; context/geography/time evidence absent.",
+      "total_reported_cases": 1216,
+      "risk_score": null,
+      "level": "unknown",
+      "top_windows": [],
+      "time_bands": [
+        {
+          "time_band": "0-4",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekday",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "0-4",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "4-8",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "8-12",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "12-16",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "16-20",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        },
+        {
+          "time_band": "20-24",
+          "day_type": "weekend",
+          "risk_score": null,
+          "level": "unknown",
+          "time_factor": 1,
+          "time_data_type": "assumed",
+          "expected_case_index": null
+        }
+      ],
+      "expected_annual_cases_baseline": 1216,
+      "baseline_data_type": "estimated",
+      "neighbourhood_outputs": "unavailable: missing reviewed crosswalk/context",
+      "annual_count_forecast": {
+        "year": 2026,
+        "expected_cases": 1216,
+        "data_type": "estimated",
+        "model": "historical_count_persistence",
+        "exploratory_90_percent_interval": [
+          707.0,
+          2018.0
+        ],
+        "interval_status": "pooled_bootstrap_not_calibrated; excludes missing place/time effects",
+        "not_a_safety_score": true
+      }
+    }
+  ]
+}

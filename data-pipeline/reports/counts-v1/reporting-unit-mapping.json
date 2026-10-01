@@ -1,0 +1,306 @@
+[
+  {
+    "source_name": "Faridabad",
+    "unit_id": "faridabad:Faridabad",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Gurugram",
+    "unit_id": "gurugram:Gurugram",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Gautambudh Nagar",
+    "unit_id": "gautam-buddh-nagar:Gautambudh Nagar",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Ghaziabad",
+    "unit_id": "ghaziabad:Ghaziabad",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Central",
+    "unit_id": "delhi:Central",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "East",
+    "unit_id": "delhi:East",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "New Delhi",
+    "unit_id": "delhi:New Delhi",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "North",
+    "unit_id": "delhi:North",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "North-East",
+    "unit_id": "delhi:North-East",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "North-West",
+    "unit_id": "delhi:North-West",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Outer",
+    "unit_id": "delhi:Outer",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "South",
+    "unit_id": "delhi:South",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "South-East",
+    "unit_id": "delhi:South-East",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "South-West",
+    "unit_id": "delhi:South-West",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "West",
+    "unit_id": "delhi:West",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Rohini",
+    "unit_id": "delhi:Rohini",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Shahdara",
+    "unit_id": "delhi:Shahdara",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Dwarka",
+    "unit_id": "delhi:Dwarka",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Outer North",
+    "unit_id": "delhi:Outer North",
+    "year": 2022,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Faridabad",
+    "unit_id": "faridabad:Faridabad",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Gurugram",
+    "unit_id": "gurugram:Gurugram",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Gautambudh Nagar",
+    "unit_id": "gautam-buddh-nagar:Gautambudh Nagar",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Ghaziabad",
+    "unit_id": "ghaziabad:Ghaziabad",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Central",
+    "unit_id": "delhi:Central",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "East",
+    "unit_id": "delhi:East",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "New Delhi",
+    "unit_id": "delhi:New Delhi",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "North",
+    "unit_id": "delhi:North",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "North-East",
+    "unit_id": "delhi:North-East",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "North-West",
+    "unit_id": "delhi:North-West",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Outer",
+    "unit_id": "delhi:Outer",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "South",
+    "unit_id": "delhi:South",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "South-East",
+    "unit_id": "delhi:South-East",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "South-West",
+    "unit_id": "delhi:South-West",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "West",
+    "unit_id": "delhi:West",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Rohini",
+    "unit_id": "delhi:Rohini",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Shahdara",
+    "unit_id": "delhi:Shahdara",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Dwarka",
+    "unit_id": "delhi:Dwarka",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  },
+  {
+    "source_name": "Outer North",
+    "unit_id": "delhi:Outer North",
+    "year": 2024,
+    "reporting_unit": "police district/registration circle",
+    "boundary_id": null,
+    "boundary_verified": false
+  }
+]
