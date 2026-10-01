@@ -211,3 +211,9 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Annual markers are independent of time bands, hidden in sample mode and unsupported crime/year filters; layer can be hidden/re-enabled. MapLibre markers survive theme changes and a geometry fallback also renders them with its existing schematic disclosure. Neighbourhood polygon predictions remain unchanged/empty.
 - Verification: 42 Python tests and 63 frontend tests pass; lint and TypeScript checks pass. Browser visual verification remains pending due the previously recorded URL-policy block. Final production build check recorded below once complete. Next: source/reconcile remaining full-state district categories; obtain finer observed labels, denominators and matching geometry before neighbourhood/time predictions.
 - Final production build and publication/reference validation passed. Existing large lazy MapLibre-chunk warning persists. No screenshots or browser interaction verification claimed for this change.
+
+## Historical map filter follow-up — 2026-10-01
+
+- Historical reference years now appear in the year selector even when production neighbourhood scores are empty; 2024 remains selectable without creating model scores. Sample-mode years exclude historical reference data.
+- Closing/hiding a historical layer or choosing an unsupported filter also closes its selected reference dialog, preventing stale district context from remaining open.
+- Three reference-filter tests, TypeScript, lint and production build pass. No crime data, model metrics or geometry changed. Existing MapLibre bundle warning and browser visual-check limitation persist. Next source/validation milestone remains the full-state Haryana/UP district extraction recorded above.

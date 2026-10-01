@@ -12,7 +12,7 @@ import PlaceSearch from './PlaceSearch';
 import LocationControl from './LocationControl';
 import CrimeRecords from './CrimeRecords';
 import RedZonesSheet from './RedZonesSheet';
-import {loadDistrictPoints,type DistrictPoints} from '../lib/district-points';
+import {loadDistrictPoints,mapRecordYears,type DistrictPoints} from '../lib/district-points';
 const MapView=lazy(()=>import('./MapView'));
 type Props={region:Region;regions:Region[];onRegion:(id:string)=>void;theme:string;lang:string;onJurisdiction:(id:string)=>void};
 export default function MapPage({region,regions,onRegion,theme,lang,onJurisdiction}:Props){
@@ -20,6 +20,7 @@ export default function MapPage({region,regions,onRegion,theme,lang,onJurisdicti
  const [districtPoints,setDistrictPoints]=useState<DistrictPoints>({type:'FeatureCollection',features:[]}),[historical,setHistorical]=useState(true),[districtId,setDistrictId]=useState<string|null>(null);
  const historicalPoints=useMemo(()=>({type:'FeatureCollection' as const,features:!sample&&historical&&crime==='all'?districtPoints.features.filter(f=>(city==='all'||f.properties.cityId===city)&&(year==='all'||String(f.properties.year)===year)):[]}),[sample,historical,year,crime,districtPoints,city]);
  const districtPoint=districtPoints.features.find(f=>f.id===districtId);
+ useEffect(()=>{if(districtId&&!historicalPoints.features.some(f=>f.id===districtId))setDistrictId(null)},[districtId,historicalPoints]);
  const selectDistrict=(id:string)=>{const point=districtPoints.features.find(f=>f.id===id);if(point){setDistrictId(id);setFocus({lng:point.geometry.coordinates[0],lat:point.geometry.coordinates[1]})}};
  useEffect(()=>{const abort=new AbortController();setDistrictPoints({type:'FeatureCollection',features:[]});setDistrictId(null);if(region.districtReferenceFile)fetch(region.districtReferenceFile,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('Historical reference points could not load');return r.json()}).then(loadDistrictPoints).then(d=>{if(!abort.signal.aborted)setDistrictPoints(d)}).catch(()=>{if(!abort.signal.aborted)setMessage('Historical reference points could not load. District records remain available in Evidence.')});return()=>abort.abort()},[region]);
  const [params]=useSearchParams();
@@ -35,7 +36,7 @@ export default function MapPage({region,regions,onRegion,theme,lang,onJurisdicti
  const onSelect=useCallback((r:RiskRecord)=>{setSelected(r);setHelp(false);const p=r.geometry.type==='Polygon'?r.geometry.coordinates[0]:r.geometry.coordinates[0][0];setFocus({lat:p.reduce((s,v)=>s+v[1],0)/p.length,lng:p.reduce((s,v)=>s+v[0],0)/p.length})},[]);
  const onPlace=useCallback((p:{lat:number;lng:number})=>{setFocus(p);const r=records.find(r=>r.boundaryStatus==='verified'&&contains(r,p.lng,p.lat));setSelected(r??null);if(!r)setMessage('No verified neighbourhood coverage at this address. Helplines are still available.')},[records]);
  const cityInfo=region.cities.find(c=>c.id===city);
- const years=[...new Set(records.map(r=>r.year).filter((y):y is number=>y!==null))];
+ const years=mapRecordYears(records,districtPoints,sample);
  const coverage=cityInfo?.coverage??Math.round(region.cities.reduce((s,c)=>s+c.coverage,0)/region.cities.length);
  return <main id="main" className={`explore ${sample?'sample-mode':''} ${selected?'has-details':''}`}>
  <div className="map-canvas">{configured?<MapBoundary key={region.id} onFailure={mapFailure} fallback={null}><Suspense fallback={<div className="map-status"><Skeleton/></div>}><MapView districtPoints={historicalPoints} onDistrictSelect={selectDistrict} key={`${region.id}-${sample}`} region={region} theme={theme} layers={{records:filtered,help:helpFeatures.filter(f=>layers.includes(f.properties.kind)&&(city==='all'||f.properties.cityId===city)),sample}} timeBand={band} day={day} crime={crime} year={year} city={city} selectedId={selected?.id??null} focus={focus} userPosition={userPosition} detailHeight={detailHeight} onFatalError={mapFailure} onSelect={onSelect} onError={setMessage}/></Suspense></MapBoundary>:<MapFallback districtPoints={historicalPoints} onDistrictSelect={selectDistrict} region={region} records={filtered} band={band} day={day} crime={crime} year={year} onSelect={onSelect}/>}</div>

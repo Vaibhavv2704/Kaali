@@ -4,3 +4,7 @@ const feature=z.object({type:z.literal('Feature'),id:z.string(),geometry:z.objec
 const schema=z.object({type:z.literal('FeatureCollection'),features:z.array(feature)}).strict();
 export type DistrictPoints=z.infer<typeof schema>;
 export function loadDistrictPoints(input:unknown){const data=schema.parse(input);if(new Set(data.features.map(f=>f.id)).size!==data.features.length||data.features.some(f=>f.id!==f.properties.id))throw Error('Invalid reference identity');return data}
+/** Historical reference years remain selectable without neighbourhood scores. */
+export function mapRecordYears(records:{year:number|null}[],points:DistrictPoints,sample:boolean){
+ return [...new Set([...records.flatMap(r=>r.year===null?[]:[r.year]),...(sample?[]:points.features.map(f=>f.properties.year))])].sort((a,b)=>b-a);
+}

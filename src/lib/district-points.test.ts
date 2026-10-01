@@ -2,7 +2,7 @@ import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
 const points=JSON.parse(readFileSync(new URL('../../public/data/delhi-ncr/district-reference-points.geojson',import.meta.url),'utf8'));
 import records from '../../public/data/delhi-district-crime.json';
-import {loadDistrictPoints} from './district-points';
+import {loadDistrictPoints,mapRecordYears} from './district-points';
 describe('historical map references',()=>{
  it('retains historical subtotals and source-backed points without assigning boundaries',()=>{
   const data=loadDistrictPoints(points);expect(data.features).toHaveLength(3);
@@ -13,5 +13,11 @@ describe('historical map references',()=>{
  it('rejects danger polygons and duplicate reference identities',()=>{
   expect(()=>loadDistrictPoints({...points,features:[...points.features,points.features[0]]})).toThrow();
   expect(()=>loadDistrictPoints({...points,features:[{...points.features[0],geometry:{type:'Polygon',coordinates:[]}}]})).toThrow();
+ });
+ it('includes historical years without scores and keeps them out of sample mode',()=>{
+  const data=loadDistrictPoints(points);
+  expect(mapRecordYears([],data,false)).toEqual([2024]);
+  expect(mapRecordYears([],data,true)).toEqual([]);
+  expect(mapRecordYears([{year:null},{year:2024}],data,false)).toEqual([2024]);
  });
 });
