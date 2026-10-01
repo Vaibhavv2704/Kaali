@@ -177,3 +177,13 @@ The primary map feed `public/data/delhi-historical-districts.json` uses the orig
 ## Unused geography candidate — 2026-10-02
 
 Public ESRI layer metadata reviewed at https://livingatlas.esri.in/server1/rest/services/NCRB/District_Wise_Crime_Against_Women_2022/MapServer/0 . The URL says 2022 while category fields refer to 2024. Polygon geometry and LGD/Census identifiers do not establish matching Delhi police reporting districts, year continuity or an open redistribution licence. ArcGIS item https://www.arcgis.com/home/item.html?id=15807229ed3342939bfabd8c9606f25e and the two exact item metadata attempts are recorded in ACQUISITION_LOG.md. Reuse metadata could not be verified through the web reader. No file downloaded, receipt hash assigned, numeric record imported or map geometry replaced. Candidate remains excluded rather than being labelled a verified police boundary.
+
+## NCR map source review — 2026-10-02
+
+Reused existing hash-frozen NCRB 2022/2024 workbook TOTAL rows and independently downloaded original report. No new crime file retrieval. NCR publisher verifies all six state/year reconciliations and retains existing acquisition/redistribution limitations. Source hashes/URLs remain in config/counts-v1.json and the existing manifest; output is public/data/ncr-historical-districts.json.
+
+Government locality-context pages reviewed, no statistical files downloaded: https://gurugram.gov.in/ ; https://faridabad.nic.in/public-utility/police-station-nit-faridabad/ ; https://gbnagar.nic.in/contact-us/ ; https://ghaziabad.nic.in/en/police/ . Licence: public government pages, open redistribution licence not asserted. Facts used only for approximate named-place locality context; no verified 2024 district boundary claim. Coordinate data reuse: existing OSM snapshot, ODbL, © OpenStreetMap contributors.
+
+Overpass endpoint https://overpass-api.de/api/interpreter: bounded NCR emergency-facility collection stopped by robots policy before query. No file downloaded; no retrieval date/hash asserted. Receipt sources/ncr-emergency-2026-10-02.json records UTC attempts (local 2026-10-02). Existing partial OSM help snapshot reused, no imaginary fire-station records.
+
+Map style documentation: https://docs.maptiler.com/sdk-js/api/map-styles/ ; https://docs.maptiler.com/cloud/api/maps/ . Reviewed 2026-10-02. MapTiler proprietary service terms/account quotas apply, © MapTiler; styles are not redistributed as open datasets. Detailed light/dark streets and hybrid styles returned HTTP 200 with the locally configured key, which is never stored in audit files.

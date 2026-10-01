@@ -16,3 +16,7 @@ The free-form filenames above are local destinations, not claims that particular
 ### Verified failed link (2026-10-01 follow-up)
 
 The indexed 2021 Volume I link `https://data.opencity.in/dataset/09182f51-d3da-4aa6-b4fe-2b9f636e39d8/resource/b3bbdf99-4679-444c-9d49-880f509141e1/download/cii_2021volume-1.pdf` returned HTTP 404. Its intended local destination was `raw/ncrb/cii-2021-volume-1.pdf`; that file does not exist. The current [2021 catalogue](https://data.opencity.in/dataset/national-crime-data-2021) and [Volume I resource](https://data.opencity.in/dataset/national-crime-data-2021/resource/c14b3e6b-825a-460d-8b3f-03a3f3bf917e) surfaced in discovery but returned 403 to the web reader. Their current download URL was not guessed. A volume report alone may still lack district totals; acquisition would be for primary category/aggregate verification, not automatic model labels.
+
+## NCR emergency refresh — 2026-10-02
+
+Automatic collection from https://overpass-api.de/api/interpreter was blocked by robots policy. If a permitted open OSM export is supplied, place the original file and source/licence/date receipt under data-pipeline/raw/osm/ for parser review. Do not bypass policy or claim an absent refresh. Existing mapped help remains available; fire records are missing. No specific downloadable file URL was verified, so none is guessed.

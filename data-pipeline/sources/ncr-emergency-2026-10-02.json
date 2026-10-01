@@ -1,0 +1,14 @@
+{
+  "sourceUrl": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:50][maxsize:33554432];nwr[amenity~\"^(police|hospital|fire_station)$\"](28.27,76.81,28.91,77.75);out center;",
+  "licence": "ODbL-1.0",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "attemptedAt": "2026-10-01T21:42:40.473413+00:00",
+  "status": "failed",
+  "reason": "ValueError",
+  "policyFollowup": {
+    "checkedAt": "2026-10-01T21:51:53.876098+00:00",
+    "status": "blocked",
+    "reason": "Robots policy disallows automated download"
+  }
+}

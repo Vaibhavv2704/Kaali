@@ -34,3 +34,5 @@ export function loadHistoricalDistricts(input:unknown){
 function validCount(count:number){if(!Number.isFinite(count)||count<0)throw Error('Invalid count');}
 export function districtDiameter(count:number|null){if(count===null)return null;validCount(count);return 22+Math.sqrt(count/1500)*30}
 export function districtBand(count:number|null){if(count===null)return 'unknown';validCount(count);return count<500?'pale':count<1000?'medium':'strong'}
+
+export {record as historicalRecordSchema,validateCategoryChecks};
