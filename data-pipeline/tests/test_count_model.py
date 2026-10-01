@@ -3,6 +3,7 @@ import sys
 import json
 import unittest
 import tempfile
+import csv
 from unittest.mock import patch
 from pathlib import Path
 import pandas as pd
@@ -11,9 +12,30 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from count_model import (count, assert_split, downscale, scores, bucket,
                          smooth_history, night_context, time_values, normalise_head, validate_export, evidence_confidence)
 from train_count_model import ROOT, observations, examples, independent_report_check, bootstrap_forecast_intervals, prepare_features
+from count_model_docs import update_manifest
 
 
 class CountModelTests(unittest.TestCase):
+    def test_retraining_preserves_followup_acquisitions_and_annotations(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder)/'manifest.csv'
+            with path.open('w', newline='') as stream:
+                writer = csv.DictWriter(stream, fieldnames=['path', 'download_url', 'status', 'annotation'])
+                writer.writeheader()
+                writer.writerows([{'path': 'fixture', 'download_url': '', 'status': 'old', 'annotation': 'keep'},
+                                  {'path': 'failed-fixture', 'download_url': 'https://example.invalid/file',
+                                   'status': 'unavailable', 'annotation': 'failed attempt fixture'}])
+            entries = [{'path': 'fixture', 'download_url': '', 'status': 'updated'}]
+            update_manifest(path, entries)
+            first = path.read_bytes()
+            update_manifest(path, entries)
+            self.assertEqual(first, path.read_bytes())
+            with path.open(newline='') as stream: rows = list(csv.DictReader(stream))
+            self.assertEqual(len(rows), 2)
+            self.assertEqual(rows[0]['annotation'], 'keep')
+            self.assertEqual(rows[0]['status'], 'updated')
+            self.assertEqual(rows[1]['status'], 'unavailable')
+
     def test_blank_is_missing_and_zero_is_observed(self):
         self.assertIsNone(count(''))
         self.assertIsNone(count(None))

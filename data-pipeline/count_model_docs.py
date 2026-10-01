@@ -5,6 +5,30 @@ from pathlib import Path
 import numpy as np
 
 
+def update_manifest(path, entries):
+    """Refresh reproducible input receipts without erasing later acquisitions."""
+    previous = []
+    fields = list(entries[0])
+    if path.exists():
+        with path.open(encoding='utf-8', newline='') as stream:
+            reader = csv.DictReader(stream)
+            previous = list(reader)
+            fields = list(dict.fromkeys([*(reader.fieldnames or []), *fields]))
+    def key(row):
+        return row.get('path', ''), row.get('download_url', '')
+    replacements = {key(row): row for row in entries}
+    merged = []
+    for row in previous:
+        new = replacements.pop(key(row), None)
+        # Preserve free-form annotations and supplied metadata when the
+        # generated receipt has no known value. Do not invent verification.
+        merged.append({**row, **{k: v for k, v in (new or {}).items() if v != ''}})
+    merged.extend(replacements.values())
+    with path.open('w', encoding='utf-8', newline='') as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields)
+        writer.writeheader(); writer.writerows(merged)
+
+
 def write_docs(root, rows, report, config):
     analysis = root.parent/'analysis'
     analysis.mkdir(exist_ok=True)
@@ -146,9 +170,7 @@ The learned fits are whole-district retrospective transfer tests. Persistence ha
                     'retrieval_date': s['retrievedAt'], 'observed_local_date': '', 'sha256': s['sha256'],
                     'licence': s['licenceDeclared'], 'status': 'previous_automatic_download',
                     'usage': 'independent state/UT total reconciliation, Table 3A.1'})
-    with manifest.open('w', encoding='utf-8', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(entries[0]))
-        writer.writeheader(); writer.writerows(entries)
+    update_manifest(manifest, entries)
 
 
 if __name__ == '__main__':

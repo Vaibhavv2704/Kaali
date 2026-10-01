@@ -1,0 +1,13 @@
+{
+  "id": "ncrb-2021-volume-1-opencity",
+  "url": "https://data.opencity.in/dataset/09182f51-d3da-4aa6-b4fe-2b9f636e39d8/resource/b3bbdf99-4679-444c-9d49-880f509141e1/download/cii_2021volume-1.pdf",
+  "path": "ncrb/cii-2021-volume-1.pdf",
+  "publisher": "NCRB Crime in India 2021; OpenCity public mirror",
+  "discovery": "Public search exposed the exact PDF link; no numbers taken from snippets",
+  "catalogue": "https://data.opencity.in/dataset/national-crime-data-2021",
+  "licence": "Government publication; OpenCity 2021 catalogue declares Other (Public Domain), but exact resource metadata was not reachable (403); review before redistribution",
+  "purpose": "Check original earlier-year category hierarchy and aggregate totals; not automatically a district-total training label",
+  "attemptedAt": "2026-10-01T15:47:20.329253+00:00",
+  "status": "unavailable",
+  "reason": "HTTPError: 404 Client Error: NOT FOUND for url: https://data.opencity.in/dataset/09182f51-d3da-4aa6-b4fe-2b9f636e39d8/resource/b3bbdf99-4679-444c-9d49-880f509141e1/download/cii_2021volume-1.pdf"
+}

@@ -17,3 +17,10 @@ Previously recorded direct NCRB/data.gov.in automated collection encountered rob
 ## Evidence still required
 
 See MANUAL_DOWNLOADS.md. No extra API key or paid service is required to reproduce the completed counts-only experiment. Missing source URLs remain blank in the manifest, not invented. Reuse/publication clearance and matching geography are separate from ability to train a retrospective count ablation.
+
+## Earlier-year discovery follow-up — 2026-10-01
+
+- Public discovery found an exact older OpenCity NCRB 2021 Volume I PDF link and a current National Crime Data 2021 catalogue. The catalogue/resource pages returned HTTP 403 through the web reader. No login or access-control workaround attempted.
+- The previously indexed, explicit PDF URL was tested using the existing bounded, robots-aware downloader at `2026-10-01T15:47:20.329253+00:00`; it returned HTTP 404. No PDF was retrieved, no SHA-256/retrieval date assigned, and no numbers taken from search snippets. Exact attempted URL, failure and declared licence caveat are retained in `reports/counts-v1/acquisition-followup.json`, `config/counts-history-downloads.json` and `manifest.csv`.
+- Searches did not reveal a verified original 2020/2021 district-total workbook URL. Existing incomplete mirror heads remain excluded from total-count labels. Training inputs, metrics, risk exports and app files unchanged.
+- Fixed receipt maintenance so retraining preserves later successful/failed acquisition rows and free-form manifest annotations rather than overwriting the log. Regression test added.
