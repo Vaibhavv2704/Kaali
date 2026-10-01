@@ -247,3 +247,8 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - District loader now recomputes source parent/child checks only to validate discrepancy disclosures: it refuses omitted, duplicated or altered comparisons, special units substituted for geographic districts, and invalid numeric display bands. It never repairs measured category values or headline totals. Missing values remain missing.
 - Reviewed public ESRI NCRB layer metadata; LGD/Census district fields and polygon geometry do not prove matching police reporting units. Item reuse metadata was unavailable through the reader. Candidate excluded; exact reviewed URLs and limitations in ACQUISITION_LOG.md. No new crime file, boundary, licence or data value asserted.
 - Updated NEXT_STEPS.md to distinguish the completed historical circles and trained counts-only research from still-unavailable neighbourhood/time safety estimates. Nine targeted district tests, lint, TypeScript and production build pass. Existing lazy MapLibre chunk warning persists. Browser visual QA remains pending under the recorded URL-policy restriction. No app layout or measured data changed.
+
+## Publication validation coverage — 2026-10-02
+
+- Included the new historical district feed in the existing `validate:data` command, using the same client loader and discrepancy checks. The publication gate now covers recorded district totals as well as the older mirror extract, risk, news, offenders and district references.
+- Full publication validation and script lint pass. No crime values, model artifacts, map geometry or UI changed; existing untracked artifacts preserved. Source-provenance, matching geography/context and browser visual-review gaps remain unchanged.
