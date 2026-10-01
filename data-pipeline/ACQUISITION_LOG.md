@@ -24,3 +24,9 @@ See MANUAL_DOWNLOADS.md. No extra API key or paid service is required to reprodu
 - The previously indexed, explicit PDF URL was tested using the existing bounded, robots-aware downloader at `2026-10-01T15:47:20.329253+00:00`; it returned HTTP 404. No PDF was retrieved, no SHA-256/retrieval date assigned, and no numbers taken from search snippets. Exact attempted URL, failure and declared licence caveat are retained in `reports/counts-v1/acquisition-followup.json`, `config/counts-history-downloads.json` and `manifest.csv`.
 - Searches did not reveal a verified original 2020/2021 district-total workbook URL. Existing incomplete mirror heads remain excluded from total-count labels. Training inputs, metrics, risk exports and app files unchanged.
 - Fixed receipt maintenance so retraining preserves later successful/failed acquisition rows and free-form manifest annotations rather than overwriting the log. Regression test added.
+
+## Historical map integration — 2026-10-01
+
+- Read the actual public Delhi Police district directory at https://yuva.delhipolice.gov.in/contact-us.html through the web reader. Matched public station/locality names to district labels. No staff contact data or page body retained; no new downloaded file or file hash assigned to this page review. Directory terms/open licence not established.
+- Reused frozen original 2024 district workbook, independently downloaded NCRB report and original OSM help snapshot. No new crime file downloaded, no new acquisition date inferred. The publisher verifies hashes, original-report reconciliation, all 15 identities, reference geometry and Delhi NCT containment.
+- Published 2024 recorded totals/category cells and approximate district reference places. Geographic total 13,230 plus separately excluded special units 166 equals Delhi UT 13,396. These are historical recorded volumes, without safety scores, inferred neighbourhood counts, danger radii or fabricated district polygons.
