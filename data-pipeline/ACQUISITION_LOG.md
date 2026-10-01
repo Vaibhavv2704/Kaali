@@ -46,3 +46,9 @@ Emergency refresh: https://overpass-api.de/api/interpreter, bounded query and re
 ## Police-jurisdiction source discovery — 2026-10-02
 
 Reviewed https://dmsouthwest.delhi.gov.in/jurisdiction-maps-of-district/ through the web reader. The District South West government page explicitly labels maps for Police District West, South West and Dwarka, and reports a page update of September 1, 2026. That date does not establish the maps' reporting year or compatibility with NCRB 2024 units. The reader exposed headings but no geometry/download links. A policy-aware attempt to obtain the HTML for exact image/link discovery stopped because robots policy could not be read. No file or geometry was acquired; no alternative-host bypass attempted. Byte-acquisition audit: raw/acquisition-audits/ (URL-hash receipt). Candidate remains unverified for allocation, and no app/map data changed.
+
+## Supplied-context preparation — 2026-10-02
+
+Read original workspace locality/population/traffic files, preserving originals; Desktop paths absent. Exact 23 hashes/byte sizes and 20 traffic-date/coverage summaries in sources/supplied-locality-context.json. Swapped coordinates corrected in memory. 153 accepted locality references; 78 with historical probe matches, six density matches, 73 population matches. Ward name matches are not spatial joins. No local crime label or district allocation added. No new crime download.
+
+Policy-aware MapTiler public client mapstyle.ts download succeeded; original raw receipt stores retrieval timestamp/hash under raw/acquisition-audits. Parsed 43 metadata variants without explicit active deprecation flags. Full methodology: SUPPLIED_CONTEXT_REPORT.md.

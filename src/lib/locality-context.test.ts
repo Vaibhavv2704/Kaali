@@ -1,0 +1,13 @@
+import {describe,it,expect} from 'vitest';
+import data from '../../public/data/delhi-ncr/locality-context.json';
+import {localitySchema,activityScenario,contextCells,currentPeriod,nearestReference,locationAdvice} from './locality-context';
+describe('supplied locality context',()=>{
+ const context=localitySchema.parse(data);
+ it('keeps missing crime labels and uses actual traffic matches',()=>{expect(context.records).toHaveLength(153);expect(context.records.filter(r=>r.trafficSegments>0)).toHaveLength(78);expect(context.records.every(r=>r.reportedCases===null)).toBe(true);expect(context.records.filter(r=>r.density!==null)).toHaveLength(6);});
+ it('preserves missing traffic as unknown rather than zero',()=>{const r=context.records.find(r=>r.traffic.weekday.some(v=>v===null))!;const band=r.traffic.weekday.indexOf(null);expect(activityScenario(r,band,'weekday')).toBeNull();expect(()=>localitySchema.parse({...data,records:[{...data.records[0],reportedCases:99}]})).toThrow();});
+ it('has bounded assumed scores and leaves crime counts unchanged',()=>{for(const r of context.records)for(let band=0;band<6;band++){const value=activityScenario(r,band,'weekend');if(value!==null){expect(value).toBeGreaterThanOrEqual(0);expect(value).toBeLessThanOrEqual(100);}expect(r.reportedCases).toBeNull();}});
+ it('uses IST across a UTC midnight boundary',()=>{expect(currentPeriod(new Date('2026-10-02T20:00:00Z'))).toEqual({band:0,day:'weekend'});});
+ it('does not stack opacity when supplied references share a grid cell',()=>{expect(contextCells(context.records,5,'weekday').features).toHaveLength(129);expect(contextCells([],5,'weekday').features).toHaveLength(0);});
+ it('uses source density only when matched and never fabricates it from ward population',()=>{expect(context.records.filter(r=>r.population!==null)).toHaveLength(73);const r=context.records.find(x=>x.density!==null&&x.traffic.weekday[5]!==null);if(r){expect(activityScenario(r,5,'weekday',context.records)).toBeLessThanOrEqual(activityScenario(r,5,'weekday')!);}expect(context.records.some(r=>r.population!==null&&r.density===null)).toBe(true);});
+ it('labels nearest points as references and refuses distant assignment',()=>{const r=context.records[0];expect(nearestReference({lng:r.coordinates[0],lat:r.coordinates[1],accuracy:20},context.records)?.km).toBe(0);expect(nearestReference({lng:72.8,lat:19,accuracy:20},context.records)).toBeNull();expect(locationAdvice(context.records.find(x=>x.traffic.weekday[5]!==null)!,5)).toContain('not live traffic');expect(locationAdvice(r,5)).toContain('Local crime counts');expect(locationAdvice(null,0)).not.toContain('avoid going outdoors');});
+});

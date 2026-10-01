@@ -191,3 +191,9 @@ Map style documentation: https://docs.maptiler.com/sdk-js/api/map-styles/ ; http
 ### Police-jurisdiction candidate review — 2026-10-02
 
 Source: https://dmsouthwest.delhi.gov.in/jurisdiction-maps-of-district/ . Government District South West Delhi page, public reader review only, headings West/South West/Dwarka. Licence: government website, open reuse licence not asserted. Page update September 1, 2026 is not the geometry's effective date. Policy-aware HTML acquisition failed because robots policy was unreadable; no retrieved file, SHA-256 or matching police polygon asserted. Candidate not used in map/allocation.
+
+## Supplied context — 2026-10-02
+
+User-provided local copies: delhi_neighbour.csv; population density wardwise 1.csv; population density wardwise 2.csv; new_delhi_traffic_dataset/probe_counts/geojson/ (20 August 2024 daily files). External source URL, licence and retrieval date not supplied; no official/population year provenance inferred. Exact 23 original-file SHA-256/byte sizes are recorded in sources/supplied-locality-context.json. Traffic README attribution: Ryan Madhuwala (RAW), Garudex Labs. Sampling is road probes, not pedestrians/live traffic/crime. Full joins and limits: SUPPLIED_CONTEXT_REPORT.md. Redistribution terms require review.
+
+MapTiler client metadata: https://raw.githubusercontent.com/maptiler/maptiler-client-js/refs/heads/main/src/mapstyle.ts ; retrieved through policy-aware downloader on local 2026-10-02. Raw acquisition receipt saves UTC timestamp/hash; src/data/map-catalog.json retains URL/hash and 43 variants. Metadata only; proprietary map-service terms/account access still apply. Documentation: https://docs.maptiler.com/sdk-js/api/map-styles/ . No tile bulk download or entitlement to every private/custom style asserted.

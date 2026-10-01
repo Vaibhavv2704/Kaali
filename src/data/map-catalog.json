@@ -1,0 +1,179 @@
+{
+  "sourceUrl": "https://raw.githubusercontent.com/maptiler/maptiler-client-js/refs/heads/main/src/mapstyle.ts",
+  "reviewedAt": "2026-10-02",
+  "sha256": "fb1843f9ea7f4b0bf4a4ec04bfbff62b090d856ee3347bdd50b1b8df725e8903",
+  "styles": [
+    {
+      "id": "streets-v4",
+      "label": "Streets V4"
+    },
+    {
+      "id": "streets-v4-dark",
+      "label": "Streets V4 Dark"
+    },
+    {
+      "id": "streets-v4-pastel",
+      "label": "Streets V4 Pastel"
+    },
+    {
+      "id": "base-v4",
+      "label": "Base V4"
+    },
+    {
+      "id": "base-v4-dark",
+      "label": "Base V4 Dark"
+    },
+    {
+      "id": "base-v4-light",
+      "label": "Base V4 Light"
+    },
+    {
+      "id": "base-v4-ai",
+      "label": "Base V4 Ai"
+    },
+    {
+      "id": "winter-v2",
+      "label": "Winter V2"
+    },
+    {
+      "id": "winter-v2-dark",
+      "label": "Winter V2 Dark"
+    },
+    {
+      "id": "winter-v4",
+      "label": "Winter V4"
+    },
+    {
+      "id": "winter-v4-dark",
+      "label": "Winter V4 Dark"
+    },
+    {
+      "id": "hybrid",
+      "label": "Hybrid"
+    },
+    {
+      "id": "hybrid-v4",
+      "label": "Hybrid V4"
+    },
+    {
+      "id": "hybrid-v4-dark",
+      "label": "Hybrid V4 Dark"
+    },
+    {
+      "id": "basic-v2-dark",
+      "label": "Basic V2 Dark"
+    },
+    {
+      "id": "bright-v2",
+      "label": "Bright V2"
+    },
+    {
+      "id": "bright-v2-dark",
+      "label": "Bright V2 Dark"
+    },
+    {
+      "id": "bright-v2-light",
+      "label": "Bright V2 Light"
+    },
+    {
+      "id": "bright-v2-pastel",
+      "label": "Bright V2 Pastel"
+    },
+    {
+      "id": "openstreetmap",
+      "label": "Openstreetmap"
+    },
+    {
+      "id": "openstreetmap-dark",
+      "label": "Openstreetmap Dark"
+    },
+    {
+      "id": "landscape-v4",
+      "label": "Landscape V4"
+    },
+    {
+      "id": "landscape-v4-dark",
+      "label": "Landscape V4 Dark"
+    },
+    {
+      "id": "landscape-v4-vivid",
+      "label": "Landscape V4 Vivid"
+    },
+    {
+      "id": "satellite-v4",
+      "label": "Satellite V4"
+    },
+    {
+      "id": "satellite-v4-dark",
+      "label": "Satellite V4 Dark"
+    },
+    {
+      "id": "dataviz-v4",
+      "label": "Dataviz V4"
+    },
+    {
+      "id": "dataviz-v4-dark",
+      "label": "Dataviz V4 Dark"
+    },
+    {
+      "id": "dataviz-v4-light",
+      "label": "Dataviz V4 Light"
+    },
+    {
+      "id": "outdoor-v4",
+      "label": "Outdoor V4"
+    },
+    {
+      "id": "outdoor-v4-dark",
+      "label": "Outdoor V4 Dark"
+    },
+    {
+      "id": "backdrop-v4",
+      "label": "Backdrop V4"
+    },
+    {
+      "id": "backdrop-v4-dark",
+      "label": "Backdrop V4 Dark"
+    },
+    {
+      "id": "backdrop-v4-light",
+      "label": "Backdrop V4 Light"
+    },
+    {
+      "id": "aquarelle-v4",
+      "label": "Aquarelle V4"
+    },
+    {
+      "id": "aquarelle-v4-dark",
+      "label": "Aquarelle V4 Dark"
+    },
+    {
+      "id": "aquarelle-v4-vivid",
+      "label": "Aquarelle V4 Vivid"
+    },
+    {
+      "id": "ocean-v4",
+      "label": "Ocean V4"
+    },
+    {
+      "id": "ocean-v4-dark",
+      "label": "Ocean V4 Dark"
+    },
+    {
+      "id": "topo-v4",
+      "label": "Topo V4"
+    },
+    {
+      "id": "topo-v4-dark",
+      "label": "Topo V4 Dark"
+    },
+    {
+      "id": "topo-v4-pastel",
+      "label": "Topo V4 Pastel"
+    },
+    {
+      "id": "topo-v4-topographique",
+      "label": "Topo V4 Topographique"
+    }
+  ]
+}
