@@ -180,3 +180,21 @@ Before fitting, run `python data-pipeline/train.py --input PATH_TO_REVIEWED_CSV 
 Use `python data-pipeline/predict.py --region delhi-ncr --model MODEL.joblib --features FEATURES.csv --boundaries BOUNDARIES.geojson --release-review REVIEW.json`. The review binds file hashes as described in MODEL_CARD.md. Output stays in ignored staging; it never overwrites public risk data. Complete model evaluation, calibration, source review and publication-schema validation before copying the result into the configured region file. No production model is currently available.
 
 See [next steps and your input](NEXT_STEPS.md) for the current handoff. Runtime checks now pass; real observation/exposure data remain the main prediction blocker.
+
+### Delhi historical district map
+
+The primary route `/` displays 15 Delhi police districts' **2024 recorded totals**, with district search on the left and selected categories/source notes on the right. On mobile, selection opens a non-modal details sheet. `/methodology` explains the scope; `/helplines` retains official emergency contacts. The previous neighbourhood experience remains available at `/neighbourhoods`, and `/evidence` retains its separate mirror extracts.
+
+Circle diameter is `22 + sqrt(caseCount / 1500) * 30` screen pixels. Under 500 cases is pale red, 500–999 medium red and 1,000+ strong red. These are display choices, not NCRB danger classifications. Counts describe historical reporting, not current safety, victims, incident coordinates or neighbourhood forecasts.
+
+The new feed uses the existing original-titled NCRB 2024 workbook's explicit total column: geographic police districts **13,230**, separately reported special units **166**, combined Delhi UT **13,396**. It preserves all 64 source heads/components and blanks. Parent totals and components are never added into the headline total. Stalking inconsistencies remain visible. The earlier mirror's calculated subtotals are not interchangeable with these original total cells.
+
+Reproduce the feed, with the checksum-reviewed local inputs present:
+
+```sh
+python data-pipeline/publish_historical_map.py
+```
+
+Inputs and receipts: `data-pipeline/config/counts-v1.json`, `data-pipeline/config/phase1-inputs.json`, `data-pipeline/sources/delhi-district-2024-receipt.json`, the reviewed OSM help snapshot and Delhi NCT outline. Output: `public/data/delhi-historical-districts.json`. The publisher checks workbook and OSM hashes, original-report state totals, reference identities/geometry, and whether references lie within Delhi NCT. The client rejects missing category scope or inconsistent totals; tests verify the exact diameter/bands and missing-value handling.
+
+Matching police-district boundaries are unavailable. Each circle uses an approximate public-place reference from OSM linked to a station/locality in the [Delhi Police directory](https://yuva.delhipolice.gov.in/contact-us.html), reviewed 2026-10-01. These are not verified district centroids, 2024 boundary assignments or danger radii. © OpenStreetMap contributors (ODbL); © MapTiler. The original workbook's acquisition URL/date are unknown and its redistribution terms need review before publishing; the independently downloaded report's receipt remains available. No new crime download or source licence is claimed for this map integration.
