@@ -28,7 +28,7 @@ NCRB and data.gov.in were investigated first. Their live automated-access checks
    [Download NCRB PDF from OpenCity](https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf)
    SHA-256: `75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c`.
 
-All were retrieved on 2026-10-01 UTC. The receipt distinguishes browser file-creation timestamps from HTTP retrieval timestamps. India Data Portal declares **No License Provided**; do not infer the Government Open Data Licence from its attribution to NCRB. OpenCity declares **Other (Public Domain)** for its report resource. These are attributed research outputs, not a new public-app feed; the mirror's redistribution licence remains unconfirmed.
+All were retrieved on 2026-10-01 UTC. The receipt distinguishes browser file-creation timestamps from HTTP retrieval timestamps. India Data Portal declares **No License Provided**; do not infer the Government Open Data Licence from its attribution to NCRB. OpenCity declares **Other (Public Domain)** for its report resource. The app now displays an attributed Delhi-only factual extract, retaining the discrepancy and unspecified-licence disclosures. No open redistribution licence is asserted. The full India CSV and original report remain private raw downloads.
 
 ## Filtering and reporting units
 
@@ -103,6 +103,8 @@ From the repository root, put the three unchanged downloads at the exact raw pat
 ```
 
 Use `--output <directory>` to choose another output folder. A changed hash, changed category schema, invalid count, duplicate/unknown unit or failed official PDF hierarchy check stops extraction. Output is deterministic and local; no web scraping, victim information or imputation occurs during extraction.
+
+For the app feed, run `.venv/Scripts/python.exe data-pipeline/publish_delhi_districts.py`. It independently checks the same original hashes and PDF hierarchy, then writes only the Delhi 2024 records and reconciliation to `public/data/delhi-district-crime.json`. The app validates identities, subtotals, missing cells and aggregate comparisons before displaying them. It never attaches these counts to map neighbourhoods or prediction scores.
 
 These are historical recorded volumes, affected by reporting, registration practice, legal definitions and coverage. They do not establish current danger, a neighbourhood rate, individual safety, or a predictive target at neighbourhood/time-band resolution. No offender, photo or incident location is derived from aggregate tables.
 

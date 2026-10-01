@@ -5,6 +5,7 @@ import type {NewsReference} from '../lib/news';
 import {fetchHomeRecords,homeRecords} from '../lib/home-records';
 import {bands} from '../lib/risk';
 import {Button,Sheet} from './ui';
+import DistrictRecords from './DistrictRecords';
 
 export default function CrimeRecords({region,city}:{region:Region;city:string}){
  const [context,setContext]=useState<CrimeContext|null>(null),[news,setNews]=useState<NewsReference[]>([]),[open,setOpen]=useState(false),[locality,setLocality]=useState<string|null>(null),[error,setError]=useState(false),[newsError,setNewsError]=useState(false);
@@ -13,7 +14,7 @@ export default function CrimeRecords({region,city}:{region:Region;city:string}){
  const {latest,reports}=homeRecords(context,news,region.id,city);
  const localities=[...new Set(reports.flatMap(r=>'event' in r?[r.event.locality]:[]))];
  const events=reports.filter(r=>'event' in r&&r.event.locality===locality);
- return <section className="home-crime-records" aria-label="Available crime records"><h2>Available crime records</h2>
+ return <>{region.cities.filter(c=>c.districtCrimeFile&&(city==='all'||city===c.id)).map(c=><DistrictRecords key={c.id} compact file={c.districtCrimeFile!} cityName={c.name} regionId={region.id} cityId={c.id}/>)}<section className="home-crime-records" aria-label="Available crime records"><h2>City-wide records · earlier series</h2>
  {latest.map(r=><p key={r.id}><strong>{r.count.toLocaleString('en-IN')}</strong> reported cases<br/><small>{r.reportingArea} · {r.year} · NCRB</small></p>)}
  {!latest.length&&<p>{error?'Records could not load. Try reloading the page.':context?'Coverage expanding for this city.':'Loading records…'}</p>}
  <Button variant="secondary" onClick={()=>setOpen(true)}>Crime breakdown & localities</Button>
@@ -30,5 +31,5 @@ export default function CrimeRecords({region,city}:{region:Region;city:string}){
  {!newsError&&!localities.length&&<p>Locality coverage is expanding.</p>}
  {locality&&<section aria-live="polite"><h3>{locality}</h3><p>{events.length} reviewed event reference{events.length===1?'':'s'}. This is the collection count, not the locality’s total crimes.</p>{events.map(r=>'event' in r&&<article key={r.id}><h4>{r.event.category} · reported allegation</h4><p>{r.event.date??'Date unspecified'} · {r.event.timeBand===null?'Time unspecified':bands[r.event.timeBand]+' IST'}</p>{r.event.dateBasis==='day-month-with-publication-year'&&<small>Year inferred from publication context.</small>}<p><a href={r.url} target="_blank" rel="noreferrer">{r.headline} ↗</a></p></article>)}</section>}
  <p><a href="/evidence">All sources and notable cases ↗</a></p>
- </Sheet></section>;
+ </Sheet></section></>;
 }

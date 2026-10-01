@@ -58,7 +58,7 @@
     "The 2024 mirror combined subtotal differs from the NCRB Delhi UT total. Preserve the discrepancy and do not allocate it to districts.",
     "Registration circles are the reporting units. Administrative district columns are retained verbatim and must not be used as a boundary crosswalk.",
     "No verified police-district geometry, neighbourhood counts, time-of-day observations or exposure denominators are attached.",
-    "The mirror declares no licence. These attributed research extracts are not loaded into the public app; redistribution rights remain unconfirmed.",
+    "The mirror declares no licence. The app displays an attributed Delhi-only factual extract and retains the unspecified-licence disclosure; no open redistribution licence is asserted.",
     "2024 includes both IPC and BNS reporting. Principal Offence Rule means these are recorded primary crime heads, not all allegations in every case."
   ]
 }

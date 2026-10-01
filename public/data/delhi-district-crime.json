@@ -1,70 +1,14 @@
 {
-  "reportingYear": 2024,
-  "retrievalDate": "2026-10-01",
-  "sources": [
-    {
-      "id": "idp-candidate-2017-2022",
-      "publisher": "India Data Portal mirror; catalog attributes extraction to NCRB",
-      "resourceUrl": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/c8d3ea7e-4855-45f3-9c26-557419e93b6a",
-      "downloadUrl": "https://ckandev.indiadataportal.com/dataset/e311a510-ce48-4f4c-baf6-0ec5f9278285/resource/c8d3ea7e-4855-45f3-9c26-557419e93b6a/download/districtwise-crime-against-women-2017-onwards.csv",
-      "localPath": "raw/india-data-portal/districtwise-crime-against-women-2017-onwards.csv",
-      "bytes": 788976,
-      "sha256": "cc18f80b56b4555c15f96d17f0aef3ab1acaecbd87b7533de4a56683107c66cc",
-      "retrievalDate": "2026-10-01",
-      "downloadFileCreatedUtc": "2026-10-01T10:25:19.6383882Z",
-      "acquisition": "Public browser Download link, no login or access bypass. Timestamp is local download file creation, not an HTTP server timestamp.",
-      "licenceDeclared": "No License Provided",
-      "catalogDataLastUpdated": "2024-11-21",
-      "catalogMetadataLastUpdated": "2026-07-17",
-      "actualRowYears": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022
-      ],
-      "rowCount": 5322
-    },
-    {
-      "id": "idp-2024",
-      "publisher": "India Data Portal mirror; catalog attributes extraction to NCRB",
-      "resourceUrl": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/d8bda878-37a7-4320-8413-36d741bd9b27",
-      "downloadUrl": "https://ckandev.indiadataportal.com/dataset/e311a510-ce48-4f4c-baf6-0ec5f9278285/resource/d8bda878-37a7-4320-8413-36d741bd9b27/download/districtwise-crime-against-women-2024-onwards.csv",
-      "localPath": "raw/india-data-portal/districtwise-crime-against-women-2024-onwards.csv",
-      "bytes": 154697,
-      "sha256": "9e2743fe8a40c08bb36dfa805834d785b5124a271f60b2d0a572e87677bb324f",
-      "retrievalDate": "2026-10-01",
-      "downloadFileCreatedUtc": "2026-10-01T10:27:56.2594736Z",
-      "acquisition": "Public browser Download link, no login or access bypass. Timestamp is local download file creation, not an HTTP server timestamp.",
-      "licenceDeclared": "No License Provided",
-      "catalogDataLastUpdated": "2026-09-29",
-      "catalogMetadataLastUpdated": "2026-09-29",
-      "catalogExtractionSource": "NCRB",
-      "actualRowYears": [
-        2024
-      ],
-      "rowCount": 964
-    },
-    {
-      "id": "ncrb-2024-volume-1",
-      "publisher": "National Crime Records Bureau, Crime in India 2024, Volume I; OpenCity file mirror",
-      "officialCatalogUrl": "https://www.ncrb.gov.in/crime-in-india.html",
-      "resourceUrl": "https://data.opencity.in/dataset/crime-in-india-2024/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8",
-      "downloadUrl": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
-      "localPath": "raw/ncrb/vol1-crimeinindia2024.pdf",
-      "bytes": 17795140,
-      "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c",
-      "retrievalDate": "2026-10-01",
-      "retrievedAt": "2026-10-01T10:29:52.292112+00:00",
-      "acquisition": "Bounded HTTPS download with live robots check; public_download.py acquisition audit 541c8d15bac2cc63.json. Ten-second crawl delay respected.",
-      "licenceDeclared": "OpenCity catalog: Other (Public Domain); original NCRB government publication",
-      "tables": [
-        "3A.1 (printed page 281 / PDF page 327)",
-        "3A.2 (printed pages 282\u2013309 / PDF pages 328\u2013355)"
-      ]
-    }
-  ],
+  "schemaVersion": 1,
+  "regionId": "delhi-ncr",
+  "cityId": "delhi",
+  "year": 2024,
+  "retrievedAt": "2026-10-01",
+  "sourceUrl": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/d8bda878-37a7-4320-8413-36d741bd9b27",
+  "downloadUrl": "https://ckandev.indiadataportal.com/dataset/e311a510-ce48-4f4c-baf6-0ec5f9278285/resource/d8bda878-37a7-4320-8413-36d741bd9b27/download/districtwise-crime-against-women-2024-onwards.csv",
+  "sha256": "9e2743fe8a40c08bb36dfa805834d785b5124a271f60b2d0a572e87677bb324f",
+  "officialUrl": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+  "licence": "India Data Portal: No License Provided. NCRB report mirror: Other (Public Domain).",
   "formulas": {
     "calculated_rape_subtotal": [
       "rape_women",
@@ -383,21 +327,6 @@
     "status": "unresolved_discrepancy",
     "limitation": "Aggregate agreement cannot validate individual district cells, boundaries or completeness. Do not distribute the discrepancy to districts."
   },
-  "categoryNotes": {
-    "kidnapping_abduction_women": "Section 137/138 BNS or 363 IPC leaf, not the parent total.",
-    "protection_children_sexual_violence_pocso": "Sections 4 & 6 leaf, not total POCSO.",
-    "pocso_10": "Source shorthand for sections 8 & 10.",
-    "assault_outrage_modesty_women": "Section 74 BNS / 354 IPC adult leaf; separate from harassment, disrobing, voyeurism and stalking."
-  },
-  "limitations": [
-    "Historical registered case counts, not victim counts, current danger, rates or validated safety scores.",
-    "India Data Portal attributes its CSV to NCRB, but its district cells are secondary-source data; the original district workbook was not obtained.",
-    "The 2024 mirror combined subtotal differs from the NCRB Delhi UT total. Preserve the discrepancy and do not allocate it to districts.",
-    "Registration circles are the reporting units. Administrative district columns are retained verbatim and must not be used as a boundary crosswalk.",
-    "No verified police-district geometry, neighbourhood counts, time-of-day observations or exposure denominators are attached.",
-    "The mirror declares no licence. The app displays an attributed Delhi-only factual extract and retains the unspecified-licence disclosure; no open redistribution licence is asserted.",
-    "2024 includes both IPC and BNS reporting. Principal Offence Rule means these are recorded primary crime heads, not all allegations in every case."
-  ],
   "records": [
     {
       "district_name": "Central",

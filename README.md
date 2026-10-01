@@ -1,5 +1,13 @@
 # Kaali
 
+## Delhi historical police-district records
+
+Home → **Explore police districts**, or `/evidence` → Delhi, displays the sourced 2024 reporting-circle extract: 15 geographic police districts and eight separately grouped special units. Selecting a unit shows its calculated recorded-head subtotal, selected category groups and all 49 original head counts. Missing values remain unavailable, never zero. The screen retains the 13,295 mirror versus 13,396 NCRB reconciliation and its 101 adult-stalking difference; these are historical recorded volumes, not safety scores. No district count is assigned to a map neighbourhood.
+
+Reproduce the research files with `python data-pipeline/extract_delhi_districts.py`, then the app feed with `python data-pipeline/publish_delhi_districts.py`. Both require the original hash-matching CSV/PDF downloads documented in `data-pipeline/reports/delhi-districts/METHODOLOGY.md`. The full India downloads stay in ignored raw storage. The Delhi-only factual feed keeps source attribution and the mirror's **No License Provided** disclosure.
+
+To configure another city's reviewed district feed, add `districtCrimeFile` to that city's entry in `public/data/regions.json`. Its JSON must pass `loadDistrictCrime` and match the configured region/city IDs. Page components read the configured path; no city-name code change is required. Run the publication validator and tests before use. This configuration does not establish police boundaries or make a dataset eligible for risk modelling.
+
 Neighbourhood safety awareness for Delhi NCR. React + Vite + TypeScript, Tailwind v4, locally owned shadcn-style Radix primitives, Framer Motion, Lucide and lazy Recharts. The map uses **MapLibre GL JS through react-map-gl**, MapTiler vector styles, Turf client-side geometry and optional static PMTiles.
 
 See [BUILD_STATUS.md](BUILD_STATUS.md) for the current milestone and next steps.

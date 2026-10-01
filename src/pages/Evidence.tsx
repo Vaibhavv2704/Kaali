@@ -6,6 +6,7 @@ import {loadCrimeContext,type CrimeContext} from '../lib/crime-context';
 import {loadNews,type NewsReference} from '../lib/news';
 import {Card,Skeleton} from '../components/ui';
 import {bands} from '../lib/risk';
+import DistrictRecords from '../components/DistrictRecords';
 
 export default function Evidence({region}:{region:Region}){
   const [city,setCity]=useState(region.cities[0]?.id??'');
@@ -26,6 +27,7 @@ export default function Evidence({region}:{region:Region}){
   return <main className="page" id="main"><p className="eyebrow">SOURCES & PUBLIC RECORDS</p><h1>Evidence, in context.</h1>
     <p className="lead">Historical crime statistics and documented adult convictions. These records do not predict anyone’s safety or indicate where a person lives.</p>
     <label className="evidence-city">City <select value={selected} onChange={e=>setCity(e.target.value)}>{region.cities.map(c=><option key={c.id} value={c.id}>{c.name}</option>)}</select></label>
+    {region.cities.find(c=>c.id===selected)?.districtCrimeFile&&<div className="method-grid" style={{marginTop:24}}><DistrictRecords file={region.cities.find(c=>c.id===selected)!.districtCrimeFile!} cityName={region.cities.find(c=>c.id===selected)!.name} regionId={region.id} cityId={selected!}/></div>}
     {error?<p role="alert">{error}</p>:!context?<Skeleton/>:<>
     <div className="method-grid" style={{marginTop:24}}><Card className="method-card full"><Database size={24}/><h2>Reported crime · historical totals</h2>
       {rows.length?<><p>{rows[0].reportingArea} · {rows[0].geography}. {rows[0].category}.</p>
