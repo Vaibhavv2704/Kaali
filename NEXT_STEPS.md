@@ -3,13 +3,13 @@
 ## Work I can continue in this workspace
 
 - Collect permitted public reports; review locality/date/time associations and deduplicate events.
-- Keep source references, aggregate crime context and adult conviction profiles visible with their limitations.
+- Keep source references and aggregate crime context visible with their limitations. Convicted-person profiles have been removed at your request.
 - Finish region geometry, population crosswalks, Hindi copy and responsive map checks.
 - Maintain the trained counts-only baseline and its spatial/city/temporal evaluation. Add neighbourhood/time estimates only when matching evidence is ready.
 
 ## Current completed milestones
 
-- The home screen is the 2024 historical Delhi police-district map, with all 15 geographic districts, recorded totals, category details, search, themes and methodology. Symbols are approximate reference points, not district boundaries or danger radii.
+- The home screen is the 2024 historical Delhi NCR map: 15 Delhi police districts plus Gurugram, Faridabad, Gautambudh Nagar and Ghaziabad. Its 18,778 recorded-case subtotal is calculated for these selected units. Symbols are approximate references, not district boundaries or danger radii. Detailed streets, satellite with labels, default emergency layers and hide/show filters are available. The optional time/activity illustration is explicitly assumed and low-confidence. Source notes remain on the crime-data page; Our approach navigation has been removed.
 - Counts-only research has compared persistence, a regularised Poisson model and LightGBM. Persistence performed best in the documented holdouts; outputs remain research estimates rather than validated safety scores. See `data-pipeline/MODEL_CARD.md`.
 - Source-backed totals are available, but the original local workbooks' download receipts, matching police boundaries and complete historical place context remain missing. Additional API keys do not fill those evidence gaps.
 
