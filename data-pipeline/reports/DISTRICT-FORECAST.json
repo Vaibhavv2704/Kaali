@@ -1,0 +1,466 @@
+{
+  "target": "Annual registered rape heads (adult + girl IPC/BNS), police reporting unit",
+  "status": "experimental_research_only",
+  "safetyModelEligible": false,
+  "observations": 131,
+  "examples": 93,
+  "observedYears": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2024
+  ],
+  "temporalHoldoutYear": 2024,
+  "temporal": {
+    "overall": {
+      "rows": 19,
+      "model_mae": 19.065106525401582,
+      "last_observation_mae": 22.105263157894736
+    },
+    "cities": {
+      "delhi": {
+        "rows": 15,
+        "model_mae": 16.78638537638626,
+        "last_observation_mae": 15.333333333333334
+      },
+      "faridabad": {
+        "rows": 1,
+        "model_mae": 45.73584365158908,
+        "last_observation_mae": 60.0
+      },
+      "gautam-buddh-nagar": {
+        "rows": 1,
+        "model_mae": 59.21663110583363,
+        "last_observation_mae": 42.0
+      },
+      "ghaziabad": {
+        "rows": 1,
+        "model_mae": 2.7866919180776506,
+        "last_observation_mae": 40.0
+      },
+      "gurugram": {
+        "rows": 1,
+        "model_mae": 2.7020766613357523,
+        "last_observation_mae": 48.0
+      }
+    }
+  },
+  "groupedValidation": {
+    "reporting_unit": [
+      {
+        "overall": {
+          "rows": 16,
+          "model_mae": 27.109874704105927,
+          "last_observation_mae": 17.125
+        },
+        "cities": {
+          "delhi": {
+            "rows": 12,
+            "model_mae": 14.701398816279154,
+            "last_observation_mae": 15.25
+          },
+          "gurugram": {
+            "rows": 4,
+            "model_mae": 64.33530236758625,
+            "last_observation_mae": 22.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 16,
+          "model_mae": 34.6030386941603,
+          "last_observation_mae": 37.8125
+        },
+        "cities": {
+          "delhi": {
+            "rows": 12,
+            "model_mae": 23.98099969914964,
+            "last_observation_mae": 22.5
+          },
+          "ghaziabad": {
+            "rows": 4,
+            "model_mae": 66.46915567919226,
+            "last_observation_mae": 83.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 16,
+          "model_mae": 21.165423306729856,
+          "last_observation_mae": 18.25
+        },
+        "cities": {
+          "delhi": {
+            "rows": 12,
+            "model_mae": 10.624222585095657,
+            "last_observation_mae": 14.083333333333334
+          },
+          "gautam-buddh-nagar": {
+            "rows": 4,
+            "model_mae": 52.78902547163245,
+            "last_observation_mae": 30.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 14,
+          "model_mae": 16.577428593453103,
+          "last_observation_mae": 16.071428571428573
+        },
+        "cities": {
+          "delhi": {
+            "rows": 10,
+            "model_mae": 14.771896894087769,
+            "last_observation_mae": 14.6
+          },
+          "faridabad": {
+            "rows": 4,
+            "model_mae": 21.091257841866426,
+            "last_observation_mae": 19.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 12,
+          "model_mae": 24.817752481263003,
+          "last_observation_mae": 11.25
+        },
+        "cities": {
+          "delhi": {
+            "rows": 12,
+            "model_mae": 24.817752481263003,
+            "last_observation_mae": 11.25
+          }
+        }
+      }
+    ],
+    "city": [
+      {
+        "overall": {
+          "rows": 58,
+          "model_mae": 49.955584883210896,
+          "last_observation_mae": 15.568965517241379
+        },
+        "cities": {
+          "delhi": {
+            "rows": 58,
+            "model_mae": 49.955584883210896,
+            "last_observation_mae": 15.568965517241379
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 4,
+          "model_mae": 22.023692638143327,
+          "last_observation_mae": 19.75
+        },
+        "cities": {
+          "faridabad": {
+            "rows": 4,
+            "model_mae": 22.023692638143327,
+            "last_observation_mae": 19.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 4,
+          "model_mae": 54.8628784123491,
+          "last_observation_mae": 30.75
+        },
+        "cities": {
+          "gautam-buddh-nagar": {
+            "rows": 4,
+            "model_mae": 54.8628784123491,
+            "last_observation_mae": 30.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 4,
+          "model_mae": 57.11159758489712,
+          "last_observation_mae": 83.75
+        },
+        "cities": {
+          "ghaziabad": {
+            "rows": 4,
+            "model_mae": 57.11159758489712,
+            "last_observation_mae": 83.75
+          }
+        }
+      },
+      {
+        "overall": {
+          "rows": 4,
+          "model_mae": 63.500427934341914,
+          "last_observation_mae": 22.75
+        },
+        "cities": {
+          "gurugram": {
+            "rows": 4,
+            "model_mae": 63.500427934341914,
+            "last_observation_mae": 22.75
+          }
+        }
+      }
+    ]
+  },
+  "heldoutPredictions": [
+    {
+      "unit": "Central",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 78,
+      "predicted": 98.05389889779309,
+      "last_observation": 111,
+      "horizon": 2
+    },
+    {
+      "unit": "East",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 94,
+      "predicted": 88.18923899715638,
+      "last_observation": 82,
+      "horizon": 2
+    },
+    {
+      "unit": "New Delhi",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 10,
+      "predicted": 38.66830700813129,
+      "last_observation": 11,
+      "horizon": 2
+    },
+    {
+      "unit": "Outer North",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 75,
+      "predicted": 71.99621386071955,
+      "last_observation": 76,
+      "horizon": 2
+    },
+    {
+      "unit": "North",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 64,
+      "predicted": 66.72097081600279,
+      "last_observation": 49,
+      "horizon": 2
+    },
+    {
+      "unit": "North-East",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 67,
+      "predicted": 88.18923899715638,
+      "last_observation": 76,
+      "horizon": 2
+    },
+    {
+      "unit": "North-West",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 54,
+      "predicted": 84.45208467540108,
+      "last_observation": 68,
+      "horizon": 2
+    },
+    {
+      "unit": "Outer",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 72,
+      "predicted": 88.18923899715638,
+      "last_observation": 66,
+      "horizon": 2
+    },
+    {
+      "unit": "Rohini",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 63,
+      "predicted": 85.30808545297364,
+      "last_observation": 82,
+      "horizon": 2
+    },
+    {
+      "unit": "Dwarka",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 99,
+      "predicted": 118.55895550752727,
+      "last_observation": 145,
+      "horizon": 2
+    },
+    {
+      "unit": "Shahdara",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 64,
+      "predicted": 74.83610994758025,
+      "last_observation": 67,
+      "horizon": 2
+    },
+    {
+      "unit": "South",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 81,
+      "predicted": 87.79442922862286,
+      "last_observation": 94,
+      "horizon": 2
+    },
+    {
+      "unit": "South-East",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 96,
+      "predicted": 115.22624574954555,
+      "last_observation": 125,
+      "horizon": 2
+    },
+    {
+      "unit": "South-West",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 78,
+      "predicted": 87.79442922862286,
+      "last_observation": 84,
+      "horizon": 2
+    },
+    {
+      "unit": "West",
+      "city": "delhi",
+      "year": 2024,
+      "observed": 53,
+      "predicted": 88.18923899715638,
+      "last_observation": 76,
+      "horizon": 2
+    },
+    {
+      "unit": "Faridabad",
+      "city": "faridabad",
+      "year": 2024,
+      "observed": 104,
+      "predicted": 149.73584365158908,
+      "last_observation": 164,
+      "horizon": 2
+    },
+    {
+      "unit": "Gurugram",
+      "city": "gurugram",
+      "year": 2024,
+      "observed": 189,
+      "predicted": 186.29792333866425,
+      "last_observation": 237,
+      "horizon": 2
+    },
+    {
+      "unit": "Gautambudh Nagar",
+      "city": "gautam-buddh-nagar",
+      "year": 2024,
+      "observed": 16,
+      "predicted": 75.21663110583363,
+      "last_observation": 58,
+      "horizon": 2
+    },
+    {
+      "unit": "Ghaziabad",
+      "city": "ghaziabad",
+      "year": 2024,
+      "observed": 176,
+      "predicted": 173.21330808192235,
+      "last_observation": 216,
+      "horizon": 2
+    }
+  ],
+  "releaseGate": {
+    "beat_last_observation_temporal": true,
+    "neighbourhood_time_risk_release": false
+  },
+  "limitations": [
+    "No neighbourhood/time-band targets, exposure rates or safety probabilities.",
+    "2023 is absent; 2024 forecasts have a two-year horizon. No invented 2023 values.",
+    "Secondary-source cells and reporting-unit continuity are not independently verified for every historical year.",
+    "IPC/BNS and POCSO registration practices can change the recorded rape-head series.",
+    "Grouped tests hold out target rows; lag features use known history of held-out units.",
+    "GBN is one district, not separate Noida/Greater Noida counts."
+  ],
+  "sources": [
+    {
+      "id": "idp-candidate-2017-2022",
+      "publisher": "India Data Portal mirror; catalog attributes extraction to NCRB",
+      "resourceUrl": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/c8d3ea7e-4855-45f3-9c26-557419e93b6a",
+      "downloadUrl": "https://ckandev.indiadataportal.com/dataset/e311a510-ce48-4f4c-baf6-0ec5f9278285/resource/c8d3ea7e-4855-45f3-9c26-557419e93b6a/download/districtwise-crime-against-women-2017-onwards.csv",
+      "localPath": "raw/india-data-portal/districtwise-crime-against-women-2017-onwards.csv",
+      "bytes": 788976,
+      "sha256": "cc18f80b56b4555c15f96d17f0aef3ab1acaecbd87b7533de4a56683107c66cc",
+      "retrievalDate": "2026-10-01",
+      "downloadFileCreatedUtc": "2026-10-01T10:25:19.6383882Z",
+      "acquisition": "Public browser Download link, no login or access bypass. Timestamp is local download file creation, not an HTTP server timestamp.",
+      "licenceDeclared": "No License Provided",
+      "catalogDataLastUpdated": "2024-11-21",
+      "catalogMetadataLastUpdated": "2026-07-17",
+      "actualRowYears": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rowCount": 5322
+    },
+    {
+      "id": "idp-2024",
+      "publisher": "India Data Portal mirror; catalog attributes extraction to NCRB",
+      "resourceUrl": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/d8bda878-37a7-4320-8413-36d741bd9b27",
+      "downloadUrl": "https://ckandev.indiadataportal.com/dataset/e311a510-ce48-4f4c-baf6-0ec5f9278285/resource/d8bda878-37a7-4320-8413-36d741bd9b27/download/districtwise-crime-against-women-2024-onwards.csv",
+      "localPath": "raw/india-data-portal/districtwise-crime-against-women-2024-onwards.csv",
+      "bytes": 154697,
+      "sha256": "9e2743fe8a40c08bb36dfa805834d785b5124a271f60b2d0a572e87677bb324f",
+      "retrievalDate": "2026-10-01",
+      "downloadFileCreatedUtc": "2026-10-01T10:27:56.2594736Z",
+      "acquisition": "Public browser Download link, no login or access bypass. Timestamp is local download file creation, not an HTTP server timestamp.",
+      "licenceDeclared": "No License Provided",
+      "catalogDataLastUpdated": "2026-09-29",
+      "catalogMetadataLastUpdated": "2026-09-29",
+      "catalogExtractionSource": "NCRB",
+      "actualRowYears": [
+        2024
+      ],
+      "rowCount": 964
+    },
+    {
+      "id": "ncrb-2024-volume-1",
+      "publisher": "National Crime Records Bureau, Crime in India 2024, Volume I; OpenCity file mirror",
+      "officialCatalogUrl": "https://www.ncrb.gov.in/crime-in-india.html",
+      "resourceUrl": "https://data.opencity.in/dataset/crime-in-india-2024/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8",
+      "downloadUrl": "https://data.opencity.in/dataset/7d883875-921a-4820-b298-713c6219bd90/resource/46f760f4-dcf4-4f95-85c9-2225e2f7bbe8/download/vol1-crimeinindia2024.pdf",
+      "localPath": "raw/ncrb/vol1-crimeinindia2024.pdf",
+      "bytes": 17795140,
+      "sha256": "75b827bdcfcd5e641984d7fb549aaa2f3cdf030caace2d93853e450ee236bb4c",
+      "retrievalDate": "2026-10-01",
+      "retrievedAt": "2026-10-01T10:29:52.292112+00:00",
+      "acquisition": "Bounded HTTPS download with live robots check; public_download.py acquisition audit 541c8d15bac2cc63.json. Ten-second crawl delay respected.",
+      "licenceDeclared": "OpenCity catalog: Other (Public Domain); original NCRB government publication",
+      "tables": [
+        "3A.1 (printed page 281 / PDF page 327)",
+        "3A.2 (printed pages 282\u2013309 / PDF pages 328\u2013355)"
+      ]
+    }
+  ]
+}

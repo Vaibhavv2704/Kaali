@@ -4,6 +4,8 @@
 
 **No production model is trained or published.** Verified neighbourhood labels, exposure, environmental features and validation evidence are not yet available. Production JSON is empty and UI confidence is limited. The sample map is synthetic software test material, not a prediction, probability or empirical crime dataset.
 
+An experimental **annual police-district recorded-rape forecast** was trained on 1 October 2026 with 131 real secondary-source observations. It is a different target from this proposed neighbourhood/time risk model. See reports/DISTRICT-FORECAST.md and its JSON for actual grouped and temporal metrics. The overall 2024 test MAE was 19.07 cases versus a 22.11 last-observation baseline; Delhi and GBN did not improve over their baselines. No neighbourhood scores or future forecasts are published. Historical red map reference markers use observed 2024 subtotals, never this model's outputs.
+
 ## Intended task
 
 Estimate relative intensity of reported crimes against women by neighbourhood, six four-hour bands and weekday/weekend. Scores 0–100 are a monotonic display transformation of a predicted annualized reported-incident rate, **not the probability of a crime or an individual's safety**. Thresholds require calibration before a production release. Labels: Low (UI: lower estimated risk), Moderate, High, Very High.
