@@ -19,9 +19,13 @@ export type DistrictCrime=z.infer<typeof schema>;
 export function formatCases(value:number|null|undefined){return value==null?'Not published':value.toLocaleString('en-IN')}
 export function loadDistrictCrime(input:unknown){
  const data=schema.parse(input),seen=new Set<string>();
+ const heads=data.formulas.calculated_recorded_heads_subtotal;
+ if(!heads||new Set(heads).size!==heads.length||data.validation.reportingYear!==data.year)throw Error('Invalid recorded-head scope');
+ if(Object.keys(data.validation.categoryComparisons).length!==heads.length||heads.some(f=>!(f in data.validation.categoryComparisons)))throw Error('Incomplete category comparisons');
  for(const row of data.records){
   if(seen.has(row.registration_circles)||row.district_name!==row.registration_circles||row.year!==data.year)throw Error('Invalid district identity');
   seen.add(row.registration_circles);
+  if(Object.keys(row.counts).length!==heads.length||heads.some(f=>!(f in row.counts)))throw Error('Incomplete recorded-head subtotal');
   const missing=Object.keys(row.counts).filter(f=>row.counts[f]===null).sort();
   if(JSON.stringify(missing)!==JSON.stringify([...row.missing_fields].sort()))throw Error('Missing fields mismatch');
   if(Object.keys(row.calculated).length!==Object.keys(data.formulas).length)throw Error('Unexpected subtotal');
@@ -31,7 +35,7 @@ export function loadDistrictCrime(input:unknown){
    if(row.calculated[name]!==expected)throw Error('Subtotal mismatch');
   }
  }
- const subtotal=(kind:string)=>{const rows=data.records.filter(r=>r.unit_type===kind);return rows.some(r=>r.calculated.calculated_recorded_heads_subtotal==null)?null:rows.reduce((sum,r)=>sum+r.calculated.calculated_recorded_heads_subtotal!,0)};
+ const subtotal=(kind:string)=>{const rows=data.records.filter(r=>r.unit_type===kind);return !rows.length||rows.some(r=>r.calculated.calculated_recorded_heads_subtotal==null)?null:rows.reduce((sum,r)=>sum+r.calculated.calculated_recorded_heads_subtotal!,0)};
  const geographic=subtotal('geographic_police_district'),special=subtotal('special_unit');
  if(data.validation.mirrorSubtotalsByUnitType.geographic_police_district!==geographic||data.validation.mirrorSubtotalsByUnitType.special_unit!==special)throw Error('Reporting scope mismatch');
  const combined=geographic===null||special===null?null:geographic+special;
@@ -42,7 +46,9 @@ export function loadDistrictCrime(input:unknown){
   if(sum!==comparison.mirror)throw Error('Category comparison mismatch');
   const difference=data.validation.discrepancies[field];
   if(comparison.mirror!==comparison.ncrb&&(!difference||difference.mirror!==sum||difference.ncrb!==comparison.ncrb||difference.ncrb_minus_mirror!==(sum===null||comparison.ncrb===null?null:comparison.ncrb-sum)))throw Error('Unreported category discrepancy');
+  if(comparison.mirror===comparison.ncrb&&difference)throw Error('Spurious category discrepancy');
  }
+ if(Object.keys(data.validation.discrepancies).some(f=>!(f in data.validation.categoryComparisons)))throw Error('Unknown discrepancy category');
  if(data.validation.status==='matches'&&(combined!==data.validation.ncrbTotal||Object.keys(data.validation.discrepancies).length))throw Error('Incorrect validation status');
  return data;
 }

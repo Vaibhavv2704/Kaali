@@ -29,4 +29,23 @@ describe('historical district records',()=>{
   expect(()=>loadDistrictCrime({...input,records:[...input.records,input.records[0]]})).toThrow();
   expect(()=>loadDistrictCrime({...input,records:input.records.map(r=>({...r,boundary:{type:'Polygon'}}))})).toThrow();
  });
+ it('rejects omitted comparison heads, subtotal components and inconsistent reporting years',()=>{
+  const missingComparison=structuredClone(input);
+  delete (missingComparison.validation.categoryComparisons as Record<string,unknown>).stalking_women;
+  expect(()=>loadDistrictCrime(missingComparison)).toThrow('Incomplete category comparisons');
+  const missingHead=structuredClone(input);
+  missingHead.formulas.calculated_recorded_heads_subtotal.pop();
+  expect(()=>loadDistrictCrime(missingHead)).toThrow();
+  expect(()=>loadDistrictCrime({...input,validation:{...input.validation,reportingYear:2022}})).toThrow('Invalid recorded-head scope');
+  expect(()=>loadDistrictCrime({...input,validation:{...input.validation,discrepancies:{...input.validation.discrepancies,
+   invented:{mirror:1,ncrb:2,ncrb_minus_mirror:1,pdf_page:1}}}})).toThrow('Unknown discrepancy category');
+ });
+ it('does not present an absent special-unit series as an observed zero',()=>{
+  const data=structuredClone(input);
+  data.records=data.records.filter(r=>r.unit_type==='geographic_police_district');
+  data.validation.mirrorSubtotalsByUnitType.special_unit=0;
+  data.validation.mirrorCombinedSubtotal=data.validation.mirrorSubtotalsByUnitType.geographic_police_district;
+  data.validation.ncrbMinusMirror=data.validation.ncrbTotal-data.validation.mirrorCombinedSubtotal;
+  expect(()=>loadDistrictCrime(data)).toThrow('Reporting scope mismatch');
+ });
 });
