@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "Central",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2409554,
+          28.6415133
+        ]
+      },
+      "properties": {
+        "id": "Central",
+        "name": "Central",
+        "cityId": "delhi",
+        "year": 2024,
+        "count": 538,
+        "referenceName": "Office Of The Deputy Commissioner Of Police Central District",
+        "source": "https://www.openstreetmap.org/node/12441175891",
+        "crimeSource": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/d8bda878-37a7-4320-8413-36d741bd9b27",
+        "pointStatus": "approximate_reference",
+        "meaning": "Historical recorded-head subtotal; not a safety score or danger radius",
+        "lastVerified": "2026-09-28"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Shahdara",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2867347,
+          28.6653684
+        ]
+      },
+      "properties": {
+        "id": "Shahdara",
+        "name": "Shahdara",
+        "cityId": "delhi",
+        "year": 2024,
+        "count": 799,
+        "referenceName": "DCP Shahdara District Office",
+        "source": "https://www.openstreetmap.org/node/12596382943",
+        "crimeSource": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/d8bda878-37a7-4320-8413-36d741bd9b27",
+        "pointStatus": "approximate_reference",
+        "meaning": "Historical recorded-head subtotal; not a safety score or danger radius",
+        "lastVerified": "2026-09-28"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Dwarka",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0584523,
+          28.5649687
+        ]
+      },
+      "properties": {
+        "id": "Dwarka",
+        "name": "Dwarka",
+        "cityId": "delhi",
+        "year": 2024,
+        "count": 1165,
+        "referenceName": "Dwarka Police Station",
+        "source": "https://www.openstreetmap.org/node/2408446621",
+        "crimeSource": "https://ckandev.indiadataportal.com/dataset/crime-statistics/resource/d8bda878-37a7-4320-8413-36d741bd9b27",
+        "pointStatus": "approximate_reference",
+        "meaning": "Historical recorded-head subtotal; not a safety score or danger radius",
+        "lastVerified": "2026-09-28"
+      }
+    }
+  ]
+}

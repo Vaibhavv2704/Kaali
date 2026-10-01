@@ -2,6 +2,10 @@
 
 ## Delhi historical police-district records
 
+The map now has three red **historical volume reference markers** for Central, Shahdara and Dwarka, anchored to explicitly identified locations in the OSM snapshot. These are approximate reference points, not crime locations, district boundaries or danger radii. Click for reporting-year/source details. Filters can hide this layer; it does not change with the time slider. Other districts remain unmapped until a matching reference or boundary is reviewed. Reproduce with `python data-pipeline/publish_district_points.py`.
+
+An experimental annual recorded-rape forecast can be trained with `python data-pipeline/train_district_forecast.py`. It trains LightGBM on source-backed district counts, runs whole-unit/city and temporal evaluations against a last-observation baseline, and saves its artifact privately. See `data-pipeline/reports/DISTRICT-FORECAST.md` for actual results and limitations. It does not produce neighbourhood safety scores or unsafe-time forecasts and does not colour risk polygons.
+
 Home → **Explore police districts**, or `/evidence` → Delhi, displays the sourced 2024 reporting-circle extract: 15 geographic police districts and eight separately grouped special units. Selecting a unit shows its calculated recorded-head subtotal, selected category groups and all 49 original head counts. Missing values remain unavailable, never zero. The screen retains the 13,295 mirror versus 13,396 NCRB reconciliation and its 101 adult-stalking difference; these are historical recorded volumes, not safety scores. No district count is assigned to a map neighbourhood.
 
 Reproduce the research files with `python data-pipeline/extract_delhi_districts.py`, then the app feed with `python data-pipeline/publish_delhi_districts.py`. Both require the original hash-matching CSV/PDF downloads documented in `data-pipeline/reports/delhi-districts/METHODOLOGY.md`. The full India downloads stay in ignored raw storage. The Delhi-only factual feed keeps source attribution and the mirror's **No License Provided** disclosure.
