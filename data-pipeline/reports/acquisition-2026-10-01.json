@@ -1,0 +1,146 @@
+[
+  {
+    "id": "delhi-police-crime-2001-2010",
+    "url": "https://delhipolice.gov.in/Images/HTMLfiles/CRIME_RATE_2001_2010%20(1).pdf",
+    "discoveredAt": "https://delhipolice.gov.in/statistics",
+    "path": "delhi-police/crime-2001-2010.pdf",
+    "title": "2001 to 2010 Crime in Delhi",
+    "publisher": "Delhi Police",
+    "license": "Public government statistical publication; no separate open licence asserted. Research staging only.",
+    "geography": "Delhi; historical context",
+    "attemptedAt": "2026-10-01T09:48:04.422374+00:00",
+    "status": "downloaded",
+    "retrievedAt": "2026-10-01T09:48:06.859640+00:00",
+    "finalUrl": "https://delhipolice.gov.in/Images/HTMLfiles/CRIME_RATE_2001_2010%20(1).pdf",
+    "bytes": 25056,
+    "sha256": "91b65b230f3af101c6a2ab3490b7cc7d1bc14ace726333041ab3db74a3cf8cf5",
+    "contentType": "application/pdf",
+    "lastModified": "Tue, 28 Sep 2021 12:36:18 GMT",
+    "robots": [
+      {
+        "url": "https://delhipolice.gov.in/robots.txt",
+        "status": 404,
+        "rule": "no published robots file"
+      }
+    ]
+  },
+  {
+    "id": "rajya-sabha-4220-2026",
+    "url": "https://sansad.in/getFile/annex/270/AU4220_M31fhO.pdf?source=pqars",
+    "path": "parliament/rs-4220-2026.pdf",
+    "publisher": "Ministry of Home Affairs, Rajya Sabha",
+    "license": "Government parliamentary answer; no separate open licence asserted; research staging",
+    "geography": "Delhi Police coverage, annual 2023-2025",
+    "attemptedAt": "2026-10-01T09:54:16.953773+00:00",
+    "status": "downloaded",
+    "retrievedAt": "2026-10-01T09:54:19.450182+00:00",
+    "finalUrl": "https://sansad.in/getFile/annex/270/AU4220_M31fhO.pdf?source=pqars",
+    "bytes": 39369,
+    "sha256": "716d1c2c351a006a05878d8f815eaf47023ef164d5b3aac222b745954f2159d3",
+    "contentType": "application/pdf",
+    "lastModified": null,
+    "robots": [
+      {
+        "url": "https://sansad.in/robots.txt",
+        "status": 404,
+        "rule": "no published robots file"
+      }
+    ]
+  },
+  {
+    "id": "up-crime-2012",
+    "url": "https://uppolice.gov.in/writereaddata/uploaded-content/Web_Page/21_11_2013_12_23_50_Crime%20in%20UP-2012.pdf",
+    "path": "up-police/crime-in-up-2012.pdf",
+    "publisher": "UP Police, State Crime Records Bureau",
+    "license": "Government publication; no separate open licence asserted; research staging",
+    "geography": "Uttar Pradesh; historical district tables pending inspection",
+    "attemptedAt": "2026-10-01T09:53:56.717462+00:00",
+    "status": "downloaded",
+    "retrievedAt": "2026-10-01T09:54:16.931613+00:00",
+    "finalUrl": "https://uppolice.gov.in/writereaddata/uploaded-content/Web_Page/21_11_2013_12_23_50_Crime%20in%20UP-2012.pdf",
+    "bytes": 4599077,
+    "sha256": "fcb05ab8c92b363874f870ff45f845eba5a927eb317052f93545d2b4d622949b",
+    "contentType": "application/pdf",
+    "lastModified": "Thu, 30 Dec 2021 09:27:57 GMT",
+    "robots": [
+      {
+        "url": "https://uppolice.gov.in/robots.txt",
+        "status": 404,
+        "rule": "no published robots file"
+      }
+    ]
+  },
+  {
+    "id": "delhi-police-crime-2011-2022",
+    "url": "https://delhipolice.gov.in/Images/HTMLfiles/Crime%20In%20Delhi(2).pdf",
+    "discoveredAt": "https://delhipolice.gov.in/statistics",
+    "path": "delhi-police/crime-2011-2022.pdf",
+    "title": "2011 to 2022 Crime in Delhi",
+    "publisher": "Delhi Police",
+    "license": "Public government statistical publication; no separate open licence asserted. Research staging only.",
+    "geography": "Delhi; finer geographic breakdown to be inspected",
+    "attemptedAt": "2026-10-01T09:48:02.117149+00:00",
+    "status": "downloaded",
+    "retrievedAt": "2026-10-01T09:48:04.418386+00:00",
+    "finalUrl": "https://delhipolice.gov.in/Images/HTMLfiles/Crime%20In%20Delhi(2).pdf",
+    "bytes": 30815,
+    "sha256": "f76dfb8634c329c6d06cbe70c45656873b080683b2fc4f524412558989347c17",
+    "contentType": "application/pdf",
+    "lastModified": "Mon, 01 Aug 2022 05:29:16 GMT",
+    "robots": [
+      {
+        "url": "https://delhipolice.gov.in/robots.txt",
+        "status": 404,
+        "rule": "no published robots file"
+      }
+    ]
+  },
+  {
+    "id": "haryana-annual-report-2022",
+    "url": "https://haryanapolice.gov.in/PDF/Annual_Admin_Report_2022.pdf",
+    "path": "haryana-police/annual-admin-2022.pdf",
+    "publisher": "Haryana Police",
+    "license": "Government publication; no separate open licence asserted; research staging",
+    "geography": "Haryana; table geography pending inspection",
+    "attemptedAt": "2026-10-01T09:53:42.226591+00:00",
+    "status": "downloaded",
+    "retrievedAt": "2026-10-01T09:53:56.695450+00:00",
+    "finalUrl": "https://haryanapolice.gov.in/PDF/Annual_Admin_Report_2022.pdf",
+    "bytes": 6132346,
+    "sha256": "4db1733c60bb70728a7fe1ad5c38780b7f1cf670a91f1e1b9928f121e662f633",
+    "contentType": "application/pdf",
+    "lastModified": "Mon, 24 Feb 2025 05:07:01 GMT",
+    "robots": [
+      {
+        "url": "https://haryanapolice.gov.in/robots.txt",
+        "status": 404,
+        "rule": "no published robots file"
+      }
+    ]
+  },
+  {
+    "id": "delhi-police-caw-2013-2022",
+    "url": "https://delhipolice.gov.in/Images/HTMLfiles/CAW(10).pdf",
+    "discoveredAt": "https://delhipolice.gov.in/statistics",
+    "path": "delhi-police/caw-2013-2022.pdf",
+    "title": "2013 to 2022 Against Women",
+    "publisher": "Delhi Police",
+    "license": "Public government statistical publication; no separate open licence asserted. Research staging only.",
+    "geography": "Delhi; finer geographic breakdown to be inspected",
+    "attemptedAt": "2026-10-01T09:47:58.669090+00:00",
+    "status": "downloaded",
+    "retrievedAt": "2026-10-01T09:48:02.110072+00:00",
+    "finalUrl": "https://delhipolice.gov.in/Images/HTMLfiles/CAW(10).pdf",
+    "bytes": 14851,
+    "sha256": "52471388a8d93a7e96ed2c4998c398e20a5922ae5a604f48d74c20152e32194f",
+    "contentType": "application/pdf",
+    "lastModified": "Mon, 01 Aug 2022 05:29:16 GMT",
+    "robots": [
+      {
+        "url": "https://delhipolice.gov.in/robots.txt",
+        "status": 404,
+        "rule": "no published robots file"
+      }
+    ]
+  }
+]

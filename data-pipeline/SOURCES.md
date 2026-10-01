@@ -1,6 +1,6 @@
 # Source register
 
-Research date: **2026-09-29** (IST). Dates below mean researched/access attempted, not a claim that underlying observations are current. Public accessibility is not a reuse licence. No victim data, article bodies, or incident microdata were downloaded into the public dataset. Search previews are discovery evidence, not dataset ingestion. Sources without verified reuse terms are blocked in `config/sources.json`.
+Research began **2026-09-29** (IST); dated updates below extend this log. Dates mean researched/access attempted, not a claim that underlying observations are current. Public accessibility is not a reuse licence. No victim data, article bodies, or incident microdata were downloaded into the public dataset. Search previews are discovery evidence, not dataset ingestion. Sources without verified reuse terms are blocked in `config/sources.json`.
 
 | Source / URL | Use and access outcome | Licence / terms | Retrieved or checked |
 |---|---|---|---|
@@ -118,3 +118,25 @@ Source: The Tribune / PTI, https://www.tribuneindia.com/news/delhi/delhi-2-north
 One reviewed reported event in Nehru Place on May 10, with 2026 inferred from publication context; reported 06:30 maps to band 04:00–08:00. Source label molestation retained, no legal code mapping asserted. Retained no victim/accused names, age, ethnicity, venue address, imagery or narrative. Police-station location is not used as incident locality. No exact coordinates, polygon assignment, coverage denominator or training eligibility. Reports from other outlets about the same event must not become extra events.
 
 Excluded NDTV from automated collection after its linked terms page explicitly prohibited scraping/data mining: https://www.ndtv.com/convergence/ndtv/new/TermsAndConditions.aspx (reviewed 2026-09-30). Robots allowing a path does not override terms. Also rejected a Tribune August 2025 party-report locality candidate because the article supplied a residence rather than incident locality. No values from either candidate added to model inputs.
+
+## Official-file acquisition — 2026-10-01
+
+Visit order: NCRB, data.gov.in, Delhi Police, Haryana/UP Police, Parliament/Assembly, boundaries/population, transit. See reports/ACQUISITION-2026-10-01.md and reports/acquisition-2026-10-01.json for original-file checksums, exact retrieval timestamps and geographic limitations.
+
+| Source URL | Result | Licence / terms |
+| --- | --- | --- |
+| https://www.ncrb.gov.in/crime-in-india.html and https://www.ncrb.gov.in/crime-in-india-all-previous-publications.html | Latest report identified as 2024; English/Hindi navigation inspected. Runtime robots disallows all automated paths; no report files downloaded | Government publications; no resource licence asserted without file review |
+| https://www.data.gov.in/catalog/district-wise-crimes-committed-against-women | Catalog identifies annual police-district resources; live robots disallows automated paths; no CSV downloaded | Catalog shows Government Open Data Licence–India; police districts must not be equated with revenue districts |
+| https://delhipolice.gov.in/statistics | Three original PDFs downloaded: https://delhipolice.gov.in/Images/HTMLfiles/CAW(10).pdf ; https://delhipolice.gov.in/Images/HTMLfiles/Crime%20In%20Delhi(2).pdf ; https://delhipolice.gov.in/Images/HTMLfiles/CRIME_RATE_2001_2010%20(1).pdf | Government statistical publications; no separate open licence asserted. Private research staging, source attribution retained. Robots returned 404 |
+| https://haryanapolice.gov.in/PDF/Annual_Admin_Report_2022.pdf | 111-page report downloaded, scanned table review pending | Government publication; no separate open licence asserted; private staging. Robots returned 404 on successful retry |
+| https://haryanapolice.gov.in/RTI/rtipart14 | Search identified current state crime chart; no values imported | Government page; resource terms not yet reviewed |
+| https://uppolice.gov.in/writereaddata/uploaded-content/Web_Page/21_11_2013_12_23_50_Crime%20in%20UP-2012.pdf | Original report downloaded. Table 8 page 25 provides historical NCR police-district figures; six selected category rows normalized | UP Police SCRB government publication; no separate open licence asserted; private research staging. Robots returned 404 |
+| https://sansad.in/getFile/annex/270/AU4220_M31fhO.pdf?source=pqars | Downloaded answer dated 1 April 2026: Delhi Police annual 2023–2025 totals, no district detail | Parliamentary government answer; no separate open licence asserted; private research staging. Robots returned 404 |
+| https://sansad.in/getFile/loksabhaquestions/annex/174/AU1021.pdf?source=pqals | Web reviewed; refers Rajasthan district question back to NCRB; excluded from NCR data | Government answer; not downloaded or imported |
+| https://delhiassembly.delhi.gov.in/sites/default/files/dlas/universal/29_june_2015.pdf | Search found staffing proposals, not requested district crime counts; excluded | Government proceedings; no dataset imported |
+| https://github.com/datameet/Municipal_Spatial_Data | Revisited repository; existing Delhi historical ward file retained without duplicating downloads | Delhi folder states CC BY-SA 2.5 India; historical-vintage caveat still applies |
+| https://censusindia.gov.in/nada/index.php/catalog/6286/study-description | Web access failed; previously received Central Delhi workbook preserved | ORGI government Census 2011 table; no additional licence asserted |
+| https://www.openstreetmap.org/relation/1942586 | Existing downloaded boundary/help inventory reused; no new retrieval claimed | ODbL 1.0; © OpenStreetMap contributors |
+| https://otd.delhi.gov.in/data/static/ and https://otd.delhi.gov.in/data/staticDMRC/ | Public pages visited; downloads require identity/purpose form. No form submitted or file downloaded | https://otd.delhi.gov.in/terms reviewed: DoT terms apply, attribution required; not a blanket open-data licence. No invented identity or access bypass |
+
+All six successful file acquisitions occurred on 2026-10-01 UTC. Download Last-Modified headers are retained as server metadata, not used as the report year. The Haryana/UP/Parliament first sandbox attempts failed on socket permissions; authorized network execution succeeded without disabling TLS or access checks.

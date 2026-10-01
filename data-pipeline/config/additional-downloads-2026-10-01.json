@@ -1,0 +1,26 @@
+[
+  {
+    "id": "haryana-annual-report-2022",
+    "url": "https://haryanapolice.gov.in/PDF/Annual_Admin_Report_2022.pdf",
+    "path": "haryana-police/annual-admin-2022.pdf",
+    "publisher": "Haryana Police",
+    "license": "Government publication; no separate open licence asserted; research staging",
+    "geography": "Haryana; table geography pending inspection"
+  },
+  {
+    "id": "up-crime-2012",
+    "url": "https://uppolice.gov.in/writereaddata/uploaded-content/Web_Page/21_11_2013_12_23_50_Crime%20in%20UP-2012.pdf",
+    "path": "up-police/crime-in-up-2012.pdf",
+    "publisher": "UP Police, State Crime Records Bureau",
+    "license": "Government publication; no separate open licence asserted; research staging",
+    "geography": "Uttar Pradesh; historical district tables pending inspection"
+  },
+  {
+    "id": "rajya-sabha-4220-2026",
+    "url": "https://sansad.in/getFile/annex/270/AU4220_M31fhO.pdf?source=pqars",
+    "path": "parliament/rs-4220-2026.pdf",
+    "publisher": "Ministry of Home Affairs, Rajya Sabha",
+    "license": "Government parliamentary answer; no separate open licence asserted; research staging",
+    "geography": "Delhi Police coverage, annual 2023-2025"
+  }
+]

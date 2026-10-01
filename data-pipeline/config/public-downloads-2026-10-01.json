@@ -1,0 +1,32 @@
+[
+  {
+    "id":"delhi-police-caw-2013-2022",
+    "url":"https://delhipolice.gov.in/Images/HTMLfiles/CAW(10).pdf",
+    "discoveredAt":"https://delhipolice.gov.in/statistics",
+    "path":"delhi-police/caw-2013-2022.pdf",
+    "title":"2013 to 2022 Against Women",
+    "publisher":"Delhi Police",
+    "license":"Public government statistical publication; no separate open licence asserted. Research staging only.",
+    "geography":"Delhi; finer geographic breakdown to be inspected"
+  },
+  {
+    "id":"delhi-police-crime-2011-2022",
+    "url":"https://delhipolice.gov.in/Images/HTMLfiles/Crime%20In%20Delhi(2).pdf",
+    "discoveredAt":"https://delhipolice.gov.in/statistics",
+    "path":"delhi-police/crime-2011-2022.pdf",
+    "title":"2011 to 2022 Crime in Delhi",
+    "publisher":"Delhi Police",
+    "license":"Public government statistical publication; no separate open licence asserted. Research staging only.",
+    "geography":"Delhi; finer geographic breakdown to be inspected"
+  },
+  {
+    "id":"delhi-police-crime-2001-2010",
+    "url":"https://delhipolice.gov.in/Images/HTMLfiles/CRIME_RATE_2001_2010%20(1).pdf",
+    "discoveredAt":"https://delhipolice.gov.in/statistics",
+    "path":"delhi-police/crime-2001-2010.pdf",
+    "title":"2001 to 2010 Crime in Delhi",
+    "publisher":"Delhi Police",
+    "license":"Public government statistical publication; no separate open licence asserted. Research staging only.",
+    "geography":"Delhi; historical context"
+  }
+]
