@@ -5,7 +5,13 @@
 - Collect permitted public reports; review locality/date/time associations and deduplicate events.
 - Keep source references, aggregate crime context and adult conviction profiles visible with their limitations.
 - Finish region geometry, population crosswalks, Hindi copy and responsive map checks.
-- Maintain and test training, validation and static prediction export. Train only after inputs and runtime are ready.
+- Maintain the trained counts-only baseline and its spatial/city/temporal evaluation. Add neighbourhood/time estimates only when matching evidence is ready.
+
+## Current completed milestones
+
+- The home screen is the 2024 historical Delhi police-district map, with all 15 geographic districts, recorded totals, category details, search, themes and methodology. Symbols are approximate reference points, not district boundaries or danger radii.
+- Counts-only research has compared persistence, a regularised Poisson model and LightGBM. Persistence performed best in the documented holdouts; outputs remain research estimates rather than validated safety scores. See `data-pipeline/MODEL_CARD.md`.
+- Source-backed totals are available, but the original local workbooks' download receipts, matching police boundaries and complete historical place context remain missing. Additional API keys do not fill those evidence gaps.
 
 ## What you can do to unblock real predictions
 
@@ -32,4 +38,4 @@ If you do not have an export, the drafts in `data-pipeline/DATA_REQUESTS.md` can
 
 ## Completion criteria
 
-Production red zones require usable labels and exposure, reviewed boundaries, successful spatial/city/temporal evaluation and calibrated scores. Until then, sample shading stays explicitly labelled. No additional paid API, deployment or new account is required for the current work.
+The historical red circles are complete as recorded-volume symbols; they do not assert danger. Neighbourhood risk estimates require usable labels, matching geometry/context and successful spatial/city/temporal evaluation. Actual time-band predictions require actual occurrence-time observations; assumed factors stay separately labelled. The count-based model uses total counts rather than population rates. Sample shading remains explicitly labelled. No additional paid API, deployment or new account is required for the current work.
