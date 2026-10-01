@@ -252,3 +252,10 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 
 - Included the new historical district feed in the existing `validate:data` command, using the same client loader and discrepancy checks. The publication gate now covers recorded district totals as well as the older mirror extract, risk, news, offenders and district references.
 - Full publication validation and script lint pass. No crime values, model artifacts, map geometry or UI changed; existing untracked artifacts preserved. Source-provenance, matching geography/context and browser visual-review gaps remain unchanged.
+
+## Collapsible historical map controls — 2026-10-02
+
+- District controls now start as a glass capsule showing the recorded total and year. Click to expand search and the full district card; click again or press Escape to collapse. Legend uses the same disclosure pattern. Only one card expands at a time, with hidden content removed from keyboard navigation.
+- Removed the empty right-hand details card. Selecting a district opens its details; the header collapses it to a name/count capsule. Clear-selection remains available. Mobile cards use bounded scrolling and avoid competing expanded sheets.
+- Zoom/recenter controls are anchored in a separate bottom-right capsule, independent of district/card height. Camera padding follows the open card, with resize/padding applied before selection fly-to. Attribution stays visible above mobile navigation.
+- Crime counts, categories, references, marker colours/diameters and model artifacts unchanged. Lint, TypeScript and production build pass; browser visual interaction remains unverified under the existing tool URL-policy restriction. User screenshots were used to identify the overlapping controls.
