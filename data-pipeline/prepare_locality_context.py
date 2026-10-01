@@ -1,7 +1,7 @@
 """Audit supplied context; never allocate district crime totals to reference cells."""
 import csv, hashlib, json, math, re
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 import h3
 import numpy as np
@@ -9,6 +9,29 @@ from scipy.spatial import cKDTree
 
 ROOT=Path(__file__).resolve().parent
 def normal(value): return re.sub(r'[^a-z0-9]', '', value.lower())
+def probe_metadata(data):
+    features=data.get('features',[])
+    if not features or features[0].get('geometry') is not None:raise ValueError('Missing leading probe metadata')
+    metadata=features[0].get('properties',{})
+    days=metadata.get('dateRanges',[])
+    if len(days)!=1 or days[0].get('from')!=days[0].get('to') or '@id' not in days[0]:raise ValueError('Expected one actual date per probe file')
+    day=date.fromisoformat(days[0]['from'])
+    if not date(2024,8,11)<=day<=date(2024,8,30):raise ValueError('Probe date outside declared sample period')
+    times={}; hours=[]
+    for t in metadata.get('timeSets',[]):
+        match=re.fullmatch(r'(\d{1,2}):00-(\d{1,2}):00',t.get('name',''))
+        if not match:raise ValueError('Expected whole-hour probe time set')
+        hour,end=map(int,match.groups())
+        if hour<0 or hour>23 or end!=(hour+1)%24 and end!=hour+1:raise ValueError('Invalid hourly range')
+        if t['@id'] in times:raise ValueError('Duplicate time-set identifier')
+        hours.append(hour);times[t['@id']]=hour//4
+    if len(hours)!=24 or set(hours)!=set(range(24)):raise ValueError('Incomplete or duplicated probe hours')
+    return day,days[0]['@id'],times
+def corrected_population_coordinates(row):
+    # Original source headers are reversed. Never change the supplied bytes.
+    lat,lon=float(row['Longitude']),float(row['latitude'])
+    if not(28.27<=lat<=28.91 and 76.81<=lon<=77.75):raise ValueError('Population coordinates outside configured NCR bounds')
+    return lat,lon
 def main():
     inputs=[]
     def audit(path):
@@ -25,7 +48,7 @@ def main():
     for p in points:
         matches=[r for r in population if normal(r['City'])==normal(p['name'])]
         if len(matches)==1:
-            r=matches[0]; lat,lon=float(r['Longitude']),float(r['latitude'])
+            r=matches[0]; lat,lon=corrected_population_coordinates(r)
             # Swapped source headings retained in audit; never edit original CSV.
             km=math.hypot((lon-p['coordinates'][0])*97.6,(lat-p['coordinates'][1])*111.2)
             if 28.27<=lat<=28.91 and 76.81<=lon<=77.75 and km<=2:
@@ -42,13 +65,13 @@ def main():
             p['populationMatch']='exact unique ward-name match only; ward vintage/boundary unverified, not a spatial match'
     tree=cKDTree(np.array([[p['coordinates'][0]*97.6,p['coordinates'][1]*111.2] for p in points]))
     aggregates=defaultdict(lambda:[0.0,0]); segment_sets=defaultdict(set); file_notes=[]
-    for path in sorted((ROOT/'new_delhi_traffic_dataset/probe_counts/geojson').glob('*.geojson')):
-        audit(path); data=json.loads(path.read_text()); metadata=data['features'][0]['properties']
-        days=metadata.get('dateRanges',[])
-        if len(days)!=1 or days[0]['from']!=days[0]['to']:raise ValueError('Expected one actual date per probe file')
-        day=date.fromisoformat(days[0]['from']); daytype='weekend' if day.weekday()>=5 else 'weekday'
-        times={t['@id']:int(t['name'].split(':')[0])//4 for t in metadata['timeSets']}
-        if len(times)!=24 or set(times.values())!=set(range(6)):raise ValueError('Unexpected hourly sets')
+    files=sorted((ROOT/'new_delhi_traffic_dataset/probe_counts/geojson').glob('*.geojson'))
+    if len(files)!=20:raise ValueError('Expected all 20 daily traffic files; refusing incomplete publication')
+    observed_dates=set()
+    for path in files:
+        audit(path); data=json.loads(path.read_text());day,date_id,times=probe_metadata(data)
+        if day in observed_dates:raise ValueError('Duplicate probe reporting date')
+        observed_dates.add(day);daytype='weekend' if day.weekday()>=5 else 'weekday'
         valid=0; assigned=0
         for f in data['features'][1:]:
             g=f.get('geometry');props=f.get('properties',{})
@@ -58,12 +81,13 @@ def main():
             if km>1:continue
             assigned+=1; segment_sets[int(index)].add(str(props['segmentId']))
             for obs in props.get('segmentProbeCounts',[]):
-                if obs.get('dateRange')!=days[0]['@id']:raise ValueError('Probe references an unexpected date range')
+                if obs.get('dateRange')!=date_id:raise ValueError('Probe references an unexpected date range')
                 value=obs.get('probeCount'); band=times.get(obs.get('timeSet'))
                 if band is None or value is None:continue
                 if not isinstance(value,(int,float)) or not math.isfinite(value) or value<0:raise ValueError('Invalid probe count')
                 a=aggregates[(int(index),daytype,band)];a[0]+=value;a[1]+=1
         file_notes.append({'path':path.name,'date':str(day),'roadSegments':valid,'assignedSegments':assigned})
+    if observed_dates!={date(2024,8,11)+timedelta(days=i) for i in range(20)}:raise ValueError('Incomplete declared traffic period')
     for i,p in enumerate(points):
         p['traffic']={day:[round(aggregates[(i,day,b)][0]/aggregates[(i,day,b)][1],4) if aggregates[(i,day,b)][1] else None for b in range(6)] for day in ['weekday','weekend']}
         p['trafficSegments']=len(segment_sets[i])
