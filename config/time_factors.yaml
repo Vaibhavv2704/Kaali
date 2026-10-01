@@ -1,0 +1,8 @@
+{
+  "status": "assumed",
+  "basis": "Neutral factors: no observed time-band or weekday/weekend labels are available. No band is asserted to have more crime.",
+  "bands": ["0-4", "4-8", "8-12", "12-16", "16-20", "20-24"],
+  "weekday": [1, 1, 1, 1, 1, 1],
+  "weekend": [1, 1, 1, 1, 1, 1],
+  "interpretation": "Multipliers of an annual case-volume index, not counts observed in four-hour windows. Uniform common multipliers cannot change within-band percentile ordering."
+}

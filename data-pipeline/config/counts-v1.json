@@ -1,0 +1,35 @@
+{
+  "version": "counts-v1",
+  "seed": 42,
+  "seeds": [
+    7,
+    42,
+    103
+  ],
+  "sources": [
+    {
+      "path": "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx",
+      "sha256": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+      "year": 2022,
+      "total_column": 54,
+      "source_url": null,
+      "download_url": null,
+      "retrieval_date": null,
+      "discovered_local_date": "2026-10-01",
+      "licence": "NCRB government publication; redistribution terms not verified for these supplied workbooks",
+      "provenance": "Existing local workbook, publisher title and totals checked; original download receipt unavailable"
+    },
+    {
+      "path": "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx",
+      "sha256": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb",
+      "year": 2024,
+      "total_column": 67,
+      "source_url": null,
+      "download_url": null,
+      "retrieval_date": null,
+      "discovered_local_date": "2026-10-01",
+      "licence": "NCRB government publication; redistribution terms not verified for these supplied workbooks",
+      "provenance": "Existing local workbook, publisher title and totals checked; original download receipt unavailable"
+    }
+  ]
+}
