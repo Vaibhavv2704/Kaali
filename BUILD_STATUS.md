@@ -357,3 +357,10 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Added early-access badge, current release/setup documentation and 12 live-site screenshots in GitHub README. Removed em dashes from frontend copy and root project Markdown; source data, statistical years/counts, licences and attributed material remain preserved.
 - Release checks pass: 100 frontend tests, 64 pipeline tests, lint, type-check, static-data validation and production build. Initial capture artifacts/stall resolved for live screenshots; physical-phone FPS and GPS movement were not independently tested.
 - Scope completed for early access. Scientific gaps remain documented; automated build continuation should stop. Manual owner follow-up: restrict MapTiler key to the deployed referrer, monitor provider quotas and review unresolved original input reuse receipts before wider promotion.
+
+## Mobile layout refinement: 2026-10-02
+
+- Compact mobile header, fixed bottom navigation, paired legend/help capsules and a separate vertical zoom/location toolbar leave more room for the map. Expanded district, legend, filter and surroundings panels use one readable bottom-sheet layout; surroundings starts collapsed on phones. Data, model and advisory rules remain unchanged.
+- Mobile emergency markers are smaller and use wider clustering with collision handling. Map camera padding adapts to sheets and short screens. Reduced-motion settings and safe-area insets remain supported.
+- Verified production preview at 360x800, 360x640, 390x844 and desktop 1280x720. Checked light/dark themes, search, district selection, filters, metro toggle, Escape collapse and Helplines/Crime data navigation. No horizontal overflow or browser console errors observed. Refreshed six mobile README screenshots. Live GPS and physical-phone frame rates were not tested.
+- Lint, type-check, all 100 frontend tests and production build pass. Existing lazy MapLibre chunk-size warning remains. Publication and live verification follow the existing authorized Render workflow.

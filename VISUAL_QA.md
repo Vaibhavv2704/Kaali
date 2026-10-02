@@ -15,3 +15,7 @@ Local screenshots are in `artifacts/visual-qa/` (excluded from Git). The browser
 The successful Render deployment was subsequently checked at https://kaali-ui4n.onrender.com. Direct `/helplines` and `/evidence` navigation works with the configured SPA rewrite. Map tiles, red circles, advisory cells and help layers load in both themes. Final screenshots in `docs/screenshots/` use the live website at desktop 1280×720 and mobile 360×800; no horizontal overflow or browser-console errors were observed. These clean captures supersede the earlier viewport capture artifacts and are embedded in the GitHub README.
 
 Not covered: real-phone 60fps measurements, live GPS grant/movement, screen-reader audit, every MapTiler catalogue style or long-running provider outages.
+
+## Mobile refinement
+
+Production preview checked at 360x800, short 360x640, 390x844 and desktop 1280x720. Mobile controls have distinct positions with one expanded sheet at a time. Sheets use an opaque theme surface to avoid labels showing through reading content. District search/Rohini selection, help filters/metro toggle, Escape collapse, both themes and mobile page navigation passed. DOM checks showed no horizontal overflow; the browser console returned no errors. Six mobile screenshots now show this production preview. Live GPS permission and physical-device performance were not tested.
