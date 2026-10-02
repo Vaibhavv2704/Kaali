@@ -2,7 +2,7 @@
 
 ## Delhi NCR early access
 
-The requested early-access software scope is complete. See RELEASE_NOTES.md and VISUAL_QA.md for release coverage and checks. GitHub/Render publication is being verified. The items below are future evidence and research improvements, not an instruction to keep changing this release automatically.
+The requested early-access software scope is complete and published to public GitHub and Render. See README.md, RELEASE_NOTES.md and VISUAL_QA.md for live links, release coverage and checks. The items below are future evidence and research improvements, not an instruction to keep changing this release automatically.
 
 ## Future research work
 
@@ -37,7 +37,7 @@ Do not send raw FIRs, victim details, names, exact residential addresses or pers
 
 If you do not have an export, the drafts in `data-pipeline/DATA_REQUESTS.md` can help you request one. They have not been sent or filed. You handle contacts, applicant details and any submission or fee. News evidence collection can continue meanwhile, but news absence cannot become zero-crime labels.
 
-## Already supplied — no need to send again
+## Already supplied: no need to send again
 
 - MapTiler key is configured locally.
 - Central Delhi 2011 Census workbook is received and imported; its current-geography crosswalk remains unfinished.

@@ -2,7 +2,30 @@
 
 **Kaali- Symbol of strength, protection and fearlessness**
 
-## Delhi NCR early access — complete
+[Open Kaali](https://kaali-ui4n.onrender.com) · Delhi NCR early access
+
+## Screenshots
+
+Captured from the live website. Red circles show historical recorded volume; locality shading is experimental advisory context.
+
+| Page | Light | Dark |
+| --- | --- | --- |
+| Map | ![Light map](docs/screenshots/map-light.jpg) | ![Dark map](docs/screenshots/map-dark.jpg) |
+| Helplines | ![Light helplines](docs/screenshots/helplines-light.jpg) | ![Dark helplines](docs/screenshots/helplines-dark.jpg) |
+| Crime data | ![Light crime data](docs/screenshots/crime-data-light.jpg) | ![Dark crime data](docs/screenshots/crime-data-dark.jpg) |
+
+<details>
+<summary>Mobile screenshots</summary>
+
+| Page | Light | Dark |
+| --- | --- | --- |
+| Map | ![Light mobile map](docs/screenshots/map-mobile-light.jpg) | ![Dark mobile map](docs/screenshots/map-mobile-dark.jpg) |
+| Helplines | ![Light mobile helplines](docs/screenshots/helplines-mobile-light.jpg) | ![Dark mobile helplines](docs/screenshots/helplines-mobile-dark.jpg) |
+| Crime data | ![Light mobile crime data](docs/screenshots/crime-data-mobile-light.jpg) | ![Dark mobile crime data](docs/screenshots/crime-data-mobile-dark.jpg) |
+
+</details>
+
+## Delhi NCR early access: complete
 
 Version `0.1.0-early-access` is the completed Delhi NCR early-access scope. It is an awareness map, not a validated prediction of individual safety or a real-time crime/traffic service.
 

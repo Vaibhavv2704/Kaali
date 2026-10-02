@@ -1,4 +1,4 @@
-# Kaali 0.1.0 — Delhi NCR early access
+# Kaali 0.1.0: Delhi NCR early access
 
 Release scope: Delhi NCR awareness map, historical recorded-case display, experimental locality advisories, emergency resources and client-only location. The software scope is complete for early access; this does not certify neighbourhood safety predictions.
 

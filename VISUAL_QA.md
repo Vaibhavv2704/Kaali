@@ -12,4 +12,6 @@ Fixed mobile helpline tabs to a 2×2 grid, kept the emergency header fixed while
 
 Local screenshots are in `artifacts/visual-qa/` (excluded from Git). The browser's viewport capture exhibited scaling/compositing artifacts and stalled once; screenshots are review evidence, not a claim of physical-device GPU performance. Live deployment will be checked separately. Precise GPS screenshots are not published.
 
+The successful Render deployment was subsequently checked at https://kaali-ui4n.onrender.com. Direct `/helplines` and `/evidence` navigation works with the configured SPA rewrite. Map tiles, red circles, advisory cells and help layers load in both themes. Final screenshots in `docs/screenshots/` use the live website at desktop 1280×720 and mobile 360×800; no horizontal overflow or browser-console errors were observed. These clean captures supersede the earlier viewport capture artifacts and are embedded in the GitHub README.
+
 Not covered: real-phone 60fps measurements, live GPS grant/movement, screen-reader audit, every MapTiler catalogue style or long-running provider outages.
