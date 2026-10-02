@@ -320,3 +320,11 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Removed How this advice is formed and Generate AI advice locally from the location card, including all AI request state/calls and runtime setup text in this component. Existing optional server/library remains available for future work but the card makes no generation request. Automatic on-device wording is not described as live AI.
 - Expanded each advisory level's precautions with route/pickup planning, booking verification, phone readiness, optional journey sharing/check-ins and practical responses to discomfort. Retained awareness/care reminder, emergency contact, short estimate disclaimer, auto-location and explicit native share. Crime/model/source data unchanged.
 - Type-check and lint pass. Targeted advisory/location tests and production build are verified before commit. Browser visual QA remains pending under the existing URL-policy block.
+- Seven targeted tests and production build passed before the advice-card commit; the existing lazy MapLibre chunk warning remains.
+
+## Unified map location control and wordmark — 2026-10-02
+
+- Removed the standalone Locate me button. The control beside zoom +/− now triggers the existing consent flow or flies to the device position when location is enabled; it previously recentered the whole NCR region. The capsule remains anchored in the existing position. Automatic zoom for previously granted permission is retained.
+- Header now renders Kaali directly as text, using the existing brand typography and theme text colour. Public SVG variants remain preserved. No model/crime/source records changed.
+- Type-check and lint pass. Relevant location/advisory tests and production build are verified before commit; visual browser QA remains pending under the existing URL-policy restriction.
+- Seven relevant tests and production build pass. Existing large lazy MapLibre chunk warning remains; no runtime browser verification claimed.
