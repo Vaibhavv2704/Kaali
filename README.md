@@ -129,7 +129,7 @@ Map tiles: © MapTiler under Cloud terms. Open data: © OpenStreetMap contributo
 
 ## Branding changelog
 
-Formerly Aegis. Renamed to Kaali; Know your area. Walk with awareness.
+Formerly Aegis. Renamed to Kaali; Kaali- Symbol of strength, protection and fearlessness
 
 Logo variants are in public/brand. The abstract mark uses no figurative or religious imagery. Existing browser preferences and recent searches migrate once to the new storage prefix. No factual datasets, licence text, third-party attribution, API credentials or external project identifiers change. App routes and manifest scope remain at the root, so no URL redirects are needed.
 

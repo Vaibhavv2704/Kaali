@@ -344,3 +344,8 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Removed visible 2024 reporting-year labels from the primary map, district details/marker accessibility text, methodology copy, evidence/news presentation, earlier-series views, year-filter labels and chart ticks/tooltips. Presentation helper substitutes Historical period; raw years, counts, source URLs, filter values and all data/model files remain unchanged. Historical wording remains visible so annual counts are not presented as current events. Counts numerically equal to 2024 are not modified.
 - Type-check, lint, display-only preservation regression and publication validation pass. Production build verified before commit; browser visual QA remains pending under the existing URL-policy restriction.
 - Production build passes with the existing large lazy MapLibre chunk warning. Source and model files unchanged.
+
+## Brand tagline update — 2026-10-02
+
+- Replaced the old tagline with “Kaali- Symbol of strength, protection and fearlessness” in the header, retained About component, browser/social metadata, manifest, package description and README. No imagery, data, model rules or functional changes. Type-check, lint and production build verified before commit; browser visual QA remains pending under the existing URL-policy restriction.
+- Type-check, lint and production build pass; existing lazy MapLibre chunk warning remains. Old tagline has no matches in the updated application/metadata files.
