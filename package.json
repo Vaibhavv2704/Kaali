@@ -11,7 +11,8 @@
     "verify:helplines": "node scripts/verify-helplines.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "lint": "eslint .",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "advice:dev": "node --env-file-if-exists=.env.local server/advice.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.0",

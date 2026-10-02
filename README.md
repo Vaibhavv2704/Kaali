@@ -218,3 +218,25 @@ Reproduce with `python data-pipeline/prepare_locality_context.py`. Reads the thr
 Main-map location is consent-only, with a blue device dot, accuracy circle, native sharing and an on-device awareness summary. No GPS is sent to a server/geocoder/AI service. Advice uses local rules, not live LLM inference. Square emergency pins/clusters differ from risk circles. Transparent H3 reference-cell colours are an assumed activity scenario; not locality boundaries or a calibrated crime forecast.
 
 Layout picker includes 43 public MapTiler catalogue variants plus three presets; provider/account availability can vary. Refresh with `python data-pipeline/refresh_map_catalog.py`. Source/hash: src/data/map-catalog.json. Original supplied CSV/probe licences and population year/units remain unverified; confirm before redistribution. Large raw traffic files are not committed or copied to the public app.
+
+## Trained ML model and optional local AI advice
+
+The latest model replaces the activity-only cell shading with an **experimental ML annual-volume scenario**. Train/export in one command:
+
+```sh
+python data-pipeline/train_ml_volume.py
+```
+
+This fits real 2022 → 2024 reporting-unit totals across Delhi, Haryana and UP (109 matched units), comparing persistence, regularised Poisson regression and LightGBM Poisson. Poisson has the lowest pooled held-out MAE (160.99 cases versus 165.55 persistence); combined NCR city transfer is worse than persistence. Applying the relationship to 2026 remains unvalidated. Full fold IDs, metrics, intervals, exclusions, hashes and caveats: `data-pipeline/reports/ml-volume-v1/MODEL_CARD.md`. Local estimator/config are Git-ignored in `data-pipeline/artifacts/ml-volume-v1`; app JSON and assumed reference-cell GeoJSON are exported separately. The older counts-v1 research remains preserved.
+
+Shaded cells interpolate model-volume ranks between approximate Delhi references, then apply separately assumed time/historical-probe/density context. They are **not measured locality crime counts, police boundaries or validated safety probabilities**. Missing mapping/context is grey/unknown. Neighbourhood counts and calibrated risk scores remain null. Recorded 2024 district totals stay separate from the 2026 model estimates. The existing earlier statements about activity-only shading describe the previous version.
+
+GPS summaries work immediately with on-device rules. For genuinely generated advice, install/run Ollama with a local text model of your choice, review its licence and hardware requirements, then set `KAALI_OLLAMA_MODEL` in `.env.local` to that installed model's exact name and run:
+
+```sh
+npm run advice:dev
+```
+
+Node 22+ starts a loopback service on port 5175, using Ollama on `127.0.0.1:11434`. Press **Generate AI advice locally** after granting location. Only anonymous categories for the model index, day/night, sampled activity and population availability are sent; never GPS, locality names, identifiers or case counts. Requests are not logged or stored. There is no cloud API key or automatic model download. This service supports the local development app; a production distribution needs its own reviewed local-runtime packaging. It deliberately has no remote endpoint setting. Official API documentation: https://docs.ollama.com/api/generate .
+
+No Ollama model was installed/running at implementation verification, so live LLM output is not verified. Privacy/schema/fallback tests pass; the rule summary remains available when generation is unavailable. Generated tips are awareness wording, not guarantees or emergency instructions. Browser visual QA remains pending under the recorded browser-tool URL-policy restriction.

@@ -1,0 +1,4 @@
+import {z} from 'zod';
+export const aiContextSchema=z.object({index:z.enum(['unknown','lower','middle','higher']),time:z.enum(['day','night']),activity:z.enum(['unknown','lower','higher']),population:z.enum(['unknown','available'])}).strict();
+export type AIContext=z.infer<typeof aiContextSchema>;
+export async function generateLocalAdvice(context:AIContext,signal:AbortSignal){const body=aiContextSchema.parse(context);const response=await fetch('http://127.0.0.1:5175/api/advice',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal});if(!response.ok)throw Error('Local AI advice is unavailable. The on-device summary remains available.');return z.object({advice:z.string().min(20).max(600),source:z.literal('local-ollama')}).parse(await response.json()).advice;}
