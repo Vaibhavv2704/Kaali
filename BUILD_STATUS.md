@@ -365,3 +365,7 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Verified production preview at 360x800, 360x640, 390x844 and desktop 1280x720. Checked light/dark themes, search, district selection, filters, metro toggle, Escape collapse and Helplines/Crime data navigation. No horizontal overflow or browser console errors observed. Refreshed six mobile README screenshots. Live GPS and physical-phone frame rates were not tested.
 - Lint, type-check, all 100 frontend tests and production build pass. Existing lazy MapLibre chunk-size warning remains. Publication and live verification follow the existing authorized Render workflow.
 - Render deployed commit 5956ffb successfully. Live mobile verification confirms vertical controls, compact capsules, opaque sheets, both themes, no horizontal overflow and no console errors. Map mobile screenshots refreshed from the live deployment.
+
+## Bottom navigation simplification: 2026-10-02
+
+- Removed the Nearby help tab and unused icon import. Mobile navigation now has Map, Helplines and Crime data; existing map filters remain accessible through the Help nearby capsule. Lint, type-check and production build pass. No data/model changes.
