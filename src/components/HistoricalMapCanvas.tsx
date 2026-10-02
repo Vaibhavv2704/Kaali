@@ -4,7 +4,8 @@ import maplibregl,{type GeoJSONSource} from 'maplibre-gl';
 import {useReducedMotion} from 'framer-motion';
 import {circle} from '@turf/turf';
 import {currentPeriod,type LocalityContext,type Locality} from '../lib/locality-context';
-import {mlCells,modelRiskLevel,type MLVolume} from '../lib/ml-volume';
+import {modelRiskLevel,type MLVolume} from '../lib/ml-volume';
+import {advisoryCells} from '../lib/advisory-risk';
 import {Plus,Minus,LocateFixed} from 'lucide-react';
 import {Button,Glass} from './ui';
 import {detailedBasemap,type BasemapLayout} from '../lib/map-layouts';
@@ -13,7 +14,7 @@ import {districtBand,districtDiameter,type HistoricalDistrict} from '../lib/hist
 import type {Bounds,HelpFeature,UserPosition} from '../types';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
-export default function HistoricalMapCanvas({districts,selectedId,theme,onSelect,bounds,center,openPanel,help,layout,timeBand,visibleKinds,context,userPosition,focusRequest,ml}:{districts:HistoricalDistrict[];selectedId:string|null;theme:string;onSelect:(id:string)=>void;bounds:Bounds;center:{lat:number;lng:number};openPanel:'districts'|'details'|'legend'|'filters'|null;help:HelpFeature[];layout:BasemapLayout;timeBand:number;visibleKinds:HelpFeature['properties']['kind'][];context:LocalityContext|null;userPosition:UserPosition|null;focusRequest:number;ml:MLVolume|null}){
+export default function HistoricalMapCanvas({districts,selectedId,theme,onSelect,bounds,center,openPanel,help,layout,timeBand,hour,visibleKinds,context,userPosition,focusRequest,ml}:{districts:HistoricalDistrict[];selectedId:string|null;theme:string;onSelect:(id:string)=>void;bounds:Bounds;center:{lat:number;lng:number};openPanel:'districts'|'details'|'legend'|'filters'|null;help:HelpFeature[];layout:BasemapLayout;timeBand:number;hour:number;visibleKinds:HelpFeature['properties']['kind'][];context:LocalityContext|null;userPosition:UserPosition|null;focusRequest:number;ml:MLVolume|null}){
  const ref=useRef<MapRef>(null),reduce=useReducedMotion();const [ready,setReady]=useState(false),[error,setError]=useState('');
  const key=import.meta.env.VITE_MAPTILER_KEY??'';const style=useMemo(()=>detailedBasemap(theme,key,layout),[theme,key,layout]);
  useEffect(()=>setError(''),[style]);
@@ -23,7 +24,7 @@ export default function HistoricalMapCanvas({districts,selectedId,theme,onSelect
  useEffect(()=>{if(!userPosition){focused.current=false;return;}if(ready&&(!focused.current||lastFocus.current!==focusRequest)){ref.current?.flyTo({center:[userPosition.lng,userPosition.lat],zoom:14,duration:reduce?0:700});focused.current=true;lastFocus.current=focusRequest;}},[userPosition,focusRequest,ready,reduce]);
  const accuracy=useMemo(()=>userPosition?circle([userPosition.lng,userPosition.lat],Math.min(userPosition.accuracy,50000)/1000,{units:'kilometers',steps:48}):null,[userPosition]);
  const day=currentPeriod().day;
- const cells=useMemo(()=>mlCells(ml,context?.records??[],timeBand,day),[ml,context,timeBand,day]);
+ const cells=useMemo(()=>advisoryCells(ml,context?.records??[],timeBand,day,hour,center),[ml,context,timeBand,day,hour,center]);
  useEffect(()=>{if(popup&&!visibleKinds.includes(popup.properties.kind))setPopup(null)},[visibleKinds,popup]);
 
  const helpPoints=useMemo(()=>({type:'FeatureCollection' as const,features:help.filter(f=>f.geometry.type==='Point'&&visibleKinds.includes(f.properties.kind))}),[help,visibleKinds]);
