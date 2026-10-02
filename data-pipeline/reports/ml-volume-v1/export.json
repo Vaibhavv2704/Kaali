@@ -1,0 +1,4427 @@
+{
+  "version": "ml-volume-v1",
+  "model": "poisson_glm",
+  "trainedOn": "real 2022\u21922024 police reporting-unit annual totals; pooled Delhi/Haryana/UP auxiliary units",
+  "forecastYear": 2026,
+  "notASafetyProbability": true,
+  "forecastStatus": "experimental; future-year validation unavailable",
+  "comparison": {
+    "persistence": {
+      "mae": 165.55045871559633,
+      "rmse": 256.97358233551677,
+      "spearman": 0.8992519073028621
+    },
+    "poisson_glm": {
+      "mae": 160.9850833067178,
+      "rmse": 250.2754099121467,
+      "spearman": 0.8932750739848734
+    },
+    "lightgbm_poisson": {
+      "mae": 180.71284701232435,
+      "rmse": 260.61332975281675,
+      "spearman": 0.8723659127294607
+    }
+  },
+  "anchors": [
+    {
+      "id": "Central",
+      "name": "Central",
+      "state": "Delhi",
+      "coordinates": [
+        77.2409554,
+        28.6415133
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 541,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 544.513011014168,
+      "volume_index": 13.157894736842104,
+      "interval": [
+        251.98111979504836,
+        908.1538739258406
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Dwarka",
+      "name": "Dwarka",
+      "state": "Delhi",
+      "coordinates": [
+        77.0584523,
+        28.5649687
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1177,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1099.5878197314437,
+      "volume_index": 60.526315789473685,
+      "interval": [
+        807.055928512324,
+        1463.2286826431161
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "East",
+      "name": "East",
+      "state": "Delhi",
+      "coordinates": [
+        77.3062871,
+        28.6250657
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 766,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 745.6335876671045,
+      "volume_index": 34.21052631578947,
+      "interval": [
+        453.10169644798486,
+        1109.274450578777
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Faridabad",
+      "name": "Faridabad",
+      "state": "Haryana",
+      "coordinates": [
+        77.2900781,
+        28.3959429
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1341,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1237.3056878532402,
+      "volume_index": 86.8421052631579,
+      "interval": [
+        944.7737966341206,
+        1600.9465507649127
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Gautambudh Nagar",
+      "name": "Gautambudh Nagar",
+      "state": "Uttar Pradesh",
+      "coordinates": [
+        77.3260756,
+        28.5707583
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 431,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 443.42600129331,
+      "volume_index": 7.894736842105263,
+      "interval": [
+        150.89411007419034,
+        807.0668642049825
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Ghaziabad",
+      "name": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "coordinates": [
+        77.3712722,
+        28.678628
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 2399,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 2094.2591714679274,
+      "volume_index": 97.36842105263158,
+      "interval": [
+        1801.7272802488078,
+        2457.9000343796
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Gurugram",
+      "name": "Gurugram",
+      "state": "Haryana",
+      "coordinates": [
+        77.0726571,
+        28.4593429
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1377,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1267.3164985415406,
+      "volume_index": 92.10526315789474,
+      "interval": [
+        974.7846073224209,
+        1630.957361453213
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "New Delhi",
+      "name": "New Delhi",
+      "state": "Delhi",
+      "coordinates": [
+        77.203394,
+        28.6387823
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 98,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 116.83147062261824,
+      "volume_index": 2.631578947368421,
+      "interval": [
+        0,
+        480.4723335342908
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "North",
+      "name": "North",
+      "state": "Delhi",
+      "coordinates": [
+        77.2215343,
+        28.6890673
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 621,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 616.7905944216523,
+      "volume_index": 18.421052631578945,
+      "interval": [
+        324.2587032025326,
+        980.4314573333247
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "North-East",
+      "name": "North-East",
+      "state": "Delhi",
+      "coordinates": [
+        77.2668137,
+        28.6698165
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1145,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1072.5111191822887,
+      "volume_index": 55.26315789473685,
+      "interval": [
+        779.979227963169,
+        1436.1519820939611
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "North-West",
+      "name": "North-West",
+      "state": "Delhi",
+      "coordinates": [
+        77.1739049,
+        28.6925224
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 748,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 729.7742009337995,
+      "volume_index": 28.947368421052634,
+      "interval": [
+        437.2423097146799,
+        1093.415063845472
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Outer",
+      "name": "Outer",
+      "state": "Delhi",
+      "coordinates": [
+        77.0305741,
+        28.6824341
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1179,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1101.277782233661,
+      "volume_index": 65.78947368421053,
+      "interval": [
+        808.7458910145413,
+        1464.9186451453334
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Outer North",
+      "name": "Outer North",
+      "state": "Delhi",
+      "coordinates": [
+        77.0256424,
+        28.8055119
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1216,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1132.493691216908,
+      "volume_index": 71.05263157894737,
+      "interval": [
+        839.9617999977884,
+        1496.1345541285805
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Rohini",
+      "name": "Rohini",
+      "state": "Delhi",
+      "coordinates": [
+        77.1259971,
+        28.7075774
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 883,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 847.898903970156,
+      "volume_index": 50.0,
+      "interval": [
+        555.3670127510363,
+        1211.5397668818284
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "Shahdara",
+      "name": "Shahdara",
+      "state": "Delhi",
+      "coordinates": [
+        77.2867347,
+        28.6653684
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 808,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 782.5034280066048,
+      "volume_index": 39.473684210526315,
+      "interval": [
+        489.9715367874852,
+        1146.1442909182774
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "South",
+      "name": "South",
+      "state": "Delhi",
+      "coordinates": [
+        77.2045562,
+        28.5306718
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1227,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1141.756654694716,
+      "volume_index": 76.31578947368422,
+      "interval": [
+        849.2247634755963,
+        1505.3975176063884
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "South-East",
+      "name": "South-East",
+      "state": "Delhi",
+      "coordinates": [
+        77.3037682,
+        28.4937527
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 1280,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 1186.2785599388862,
+      "volume_index": 81.57894736842105,
+      "interval": [
+        893.7466687197666,
+        1549.9194228505587
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "South-West",
+      "name": "South-West",
+      "state": "Delhi",
+      "coordinates": [
+        77.1611168,
+        28.557827
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 716,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 701.4898926806114,
+      "volume_index": 23.684210526315788,
+      "interval": [
+        408.9580014614918,
+        1065.130755592284
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "state": "Delhi",
+      "coordinates": [
+        77.1322843,
+        28.6741463
+      ],
+      "recordedYear": 2024,
+      "recordedCases": 825,
+      "forecastYear": 2026,
+      "expectedAnnualCases": 797.3749347089314,
+      "volume_index": 44.73684210526316,
+      "interval": [
+        504.84304348981175,
+        1161.015797620604
+      ],
+      "intervalStatus": "pooled out-of-area residual range; uncalibrated future coverage",
+      "dataType": "model-estimate",
+      "confidence": "low",
+      "referenceStatus": "approximate_reference"
+    }
+  ],
+  "localities": [
+    {
+      "id": "locality-reference-0",
+      "annualVolumeIndex": 58.332227528336944,
+      "influenceReferences": [
+        {
+          "id": "Dwarka",
+          "weight": 0.5475414141915173,
+          "distanceKm": 5.620781737774226
+        },
+        {
+          "id": "Outer",
+          "weight": 0.23512474695236696,
+          "distanceKm": 8.577407386032393
+        },
+        {
+          "id": "West",
+          "weight": 0.21733383885611574,
+          "distanceKm": 8.921575034991902
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-1",
+      "annualVolumeIndex": 28.770899057802126,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.8522941437788263,
+          "distanceKm": 1.3153180215143727
+        },
+        {
+          "id": "North",
+          "weight": 0.10405876731704847,
+          "distanceKm": 3.7643169586429424
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.043647088904125234,
+          "distanceKm": 5.8122981121377455
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-2",
+      "annualVolumeIndex": 30.02914765389549,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.8069439460081992,
+          "distanceKm": 1.690562137639621
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.09860836037062405,
+          "distanceKm": 4.836107579813375
+        },
+        {
+          "id": "North",
+          "weight": 0.09444769362117686,
+          "distanceKm": 4.94148115505008
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-3",
+      "annualVolumeIndex": 70.92172481429132,
+      "influenceReferences": [
+        {
+          "id": "Outer North",
+          "weight": 0.9897506527529203,
+          "distanceKm": 0.9607736322614747
+        },
+        {
+          "id": "Outer",
+          "weight": 0.0053750345678900595,
+          "distanceKm": 13.037470635551148
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.004874312679189561,
+          "distanceKm": 13.69075130753484
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-6",
+      "annualVolumeIndex": 39.77609139504456,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.44573190829277914,
+          "distanceKm": 3.878154500775456
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.3946530899368027,
+          "distanceKm": 4.121489667980621
+        },
+        {
+          "id": "West",
+          "weight": 0.1596150017704182,
+          "distanceKm": 6.480747718891742
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-7",
+      "annualVolumeIndex": 64.27210309313392,
+      "influenceReferences": [
+        {
+          "id": "Outer",
+          "weight": 0.5185142073553966,
+          "distanceKm": 5.863942451843947
+        },
+        {
+          "id": "Outer North",
+          "weight": 0.2890392414073134,
+          "distanceKm": 7.854013175139333
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.19244655123729015,
+          "distanceKm": 9.625315272143498
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-8",
+      "annualVolumeIndex": 32.42280243363816,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.805758699435465,
+          "distanceKm": 1.2580696303709642
+        },
+        {
+          "id": "West",
+          "weight": 0.11663273986689074,
+          "distanceKm": 3.306716338621239
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.07760856069764442,
+          "distanceKm": 4.053707099966811
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-9",
+      "annualVolumeIndex": 6.873139296631049,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.6909176892811807,
+          "distanceKm": 2.732526452331368
+        },
+        {
+          "id": "Central",
+          "weight": 0.2152163882576889,
+          "distanceKm": 4.8959825514203965
+        },
+        {
+          "id": "South-West",
+          "weight": 0.09386592246113037,
+          "distanceKm": 7.413504483357288
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-10",
+      "annualVolumeIndex": 45.17979182810505,
+      "influenceReferences": [
+        {
+          "id": "Rohini",
+          "weight": 0.5906734636510665,
+          "distanceKm": 1.7716932556930407
+        },
+        {
+          "id": "West",
+          "weight": 0.24048886424523144,
+          "distanceKm": 2.7766093160705947
+        },
+        {
+          "id": "North-West",
+          "weight": 0.16883767210370207,
+          "distanceKm": 3.313809848733258
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-12",
+      "annualVolumeIndex": 62.285797339985486,
+      "influenceReferences": [
+        {
+          "id": "Outer North",
+          "weight": 0.7043287041475264,
+          "distanceKm": 7.665184191956206
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.17491796535425774,
+          "distanceKm": 15.381301343904498
+        },
+        {
+          "id": "North-West",
+          "weight": 0.12075333049821581,
+          "distanceKm": 18.51231494977078
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-13",
+      "annualVolumeIndex": 49.0759428569511,
+      "influenceReferences": [
+        {
+          "id": "Rohini",
+          "weight": 0.9166354127724814,
+          "distanceKm": 0.7759445753750128
+        },
+        {
+          "id": "West",
+          "weight": 0.052629163910260915,
+          "distanceKm": 3.238290320784355
+        },
+        {
+          "id": "North-West",
+          "weight": 0.030735423317257763,
+          "distanceKm": 4.23749713496832
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-14",
+      "annualVolumeIndex": 44.630476276331386,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.7227434363777311,
+          "distanceKm": 1.3163496828575638
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.20289004584244255,
+          "distanceKm": 2.4844655615958016
+        },
+        {
+          "id": "North-West",
+          "weight": 0.07436651777982635,
+          "distanceKm": 4.103690777478342
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-15",
+      "annualVolumeIndex": 47.55605780622626,
+      "influenceReferences": [
+        {
+          "id": "Rohini",
+          "weight": 0.7849201037482315,
+          "distanceKm": 2.3529720996465064
+        },
+        {
+          "id": "West",
+          "weight": 0.13199018939668786,
+          "distanceKm": 5.737975344985612
+        },
+        {
+          "id": "North-West",
+          "weight": 0.08308970685508067,
+          "distanceKm": 7.231957919901206
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-17",
+      "annualVolumeIndex": 42.80142430351767,
+      "influenceReferences": [
+        {
+          "id": "Rohini",
+          "weight": 0.5479220281980955,
+          "distanceKm": 2.6641069431282154
+        },
+        {
+          "id": "North-West",
+          "weight": 0.3052171368432464,
+          "distanceKm": 3.569493354644019
+        },
+        {
+          "id": "West",
+          "weight": 0.14686083495865812,
+          "distanceKm": 5.1458608508540316
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-18",
+      "annualVolumeIndex": 21.28231569650805,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.4799262968193336,
+          "distanceKm": 2.4918251958327873
+        },
+        {
+          "id": "North",
+          "weight": 0.3813361660799539,
+          "distanceKm": 2.7954443333927546
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.13873753710071263,
+          "distanceKm": 4.6345530326960525
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-19",
+      "annualVolumeIndex": 8.27517483783842,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.579349871318384,
+          "distanceKm": 2.3112088617609103
+        },
+        {
+          "id": "North",
+          "weight": 0.23098296182606826,
+          "distanceKm": 3.6603252564932096
+        },
+        {
+          "id": "Central",
+          "weight": 0.18966716685554777,
+          "distanceKm": 4.039369416509995
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-20",
+      "annualVolumeIndex": 9.006201564762367,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.510113292145262,
+          "distanceKm": 1.7910558273303894
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.4262361368499628,
+          "distanceKm": 1.9593738591982828
+        },
+        {
+          "id": "North",
+          "weight": 0.0636505710047753,
+          "distanceKm": 5.070389133867834
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-21",
+      "annualVolumeIndex": 14.753484359340929,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.7312878665723324,
+          "distanceKm": 1.4364482100519373
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.1846535039146564,
+          "distanceKm": 2.858613101425854
+        },
+        {
+          "id": "North-East",
+          "weight": 0.08405862951301116,
+          "distanceKm": 4.236849172537496
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-22",
+      "annualVolumeIndex": 21.377582564457928,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.8171456803203729,
+          "distanceKm": 1.4006056717761022
+        },
+        {
+          "id": "North-East",
+          "weight": 0.09307437586582916,
+          "distanceKm": 4.15002352905045
+        },
+        {
+          "id": "Central",
+          "weight": 0.08977994381379792,
+          "distanceKm": 4.225479126590797
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-23",
+      "annualVolumeIndex": 17.295707569053018,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.7013321724845258,
+          "distanceKm": 1.6325567960635115
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.16031581820037197,
+          "distanceKm": 3.414616952893027
+        },
+        {
+          "id": "North-East",
+          "weight": 0.1383520093151022,
+          "distanceKm": 3.6756778793952085
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-26",
+      "annualVolumeIndex": 19.433714873714965,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.5908817338178927,
+          "distanceKm": 2.1278877430396856
+        },
+        {
+          "id": "North-West",
+          "weight": 0.2839521249104331,
+          "distanceKm": 3.0695621694368467
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.12516614127167422,
+          "distanceKm": 4.623337135172079
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-27",
+      "annualVolumeIndex": 25.967506866211217,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.5000775209073004,
+          "distanceKm": 2.3583496908082844
+        },
+        {
+          "id": "Central",
+          "weight": 0.2582038811335956,
+          "distanceKm": 3.2820522085354886
+        },
+        {
+          "id": "North-East",
+          "weight": 0.24171859795910391,
+          "distanceKm": 3.392124900640118
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-28",
+      "annualVolumeIndex": 12.012230849135372,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.5745149934148653,
+          "distanceKm": 2.1301137103041143
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.2143870484164711,
+          "distanceKm": 3.4870180761738516
+        },
+        {
+          "id": "North",
+          "weight": 0.21109795816866353,
+          "distanceKm": 3.5140784684649433
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-29",
+      "annualVolumeIndex": 9.664467803486925,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.43691916730041286,
+          "distanceKm": 2.4932072776141396
+        },
+        {
+          "id": "Central",
+          "weight": 0.35299361543624597,
+          "distanceKm": 2.7738023346165157
+        },
+        {
+          "id": "North",
+          "weight": 0.21008721726334126,
+          "distanceKm": 3.595498569139528
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-30",
+      "annualVolumeIndex": 24.02460160034741,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.728752267960532,
+          "distanceKm": 2.41078282961016
+        },
+        {
+          "id": "North-West",
+          "weight": 0.16681196404205376,
+          "distanceKm": 5.03888505368141
+        },
+        {
+          "id": "North-East",
+          "weight": 0.10443576799741423,
+          "distanceKm": 6.368298574605449
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-31",
+      "annualVolumeIndex": 8.378525280168118,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.4833407865127928,
+          "distanceKm": 1.8253193972774848
+        },
+        {
+          "id": "Central",
+          "weight": 0.45805783722967924,
+          "distanceKm": 1.8750179604381338
+        },
+        {
+          "id": "North",
+          "weight": 0.05860137625752802,
+          "distanceKm": 5.242177033514315
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-32",
+      "annualVolumeIndex": 15.137328580091594,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.3869974957634811,
+          "distanceKm": 3.1372645105373844
+        },
+        {
+          "id": "North",
+          "weight": 0.34446004548259646,
+          "distanceKm": 3.3253379351381644
+        },
+        {
+          "id": "North-West",
+          "weight": 0.2685424587539227,
+          "distanceKm": 3.766159714761383
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-34",
+      "annualVolumeIndex": 18.300356816141825,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.4499090777310912,
+          "distanceKm": 2.759347046011864
+        },
+        {
+          "id": "North-West",
+          "weight": 0.32546811237473466,
+          "distanceKm": 3.244251252628015
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.22462280989417424,
+          "distanceKm": 3.905186467604237
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-36",
+      "annualVolumeIndex": 71.2427159702713,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5363903793640881,
+          "distanceKm": 4.985641981056277
+        },
+        {
+          "id": "South-East",
+          "weight": 0.3338374764282423,
+          "distanceKm": 6.319664662424883
+        },
+        {
+          "id": "South-West",
+          "weight": 0.12977214420766978,
+          "distanceKm": 10.13609887339706
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-37",
+      "annualVolumeIndex": 51.365522066025534,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5143103853977777,
+          "distanceKm": 5.0591574874429215
+        },
+        {
+          "id": "Outer",
+          "weight": 0.25791985931420974,
+          "distanceKm": 7.144115286507087
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.22776975528801247,
+          "distanceKm": 7.602261745843056
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-38",
+      "annualVolumeIndex": 18.104016558701264,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.38578662835526095,
+          "distanceKm": 6.282823340891842
+        },
+        {
+          "id": "East",
+          "weight": 0.3613649815737864,
+          "distanceKm": 6.4916545575879905
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.2528483900709527,
+          "distanceKm": 7.760654287277159
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-39",
+      "annualVolumeIndex": 17.38461345782268,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.39869166513877086,
+          "distanceKm": 3.172316136413439
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.3314355910970776,
+          "distanceKm": 3.4793287607204215
+        },
+        {
+          "id": "North",
+          "weight": 0.2698727437641517,
+          "distanceKm": 3.855809121311768
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-40",
+      "annualVolumeIndex": 21.28231569650805,
+      "influenceReferences": [
+        {
+          "id": "North-West",
+          "weight": 0.4799262968193336,
+          "distanceKm": 2.4918251958327873
+        },
+        {
+          "id": "North",
+          "weight": 0.3813361660799539,
+          "distanceKm": 2.7954443333927546
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.13873753710071263,
+          "distanceKm": 4.6345530326960525
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-43",
+      "annualVolumeIndex": 21.083318304099024,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.8684139608264273,
+          "distanceKm": 1.3844715778677275
+        },
+        {
+          "id": "North-West",
+          "weight": 0.08305435928723898,
+          "distanceKm": 4.476784886391732
+        },
+        {
+          "id": "North-East",
+          "weight": 0.0485316798863338,
+          "distanceKm": 5.856454595604014
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-44",
+      "annualVolumeIndex": null,
+      "influenceReferences": [],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "unknown",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-45",
+      "annualVolumeIndex": 45.58134066463553,
+      "influenceReferences": [
+        {
+          "id": "North-East",
+          "weight": 0.4985209146658099,
+          "distanceKm": 2.330619554968691
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.4177020809050203,
+          "distanceKm": 2.5461252171972166
+        },
+        {
+          "id": "North",
+          "weight": 0.08377700442916991,
+          "distanceKm": 5.685264361317318
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-46",
+      "annualVolumeIndex": 42.57389966162721,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.5410083969625491,
+          "distanceKm": 3.845743108954409
+        },
+        {
+          "id": "North-East",
+          "weight": 0.26200813468665507,
+          "distanceKm": 5.526178206410223
+        },
+        {
+          "id": "East",
+          "weight": 0.19698346835079567,
+          "distanceKm": 6.3733443431868215
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-47",
+      "annualVolumeIndex": 44.21749133044248,
+      "influenceReferences": [
+        {
+          "id": "North-East",
+          "weight": 0.44889164644447094,
+          "distanceKm": 3.0207320104784396
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.43977045691819366,
+          "distanceKm": 3.0518974347534806
+        },
+        {
+          "id": "North",
+          "weight": 0.11133789663733536,
+          "distanceKm": 6.065428021639844
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-48",
+      "annualVolumeIndex": 43.34892303517172,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.6752461447465022,
+          "distanceKm": 1.8636710609900813
+        },
+        {
+          "id": "North-East",
+          "weight": 0.2652623079840316,
+          "distanceKm": 2.973463050953256
+        },
+        {
+          "id": "East",
+          "weight": 0.059491547269466094,
+          "distanceKm": 6.27874269746723
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-49",
+      "annualVolumeIndex": 44.699719247470526,
+      "influenceReferences": [
+        {
+          "id": "North-East",
+          "weight": 0.4842341860289623,
+          "distanceKm": 2.7681084333053434
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.40082683870416574,
+          "distanceKm": 3.04251287702175
+        },
+        {
+          "id": "North",
+          "weight": 0.11493897526687187,
+          "distanceKm": 5.681685118929939
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-50",
+      "annualVolumeIndex": 43.640333167294514,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.5211819865091665,
+          "distanceKm": 4.32464560435062
+        },
+        {
+          "id": "North-East",
+          "weight": 0.3176203288191977,
+          "distanceKm": 5.539761614203465
+        },
+        {
+          "id": "East",
+          "weight": 0.1611976846716358,
+          "distanceKm": 7.776171359841338
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-51",
+      "annualVolumeIndex": 43.095650749971355,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.6792171654790125,
+          "distanceKm": 1.3329347413631545
+        },
+        {
+          "id": "North-East",
+          "weight": 0.2865109768874368,
+          "distanceKm": 2.0523082043476855
+        },
+        {
+          "id": "Central",
+          "weight": 0.03427185763355081,
+          "distanceKm": 5.933956952984733
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-54",
+      "annualVolumeIndex": 42.91952788438761,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.7309422928239361,
+          "distanceKm": 1.3732377185898914
+        },
+        {
+          "id": "North-East",
+          "weight": 0.23094200130242729,
+          "distanceKm": 2.4430694147761884
+        },
+        {
+          "id": "East",
+          "weight": 0.03811570587363667,
+          "distanceKm": 6.013610364474202
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-55",
+      "annualVolumeIndex": 32.889620848721094,
+      "influenceReferences": [
+        {
+          "id": "North",
+          "weight": 0.5253742728154319,
+          "distanceKm": 4.305725348513602
+        },
+        {
+          "id": "North-East",
+          "weight": 0.28350835083957854,
+          "distanceKm": 5.861351911426466
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.1911173763449895,
+          "distanceKm": 7.1388891320594166
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-56",
+      "annualVolumeIndex": 45.609496996230675,
+      "influenceReferences": [
+        {
+          "id": "North-East",
+          "weight": 0.6842151397480957,
+          "distanceKm": 1.596698608392955
+        },
+        {
+          "id": "Central",
+          "weight": 0.1773681979920921,
+          "distanceKm": 3.136038673455418
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.13841666225981233,
+          "distanceKm": 3.549973411705806
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-57",
+      "annualVolumeIndex": 42.447511496934666,
+      "influenceReferences": [
+        {
+          "id": "North-East",
+          "weight": 0.46606804369194577,
+          "distanceKm": 3.4471901452554707
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.3256377196434915,
+          "distanceKm": 4.124036973410739
+        },
+        {
+          "id": "North",
+          "weight": 0.2082942366645627,
+          "distanceKm": 5.156455520410109
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-58",
+      "annualVolumeIndex": 9.006201564762367,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.510113292145262,
+          "distanceKm": 1.7910558273303894
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.4262361368499628,
+          "distanceKm": 1.9593738591982828
+        },
+        {
+          "id": "North",
+          "weight": 0.0636505710047753,
+          "distanceKm": 5.070389133867834
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-59",
+      "annualVolumeIndex": 13.947062715895658,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.9582252003456783,
+          "distanceKm": 0.5483810995696099
+        },
+        {
+          "id": "North-East",
+          "weight": 0.02334915153288187,
+          "distanceKm": 3.5130207926992587
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.018425648121439788,
+          "distanceKm": 3.9546211579107418
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-60",
+      "annualVolumeIndex": 3.196440925803079,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.9544460225621538,
+          "distanceKm": 0.7042086003817346
+        },
+        {
+          "id": "Central",
+          "weight": 0.02933815641095317,
+          "distanceKm": 4.016618656624418
+        },
+        {
+          "id": "North",
+          "weight": 0.016215821026892945,
+          "distanceKm": 5.402658785345087
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-61",
+      "annualVolumeIndex": 8.55408821055822,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.7253975517117883,
+          "distanceKm": 2.1133740827129994
+        },
+        {
+          "id": "North-West",
+          "weight": 0.15073470757071336,
+          "distanceKm": 4.636153305616383
+        },
+        {
+          "id": "North",
+          "weight": 0.12386774071749834,
+          "distanceKm": 5.114289542502166
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-62",
+      "annualVolumeIndex": 8.27517483783842,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.579349871318384,
+          "distanceKm": 2.3112088617609103
+        },
+        {
+          "id": "North",
+          "weight": 0.23098296182606826,
+          "distanceKm": 3.6603252564932096
+        },
+        {
+          "id": "Central",
+          "weight": 0.18966716685554777,
+          "distanceKm": 4.039369416509995
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-63",
+      "annualVolumeIndex": 8.378525280168118,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.4833407865127928,
+          "distanceKm": 1.8253193972774848
+        },
+        {
+          "id": "Central",
+          "weight": 0.45805783722967924,
+          "distanceKm": 1.8750179604381338
+        },
+        {
+          "id": "North",
+          "weight": 0.05860137625752802,
+          "distanceKm": 5.242177033514315
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-66",
+      "annualVolumeIndex": 11.876324193622509,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.5667206616169398,
+          "distanceKm": 1.995235933481783
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.37097331102762054,
+          "distanceKm": 2.4660816283708713
+        },
+        {
+          "id": "North-East",
+          "weight": 0.062306027355439685,
+          "distanceKm": 6.017467456826833
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-67",
+      "annualVolumeIndex": 25.56957340181703,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.422615261343696,
+          "distanceKm": 4.893426353918326
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.3868306028727004,
+          "distanceKm": 5.11475967266225
+        },
+        {
+          "id": "South",
+          "weight": 0.19055413578360372,
+          "distanceKm": 7.287464548595246
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-68",
+      "annualVolumeIndex": 8.924459697657552,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.5997273657515259,
+          "distanceKm": 1.799612962576865
+        },
+        {
+          "id": "Central",
+          "weight": 0.3508848749912257,
+          "distanceKm": 2.352738838365665
+        },
+        {
+          "id": "North-East",
+          "weight": 0.049387759257248344,
+          "distanceKm": 6.2711383875142195
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-69",
+      "annualVolumeIndex": 80.27850261317772,
+      "influenceReferences": [
+        {
+          "id": "South-East",
+          "weight": 0.9383726130297206,
+          "distanceKm": 1.9844767377878232
+        },
+        {
+          "id": "South",
+          "weight": 0.03844524740453511,
+          "distanceKm": 9.804204119073114
+        },
+        {
+          "id": "East",
+          "weight": 0.023182139565744254,
+          "distanceKm": 12.62574217232264
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-70",
+      "annualVolumeIndex": 3.061703718638282,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.9634967577060599,
+          "distanceKm": 0.603770460044299
+        },
+        {
+          "id": "Central",
+          "weight": 0.027786020340546117,
+          "distanceKm": 3.5553619082009607
+        },
+        {
+          "id": "North",
+          "weight": 0.008717221953393807,
+          "distanceKm": 6.34757641504068
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-71",
+      "annualVolumeIndex": 21.260553584649646,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.42885958688480996,
+          "distanceKm": 5.153833238332854
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.37958426973563214,
+          "distanceKm": 5.478148744536871
+        },
+        {
+          "id": "South",
+          "weight": 0.19155614337955804,
+          "distanceKm": 7.711518079569596
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-72",
+      "annualVolumeIndex": 38.150764953170224,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.3772414879206913,
+          "distanceKm": 5.481022324012554
+        },
+        {
+          "id": "South-West",
+          "weight": 0.36681612755316584,
+          "distanceKm": 5.558365288396353
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.2559423845261429,
+          "distanceKm": 6.654266491626755
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-73",
+      "annualVolumeIndex": 10.405664595251203,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.4251333663593008,
+          "distanceKm": 4.812932161755676
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.4181642485459173,
+          "distanceKm": 4.8528725581472525
+        },
+        {
+          "id": "South-West",
+          "weight": 0.15670238509478182,
+          "distanceKm": 7.927468642336881
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-75",
+      "annualVolumeIndex": 15.264011142760337,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.736490887282945,
+          "distanceKm": 2.013345710261693
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.1707910784611976,
+          "distanceKm": 4.180896842202608
+        },
+        {
+          "id": "North-East",
+          "weight": 0.0927180342558574,
+          "distanceKm": 5.674399842677742
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-76",
+      "annualVolumeIndex": 41.99430173713596,
+      "influenceReferences": [
+        {
+          "id": "North-East",
+          "weight": 0.45093018852719025,
+          "distanceKm": 3.698442245862386
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.3306015025913751,
+          "distanceKm": 4.319376739596239
+        },
+        {
+          "id": "North",
+          "weight": 0.21846830888143462,
+          "distanceKm": 5.313482729555626
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-77",
+      "annualVolumeIndex": 34.37949903013677,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.9850178742062321,
+          "distanceKm": 0.2819308736741712
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.009274562483027661,
+          "distanceKm": 5.152824419303494
+        },
+        {
+          "id": "North-East",
+          "weight": 0.005707563310740121,
+          "distanceKm": 6.568507365009474
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-79",
+      "annualVolumeIndex": 40.90086018842266,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.49206049728342444,
+          "distanceKm": 1.9990432327096135
+        },
+        {
+          "id": "North-East",
+          "weight": 0.35135761867289783,
+          "distanceKm": 2.3656840929952856
+        },
+        {
+          "id": "Central",
+          "weight": 0.15658188404367784,
+          "distanceKm": 3.5437304472975586
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-80",
+      "annualVolumeIndex": 41.83341204227975,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.6917016270138724,
+          "distanceKm": 2.0655202508357315
+        },
+        {
+          "id": "North-East",
+          "weight": 0.18916166525481987,
+          "distanceKm": 3.949774408280782
+        },
+        {
+          "id": "East",
+          "weight": 0.11913670773130777,
+          "distanceKm": 4.976981869088304
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-81",
+      "annualVolumeIndex": 42.07565948420975,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.5397555362564662,
+          "distanceKm": 3.2187821932340626
+        },
+        {
+          "id": "South",
+          "weight": 0.3810966540695705,
+          "distanceKm": 3.8306508990364727
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.0791478096739633,
+          "distanceKm": 8.405638191407983
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-82",
+      "annualVolumeIndex": 29.72214023052514,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.47960256967158466,
+          "distanceKm": 2.8634210719326725
+        },
+        {
+          "id": "Central",
+          "weight": 0.27463815730572777,
+          "distanceKm": 3.783951218924268
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.2457592730226876,
+          "distanceKm": 4.000101491135905
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-83",
+      "annualVolumeIndex": 33.24555059923371,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.8654791365890601,
+          "distanceKm": 1.6827406815731982
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.07094761349963301,
+          "distanceKm": 5.877282958877131
+        },
+        {
+          "id": "Central",
+          "weight": 0.06357324991130688,
+          "distanceKm": 6.208808844918842
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-84",
+      "annualVolumeIndex": 31.13471880117651,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5332282873547669,
+          "distanceKm": 3.366347367375565
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.2368176579681528,
+          "distanceKm": 5.051361819225939
+        },
+        {
+          "id": "North-West",
+          "weight": 0.22995405467708024,
+          "distanceKm": 5.126193343520076
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-85",
+      "annualVolumeIndex": 32.520905544649175,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.79277567912956,
+          "distanceKm": 2.144651158680023
+        },
+        {
+          "id": "Central",
+          "weight": 0.10565045347741954,
+          "distanceKm": 5.874841281159375
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.10157386739302054,
+          "distanceKm": 5.9915726056071215
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-86",
+      "annualVolumeIndex": 37.5611467627134,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.6808666841306718,
+          "distanceKm": 1.7795537358848237
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.21330512618725636,
+          "distanceKm": 3.179373150203798
+        },
+        {
+          "id": "North-East",
+          "weight": 0.10582818968207203,
+          "distanceKm": 4.513791195468889
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-87",
+      "annualVolumeIndex": 53.83234050250675,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.49449525279026185,
+          "distanceKm": 6.148415782859411
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.29387429336266896,
+          "distanceKm": 7.9756023587548635
+        },
+        {
+          "id": "Outer",
+          "weight": 0.21163045384706902,
+          "distanceKm": 9.398427820504851
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-88",
+      "annualVolumeIndex": 30.959569814367864,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.5691659875483576,
+          "distanceKm": 2.5107399900293683
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.22113086290729278,
+          "distanceKm": 4.028065549459069
+        },
+        {
+          "id": "Central",
+          "weight": 0.20970314954434977,
+          "distanceKm": 4.136363841268034
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-91",
+      "annualVolumeIndex": 32.97876247094094,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.7978962944882292,
+          "distanceKm": 2.9719835455649974
+        },
+        {
+          "id": "Shahdara",
+          "weight": 0.11487593830517237,
+          "distanceKm": 7.832584499610697
+        },
+        {
+          "id": "Central",
+          "weight": 0.0872277672065986,
+          "distanceKm": 8.988603981496919
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-92",
+      "annualVolumeIndex": 40.01310438507737,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.9508962987374899,
+          "distanceKm": 0.4987596496635565
+        },
+        {
+          "id": "North-East",
+          "weight": 0.0378983836068028,
+          "distanceKm": 2.5045300055006674
+        },
+        {
+          "id": "East",
+          "weight": 0.011205317655707103,
+          "distanceKm": 4.606005969220762
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-93",
+      "annualVolumeIndex": 41.834369888684925,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.6303425682920556,
+          "distanceKm": 2.52744099270121
+        },
+        {
+          "id": "North-East",
+          "weight": 0.20454692763951984,
+          "distanceKm": 4.436830760274874
+        },
+        {
+          "id": "East",
+          "weight": 0.1651105040684246,
+          "distanceKm": 4.938351421919578
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-94",
+      "annualVolumeIndex": 42.91952788438761,
+      "influenceReferences": [
+        {
+          "id": "Shahdara",
+          "weight": 0.7309422928239361,
+          "distanceKm": 1.3732377185898914
+        },
+        {
+          "id": "North-East",
+          "weight": 0.23094200130242729,
+          "distanceKm": 2.4430694147761884
+        },
+        {
+          "id": "East",
+          "weight": 0.03811570587363667,
+          "distanceKm": 6.013610364474202
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-95",
+      "annualVolumeIndex": 70.62505768389947,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5719082216491824,
+          "distanceKm": 4.59702640647532
+        },
+        {
+          "id": "South-East",
+          "weight": 0.29087988576809765,
+          "distanceKm": 6.445896426386947
+        },
+        {
+          "id": "South-West",
+          "weight": 0.13721189258271987,
+          "distanceKm": 9.385216405501504
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-96",
+      "annualVolumeIndex": 61.470877228475345,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.6504330074302519,
+          "distanceKm": 3.8746551652892327
+        },
+        {
+          "id": "South-West",
+          "weight": 0.2881909381054029,
+          "distanceKm": 5.820954213034902
+        },
+        {
+          "id": "South-East",
+          "weight": 0.061376054464345096,
+          "distanceKm": 12.6134781805313
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-97",
+      "annualVolumeIndex": 69.33272634615659,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.6155831519117448,
+          "distanceKm": 4.453637122429795
+        },
+        {
+          "id": "South-East",
+          "weight": 0.2288533169683912,
+          "distanceKm": 7.304316532382726
+        },
+        {
+          "id": "South-West",
+          "weight": 0.15556353111986387,
+          "distanceKm": 8.859399674760258
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-98",
+      "annualVolumeIndex": 50.65693960635368,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5549900259343746,
+          "distanceKm": 5.472762248987913
+        },
+        {
+          "id": "South-West",
+          "weight": 0.23246910699735104,
+          "distanceKm": 8.45603062390113
+        },
+        {
+          "id": "Central",
+          "weight": 0.2125408670682745,
+          "distanceKm": 8.84357670016125
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-99",
+      "annualVolumeIndex": 47.33573492767347,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.4950635919798724,
+          "distanceKm": 5.2997188024701565
+        },
+        {
+          "id": "South-West",
+          "weight": 0.2765132662497453,
+          "distanceKm": 7.091291450807123
+        },
+        {
+          "id": "Central",
+          "weight": 0.22842314177038245,
+          "distanceKm": 7.802131593288051
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-100",
+      "annualVolumeIndex": 65.75319987331717,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.6069030356702899,
+          "distanceKm": 4.886472778044954
+        },
+        {
+          "id": "South-West",
+          "weight": 0.21818081712722273,
+          "distanceKm": 8.149798227877254
+        },
+        {
+          "id": "South-East",
+          "weight": 0.17491614720248744,
+          "distanceKm": 9.10207033682007
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-101",
+      "annualVolumeIndex": 45.943140051265225,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.41195821382571096,
+          "distanceKm": 6.887663644907136
+        },
+        {
+          "id": "East",
+          "weight": 0.321424510957965,
+          "distanceKm": 7.7975652526802195
+        },
+        {
+          "id": "Central",
+          "weight": 0.2666172752163241,
+          "distanceKm": 8.561588904955721
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-103",
+      "annualVolumeIndex": 58.649933016600926,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.7021333019514142,
+          "distanceKm": 3.5485719415885817
+        },
+        {
+          "id": "South-West",
+          "weight": 0.20340526145859386,
+          "distanceKm": 6.59298835971264
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.0944614365899919,
+          "distanceKm": 9.67466926261909
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-104",
+      "annualVolumeIndex": 55.43317821443965,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.6322941726785214,
+          "distanceKm": 3.0471691509000323
+        },
+        {
+          "id": "South-West",
+          "weight": 0.29504636081105856,
+          "distanceKm": 4.460782224049874
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.0726594665104201,
+          "distanceKm": 8.988972466880236
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-105",
+      "annualVolumeIndex": 57.773045256566654,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.677993166803469,
+          "distanceKm": 3.0524429399466877
+        },
+        {
+          "id": "South-West",
+          "weight": 0.24624356587477433,
+          "distanceKm": 5.064980374721831
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.07576326732175667,
+          "distanceKm": 9.131263281648456
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-106",
+      "annualVolumeIndex": 70.01682318748321,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.887788578752589,
+          "distanceKm": 1.5251258555848861
+        },
+        {
+          "id": "South-West",
+          "weight": 0.09353907577139073,
+          "distanceKm": 4.698550763121242
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.01867234547602035,
+          "distanceKm": 10.516252944399243
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-107",
+      "annualVolumeIndex": 52.32743300727722,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5631862599293275,
+          "distanceKm": 2.75115166960546
+        },
+        {
+          "id": "South-West",
+          "weight": 0.38940115809302184,
+          "distanceKm": 3.3085822802951688
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.04741258197765074,
+          "distanceKm": 9.481864735621011
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-108",
+      "annualVolumeIndex": 81.01320120614395,
+      "influenceReferences": [
+        {
+          "id": "South-East",
+          "weight": 0.9745333220201879,
+          "distanceKm": 1.424523037106094
+        },
+        {
+          "id": "South",
+          "weight": 0.0152135413732076,
+          "distanceKm": 11.401255119240354
+        },
+        {
+          "id": "East",
+          "weight": 0.010253136606604488,
+          "distanceKm": 13.887991813717706
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-110",
+      "annualVolumeIndex": 31.523635057035268,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.3640191286586281,
+          "distanceKm": 6.5672701607995405
+        },
+        {
+          "id": "South",
+          "weight": 0.3401037431085317,
+          "distanceKm": 6.794246189149207
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.29587712823284035,
+          "distanceKm": 7.284358104771448
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-111",
+      "annualVolumeIndex": 70.90770951947516,
+      "influenceReferences": [
+        {
+          "id": "South-East",
+          "weight": 0.5787951845187546,
+          "distanceKm": 5.468199451892472
+        },
+        {
+          "id": "South",
+          "weight": 0.22041351850393617,
+          "distanceKm": 8.861101024867448
+        },
+        {
+          "id": "East",
+          "weight": 0.20079129697730927,
+          "distanceKm": 9.283983482866756
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-112",
+      "annualVolumeIndex": 32.50547689653018,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.3508162239438191,
+          "distanceKm": 5.871919892404849
+        },
+        {
+          "id": "South-West",
+          "weight": 0.34125322544457987,
+          "distanceKm": 5.953626345187812
+        },
+        {
+          "id": "South",
+          "weight": 0.3079305506116011,
+          "distanceKm": 6.267488815834361
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-113",
+      "annualVolumeIndex": 66.60855298209518,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.635642458504418,
+          "distanceKm": 4.499954804104561
+        },
+        {
+          "id": "South-West",
+          "weight": 0.20079386135431831,
+          "distanceKm": 8.006438748587106
+        },
+        {
+          "id": "South-East",
+          "weight": 0.16356368014126374,
+          "distanceKm": 8.87097110238212
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-115",
+      "annualVolumeIndex": 71.20376076442223,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.730975887121801,
+          "distanceKm": 3.3664123064933107
+        },
+        {
+          "id": "South-East",
+          "weight": 0.15626869763838283,
+          "distanceKm": 7.280862592373201
+        },
+        {
+          "id": "South-West",
+          "weight": 0.11275541523981626,
+          "distanceKm": 8.571367716005868
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-116",
+      "annualVolumeIndex": 74.28208580815924,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.9403443116366922,
+          "distanceKm": 1.322535554993088
+        },
+        {
+          "id": "South-West",
+          "weight": 0.0405508531648229,
+          "distanceKm": 6.36870025762813
+        },
+        {
+          "id": "South-East",
+          "weight": 0.01910483519848481,
+          "distanceKm": 9.278529639949689
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-118",
+      "annualVolumeIndex": 49.20166152956848,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5307623959317903,
+          "distanceKm": 5.570922463895067
+        },
+        {
+          "id": "South-West",
+          "weight": 0.23958346971826372,
+          "distanceKm": 8.291798922394255
+        },
+        {
+          "id": "Central",
+          "weight": 0.22965413434994592,
+          "distanceKm": 8.469154445314663
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-119",
+      "annualVolumeIndex": 25.594600831563987,
+      "influenceReferences": [
+        {
+          "id": "New Delhi",
+          "weight": 0.3921041608304658,
+          "distanceKm": 5.613495176582506
+        },
+        {
+          "id": "Central",
+          "weight": 0.34563063253136006,
+          "distanceKm": 5.978991915286762
+        },
+        {
+          "id": "South",
+          "weight": 0.2622652066381741,
+          "distanceKm": 6.863786083285946
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-120",
+      "annualVolumeIndex": 42.73333209011475,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.3597464765274158,
+          "distanceKm": 7.2362141152137385
+        },
+        {
+          "id": "South",
+          "weight": 0.3483622659176782,
+          "distanceKm": 7.353500563209978
+        },
+        {
+          "id": "Central",
+          "weight": 0.291891257554906,
+          "distanceKm": 8.03339533202351
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-121",
+      "annualVolumeIndex": 75.2031704304515,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.9710828540219864,
+          "distanceKm": 0.8506775624341913
+        },
+        {
+          "id": "South-West",
+          "weight": 0.021846796744748757,
+          "distanceKm": 5.67151698309594
+        },
+        {
+          "id": "South-East",
+          "weight": 0.007070349233265071,
+          "distanceKm": 9.969484168219818
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-122",
+      "annualVolumeIndex": 61.96132074945656,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.6914256738375787,
+          "distanceKm": 2.742785884000963
+        },
+        {
+          "id": "South-West",
+          "weight": 0.27599303488778865,
+          "distanceKm": 4.3412579878592865
+        },
+        {
+          "id": "South-East",
+          "weight": 0.03258129127463262,
+          "distanceKm": 12.635153147107426
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-123",
+      "annualVolumeIndex": 55.97842827921367,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.650737376837877,
+          "distanceKm": 3.37399807010731
+        },
+        {
+          "id": "South-West",
+          "weight": 0.2563945243300793,
+          "distanceKm": 5.375183971145987
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.09286809883204365,
+          "distanceKm": 8.93129488142551
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-124",
+      "annualVolumeIndex": 67.75671211513696,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5710420742948321,
+          "distanceKm": 5.1557822372185145
+        },
+        {
+          "id": "South-East",
+          "weight": 0.24212314172069999,
+          "distanceKm": 7.9179083367834435
+        },
+        {
+          "id": "South-West",
+          "weight": 0.18683478398446796,
+          "distanceKm": 9.01363054249866
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-125",
+      "annualVolumeIndex": 33.629593405586434,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.6591395828954439,
+          "distanceKm": 3.0200086729903384
+        },
+        {
+          "id": "South",
+          "weight": 0.2323617439628319,
+          "distanceKm": 5.086447577954545
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.10849867314172394,
+          "distanceKm": 7.443628208820053
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-126",
+      "annualVolumeIndex": 43.66472308629796,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.37543204623004095,
+          "distanceKm": 7.365701708300403
+        },
+        {
+          "id": "South",
+          "weight": 0.357880766789704,
+          "distanceKm": 7.544155261047937
+        },
+        {
+          "id": "Central",
+          "weight": 0.2666871869802551,
+          "distanceKm": 8.739341738566162
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-127",
+      "annualVolumeIndex": 15.80647163011393,
+      "influenceReferences": [
+        {
+          "id": "Central",
+          "weight": 0.4164963468535258,
+          "distanceKm": 5.922966010092077
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.30513083381070844,
+          "distanceKm": 6.919931425224309
+        },
+        {
+          "id": "East",
+          "weight": 0.2783728193357658,
+          "distanceKm": 7.244883806568468
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-128",
+      "annualVolumeIndex": 60.495912075689446,
+      "influenceReferences": [
+        {
+          "id": "East",
+          "weight": 0.41696486183748144,
+          "distanceKm": 7.0322258810181335
+        },
+        {
+          "id": "South-East",
+          "weight": 0.3299421890808445,
+          "distanceKm": 7.905395740997463
+        },
+        {
+          "id": "South",
+          "weight": 0.2530929490816741,
+          "distanceKm": 9.026149407758298
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-130",
+      "annualVolumeIndex": 40.867536583795506,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.5505257192033843,
+          "distanceKm": 3.2720778783819853
+        },
+        {
+          "id": "South",
+          "weight": 0.3616235052934006,
+          "distanceKm": 4.037235769502135
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.08785077550321523,
+          "distanceKm": 8.191051158605537
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-131",
+      "annualVolumeIndex": 70.47123355744387,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.7723073229061086,
+          "distanceKm": 3.1981699387863554
+        },
+        {
+          "id": "South-West",
+          "weight": 0.12165075465268718,
+          "distanceKm": 8.058221660164628
+        },
+        {
+          "id": "South-East",
+          "weight": 0.1060419224412042,
+          "distanceKm": 8.630934424122419
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-132",
+      "annualVolumeIndex": 74.77901854264546,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.9555927368711179,
+          "distanceKm": 1.1338411193505373
+        },
+        {
+          "id": "South-West",
+          "weight": 0.030581249093295217,
+          "distanceKm": 6.338128105196485
+        },
+        {
+          "id": "South-East",
+          "weight": 0.013826014035586939,
+          "distanceKm": 9.426275447470637
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-133",
+      "annualVolumeIndex": 71.2427159702713,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5363903793640881,
+          "distanceKm": 4.985641981056277
+        },
+        {
+          "id": "South-East",
+          "weight": 0.3338374764282423,
+          "distanceKm": 6.319664662424883
+        },
+        {
+          "id": "South-West",
+          "weight": 0.12977214420766978,
+          "distanceKm": 10.13609887339706
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-134",
+      "annualVolumeIndex": 74.3100942304836,
+      "influenceReferences": [
+        {
+          "id": "South-East",
+          "weight": 0.6818534632992935,
+          "distanceKm": 4.529261465120245
+        },
+        {
+          "id": "South",
+          "weight": 0.18527959176228012,
+          "distanceKm": 8.688786484619154
+        },
+        {
+          "id": "East",
+          "weight": 0.13286694493842643,
+          "distanceKm": 10.260403569854175
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-135",
+      "annualVolumeIndex": 37.36923000113498,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.5332130991534254,
+          "distanceKm": 3.804507323056022
+        },
+        {
+          "id": "South",
+          "weight": 0.3190929502572818,
+          "distanceKm": 4.91801925390147
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.14769395058929286,
+          "distanceKm": 7.228821079718971
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-136",
+      "annualVolumeIndex": 74.82251960010068,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.9661380179614832,
+          "distanceKm": 0.7942701037131582
+        },
+        {
+          "id": "South-West",
+          "weight": 0.028871205274490157,
+          "distanceKm": 4.594680791426107
+        },
+        {
+          "id": "South-East",
+          "weight": 0.004990776764026649,
+          "distanceKm": 11.051054733408822
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-137",
+      "annualVolumeIndex": 66.17513441416882,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.8225269687733924,
+          "distanceKm": 2.173521756538366
+        },
+        {
+          "id": "South-West",
+          "weight": 0.13947449396614542,
+          "distanceKm": 5.2782707993345825
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.037998537260462255,
+          "distanceKm": 10.112432261076876
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-138",
+      "annualVolumeIndex": 61.29114193481679,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.7438363895176161,
+          "distanceKm": 3.0930677089277903
+        },
+        {
+          "id": "South-West",
+          "weight": 0.18290187859214094,
+          "distanceKm": 6.237622020458053
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.07326173189024288,
+          "distanceKm": 9.85574700996385
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-139",
+      "annualVolumeIndex": 47.97424321574576,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5284610533068748,
+          "distanceKm": 4.494316623085192
+        },
+        {
+          "id": "South-West",
+          "weight": 0.3041628661738617,
+          "distanceKm": 5.924027448223101
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.1673760805192636,
+          "distanceKm": 7.9858925273902
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-140",
+      "annualVolumeIndex": 49.136540653329114,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.48059356520026203,
+          "distanceKm": 6.222134263574688
+        },
+        {
+          "id": "East",
+          "weight": 0.26720498543234666,
+          "distanceKm": 8.34461060852274
+        },
+        {
+          "id": "Central",
+          "weight": 0.2522014493673913,
+          "distanceKm": 8.5892365800165
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-142",
+      "annualVolumeIndex": 74.42170370411789,
+      "influenceReferences": [
+        {
+          "id": "South-East",
+          "weight": 0.5837189614515162,
+          "distanceKm": 4.485597526273309
+        },
+        {
+          "id": "South",
+          "weight": 0.32192151278157194,
+          "distanceKm": 6.040142771277145
+        },
+        {
+          "id": "South-West",
+          "weight": 0.09435952576691195,
+          "distanceKm": 11.156534926441491
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-143",
+      "annualVolumeIndex": 81.19913201529126,
+      "influenceReferences": [
+        {
+          "id": "South-East",
+          "weight": 0.9811166214293499,
+          "distanceKm": 1.113056243257675
+        },
+        {
+          "id": "South",
+          "weight": 0.01222318625514848,
+          "distanceKm": 9.972067553783784
+        },
+        {
+          "id": "East",
+          "weight": 0.006660192315501741,
+          "distanceKm": 13.509337191717638
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-146",
+      "annualVolumeIndex": 40.006864034646014,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.613040501514548,
+          "distanceKm": 4.464253671208591
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.2560969394239253,
+          "distanceKm": 6.907028598503972
+        },
+        {
+          "id": "South",
+          "weight": 0.1308625590615266,
+          "distanceKm": 9.662416278889554
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-147",
+      "annualVolumeIndex": 26.856433608059298,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.643968903937114,
+          "distanceKm": 3.788293848197591
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.21125632679268516,
+          "distanceKm": 6.614107433457139
+        },
+        {
+          "id": "South",
+          "weight": 0.14477476927020075,
+          "distanceKm": 7.989685166991005
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-148",
+      "annualVolumeIndex": 52.92839892437849,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.452289522116219,
+          "distanceKm": 6.7843245806788515
+        },
+        {
+          "id": "South-West",
+          "weight": 0.40006753867382067,
+          "distanceKm": 7.213536337499111
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.14764293920996036,
+          "distanceKm": 11.874314294505576
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-149",
+      "annualVolumeIndex": 25.83820889942931,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.4233525606333616,
+          "distanceKm": 5.258078937212312
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.37215959820170325,
+          "distanceKm": 5.608072055894311
+        },
+        {
+          "id": "North-West",
+          "weight": 0.20448784116493532,
+          "distanceKm": 7.565618746749391
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-150",
+      "annualVolumeIndex": 25.37433784290828,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.37153207361964014,
+          "distanceKm": 6.786781644067481
+        },
+        {
+          "id": "West",
+          "weight": 0.3543744869592515,
+          "distanceKm": 6.949135956887517
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.27409343942110836,
+          "distanceKm": 7.90155763047111
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-151",
+      "annualVolumeIndex": 52.93638985417173,
+      "influenceReferences": [
+        {
+          "id": "South",
+          "weight": 0.5153894060456713,
+          "distanceKm": 3.9158443671801324
+        },
+        {
+          "id": "South-West",
+          "weight": 0.42689344940634094,
+          "distanceKm": 4.302624253788774
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.05771714454798772,
+          "distanceKm": 11.701478738283043
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-152",
+      "annualVolumeIndex": 38.719872131848746,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.6565427201905596,
+          "distanceKm": 3.76241479023141
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.19259903101438028,
+          "distanceKm": 6.9465812404537495
+        },
+        {
+          "id": "South",
+          "weight": 0.15085824879506002,
+          "distanceKm": 7.848987493319475
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-153",
+      "annualVolumeIndex": 29.039074144576688,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.7670525346626331,
+          "distanceKm": 2.568511307566213
+        },
+        {
+          "id": "South",
+          "weight": 0.13922956777278847,
+          "distanceKm": 6.028764218944908
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.0937178975645783,
+          "distanceKm": 7.348230453095787
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-154",
+      "annualVolumeIndex": 26.362224728885387,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.9349019440633367,
+          "distanceKm": 1.0263093963793073
+        },
+        {
+          "id": "South",
+          "weight": 0.054943923016776905,
+          "distanceKm": 4.233518910592855
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.010154132919886365,
+          "distanceKm": 9.847815750366875
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-155",
+      "annualVolumeIndex": 60.635087331514946,
+      "influenceReferences": [
+        {
+          "id": "Dwarka",
+          "weight": 0.43186638575165026,
+          "distanceKm": 9.100343738692313
+        },
+        {
+          "id": "Outer",
+          "weight": 0.4312668589332218,
+          "distanceKm": 9.106666975915896
+        },
+        {
+          "id": "West",
+          "weight": 0.136866755315128,
+          "distanceKm": 16.165290445430387
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-156",
+      "annualVolumeIndex": 25.603886374020238,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.41839781303817547,
+          "distanceKm": 5.8257480712030905
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.327213210272214,
+          "distanceKm": 6.587657151053172
+        },
+        {
+          "id": "South-West",
+          "weight": 0.2543889766896105,
+          "distanceKm": 7.471318640368314
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-157",
+      "annualVolumeIndex": 33.18395965400963,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.7846399814282888,
+          "distanceKm": 2.8404726694771534
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.11621595048509366,
+          "distanceKm": 7.3806219865615414
+        },
+        {
+          "id": "South",
+          "weight": 0.09914406808661745,
+          "distanceKm": 7.99084054272553
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-158",
+      "annualVolumeIndex": 28.433888939368604,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.8113280082149962,
+          "distanceKm": 2.254058884773669
+        },
+        {
+          "id": "South",
+          "weight": 0.11836620468714645,
+          "distanceKm": 5.901326324460441
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.07030578709785729,
+          "distanceKm": 7.6571640966707655
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-159",
+      "annualVolumeIndex": 48.74927631928446,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.41996873327311085,
+          "distanceKm": 6.986369629564744
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.34598338886828045,
+          "distanceKm": 7.6971936744167895
+        },
+        {
+          "id": "South",
+          "weight": 0.2340478778586086,
+          "distanceKm": 9.358531027409034
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-160",
+      "annualVolumeIndex": 42.14570943883963,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.569863688970073,
+          "distanceKm": 4.4952387678295
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.2645594389732459,
+          "distanceKm": 6.597457886032668
+        },
+        {
+          "id": "South",
+          "weight": 0.16557687205668092,
+          "distanceKm": 8.339469412436776
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-161",
+      "annualVolumeIndex": 37.36923000113498,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.5332130991534254,
+          "distanceKm": 3.804507323056022
+        },
+        {
+          "id": "South",
+          "weight": 0.3190929502572818,
+          "distanceKm": 4.91801925390147
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.14769395058929286,
+          "distanceKm": 7.228821079718971
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-163",
+      "annualVolumeIndex": 41.04823245013383,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.6500799589926611,
+          "distanceKm": 3.2500869242338744
+        },
+        {
+          "id": "South",
+          "weight": 0.2832412928246848,
+          "distanceKm": 4.9237963405092655
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.06667874818265408,
+          "distanceKm": 10.148097854024131
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-164",
+      "annualVolumeIndex": 24.070822574143044,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.9889205041738652,
+          "distanceKm": 0.32001310205140526
+        },
+        {
+          "id": "South",
+          "weight": 0.008412448027979788,
+          "distanceKm": 5.421125957611413
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.002667047798155014,
+          "distanceKm": 9.62798257486263
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-166",
+      "annualVolumeIndex": 43.67688009576218,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.7821330414716041,
+          "distanceKm": 2.2606867883908786
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.11305202344500065,
+          "distanceKm": 5.946227798659037
+        },
+        {
+          "id": "North-West",
+          "weight": 0.10481493508339508,
+          "distanceKm": 6.175457369271553
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-167",
+      "annualVolumeIndex": 26.856433608059298,
+      "influenceReferences": [
+        {
+          "id": "South-West",
+          "weight": 0.643968903937114,
+          "distanceKm": 3.788293848197591
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.21125632679268516,
+          "distanceKm": 6.614107433457139
+        },
+        {
+          "id": "South",
+          "weight": 0.14477476927020075,
+          "distanceKm": 7.989685166991005
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-168",
+      "annualVolumeIndex": 49.663011178731125,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5401563446675647,
+          "distanceKm": 5.635919840699334
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.2380642343132396,
+          "distanceKm": 8.489409274686887
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.22177942101919576,
+          "distanceKm": 8.795568711600845
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-169",
+      "annualVolumeIndex": 56.17983039046821,
+      "influenceReferences": [
+        {
+          "id": "Dwarka",
+          "weight": 0.39316158903015047,
+          "distanceKm": 6.938366716824039
+        },
+        {
+          "id": "West",
+          "weight": 0.3581676591952224,
+          "distanceKm": 7.269417407685703
+        },
+        {
+          "id": "Outer",
+          "weight": 0.24867075177462708,
+          "distanceKm": 8.72429690937585
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-170",
+      "annualVolumeIndex": 33.887734077544636,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.6116266727110264,
+          "distanceKm": 2.95545022733153
+        },
+        {
+          "id": "North-West",
+          "weight": 0.20913121860905384,
+          "distanceKm": 5.054258195849903
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.17924210867991974,
+          "distanceKm": 5.459424140802608
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-171",
+      "annualVolumeIndex": 51.06811651753336,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5175935163305901,
+          "distanceKm": 4.387630487885674
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.2422279321154331,
+          "distanceKm": 6.413754737790772
+        },
+        {
+          "id": "Outer",
+          "weight": 0.24017855155397663,
+          "distanceKm": 6.441060057389967
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-172",
+      "annualVolumeIndex": 43.13227430220748,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.7669096773792178,
+          "distanceKm": 2.064112534530496
+        },
+        {
+          "id": "North-West",
+          "weight": 0.13448955130034002,
+          "distanceKm": 4.929027121654566
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.09860077132044218,
+          "distanceKm": 5.756590332596876
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-175",
+      "annualVolumeIndex": 49.70521462978541,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5602150157404784,
+          "distanceKm": 3.5818450613792194
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.27171638579295243,
+          "distanceKm": 5.143115219819158
+        },
+        {
+          "id": "Outer",
+          "weight": 0.16806859846656907,
+          "distanceKm": 6.539444814704373
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-176",
+      "annualVolumeIndex": 32.93559311146908,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5425991506176768,
+          "distanceKm": 2.888013077585944
+        },
+        {
+          "id": "North-West",
+          "weight": 0.2833938972475422,
+          "distanceKm": 3.9961654754548768
+        },
+        {
+          "id": "New Delhi",
+          "weight": 0.1740069521347811,
+          "distanceKm": 5.099826604723939
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-177",
+      "annualVolumeIndex": 44.60695946254572,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.9688322845942382,
+          "distanceKm": 0.5786427819376476
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.01720636102524328,
+          "distanceKm": 4.34200506519477
+        },
+        {
+          "id": "North-West",
+          "weight": 0.013961354380518353,
+          "distanceKm": 4.820266676554614
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-178",
+      "annualVolumeIndex": 43.222108015584936,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.6573376673724078,
+          "distanceKm": 3.8942505642667773
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.1850468802109784,
+          "distanceKm": 7.339682395190004
+        },
+        {
+          "id": "North-West",
+          "weight": 0.1576154524166138,
+          "distanceKm": 7.95277608320166
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-179",
+      "annualVolumeIndex": 43.630895698987295,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.7432002331241675,
+          "distanceKm": 2.7056705761305757
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.14006737085877075,
+          "distanceKm": 6.232457834534236
+        },
+        {
+          "id": "North-West",
+          "weight": 0.1167323960170618,
+          "distanceKm": 6.8270351275898795
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-181",
+      "annualVolumeIndex": 51.13338121553436,
+      "influenceReferences": [
+        {
+          "id": "West",
+          "weight": 0.5267107138124651,
+          "distanceKm": 5.3523865037145395
+        },
+        {
+          "id": "Outer",
+          "weight": 0.24735104825466434,
+          "distanceKm": 7.8104609526998034
+        },
+        {
+          "id": "Rohini",
+          "weight": 0.22593823793287046,
+          "distanceKm": 8.172194124645536
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-183",
+      "annualVolumeIndex": 60.42535912409327,
+      "influenceReferences": [
+        {
+          "id": "Outer",
+          "weight": 0.6060488671797171,
+          "distanceKm": 4.8679333721506985
+        },
+        {
+          "id": "West",
+          "weight": 0.20841021120066555,
+          "distanceKm": 8.301163167201484
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.18554092161961738,
+          "distanceKm": 8.797891313210242
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    },
+    {
+      "id": "locality-reference-184",
+      "annualVolumeIndex": 57.6377079582178,
+      "influenceReferences": [
+        {
+          "id": "Outer",
+          "weight": 0.4274983114909197,
+          "distanceKm": 6.276737782127858
+        },
+        {
+          "id": "West",
+          "weight": 0.3254445998098463,
+          "distanceKm": 7.193871118287316
+        },
+        {
+          "id": "Dwarka",
+          "weight": 0.24705708869923396,
+          "distanceKm": 8.256624387903319
+        }
+      ],
+      "riskScore": null,
+      "reportedCases": null,
+      "status": "model-reference-interpolation",
+      "confidence": "low",
+      "spatialMapping": "assumed proximity; no police/locality membership assigned"
+    }
+  ],
+  "sourceHashes": {
+    "raw/ncrb/17016840143DistrictwiseCrimeagainstWomen2022.xlsx": "cf2f2ed9c033559eeb1d0d0edc09b4e13e3b129bb69c30cd1d861a1ca33d917c",
+    "raw/ncrb/3DistrictwiseCrimeagainstWomen2024.xlsx": "cf04a114bff10d9b712b326eda40a91eefa46f45aa1de6d8dcd4870d978895fb"
+  },
+  "modelSha256": "ffc906a87381420e2dde36bc3db3cc7af4f0df16fdb31c3038ac53d645eedcb0",
+  "assumptions": [
+    "Two-year count relationship remains applicable from 2024 to 2026",
+    "Same reporting-unit name does not verify boundary continuity",
+    "Proximity interpolation is a display assumption, not police jurisdiction or neighbourhood cases",
+    "Historical traffic/density adjust the display separately, not learned crime occurrence probabilities"
+  ],
+  "limitations": [
+    "No measured neighbourhood crime labels",
+    "No crime time-of-day labels",
+    "Incomplete current activity context and no live traffic",
+    "Reporting bias and IPC/BNS definition changes",
+    "Pooled residual intervals have no validated future coverage"
+  ]
+}

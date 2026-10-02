@@ -1,3 +1,7 @@
+# Latest experimental integration — ml-volume-v1 (2026-10-02)
+
+A pooled Poisson ML model trained on 109 real 2022→2024 reporting-unit examples is now exported and connected to the map. It forecasts annual recorded volume, with separate assumed locality/time/activity display adjustments; it is not a validated neighbourhood safety forecast. Full model card, actual comparison, city caveats, source/exclusion audits and artifacts: [reports/ml-volume-v1/MODEL_CARD.md](reports/ml-volume-v1/MODEL_CARD.md). The earlier counts-v1 study below remains preserved and must not be confused with the new pooled model's evaluation.
+
 # Kaali model card — counts-v1
 
 ## Purpose and status

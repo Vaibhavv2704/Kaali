@@ -1,0 +1,7202 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "ml-volume-v1",
+    "status": "assumed spatial display",
+    "notLocalityBoundaries": true,
+    "noNeighbourhoodCaseAllocation": true
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.06933801193401,
+              28.61490630016584
+            ],
+            [
+              77.06973538283808,
+              28.61015246358589
+            ],
+            [
+              77.07484889032715,
+              28.608151692115776
+            ],
+            [
+              77.0795654266611,
+              28.610904397080557
+            ],
+            [
+              77.07916876279423,
+              28.615658251612768
+            ],
+            [
+              77.07405485554679,
+              28.61765938326105
+            ],
+            [
+              77.06933801193401,
+              28.61490630016584
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-0",
+        "name": "Adarsh Nagar",
+        "annualVolumeIndex": 58.332227528336944,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17596180531258,
+              28.70198829770854
+            ],
+            [
+              77.17635196981004,
+              28.69723010342261
+            ],
+            [
+              77.18146777538242,
+              28.695223151178634
+            ],
+            [
+              77.1861938148967,
+              28.697974031771587
+            ],
+            [
+              77.18580435938684,
+              28.702732241981025
+            ],
+            [
+              77.18068815536604,
+              28.70473955570719
+            ],
+            [
+              77.17596180531258,
+              28.70198829770854
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-1",
+        "name": "Ashok Vihar",
+        "annualVolumeIndex": 28.770899057802126,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17045464709086,
+              28.708753806294595
+            ],
+            [
+              77.17084525049623,
+              28.703995242295754
+            ],
+            [
+              77.17596180531258,
+              28.70198829770854
+            ],
+            [
+              77.18068815536604,
+              28.70473955570719
+            ],
+            [
+              77.18029826108811,
+              28.709498135721272
+            ],
+            [
+              77.1751813076202,
+              28.711505441754635
+            ],
+            [
+              77.17045464709086,
+              28.708753806294595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-2",
+        "name": "Azadpur",
+        "annualVolumeIndex": 30.02914765389549,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.02854768349924,
+              28.80576355799511
+            ],
+            [
+              77.02894915814316,
+              28.80099957466555
+            ],
+            [
+              77.03407905467147,
+              28.79899500151896
+            ],
+            [
+              77.03880787951095,
+              28.801754051442284
+            ],
+            [
+              77.03840711593784,
+              28.806518053246638
+            ],
+            [
+              77.03327681644477,
+              28.808522986686096
+            ],
+            [
+              77.02854768349924,
+              28.80576355799511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-3",
+        "name": "Bawana",
+        "annualVolumeIndex": 70.92172481429132,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.15392604068593,
+              28.729052500807015
+            ],
+            [
+              77.15431796185402,
+              28.72429282857745
+            ],
+            [
+              77.15943676506043,
+              28.722285908202284
+            ],
+            [
+              77.16416404635117,
+              28.72503829875221
+            ],
+            [
+              77.16377283473001,
+              28.729797987272523
+            ],
+            [
+              77.15865363226204,
+              28.73180526898536
+            ],
+            [
+              77.15392604068593,
+              28.729052500807015
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-6",
+        "name": "Jahangirpuri",
+        "annualVolumeIndex": 39.77609139504456,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.02903779246932,
+              28.741093560474862
+            ],
+            [
+              77.02943884093452,
+              28.736332975444213
+            ],
+            [
+              77.03456372605042,
+              28.734330157607733
+            ],
+            [
+              77.03928796486174,
+              28.737087564713065
+            ],
+            [
+              77.03888762608469,
+              28.74184816828233
+            ],
+            [
+              77.03376233879855,
+              28.74385134624084
+            ],
+            [
+              77.02903779246932,
+              28.741093560474862
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-7",
+        "name": "Karala",
+        "annualVolumeIndex": 64.27210309313392,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.15194333878645,
+              28.692988141157564
+            ],
+            [
+              77.15233519094771,
+              28.68823036530483
+            ],
+            [
+              77.15745129851835,
+              28.686224512428154
+            ],
+            [
+              77.16217595279083,
+              28.68897607421899
+            ],
+            [
+              77.16178480940485,
+              28.6937338664404
+            ],
+            [
+              77.15666830296198,
+              28.69574008053549
+            ],
+            [
+              77.15194333878645,
+              28.692988141157564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-8",
+        "name": "Keshav Puram",
+        "annualVolumeIndex": 32.42280243363816,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19280598281044,
+              28.61712303477116
+            ],
+            [
+              77.19319443009569,
+              28.61236936560954
+            ],
+            [
+              77.19830300879711,
+              28.610364173259786
+            ],
+            [
+              77.20302353726414,
+              28.613112288691493
+            ],
+            [
+              77.20263579717158,
+              28.617865973571746
+            ],
+            [
+              77.19752682141034,
+              28.61987152733479
+            ],
+            [
+              77.19280598281044,
+              28.61712303477116
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-9",
+        "name": "Kingsway Camp",
+        "annualVolumeIndex": 6.873139296631049,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.13659167088053,
+              28.699005298447467
+            ],
+            [
+              77.136984671086,
+              28.69424716964548
+            ],
+            [
+              77.14210187718925,
+              28.692241693982258
+            ],
+            [
+              77.14682648236209,
+              28.694993986072056
+            ],
+            [
+              77.146434191047,
+              28.699752131513513
+            ],
+            [
+              77.1413165856595,
+              28.701757968258892
+            ],
+            [
+              77.13659167088053,
+              28.699005298447467
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-10",
+        "name": "Kohat Enclave",
+        "annualVolumeIndex": 45.17979182810505,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.08965604230906,
+              28.84639353746193
+            ],
+            [
+              77.09005332445648,
+              28.84162755806612
+            ],
+            [
+              77.09518383952565,
+              28.839619692708737
+            ],
+            [
+              77.09991747454048,
+              28.842377445764416
+            ],
+            [
+              77.09952090439381,
+              28.847143442480434
+            ],
+            [
+              77.09438998722213,
+              28.849151668853775
+            ],
+            [
+              77.08965604230906,
+              28.84639353746193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-12",
+        "name": "Narela",
+        "annualVolumeIndex": 62.285797339985486,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.13108027623616,
+              28.70576926391836
+            ],
+            [
+              77.13147371590802,
+              28.701010765770853
+            ],
+            [
+              77.13659167088053,
+              28.699005298447467
+            ],
+            [
+              77.1413165856595,
+              28.701757968258892
+            ],
+            [
+              77.14092385501752,
+              28.706516483137786
+            ],
+            [
+              77.13580550055747,
+              28.708522311507046
+            ],
+            [
+              77.13108027623616,
+              28.70576926391836
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-13",
+        "name": "Pitam Pura",
+        "annualVolumeIndex": 49.0759428569511,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12793011770229,
+              28.683984163008663
+            ],
+            [
+              77.12832365664335,
+              28.67922680679991
+            ],
+            [
+              77.13344006416139,
+              28.677222053109283
+            ],
+            [
+              77.13816333202455,
+              28.67997429470624
+            ],
+            [
+              77.1377705016458,
+              28.68473166772859
+            ],
+            [
+              77.1326536948324,
+              28.68673678237355
+            ],
+            [
+              77.12793011770229,
+              28.683984163008663
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-14",
+        "name": "Rani Bagh",
+        "annualVolumeIndex": 44.630476276331386,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.10469221580594,
+              28.725314220420227
+            ],
+            [
+              77.10508768433957,
+              28.72055463233179
+            ],
+            [
+              77.11020823557517,
+              28.718549561275424
+            ],
+            [
+              77.11493371857455,
+              28.721303717504295
+            ],
+            [
+              77.11453895946441,
+              28.726063322779257
+            ],
+            [
+              77.10941800792207,
+              28.728068754672016
+            ],
+            [
+              77.10469221580594,
+              28.725314220420227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-15",
+        "name": "Rithala",
+        "annualVolumeIndex": 47.55605780622626,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.14959103966463,
+              28.721540084674874
+            ],
+            [
+              77.14998323078798,
+              28.716780798082098
+            ],
+            [
+              77.15510163472712,
+              28.714774238980752
+            ],
+            [
+              77.15982824680104,
+              28.717526605231523
+            ],
+            [
+              77.15943676506043,
+              28.722285908202284
+            ],
+            [
+              77.15431796185402,
+              28.72429282857745
+            ],
+            [
+              77.14959103966463,
+              28.721540084674874
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-17",
+        "name": "Shalimar Bagh",
+        "annualVolumeIndex": 42.80142430351767,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19247615219774,
+              28.681693945718983
+            ],
+            [
+              77.19286500100972,
+              28.67693686147831
+            ],
+            [
+              77.19797855950871,
+              28.67492988750462
+            ],
+            [
+              77.20270366702616,
+              28.67767963621478
+            ],
+            [
+              77.20231552678231,
+              28.68243673610402
+            ],
+            [
+              77.19720157044391,
+              28.684444071667688
+            ],
+            [
+              77.19247615219774,
+              28.681693945718983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-18",
+        "name": "Shakti Nagar",
+        "annualVolumeIndex": 21.28231569650805,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19914362348442,
+              28.660660502279825
+            ],
+            [
+              77.19953186629212,
+              28.655904544994822
+            ],
+            [
+              77.2046435298511,
+              28.653897919165164
+            ],
+            [
+              77.20936734803348,
+              28.656646889055995
+            ],
+            [
+              77.20897981335084,
+              28.661402861893745
+            ],
+            [
+              77.20386775235181,
+              28.66340984932106
+            ],
+            [
+              77.19914362348442,
+              28.660660502279825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-19",
+        "name": "Bara Hindu Rao",
+        "annualVolumeIndex": 8.27517483783842,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21997632137084,
+              28.6478772930871
+            ],
+            [
+              77.220362980831,
+              28.643122061937557
+            ],
+            [
+              77.22547279640402,
+              28.64111505587731
+            ],
+            [
+              77.23019634933412,
+              28.643862919231275
+            ],
+            [
+              77.22981039774308,
+              28.648618165572042
+            ],
+            [
+              77.22470018534396,
+              28.650625533400753
+            ],
+            [
+              77.21997632137084,
+              28.6478772930871
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-20",
+        "name": "Chandni Chowk",
+        "annualVolumeIndex": 9.006201564762367,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2243137963678,
+              28.65538115075221
+            ],
+            [
+              77.22470018534396,
+              28.650625533400753
+            ],
+            [
+              77.22981039774308,
+              28.648618165572042
+            ],
+            [
+              77.23453461797682,
+              28.651366053295554
+            ],
+            [
+              77.23414893703301,
+              28.656121685750882
+            ],
+            [
+              77.22903832781427,
+              28.658129415411953
+            ],
+            [
+              77.2243137963678,
+              28.65538115075221
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-21",
+        "name": "Chawri Bazaar",
+        "annualVolumeIndex": 14.753484359340929,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21765519492554,
+              28.676413978774146
+            ],
+            [
+              77.21804218864123,
+              28.67165723391525
+            ],
+            [
+              77.22315429551104,
+              28.669649516612342
+            ],
+            [
+              77.22787980587478,
+              28.672398182376472
+            ],
+            [
+              77.22749352063467,
+              28.677154942434683
+            ],
+            [
+              77.22238101654638,
+              28.679163021562612
+            ],
+            [
+              77.21765519492554,
+              28.676413978774146
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-22",
+        "name": "Civil Lines",
+        "annualVolumeIndex": 21.377582564457928,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2243137963678,
+              28.65538115075221
+            ],
+            [
+              77.22470018534396,
+              28.650625533400753
+            ],
+            [
+              77.22981039774308,
+              28.648618165572042
+            ],
+            [
+              77.23453461797682,
+              28.651366053295554
+            ],
+            [
+              77.23414893703301,
+              28.656121685750882
+            ],
+            [
+              77.22903832781427,
+              28.658129415411953
+            ],
+            [
+              77.2243137963678,
+              28.65538115075221
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-23",
+        "name": "Dariba Kalan",
+        "annualVolumeIndex": 17.295707569053018,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19247615219774,
+              28.681693945718983
+            ],
+            [
+              77.19286500100972,
+              28.67693686147831
+            ],
+            [
+              77.19797855950871,
+              28.67492988750462
+            ],
+            [
+              77.20270366702616,
+              28.67767963621478
+            ],
+            [
+              77.20231552678231,
+              28.68243673610402
+            ],
+            [
+              77.19720157044391,
+              28.684444071667688
+            ],
+            [
+              77.19247615219774,
+              28.681693945718983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-26",
+        "name": "Kamla Nagar",
+        "annualVolumeIndex": 19.433714873714965,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22315429551104,
+              28.669649516612342
+            ],
+            [
+              77.22354085146334,
+              28.66489314240412
+            ],
+            [
+              77.22865220945259,
+              28.662885418818966
+            ],
+            [
+              77.23337740849647,
+              28.665633707614553
+            ],
+            [
+              77.2329915608798,
+              28.67039009693066
+            ],
+            [
+              77.22787980587478,
+              28.672398182376472
+            ],
+            [
+              77.22315429551104,
+              28.669649516612342
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-27",
+        "name": "Kashmiri Gate",
+        "annualVolumeIndex": 25.967506866211217,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22865220945259,
+              28.662885418818966
+            ],
+            [
+              77.22903832781427,
+              28.658129415411953
+            ],
+            [
+              77.23414893703301,
+              28.656121685750882
+            ],
+            [
+              77.23887382469441,
+              28.658869597633704
+            ],
+            [
+              77.23848841452838,
+              28.66362561605722
+            ],
+            [
+              77.23337740849647,
+              28.665633707614553
+            ],
+            [
+              77.22865220945259,
+              28.662885418818966
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-28",
+        "name": "Kotwali",
+        "annualVolumeIndex": 12.012230849135372,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2144786604473,
+              28.65463989521146
+            ],
+            [
+              77.21486575743236,
+              28.649884293142588
+            ],
+            [
+              77.21997632137084,
+              28.6478772930871
+            ],
+            [
+              77.22470018534396,
+              28.650625533400753
+            ],
+            [
+              77.2243137963678,
+              28.65538115075221
+            ],
+            [
+              77.21920283540075,
+              28.65738851254058
+            ],
+            [
+              77.2144786604473,
+              28.65463989521146
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-29",
+        "name": "Lahori Gate",
+        "annualVolumeIndex": 9.664467803486925,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21967278477878,
+              28.712468227642553
+            ],
+            [
+              77.22005984230752,
+              28.70770958535784
+            ],
+            [
+              77.22517464012185,
+              28.70570079578643
+            ],
+            [
+              77.22990277800359,
+              28.70845028658779
+            ],
+            [
+              77.22951642972141,
+              28.713208943992537
+            ],
+            [
+              77.22440123430206,
+              28.71521809550905
+            ],
+            [
+              77.21967278477878,
+              28.712468227642553
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-30",
+        "name": "Nehru Vihar",
+        "annualVolumeIndex": 24.02460160034741,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21563978420717,
+              28.640373846180225
+            ],
+            [
+              77.2160267140209,
+              28.63561900137882
+            ],
+            [
+              77.22113613276149,
+              28.633612357023136
+            ],
+            [
+              77.2258590185119,
+              28.636360195797415
+            ],
+            [
+              77.22547279640402,
+              28.64111505587731
+            ],
+            [
+              77.220362980831,
+              28.643122061937557
+            ],
+            [
+              77.21563978420717,
+              28.640373846180225
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-31",
+        "name": "Paharganj",
+        "annualVolumeIndex": 8.378525280168118,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19364253061534,
+              28.66742344933346
+            ],
+            [
+              77.19403121143309,
+              28.662667121521643
+            ],
+            [
+              77.19914362348442,
+              28.660660502279825
+            ],
+            [
+              77.20386775235181,
+              28.66340984932106
+            ],
+            [
+              77.20347977979885,
+              28.668166192777132
+            ],
+            [
+              77.19836697010476,
+              28.67017317358086
+            ],
+            [
+              77.19364253061534,
+              28.66742344933346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-32",
+        "name": "Pratap Nagar",
+        "annualVolumeIndex": 15.137328580091594,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19797855950871,
+              28.67492988750462
+            ],
+            [
+              77.19836697010476,
+              28.67017317358086
+            ],
+            [
+              77.20347977979885,
+              28.668166192777132
+            ],
+            [
+              77.20820457652454,
+              28.670915564304522
+            ],
+            [
+              77.20781687435684,
+              28.675672293785254
+            ],
+            [
+              77.20270366702616,
+              28.67767963621478
+            ],
+            [
+              77.19797855950871,
+              28.67492988750462
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-34",
+        "name": "Roshanara Bagh",
+        "annualVolumeIndex": 18.300356816141825,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23703532266065,
+              28.498579284197646
+            ],
+            [
+              77.23741988199713,
+              28.49383201953343
+            ],
+            [
+              77.24251752639499,
+              28.491828579045222
+            ],
+            [
+              77.24723100611916,
+              28.494572041738074
+            ],
+            [
+              77.24684715149192,
+              28.4993193214631
+            ],
+            [
+              77.24174911242253,
+              28.50132312346755
+            ],
+            [
+              77.23703532266065,
+              28.498579284197646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-36",
+        "name": "Sangam Vihar",
+        "annualVolumeIndex": 71.2427159702713,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.08662258895987,
+              28.64493802069358
+            ],
+            [
+              77.08701888786979,
+              28.64018263355972
+            ],
+            [
+              77.0921339943626,
+              28.63818042099287
+            ],
+            [
+              77.09685320167449,
+              28.640933235158883
+            ],
+            [
+              77.09645761045724,
+              28.64568863989834
+            ],
+            [
+              77.09134210422603,
+              28.647691212899336
+            ],
+            [
+              77.08662258895987,
+              28.64493802069358
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-37",
+        "name": "Sant Nagar",
+        "annualVolumeIndex": 51.365522066025534,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24975286018407,
+              28.585553310342814
+            ],
+            [
+              77.25013700283435,
+              28.58080145349693
+            ],
+            [
+              77.25524079208631,
+              28.57879513500886
+            ],
+            [
+              77.25996083410358,
+              28.581540311511706
+            ],
+            [
+              77.2595773980185,
+              28.586292183085046
+            ],
+            [
+              77.25447321334224,
+              28.58829886346119
+            ],
+            [
+              77.24975286018407,
+              28.585553310342814
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-38",
+        "name": "Sarai Kale Khan",
+        "annualVolumeIndex": 18.104016558701264,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18380528798684,
+              28.666679984921497
+            ],
+            [
+              77.18419467704553,
+              28.661923672932733
+            ],
+            [
+              77.18930743984733,
+              28.65991742194732
+            ],
+            [
+              77.19403121143309,
+              28.662667121521643
+            ],
+            [
+              77.19364253061534,
+              28.66742344933346
+            ],
+            [
+              77.18852936996191,
+              28.66943006178106
+            ],
+            [
+              77.18380528798684,
+              28.666679984921497
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-39",
+        "name": "Sarai Rohilla",
+        "annualVolumeIndex": 17.38461345782268,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19247615219774,
+              28.681693945718983
+            ],
+            [
+              77.19286500100972,
+              28.67693686147831
+            ],
+            [
+              77.19797855950871,
+              28.67492988750462
+            ],
+            [
+              77.20270366702616,
+              28.67767963621478
+            ],
+            [
+              77.20231552678231,
+              28.68243673610402
+            ],
+            [
+              77.19720157044391,
+              28.684444071667688
+            ],
+            [
+              77.19247615219774,
+              28.681693945718983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-40",
+        "name": "Shakti Nagar",
+        "annualVolumeIndex": 21.28231569650805,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2153320614342,
+              28.704959740901337
+            ],
+            [
+              77.21571938983777,
+              28.70020148399537
+            ],
+            [
+              77.22083379004069,
+              28.698193056305215
+            ],
+            [
+              77.22556125944257,
+              28.70094252367294
+            ],
+            [
+              77.22517464012185,
+              28.70570079578643
+            ],
+            [
+              77.22005984230752,
+              28.70770958535784
+            ],
+            [
+              77.2153320614342,
+              28.704959740901337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-43",
+        "name": "Timarpur",
+        "annualVolumeIndex": 21.083318304099024,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0792982422144,
+              28.43643478560532
+            ],
+            [
+              77.07969382903013,
+              28.43169046293566
+            ],
+            [
+              77.0847932217901,
+              28.429694290253
+            ],
+            [
+              77.08949742512506,
+              28.432442080496887
+            ],
+            [
+              77.08910254157044,
+              28.437186421142297
+            ],
+            [
+              77.08400275141044,
+              28.43918295360111
+            ],
+            [
+              77.0792982422144,
+              28.43643478560532
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-44",
+        "name": "Wazirabad",
+        "annualVolumeIndex": null,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.27119128567138,
+              28.68761606358856
+            ],
+            [
+              77.27157446527987,
+              28.68285885916804
+            ],
+            [
+              77.27668520598121,
+              28.680848939541963
+            ],
+            [
+              77.2814131632304,
+              28.683595861983747
+            ],
+            [
+              77.28103069237667,
+              28.68835308062179
+            ],
+            [
+              77.27591955551034,
+              28.690363362633683
+            ],
+            [
+              77.27119128567138,
+              28.68761606358856
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-45",
+        "name": "Babarpur",
+        "annualVolumeIndex": 45.58134066463553,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.31603858760978,
+              28.683791149643145
+            ],
+            [
+              77.31641849553021,
+              28.679034260838844
+            ],
+            [
+              77.32152707018304,
+              28.677022865322968
+            ],
+            [
+              77.32625613203052,
+              28.679767995827152
+            ],
+            [
+              77.32587693281434,
+              28.684524898042373
+            ],
+            [
+              77.32076796303791,
+              28.68653665637567
+            ],
+            [
+              77.31603858760978,
+              28.683791149643145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-46",
+        "name": "Dilshad Garden",
+        "annualVolumeIndex": 42.57389966162721,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2755366475289,
+              28.69512095226077
+            ],
+            [
+              77.27591955551034,
+              28.690363362633683
+            ],
+            [
+              77.28103069237667,
+              28.68835308062179
+            ],
+            [
+              77.28575931741095,
+              28.6911000258205
+            ],
+            [
+              77.28537711834753,
+              28.69585762957743
+            ],
+            [
+              77.28026558532316,
+              28.69786827403899
+            ],
+            [
+              77.2755366475289,
+              28.69512095226077
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-47",
+        "name": "Kabir Nagar",
+        "annualVolumeIndex": 44.21749133044248,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28652355034956,
+              28.681585574472624
+            ],
+            [
+              77.28690558424847,
+              28.676828726974076
+            ],
+            [
+              77.29201522173118,
+              28.674818434169964
+            ],
+            [
+              77.29674322105915,
+              28.67756462637724
+            ],
+            [
+              77.2963618957972,
+              28.682321487823213
+            ],
+            [
+              77.29125186256171,
+              28.684332143147678
+            ],
+            [
+              77.28652355034956,
+              28.681585574472624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-48",
+        "name": "Mandoli",
+        "annualVolumeIndex": 43.34892303517172,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2755366475289,
+              28.69512095226077
+            ],
+            [
+              77.27591955551034,
+              28.690363362633683
+            ],
+            [
+              77.28103069237667,
+              28.68835308062179
+            ],
+            [
+              77.28575931741095,
+              28.6911000258205
+            ],
+            [
+              77.28537711834753,
+              28.69585762957743
+            ],
+            [
+              77.28026558532316,
+              28.69786827403899
+            ],
+            [
+              77.2755366475289,
+              28.69512095226077
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-49",
+        "name": "Maujpur",
+        "annualVolumeIndex": 44.699719247470526,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.31489853536564,
+              28.698063328685713
+            ],
+            [
+              77.31527860753928,
+              28.693305683612774
+            ],
+            [
+              77.32038832742944,
+              28.69129393009487
+            ],
+            [
+              77.32511837045617,
+              28.694039458837015
+            ],
+            [
+              77.32473900729062,
+              28.698797117324087
+            ],
+            [
+              77.31962889208172,
+              28.70080923368807
+            ],
+            [
+              77.31489853536564,
+              28.698063328685713
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-50",
+        "name": "Nand Nagri",
+        "annualVolumeIndex": 43.640333167294514,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.27668520598121,
+              28.680848939541963
+            ],
+            [
+              77.27706794849442,
+              28.676092106169698
+            ],
+            [
+              77.28217793965119,
+              28.674082181079765
+            ],
+            [
+              77.28690558424847,
+              28.676828726974076
+            ],
+            [
+              77.28652355034956,
+              28.681585574472624
+            ],
+            [
+              77.2814131632304,
+              28.683595861983747
+            ],
+            [
+              77.27668520598121,
+              28.680848939541963
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-51",
+        "name": "Naveen Shahdara",
+        "annualVolumeIndex": 43.095650749971355,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28652355034956,
+              28.681585574472624
+            ],
+            [
+              77.28690558424847,
+              28.676828726974076
+            ],
+            [
+              77.29201522173118,
+              28.674818434169964
+            ],
+            [
+              77.29674322105915,
+              28.67756462637724
+            ],
+            [
+              77.2963618957972,
+              28.682321487823213
+            ],
+            [
+              77.29125186256171,
+              28.684332143147678
+            ],
+            [
+              77.28652355034956,
+              28.681585574472624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-54",
+        "name": "Shahdara",
+        "annualVolumeIndex": 42.91952788438761,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24370387460039,
+              28.721457155094175
+            ],
+            [
+              77.24408924227954,
+              28.716698097691676
+            ],
+            [
+              77.24920373236287,
+              28.714688208480865
+            ],
+            [
+              77.25393325193753,
+              28.717437014497644
+            ],
+            [
+              77.25354859371531,
+              28.722196086574495
+            ],
+            [
+              77.24843370645273,
+              28.724206337993397
+            ],
+            [
+              77.24370387460039,
+              28.721457155094175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-55",
+        "name": "Sonia Vihar",
+        "annualVolumeIndex": 32.889620848721094,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24282883048369,
+              28.671129956134255
+            ],
+            [
+              77.24321396974139,
+              28.666373551889034
+            ],
+            [
+              77.24832462351436,
+              28.664365092430792
+            ],
+            [
+              77.25305053461825,
+              28.667112675191408
+            ],
+            [
+              77.25266610374274,
+              28.671869094186906
+            ],
+            [
+              77.24755505337235,
+              28.673877915704686
+            ],
+            [
+              77.24282883048369,
+              28.671129956134255
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-56",
+        "name": "Shastri Park",
+        "annualVolumeIndex": 45.609496996230675,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2700414155226,
+              28.701889189032695
+            ],
+            [
+              77.27042476080466,
+              28.697131228567102
+            ],
+            [
+              77.2755366475289,
+              28.69512095226077
+            ],
+            [
+              77.28026558532316,
+              28.69786827403899
+            ],
+            [
+              77.27988294909962,
+              28.70262624872572
+            ],
+            [
+              77.2747706660146,
+              28.70463688744628
+            ],
+            [
+              77.2700414155226,
+              28.701889189032695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-57",
+        "name": "Yamuna Vihar",
+        "annualVolumeIndex": 42.447511496934666,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21997632137084,
+              28.6478772930871
+            ],
+            [
+              77.220362980831,
+              28.643122061937557
+            ],
+            [
+              77.22547279640402,
+              28.64111505587731
+            ],
+            [
+              77.23019634933412,
+              28.643862919231275
+            ],
+            [
+              77.22981039774308,
+              28.648618165572042
+            ],
+            [
+              77.22470018534396,
+              28.650625533400753
+            ],
+            [
+              77.21997632137084,
+              28.6478772930871
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-58",
+        "name": "Chandni Chowk",
+        "annualVolumeIndex": 9.006201564762367,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23964447853513,
+              28.649358317764744
+            ],
+            [
+              77.24002972223371,
+              28.644603056411455
+            ],
+            [
+              77.24513883424169,
+              28.642595315217026
+            ],
+            [
+              77.24986309895047,
+              28.645342473441794
+            ],
+            [
+              77.2494785631676,
+              28.650097749628948
+            ],
+            [
+              77.24436905475144,
+              28.652105852790633
+            ],
+            [
+              77.23964447853513,
+              28.649358317764744
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-59",
+        "name": "Daryaganj",
+        "annualVolumeIndex": 13.947062715895658,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19047412456716,
+              28.645650354244196
+            ],
+            [
+              77.19086290749311,
+              28.640895169740254
+            ],
+            [
+              77.19597377615344,
+              28.63888926691417
+            ],
+            [
+              77.20069625933121,
+              28.641638187155355
+            ],
+            [
+              77.20030818420348,
+              28.646393387386503
+            ],
+            [
+              77.19519691809077,
+              28.64839965168242
+            ],
+            [
+              77.19047412456716,
+              28.645650354244196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-60",
+        "name": "Jhandewalan",
+        "annualVolumeIndex": 3.196440925803079,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18497328694988,
+              28.65241180570283
+            ],
+            [
+              77.18536250781972,
+              28.64765625055394
+            ],
+            [
+              77.19047412456716,
+              28.645650354244196
+            ],
+            [
+              77.19519691809077,
+              28.64839965168242
+            ],
+            [
+              77.19480840515875,
+              28.65315522265001
+            ],
+            [
+              77.18969639075632,
+              28.655161480393833
+            ],
+            [
+              77.18497328694988,
+              28.65241180570283
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-61",
+        "name": "Karol Bagh",
+        "annualVolumeIndex": 8.55408821055822,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19914362348442,
+              28.660660502279825
+            ],
+            [
+              77.19953186629212,
+              28.655904544994822
+            ],
+            [
+              77.2046435298511,
+              28.653897919165164
+            ],
+            [
+              77.20936734803348,
+              28.656646889055995
+            ],
+            [
+              77.20897981335084,
+              28.661402861893745
+            ],
+            [
+              77.20386775235181,
+              28.66340984932106
+            ],
+            [
+              77.19914362348442,
+              28.660660502279825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-62",
+        "name": "Bara Hindu Rao",
+        "annualVolumeIndex": 8.27517483783842,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21563978420717,
+              28.640373846180225
+            ],
+            [
+              77.2160267140209,
+              28.63561900137882
+            ],
+            [
+              77.22113613276149,
+              28.633612357023136
+            ],
+            [
+              77.2258590185119,
+              28.636360195797415
+            ],
+            [
+              77.22547279640402,
+              28.64111505587731
+            ],
+            [
+              77.220362980831,
+              28.643122061937557
+            ],
+            [
+              77.21563978420717,
+              28.640373846180225
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-63",
+        "name": "Paharganj",
+        "annualVolumeIndex": 8.378525280168118,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22113613276149,
+              28.633612357023136
+            ],
+            [
+              77.22152262525577,
+              28.628857883350328
+            ],
+            [
+              77.22663129594318,
+              28.626851233231474
+            ],
+            [
+              77.23135387075756,
+              28.629598695078506
+            ],
+            [
+              77.2309680858294,
+              28.63435318393849
+            ],
+            [
+              77.2258590185119,
+              28.636360195797415
+            ],
+            [
+              77.22113613276149,
+              28.633612357023136
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-66",
+        "name": "Barakhamba Road",
+        "annualVolumeIndex": 11.876324193622509,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17981361863866,
+              28.59461786513614
+            ],
+            [
+              77.18020287454168,
+              28.58986535746992
+            ],
+            [
+              77.18531026202717,
+              28.58786124897627
+            ],
+            [
+              77.19002879067867,
+              28.59060928696057
+            ],
+            [
+              77.18964024147901,
+              28.595361810606608
+            ],
+            [
+              77.18453245691549,
+              28.59736628032166
+            ],
+            [
+              77.17981361863866,
+              28.59461786513614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-67",
+        "name": "Chanakyapuri",
+        "annualVolumeIndex": 25.56957340181703,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21130418462232,
+              28.632870810387917
+            ],
+            [
+              77.21169138465928,
+              28.62811635208086
+            ],
+            [
+              77.21680040656105,
+              28.62611006936582
+            ],
+            [
+              77.22152262525577,
+              28.628857883350328
+            ],
+            [
+              77.22113613276149,
+              28.633612357023136
+            ],
+            [
+              77.2160267140209,
+              28.63561900137882
+            ],
+            [
+              77.21130418462232,
+              28.632870810387917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-68",
+        "name": "Connaught Place",
+        "annualVolumeIndex": 8.924459697657552,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.30024218556179,
+              28.510498265296917
+            ],
+            [
+              77.3006222457857,
+              28.50575052515689
+            ],
+            [
+              77.30571817575026,
+              28.50374453518353
+            ],
+            [
+              77.31043443889999,
+              28.506485923210633
+            ],
+            [
+              77.31005508368324,
+              28.511233677257504
+            ],
+            [
+              77.30495876030105,
+              28.513240029403516
+            ],
+            [
+              77.30024218556179,
+              28.510498265296917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-69",
+        "name": "Gautampuri",
+        "annualVolumeIndex": 80.27850261317772,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20147224199096,
+              28.63212854406941
+            ],
+            [
+              77.201860149547,
+              28.627374101306682
+            ],
+            [
+              77.2069695223619,
+              28.625368186066403
+            ],
+            [
+              77.21169138465928,
+              28.62811635208086
+            ],
+            [
+              77.21130418462232,
+              28.632870810387917
+            ],
+            [
+              77.20619441475996,
+              28.634877087169343
+            ],
+            [
+              77.20147224199096,
+              28.63212854406941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-70",
+        "name": "Gole Market",
+        "annualVolumeIndex": 3.061703718638282,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22894679482269,
+              28.59833040959473
+            ],
+            [
+              77.22933251697188,
+              28.59357782381311
+            ],
+            [
+              77.23443815209251,
+              28.5915718811409
+            ],
+            [
+              77.23915846109166,
+              28.594318162565006
+            ],
+            [
+              77.23877344576373,
+              28.599070763434618
+            ],
+            [
+              77.23366741460657,
+              28.60107706782526
+            ],
+            [
+              77.22894679482269,
+              28.59833040959473
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-71",
+        "name": "Golf Links",
+        "annualVolumeIndex": 21.260553584649646,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21045474700908,
+              28.58259064036724
+            ],
+            [
+              77.21084171568836,
+              28.57783884421413
+            ],
+            [
+              77.21594690937444,
+              28.57583399128243
+            ],
+            [
+              77.22066553063003,
+              28.57858057304573
+            ],
+            [
+              77.22027926842298,
+              28.583332384639466
+            ],
+            [
+              77.21517367847925,
+              28.5853375990624
+            ],
+            [
+              77.21045474700908,
+              28.58259064036724
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-72",
+        "name": "INA Colony",
+        "annualVolumeIndex": 38.150764953170224,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22345425349675,
+              28.605089304669807
+            ],
+            [
+              77.22384041238266,
+              28.600336347192016
+            ],
+            [
+              77.22894679482269,
+              28.59833040959473
+            ],
+            [
+              77.23366741460657,
+              28.60107706782526
+            ],
+            [
+              77.23328196268152,
+              28.60583004048219
+            ],
+            [
+              77.22817518400291,
+              28.607836339762578
+            ],
+            [
+              77.22345425349675,
+              28.605089304669807
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-73",
+        "name": "Khan Market",
+        "annualVolumeIndex": 10.405664595251203,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23646218992947,
+              28.627591677626906
+            ],
+            [
+              77.2368475378504,
+              28.622837560136958
+            ],
+            [
+              77.24195510898667,
+              28.62083053729859
+            ],
+            [
+              77.24667772841228,
+              28.623577270108427
+            ],
+            [
+              77.24629308794105,
+              28.628331402515716
+            ],
+            [
+              77.24118512058573,
+              28.630338787228965
+            ],
+            [
+              77.23646218992947,
+              28.627591677626906
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-75",
+        "name": "Pragati Maidan",
+        "annualVolumeIndex": 15.264011142760337,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2700414155226,
+              28.701889189032695
+            ],
+            [
+              77.27042476080466,
+              28.697131228567102
+            ],
+            [
+              77.2755366475289,
+              28.69512095226077
+            ],
+            [
+              77.28026558532316,
+              28.69786827403899
+            ],
+            [
+              77.27988294909962,
+              28.70262624872572
+            ],
+            [
+              77.2747706660146,
+              28.70463688744628
+            ],
+            [
+              77.2700414155226,
+              28.701889189032695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-76",
+        "name": "Brij Puri",
+        "annualVolumeIndex": 41.99430173713596,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.30093417616845,
+              28.62525580446904
+            ],
+            [
+              77.30131484305183,
+              28.620501972219788
+            ],
+            [
+              77.30641954974696,
+              28.618492743746515
+            ],
+            [
+              77.31114398431316,
+              28.621236985051127
+            ],
+            [
+              77.31076402487618,
+              28.625990831055518
+            ],
+            [
+              77.30565892341806,
+              28.628000422033306
+            ],
+            [
+              77.30093417616845,
+              28.62525580446904
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-77",
+        "name": "East Vinod Nagar",
+        "annualVolumeIndex": 34.37949903013677,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.26914674163615,
+              28.651574452227614
+            ],
+            [
+              77.26952986151835,
+              28.646819146908733
+            ],
+            [
+              77.27463791591966,
+              28.644810303547633
+            ],
+            [
+              77.2793632462109,
+              28.6475564032736
+            ],
+            [
+              77.27898083431343,
+              28.65231172289035
+            ],
+            [
+              77.27387238413132,
+              28.65432092851641
+            ],
+            [
+              77.26914674163615,
+              28.651574452227614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-79",
+        "name": "Geeta Colony",
+        "annualVolumeIndex": 40.90086018842266,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.30185250456647,
+              28.675553965930693
+            ],
+            [
+              77.30223339318694,
+              28.67079747586568
+            ],
+            [
+              77.30734192707695,
+              28.668786810503175
+            ],
+            [
+              77.31206996767861,
+              28.671532272584205
+            ],
+            [
+              77.31168978757708,
+              28.676288776326714
+            ],
+            [
+              77.30658085834641,
+              28.678299804343872
+            ],
+            [
+              77.30185250456647,
+              28.675553965930693
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-80",
+        "name": "Jhilmil Colony",
+        "annualVolumeIndex": 41.83341204227975,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1919706985037,
+              28.566850463504416
+            ],
+            [
+              77.19235891251816,
+              28.56209945808866
+            ],
+            [
+              77.19746366361143,
+              28.560095694315045
+            ],
+            [
+              77.20218059715944,
+              28.56284257472639
+            ],
+            [
+              77.20179308926801,
+              28.567593595935076
+            ],
+            [
+              77.19668794169661,
+              28.56959772097261
+            ],
+            [
+              77.1919706985037,
+              28.566850463504416
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-81",
+        "name": "Krishna Nagar",
+        "annualVolumeIndex": 42.07565948420975,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.27578580033918,
+              28.630546259781593
+            ],
+            [
+              77.276168318323,
+              28.62579208369352
+            ],
+            [
+              77.28127448001901,
+              28.623783592918205
+            ],
+            [
+              77.28599851910585,
+              28.62652891599257
+            ],
+            [
+              77.28561670866351,
+              28.631283106283824
+            ],
+            [
+              77.28051015158421,
+              28.633291959330677
+            ],
+            [
+              77.27578580033918,
+              28.630546259781593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-82",
+        "name": "Laxmi Nagar",
+        "annualVolumeIndex": 29.72214023052514,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28676197513049,
+              28.617021293440324
+            ],
+            [
+              77.28714362073647,
+              28.612267861271203
+            ],
+            [
+              77.29224828595643,
+              28.610259361703314
+            ],
+            [
+              77.29697170054106,
+              28.61300393199597
+            ],
+            [
+              77.29659076219637,
+              28.61775737818627
+            ],
+            [
+              77.29148570199717,
+              28.619766240095885
+            ],
+            [
+              77.28676197513049,
+              28.617021293440324
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-83",
+        "name": "Mayur Vihar",
+        "annualVolumeIndex": 33.24555059923371,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.14563289054085,
+              28.649430934336653
+            ],
+            [
+              77.14602494292113,
+              28.644675444249497
+            ],
+            [
+              77.15113795919018,
+              28.642671020591788
+            ],
+            [
+              77.15585932155902,
+              28.645421726019517
+            ],
+            [
+              77.15546797701998,
+              28.650177232640143
+            ],
+            [
+              77.15035456226174,
+              28.652182017332706
+            ],
+            [
+              77.14563289054085,
+              28.649430934336653
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-84",
+        "name": "Pandav Nagar",
+        "annualVolumeIndex": 31.13471880117651,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28676197513049,
+              28.617021293440324
+            ],
+            [
+              77.28714362073647,
+              28.612267861271203
+            ],
+            [
+              77.29224828595643,
+              28.610259361703314
+            ],
+            [
+              77.29697170054106,
+              28.61300393199597
+            ],
+            [
+              77.29659076219637,
+              28.61775737818627
+            ],
+            [
+              77.29148570199717,
+              28.619766240095885
+            ],
+            [
+              77.28676197513049,
+              28.617021293440324
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-85",
+        "name": "Patparganj",
+        "annualVolumeIndex": 32.520905544649175,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28995987531528,
+              28.638783029284504
+            ],
+            [
+              77.29034141436073,
+              28.634028453051773
+            ],
+            [
+              77.29544761811891,
+              28.63201923310017
+            ],
+            [
+              77.30017267799018,
+              28.63476422698
+            ],
+            [
+              77.29979184667165,
+              28.639518817149785
+            ],
+            [
+              77.29468524774637,
+              28.64152839953582
+            ],
+            [
+              77.28995987531528,
+              28.638783029284504
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-86",
+        "name": "Preet Vihar",
+        "annualVolumeIndex": 37.5611467627134,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.09764421327918,
+              28.631423182799693
+            ],
+            [
+              77.0980396336911,
+              28.62666853527213
+            ],
+            [
+              77.10315324599081,
+              28.624666306471514
+            ],
+            [
+              77.10787183720205,
+              28.627418364724903
+            ],
+            [
+              77.10747712420522,
+              28.632173029674288
+            ],
+            [
+              77.10236311257275,
+              28.63417561898159
+            ],
+            [
+              77.09764421327918,
+              28.631423182799693
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-87",
+        "name": "Anand Vihar",
+        "annualVolumeIndex": 53.83234050250675,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.27578580033918,
+              28.630546259781593
+            ],
+            [
+              77.276168318323,
+              28.62579208369352
+            ],
+            [
+              77.28127448001901,
+              28.623783592918205
+            ],
+            [
+              77.28599851910585,
+              28.62652891599257
+            ],
+            [
+              77.28561670866351,
+              28.631283106283824
+            ],
+            [
+              77.28051015158421,
+              28.633291959330677
+            ],
+            [
+              77.27578580033918,
+              28.630546259781593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-88",
+        "name": "Shakarpur",
+        "annualVolumeIndex": 30.959569814367864,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.31738674462275,
+              28.60496772744783
+            ],
+            [
+              77.31776610455567,
+              28.600215012295962
+            ],
+            [
+              77.32286856648597,
+              28.598205772581473
+            ],
+            [
+              77.32759206263229,
+              28.600948885442737
+            ],
+            [
+              77.32721340972498,
+              28.605701614077187
+            ],
+            [
+              77.32211055363724,
+              28.60771121640093
+            ],
+            [
+              77.31738674462275,
+              28.60496772744783
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-91",
+        "name": "Vasundhara Enclave",
+        "annualVolumeIndex": 32.97876247094094,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28766948696483,
+              28.667315788558565
+            ],
+            [
+              77.28805135580598,
+              28.66255969773386
+            ],
+            [
+              77.29315984820559,
+              28.66054976233473
+            ],
+            [
+              77.29788686731285,
+              28.663295555301673
+            ],
+            [
+              77.29750570680514,
+              28.668051660070336
+            ],
+            [
+              77.29239681884812,
+              28.67006195796124
+            ],
+            [
+              77.28766948696483,
+              28.667315788558565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-92",
+        "name": "Vishwas Nagar",
+        "annualVolumeIndex": 40.01310438507737,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.30734192707695,
+              28.668786810503175
+            ],
+            [
+              77.30772237922871,
+              28.66403069196932
+            ],
+            [
+              77.31283016361229,
+              28.662020021896893
+            ],
+            [
+              77.31755789097389,
+              28.664765107701676
+            ],
+            [
+              77.31717814720048,
+              28.66952123982197
+            ],
+            [
+              77.31206996767861,
+              28.671532272584205
+            ],
+            [
+              77.30734192707695,
+              28.668786810503175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-93",
+        "name": "Vivek Vihar",
+        "annualVolumeIndex": 41.834369888684925,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28652355034956,
+              28.681585574472624
+            ],
+            [
+              77.28690558424847,
+              28.676828726974076
+            ],
+            [
+              77.29201522173118,
+              28.674818434169964
+            ],
+            [
+              77.29674322105915,
+              28.67756462637724
+            ],
+            [
+              77.2963618957972,
+              28.682321487823213
+            ],
+            [
+              77.29125186256171,
+              28.684332143147678
+            ],
+            [
+              77.28652355034956,
+              28.681585574472624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-94",
+        "name": "Shahdara",
+        "annualVolumeIndex": 42.91952788438761,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2445428651064,
+              28.527808328940747
+            ],
+            [
+              77.2449270508278,
+              28.523059526835436
+            ],
+            [
+              77.25002662496588,
+              28.52105500510466
+            ],
+            [
+              77.25474240822682,
+              28.523798923838925
+            ],
+            [
+              77.25435892784017,
+              28.52854774083478
+            ],
+            [
+              77.24925895884911,
+              28.530552624238922
+            ],
+            [
+              77.2445428651064,
+              28.527808328940747
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-95",
+        "name": "Alaknanda",
+        "annualVolumeIndex": 70.62505768389947,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16718385367886,
+              28.507622000521753
+            ],
+            [
+              77.16757351322761,
+              28.502874084898995
+            ],
+            [
+              77.17267474399931,
+              28.500872843359645
+            ],
+            [
+              77.17738671153164,
+              28.50361915662505
+            ],
+            [
+              77.17699775682858,
+              28.508367088557456
+            ],
+            [
+              77.1718961297385,
+              28.510368690947896
+            ],
+            [
+              77.16718385367886,
+              28.507622000521753
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-96",
+        "name": "Chhattarpur",
+        "annualVolumeIndex": 61.470877228475345,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24338997655134,
+              28.542056256498274
+            ],
+            [
+              77.24377432798003,
+              28.53730669381777
+            ],
+            [
+              77.24887504302731,
+              28.535301814151584
+            ],
+            [
+              77.25359180168485,
+              28.53804613549664
+            ],
+            [
+              77.2532081558925,
+              28.54279571307146
+            ],
+            [
+              77.24810704579752,
+              28.544800954440017
+            ],
+            [
+              77.24338997655134,
+              28.542056256498274
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-97",
+        "name": "Chittaranjan Park",
+        "annualVolumeIndex": 69.33272634615659,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24657038866087,
+              28.56380227559127
+            ],
+            [
+              77.24695463580936,
+              28.55905156534583
+            ],
+            [
+              77.25205688751421,
+              28.557045966223917
+            ],
+            [
+              77.25677528729777,
+              28.559790715585283
+            ],
+            [
+              77.25639174624982,
+              28.564541440641648
+            ],
+            [
+              77.25128909930903,
+              28.56654740155884
+            ],
+            [
+              77.24657038866087,
+              28.56380227559127
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-98",
+        "name": "Dayanand Colony",
+        "annualVolumeIndex": 50.65693960635368,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22577037365822,
+              28.57657535361856
+            ],
+            [
+              77.22615619936622,
+              28.57182391398777
+            ],
+            [
+              77.23126029558847,
+              28.569818689761814
+            ],
+            [
+              77.23597896194154,
+              28.572564543573932
+            ],
+            [
+              77.23559384258984,
+              28.57731599837592
+            ],
+            [
+              77.23048935051997,
+              28.5793215842277
+            ],
+            [
+              77.22577037365822,
+              28.57657535361856
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-99",
+        "name": "Defence Colony",
+        "annualVolumeIndex": 47.33573492767347,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24223659066064,
+              28.55630646496017
+            ],
+            [
+              77.24262110790352,
+              28.55155614211514
+            ],
+            [
+              77.2477229643658,
+              28.549550904724526
+            ],
+            [
+              77.25244069881904,
+              28.552295628480756
+            ],
+            [
+              77.25205688751421,
+              28.557045966223917
+            ],
+            [
+              77.24695463580936,
+              28.55905156534583
+            ],
+            [
+              77.24223659066064,
+              28.55630646496017
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-100",
+        "name": "East of Kailash",
+        "annualVolumeIndex": 65.75319987331717,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.25639174624982,
+              28.564541440641648
+            ],
+            [
+              77.25677528729777,
+              28.559790715585283
+            ],
+            [
+              77.26187718746817,
+              28.557784750620065
+            ],
+            [
+              77.26659594160958,
+              28.56052914885005
+            ],
+            [
+              77.2662131066851,
+              28.565279888539195
+            ],
+            [
+              77.26111081148706,
+              28.567286215398717
+            ],
+            [
+              77.25639174624982,
+              28.564541440641648
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-101",
+        "name": "Friends Colony",
+        "annualVolumeIndex": 45.943140051265225,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22259600856253,
+              28.554825311974696
+            ],
+            [
+              77.2229819376121,
+              28.550075019460248
+            ],
+            [
+              77.22808449582699,
+              28.548070513770973
+            ],
+            [
+              77.23280152064227,
+              28.550815939096196
+            ],
+            [
+              77.23241629748442,
+              28.55556624686499
+            ],
+            [
+              77.22731334361079,
+              28.557571114087352
+            ],
+            [
+              77.22259600856253,
+              28.554825311974696
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-103",
+        "name": "Greater Kailash",
+        "annualVolumeIndex": 58.649933016600926,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19746366361143,
+              28.560095694315045
+            ],
+            [
+              77.19785144091405,
+              28.555345060796686
+            ],
+            [
+              77.20295544578967,
+              28.553341291954844
+            ],
+            [
+              77.2076720696301,
+              28.556087795365162
+            ],
+            [
+              77.20728499831141,
+              28.56083844458524
+            ],
+            [
+              77.20218059715944,
+              28.56284257472639
+            ],
+            [
+              77.19746366361143,
+              28.560095694315045
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-104",
+        "name": "Green Park",
+        "annualVolumeIndex": 55.43317821443965,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20728499831141,
+              28.56083844458524
+            ],
+            [
+              77.2076720696301,
+              28.556087795365162
+            ],
+            [
+              77.21277572447197,
+              28.554083660325766
+            ],
+            [
+              77.21749270405468,
+              28.556829813140958
+            ],
+            [
+              77.2171063387435,
+              28.561580477884625
+            ],
+            [
+              77.21200228783323,
+              28.563584974322616
+            ],
+            [
+              77.20728499831141,
+              28.56083844458524
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-105",
+        "name": "Gulmohar Park",
+        "annualVolumeIndex": 57.773045256566654,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19862682826974,
+              28.545844553609445
+            ],
+            [
+              77.19901443834675,
+              28.541094680031943
+            ],
+            [
+              77.20411730103312,
+              28.539091267597772
+            ],
+            [
+              77.20883294971442,
+              28.541837367503607
+            ],
+            [
+              77.20844604531965,
+              28.546587256778654
+            ],
+            [
+              77.20334278655243,
+              28.548591030483422
+            ],
+            [
+              77.19862682826974,
+              28.545844553609445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-106",
+        "name": "Hauz Khas",
+        "annualVolumeIndex": 70.01682318748321,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1876423352207,
+              28.559352227110892
+            ],
+            [
+              77.1880308184836,
+              28.554601609472424
+            ],
+            [
+              77.19313517309261,
+              28.55259820689873
+            ],
+            [
+              77.19785144091405,
+              28.555345060796686
+            ],
+            [
+              77.19746366361143,
+              28.560095694315045
+            ],
+            [
+              77.19235891251816,
+              28.56209945808866
+            ],
+            [
+              77.1876423352207,
+              28.559352227110892
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-107",
+        "name": "Hauz Khas Village",
+        "annualVolumeIndex": 52.32743300727722,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.31553001630054,
+              28.504479568824717
+            ],
+            [
+              77.31590893732611,
+              28.499732188651986
+            ],
+            [
+              77.32100376885519,
+              28.49772583223052
+            ],
+            [
+              77.32572007235886,
+              28.50046649370923
+            ],
+            [
+              77.32534185622303,
+              28.505213887520494
+            ],
+            [
+              77.32024663168534,
+              28.507220606247607
+            ],
+            [
+              77.31553001630054,
+              28.504479568824717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-108",
+        "name": "Jaitpur",
+        "annualVolumeIndex": 81.01320120614395,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2399283255882,
+              28.584813719663646
+            ],
+            [
+              77.24031317478061,
+              28.580061877723544
+            ],
+            [
+              77.2454173155917,
+              28.5780559255181
+            ],
+            [
+              77.25013700283435,
+              28.58080145349693
+            ],
+            [
+              77.24975286018407,
+              28.585553310342814
+            ],
+            [
+              77.24464832374024,
+              28.587559624337196
+            ],
+            [
+              77.2399283255882,
+              28.584813719663646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-110",
+        "name": "Jangpura",
+        "annualVolumeIndex": 31.523635057035268,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.29248089780543,
+              28.545746375671992
+            ],
+            [
+              77.29286172082412,
+              28.540996740300272
+            ],
+            [
+              77.2979606768256,
+              28.538990033968275
+            ],
+            [
+              77.3026792038065,
+              28.541732600844494
+            ],
+            [
+              77.30229908653772,
+              28.54648225022034
+            ],
+            [
+              77.29719973652959,
+              28.548489318748956
+            ],
+            [
+              77.29248089780543,
+              28.545746375671992
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-111",
+        "name": "Jasola",
+        "annualVolumeIndex": 70.90770951947516,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20496140101004,
+              28.589347655999745
+            ],
+            [
+              77.20534880649984,
+              28.584595488124553
+            ],
+            [
+              77.21045474700908,
+              28.58259064036724
+            ],
+            [
+              77.21517367847925,
+              28.5853375990624
+            ],
+            [
+              77.214786979601,
+              28.590089782469413
+            ],
+            [
+              77.20968064263216,
+              28.592094991682572
+            ],
+            [
+              77.20496140101004,
+              28.589347655999745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-112",
+        "name": "Jor Bagh",
+        "annualVolumeIndex": 32.50547689653018,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24223659066064,
+              28.55630646496017
+            ],
+            [
+              77.24262110790352,
+              28.55155614211514
+            ],
+            [
+              77.2477229643658,
+              28.549550904724526
+            ],
+            [
+              77.25244069881904,
+              28.552295628480756
+            ],
+            [
+              77.25205688751421,
+              28.557045966223917
+            ],
+            [
+              77.24695463580936,
+              28.55905156534583
+            ],
+            [
+              77.24223659066064,
+              28.55630646496017
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-113",
+        "name": "Kailash Colony",
+        "annualVolumeIndex": 66.60855298209518,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22606737356953,
+              28.512081803414883
+            ],
+            [
+              77.22645280368809,
+              28.507333792602047
+            ],
+            [
+              77.2315519384791,
+              28.50533035910533
+            ],
+            [
+              77.23626603821657,
+              28.508074575008173
+            ],
+            [
+              77.23588131308523,
+              28.512822601063508
+            ],
+            [
+              77.23078178322042,
+              28.514826396006583
+            ],
+            [
+              77.22606737356953,
+              28.512081803414883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-115",
+        "name": "Khanpur",
+        "annualVolumeIndex": 71.20376076442223,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2096065916638,
+              28.53233834921826
+            ],
+            [
+              77.20999332924231,
+              28.527589220299213
+            ],
+            [
+              77.21509470044279,
+              28.525585798825194
+            ],
+            [
+              77.21980972973371,
+              28.528331144962237
+            ],
+            [
+              77.21942369755942,
+              28.533080289396665
+            ],
+            [
+              77.21432193068115,
+              28.535084072211767
+            ],
+            [
+              77.2096065916638,
+              28.53233834921826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-116",
+        "name": "Khirki Village",
+        "annualVolumeIndex": 74.28208580815924,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24108270711334,
+              28.57055895309348
+            ],
+            [
+              77.24146739027744,
+              28.565807870495053
+            ],
+            [
+              77.24657038866087,
+              28.56380227559127
+            ],
+            [
+              77.25128909930903,
+              28.56654740155884
+            ],
+            [
+              77.25090512238495,
+              28.571298499059186
+            ],
+            [
+              77.24580172856393,
+              28.573304455723154
+            ],
+            [
+              77.24108270711334,
+              28.57055895309348
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-118",
+        "name": "Lajpat Nagar",
+        "annualVolumeIndex": 49.20166152956848,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.214786979601,
+              28.590089782469413
+            ],
+            [
+              77.21517367847925,
+              28.5853375990624
+            ],
+            [
+              77.22027926842298,
+              28.583332384639466
+            ],
+            [
+              77.22499855573096,
+              28.586078992101466
+            ],
+            [
+              77.2246125634878,
+              28.590831190861984
+            ],
+            [
+              77.21950657729272,
+              28.592836766840122
+            ],
+            [
+              77.214786979601,
+              28.590089782469413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-119",
+        "name": "Lodi Colony",
+        "annualVolumeIndex": 25.594600831563987,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.260727540826,
+              28.572037327622773
+            ],
+            [
+              77.26111081148706,
+              28.567286215398717
+            ],
+            [
+              77.2662131066851,
+              28.565279888539195
+            ],
+            [
+              77.27093252623426,
+              28.56802431197865
+            ],
+            [
+              77.27054996185912,
+              28.572775438748227
+            ],
+            [
+              77.26544727164024,
+              28.574782127565967
+            ],
+            [
+              77.260727540826,
+              28.572037327622773
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-120",
+        "name": "Maharani Bagh",
+        "annualVolumeIndex": 42.73333209011475,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2096065916638,
+              28.53233834921826
+            ],
+            [
+              77.20999332924231,
+              28.527589220299213
+            ],
+            [
+              77.21509470044279,
+              28.525585798825194
+            ],
+            [
+              77.21980972973371,
+              28.528331144962237
+            ],
+            [
+              77.21942369755942,
+              28.533080289396665
+            ],
+            [
+              77.21432193068115,
+              28.535084072211767
+            ],
+            [
+              77.2096065916638,
+              28.53233834921826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-121",
+        "name": "Malviya Nagar",
+        "annualVolumeIndex": 75.2031704304515,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17583055732514,
+              28.522612406359055
+            ],
+            [
+              77.17621967973736,
+              28.517863713470017
+            ],
+            [
+              77.18132170313997,
+              28.515861750164433
+            ],
+            [
+              77.186035000428,
+              28.518608118801787
+            ],
+            [
+              77.18564658318655,
+              28.52335682782698
+            ],
+            [
+              77.18054416347732,
+              28.525359152111758
+            ],
+            [
+              77.17583055732514,
+              28.522612406359055
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-122",
+        "name": "Mehrauli",
+        "annualVolumeIndex": 61.96132074945656,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20728499831141,
+              28.56083844458524
+            ],
+            [
+              77.2076720696301,
+              28.556087795365162
+            ],
+            [
+              77.21277572447197,
+              28.554083660325766
+            ],
+            [
+              77.21749270405468,
+              28.556829813140958
+            ],
+            [
+              77.2171063387435,
+              28.561580477884625
+            ],
+            [
+              77.21200228783323,
+              28.563584974322616
+            ],
+            [
+              77.20728499831141,
+              28.56083844458524
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-123",
+        "name": "Neeti Bagh",
+        "annualVolumeIndex": 55.97842827921367,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2477229643658,
+              28.549550904724526
+            ],
+            [
+              77.24810704579752,
+              28.544800954440017
+            ],
+            [
+              77.2532081558925,
+              28.54279571307146
+            ],
+            [
+              77.25792557958809,
+              28.54554006025418
+            ],
+            [
+              77.25754220395505,
+              28.550290025345856
+            ],
+            [
+              77.25244069881904,
+              28.552295628480756
+            ],
+            [
+              77.2477229643658,
+              28.549550904724526
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-124",
+        "name": "Nehru Place",
+        "annualVolumeIndex": 67.75671211513696,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.176653110268,
+              28.57286136688409
+            ],
+            [
+              77.17704246740458,
+              28.568110005782955
+            ],
+            [
+              77.18214831437287,
+              28.566106613891066
+            ],
+            [
+              77.18686520108355,
+              28.568854222004422
+            ],
+            [
+              77.18647655018525,
+              28.57360559916796
+            ],
+            [
+              77.18137030632903,
+              28.57560935218885
+            ],
+            [
+              77.176653110268,
+              28.57286136688409
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-125",
+        "name": "Netaji Nagar",
+        "annualVolumeIndex": 33.629593405586434,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2662131066851,
+              28.565279888539195
+            ],
+            [
+              77.26659594160958,
+              28.56052914885005
+            ],
+            [
+              77.27169748994555,
+              28.55852281811262
+            ],
+            [
+              77.27641659816767,
+              28.56126686510422
+            ],
+            [
+              77.2760344693895,
+              28.566017619247983
+            ],
+            [
+              77.27093252623426,
+              28.56802431197865
+            ],
+            [
+              77.2662131066851,
+              28.565279888539195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-126",
+        "name": "New Friends Colony",
+        "annualVolumeIndex": 43.66472308629796,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24426374483723,
+              28.59231185326973
+            ],
+            [
+              77.24464832374024,
+              28.587559624337196
+            ],
+            [
+              77.24975286018407,
+              28.585553310342814
+            ],
+            [
+              77.25447321334224,
+              28.58829886346119
+            ],
+            [
+              77.25408934114404,
+              28.59305110721224
+            ],
+            [
+              77.2489844090741,
+              28.59505778305953
+            ],
+            [
+              77.24426374483723,
+              28.59231185326973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-127",
+        "name": "Nizamuddin West",
+        "annualVolumeIndex": 15.80647163011393,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28585583378589,
+              28.566754632732245
+            ],
+            [
+              77.28623725639508,
+              28.562003864312036
+            ],
+            [
+              77.2913381001626,
+              28.559996802243806
+            ],
+            [
+              77.29605791571471,
+              28.562740146437925
+            ],
+            [
+              77.29567719929712,
+              28.567490928956392
+            ],
+            [
+              77.29057596112725,
+              28.569498353215586
+            ],
+            [
+              77.28585583378589,
+              28.566754632732245
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-128",
+        "name": "Okhla",
+        "annualVolumeIndex": 60.495912075689446,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1919706985037,
+              28.566850463504416
+            ],
+            [
+              77.19235891251816,
+              28.56209945808866
+            ],
+            [
+              77.19746366361143,
+              28.560095694315045
+            ],
+            [
+              77.20218059715944,
+              28.56284257472639
+            ],
+            [
+              77.20179308926801,
+              28.567593595935076
+            ],
+            [
+              77.19668794169661,
+              28.56959772097261
+            ],
+            [
+              77.1919706985037,
+              28.566850463504416
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-130",
+        "name": "Safdarjung Enclave",
+        "annualVolumeIndex": 40.867536583795506,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2119261836509,
+              28.5038473797641
+            ],
+            [
+              77.2123125879194,
+              28.499099772787932
+            ],
+            [
+              77.21741167750183,
+              28.49709706572449
+            ],
+            [
+              77.22212475809465,
+              28.499841604387033
+            ],
+            [
+              77.22173905862785,
+              28.504589226870486
+            ],
+            [
+              77.21663957375772,
+              28.506592295217175
+            ],
+            [
+              77.2119261836509,
+              28.5038473797641
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-131",
+        "name": "Sainik Farm",
+        "annualVolumeIndex": 70.47123355744387,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2052786553216,
+              28.524843524097086
+            ],
+            [
+              77.20566566215027,
+              28.520094783333423
+            ],
+            [
+              77.21076663766671,
+              28.518091723136454
+            ],
+            [
+              77.21548100202966,
+              28.5208370424592
+            ],
+            [
+              77.21509470044279,
+              28.525585798825194
+            ],
+            [
+              77.20999332924231,
+              28.527589220299213
+            ],
+            [
+              77.2052786553216,
+              28.524843524097086
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-132",
+        "name": "Saket",
+        "annualVolumeIndex": 74.77901854264546,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.23703532266065,
+              28.498579284197646
+            ],
+            [
+              77.23741988199713,
+              28.49383201953343
+            ],
+            [
+              77.24251752639499,
+              28.491828579045222
+            ],
+            [
+              77.24723100611916,
+              28.494572041738074
+            ],
+            [
+              77.24684715149192,
+              28.4993193214631
+            ],
+            [
+              77.24174911242253,
+              28.50132312346755
+            ],
+            [
+              77.23703532266065,
+              28.498579284197646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-133",
+        "name": "Sangam Vihar",
+        "annualVolumeIndex": 71.2427159702713,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.28814354695405,
+              28.538253822316655
+            ],
+            [
+              77.28852464065098,
+              28.533504574258234
+            ],
+            [
+              77.29362320263874,
+              28.5314982300589
+            ],
+            [
+              77.29834106493472,
+              28.534240771818425
+            ],
+            [
+              77.2979606768256,
+              28.538990033968275
+            ],
+            [
+              77.29286172082412,
+              28.540996740300272
+            ],
+            [
+              77.28814354695405,
+              28.538253822316655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-134",
+        "name": "Sarita Vihar",
+        "annualVolumeIndex": 74.3100942304836,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18647655018525,
+              28.57360559916796
+            ],
+            [
+              77.18686520108355,
+              28.568854222004422
+            ],
+            [
+              77.1919706985037,
+              28.566850463504416
+            ],
+            [
+              77.19668794169661,
+              28.56959772097261
+            ],
+            [
+              77.19629999706042,
+              28.574349114020315
+            ],
+            [
+              77.19119410296028,
+              28.57635323374879
+            ],
+            [
+              77.18647655018525,
+              28.57360559916796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-135",
+        "name": "Sarojini Nagar",
+        "annualVolumeIndex": 37.36923000113498,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.19429914549815,
+              28.538348229903505
+            ],
+            [
+              77.19468702475966,
+              28.53359874436508
+            ],
+            [
+              77.19978949135903,
+              28.531595693137504
+            ],
+            [
+              77.20450447477499,
+              28.534341766274874
+            ],
+            [
+              77.20411730103312,
+              28.539091267597772
+            ],
+            [
+              77.19901443834675,
+              28.541094680031943
+            ],
+            [
+              77.19429914549815,
+              28.538348229903505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-136",
+        "name": "Sarvodaya Enclave",
+        "annualVolumeIndex": 74.82251960010068,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20844604531965,
+              28.546587256778654
+            ],
+            [
+              77.20883294971442,
+              28.541837367503607
+            ],
+            [
+              77.21393546248251,
+              28.539833589141107
+            ],
+            [
+              77.21865146671999,
+              28.54257933871687
+            ],
+            [
+              77.21826526803099,
+              28.54732924351139
+            ],
+            [
+              77.21316235938987,
+              28.54933338324377
+            ],
+            [
+              77.20844604531965,
+              28.546587256778654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-137",
+        "name": "Shahpur Jat",
+        "annualVolumeIndex": 66.17513441416882,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.22259600856253,
+              28.554825311974696
+            ],
+            [
+              77.2229819376121,
+              28.550075019460248
+            ],
+            [
+              77.22808449582699,
+              28.548070513770973
+            ],
+            [
+              77.23280152064227,
+              28.550815939096196
+            ],
+            [
+              77.23241629748442,
+              28.55556624686499
+            ],
+            [
+              77.22731334361079,
+              28.557571114087352
+            ],
+            [
+              77.22259600856253,
+              28.554825311974696
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-138",
+        "name": "Siri Fort",
+        "annualVolumeIndex": 61.29114193481679,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21161548608846,
+              28.56833601114603
+            ],
+            [
+              77.21200228783323,
+              28.563584974322616
+            ],
+            [
+              77.2171063387435,
+              28.561580477884625
+            ],
+            [
+              77.2218239839623,
+              28.564326656840553
+            ],
+            [
+              77.22143788838774,
+              28.569077709100505
+            ],
+            [
+              77.21633344141534,
+              28.571082567001095
+            ],
+            [
+              77.21161548608846,
+              28.56833601114603
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-139",
+        "name": "South Extension",
+        "annualVolumeIndex": 47.97424321574576,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.25090512238495,
+              28.571298499059186
+            ],
+            [
+              77.25128909930903,
+              28.56654740155884
+            ],
+            [
+              77.25639174624982,
+              28.564541440641648
+            ],
+            [
+              77.26111081148706,
+              28.567286215398717
+            ],
+            [
+              77.260727540826,
+              28.572037327622773
+            ],
+            [
+              77.25562449865596,
+              28.574043650399194
+            ],
+            [
+              77.25090512238495,
+              28.571298499059186
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-140",
+        "name": "Sriniwaspuri",
+        "annualVolumeIndex": 49.136540653329114,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.25550920367733,
+              28.51430205074523
+            ],
+            [
+              77.25589251876488,
+              28.509553994738475
+            ],
+            [
+              77.26099060152191,
+              28.507549466216002
+            ],
+            [
+              77.26570576363326,
+              28.51029263199021
+            ],
+            [
+              77.26532315360201,
+              28.515040702705885
+            ],
+            [
+              77.26022467639443,
+              28.517045592971503
+            ],
+            [
+              77.25550920367733,
+              28.51430205074523
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-142",
+        "name": "Tughlaqabad",
+        "annualVolumeIndex": 74.42170370411789,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.29590633514765,
+              28.503008786632076
+            ],
+            [
+              77.29628666588621,
+              28.498261434269743
+            ],
+            [
+              77.301382202426,
+              28.496255806405024
+            ],
+            [
+              77.30609780164346,
+              28.498997168827092
+            ],
+            [
+              77.30571817575026,
+              28.50374453518353
+            ],
+            [
+              77.3006222457857,
+              28.50575052515689
+            ],
+            [
+              77.29590633514765,
+              28.503008786632076
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-143",
+        "name": "Badarpur",
+        "annualVolumeIndex": 81.19913201529126,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1208540562718,
+              28.590139111103337
+            ],
+            [
+              77.12124755188756,
+              28.585386703061435
+            ],
+            [
+              77.12635703227981,
+              28.58338479791016
+            ],
+            [
+              77.13107341537255,
+              28.586134940210933
+            ],
+            [
+              77.13068062631456,
+              28.590887365302777
+            ],
+            [
+              77.12557074759684,
+              28.592889631077014
+            ],
+            [
+              77.1208540562718,
+              28.590139111103337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-146",
+        "name": "Delhi Cantonment",
+        "annualVolumeIndex": 40.006864034646014,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16016039559925,
+              28.593127819586595
+            ],
+            [
+              77.16055106483701,
+              28.588375344415056
+            ],
+            [
+              77.16565915116242,
+              28.58637197008745
+            ],
+            [
+              77.17037696573513,
+              28.589120709942318
+            ],
+            [
+              77.16998700315271,
+              28.593873201450364
+            ],
+            [
+              77.16487851933319,
+              28.595876936800163
+            ],
+            [
+              77.16016039559925,
+              28.593127819586595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-147",
+        "name": "Dhaula Kuan",
+        "annualVolumeIndex": 26.856433608059298,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.14323624364808,
+              28.49863443671969
+            ],
+            [
+              77.14362758086503,
+              28.493886943273207
+            ],
+            [
+              77.14872911116059,
+              28.49188679353671
+            ],
+            [
+              77.15343970096845,
+              28.49463377669169
+            ],
+            [
+              77.15304906838647,
+              28.49938128689013
+            ],
+            [
+              77.14794714135257,
+              28.501381797214712
+            ],
+            [
+              77.14323624364808,
+              28.49863443671969
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-148",
+        "name": "Ghitorni",
+        "annualVolumeIndex": 52.92839892437849,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.14248073429184,
+              28.627659834879413
+            ],
+            [
+              77.14287288645994,
+              28.622905489132684
+            ],
+            [
+              77.14798435842474,
+              28.620901780226596
+            ],
+            [
+              77.15270407651015,
+              28.623652056157486
+            ],
+            [
+              77.15231263171692,
+              28.62840641851996
+            ],
+            [
+              77.14720076145427,
+              28.630410488368952
+            ],
+            [
+              77.14248073429184,
+              28.627659834879413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-149",
+        "name": "Inderpuri",
+        "annualVolumeIndex": 25.83820889942931,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12399749932825,
+              28.611902331183934
+            ],
+            [
+              77.12439089628867,
+              28.607148777050348
+            ],
+            [
+              77.12950192002788,
+              28.605146157607496
+            ],
+            [
+              77.13421994531448,
+              28.607896731616314
+            ],
+            [
+              77.13382725537745,
+              28.612650302717924
+            ],
+            [
+              77.12871583312126,
+              28.614653282875793
+            ],
+            [
+              77.12399749932825,
+              28.611902331183934
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-150",
+        "name": "Kirby Place",
+        "annualVolumeIndex": 25.37433784290828,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1660145390361,
+              28.521867269385545
+            ],
+            [
+              77.16640436659513,
+              28.517118592810583
+            ],
+            [
+              77.17150673869327,
+              28.515116995276177
+            ],
+            [
+              77.17621967973736,
+              28.517863713470017
+            ],
+            [
+              77.17583055732514,
+              28.522612406359055
+            ],
+            [
+              77.17072778871301,
+              28.524614364773257
+            ],
+            [
+              77.1660145390361,
+              28.521867269385545
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-151",
+        "name": "Kishangarh Village",
+        "annualVolumeIndex": 52.93638985417173,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12439348026507,
+              28.547376547446337
+            ],
+            [
+              77.12478646692611,
+              28.542626417271364
+            ],
+            [
+              77.12989251588995,
+              28.540625574322934
+            ],
+            [
+              77.13460597591904,
+              28.543374501044223
+            ],
+            [
+              77.13421369491047,
+              28.548124648254593
+            ],
+            [
+              77.12910724821117,
+              28.550125851741385
+            ],
+            [
+              77.12439348026507,
+              28.547376547446337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-152",
+        "name": "Mahipalpur",
+        "annualVolumeIndex": 38.719872131848746,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17115672262493,
+              28.579616485734718
+            ],
+            [
+              77.17154651695641,
+              28.574864753126864
+            ],
+            [
+              77.176653110268,
+              28.57286136688409
+            ],
+            [
+              77.18137030632903,
+              28.57560935218885
+            ],
+            [
+              77.18098121837481,
+              28.58036110095043
+            ],
+            [
+              77.17587422797331,
+              28.582364848286648
+            ],
+            [
+              77.17115672262493,
+              28.579616485734718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-153",
+        "name": "Moti Bagh",
+        "annualVolumeIndex": 29.039074144576688,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16799969967566,
+              28.557863142049154
+            ],
+            [
+              77.16838959478748,
+              28.553112556704882
+            ],
+            [
+              77.17349464796213,
+              28.551109886878958
+            ],
+            [
+              77.17821020291572,
+              28.55385744142942
+            ],
+            [
+              77.1778210137164,
+              28.55860804300985
+            ],
+            [
+              77.17271556364197,
+              28.56061107383676
+            ],
+            [
+              77.16799969967566,
+              28.557863142049154
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-154",
+        "name": "Munirka",
+        "annualVolumeIndex": 26.362224728885387,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.97534041334553,
+              28.61485787276377
+            ],
+            [
+              76.97574458704165,
+              28.610103836802857
+            ],
+            [
+              76.98086194758376,
+              28.608106392877804
+            ],
+            [
+              76.98557553624677,
+              28.61086262571078
+            ],
+            [
+              76.98517206949263,
+              28.61561668132267
+            ],
+            [
+              76.98005430712377,
+              28.61761448448374
+            ],
+            [
+              76.97534041334553,
+              28.61485787276377
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-155",
+        "name": "Najafgarh",
+        "annualVolumeIndex": 60.635087331514946,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.13264884642766,
+              28.626912531816316
+            ],
+            [
+              77.13304170594621,
+              28.62215820286391
+            ],
+            [
+              77.13815352671394,
+              28.620154861927016
+            ],
+            [
+              77.14287288645994,
+              28.622905489132684
+            ],
+            [
+              77.14248073429184,
+              28.627659834879413
+            ],
+            [
+              77.1373685150181,
+              28.629663536659283
+            ],
+            [
+              77.13264884642766,
+              28.626912531816316
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-156",
+        "name": "Naraina",
+        "annualVolumeIndex": 25.603886374020238,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12753603526389,
+              28.569129445300536
+            ],
+            [
+              77.12792892322979,
+              28.564378167184827
+            ],
+            [
+              77.13303651342787,
+              28.56237660938892
+            ],
+            [
+              77.13775161357744,
+              28.565125969111147
+            ],
+            [
+              77.13735943172871,
+              28.56987726418038
+            ],
+            [
+              77.13225144360409,
+              28.571879182606956
+            ],
+            [
+              77.12753603526389,
+              28.569129445300536
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-157",
+        "name": "Palam",
+        "annualVolumeIndex": 33.18395965400963,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.17115672262493,
+              28.579616485734718
+            ],
+            [
+              77.17154651695641,
+              28.574864753126864
+            ],
+            [
+              77.176653110268,
+              28.57286136688409
+            ],
+            [
+              77.18137030632903,
+              28.57560935218885
+            ],
+            [
+              77.18098121837481,
+              28.58036110095043
+            ],
+            [
+              77.17587422797331,
+              28.582364848286648
+            ],
+            [
+              77.17115672262493,
+              28.579616485734718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-158",
+        "name": "Rama Krishna Puram",
+        "annualVolumeIndex": 28.433888939368604,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.10711862058928,
+              28.517381424034973
+            ],
+            [
+              77.10751267851985,
+              28.512632849081054
+            ],
+            [
+              77.11261713648825,
+              28.510633447645336
+            ],
+            [
+              77.11732793427366,
+              28.513382260914558
+            ],
+            [
+              77.11693458134374,
+              28.518130853250145
+            ],
+            [
+              77.11182972561852,
+              28.52013061496793
+            ],
+            [
+              77.10711862058928,
+              28.517381424034973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-159",
+        "name": "Rajokri",
+        "annualVolumeIndex": 48.74927631928446,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.11457327622058,
+              28.546627730253157
+            ],
+            [
+              77.11496696850946,
+              28.54187761729169
+            ],
+            [
+              77.12007336489546,
+              28.5398771410035
+            ],
+            [
+              77.12478646692611,
+              28.542626417271364
+            ],
+            [
+              77.12439348026507,
+              28.547376547446337
+            ],
+            [
+              77.11928668593634,
+              28.54937738417306
+            ],
+            [
+              77.11457327622058,
+              28.546627730253157
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-160",
+        "name": "Rangpuri",
+        "annualVolumeIndex": 42.14570943883963,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18647655018525,
+              28.57360559916796
+            ],
+            [
+              77.18686520108355,
+              28.568854222004422
+            ],
+            [
+              77.1919706985037,
+              28.566850463504416
+            ],
+            [
+              77.19668794169661,
+              28.56959772097261
+            ],
+            [
+              77.19629999706042,
+              28.574349114020315
+            ],
+            [
+              77.19119410296028,
+              28.57635323374879
+            ],
+            [
+              77.18647655018525,
+              28.57360559916796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-161",
+        "name": "Sarojini Nagar",
+        "annualVolumeIndex": 37.36923000113498,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.15070409387224,
+              28.527871675495245
+            ],
+            [
+              77.15109506337808,
+              28.523122643406175
+            ],
+            [
+              77.15619852889563,
+              28.52112141694389
+            ],
+            [
+              77.16091142182117,
+              28.523868861858894
+            ],
+            [
+              77.16052115757665,
+              28.528617910531224
+            ],
+            [
+              77.1554172951362,
+              28.530619497738364
+            ],
+            [
+              77.15070409387224,
+              28.527871675495245
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-163",
+        "name": "Vasant Kunj",
+        "annualVolumeIndex": 41.04823245013383,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.15268120755474,
+              28.56387076232683
+            ],
+            [
+              77.15307224582239,
+              28.559119821864673
+            ],
+            [
+              77.15817839367564,
+              28.557117524266136
+            ],
+            [
+              77.1628939005615,
+              28.559865806297033
+            ],
+            [
+              77.16250356832106,
+              28.564616763264876
+            ],
+            [
+              77.15739702315847,
+              28.56661942172924
+            ],
+            [
+              77.15268120755474,
+              28.56387076232683
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-164",
+        "name": "Vasant Vihar",
+        "annualVolumeIndex": 24.070822574143044,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12045437751014,
+              28.654695682622986
+            ],
+            [
+              77.12084828445181,
+              28.649939856194646
+            ],
+            [
+              77.12596274630629,
+              28.64793617703153
+            ],
+            [
+              77.1306837003186,
+              28.650687963531173
+            ],
+            [
+              77.13029050130825,
+              28.655443806942174
+            ],
+            [
+              77.12517564034505,
+              28.657447846904017
+            ],
+            [
+              77.12045437751014,
+              28.654695682622986
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-166",
+        "name": "Bali Nagar",
+        "annualVolumeIndex": 43.67688009576218,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16016039559925,
+              28.593127819586595
+            ],
+            [
+              77.16055106483701,
+              28.588375344415056
+            ],
+            [
+              77.16565915116242,
+              28.58637197008745
+            ],
+            [
+              77.17037696573513,
+              28.589120709942318
+            ],
+            [
+              77.16998700315271,
+              28.593873201450364
+            ],
+            [
+              77.16487851933319,
+              28.595876936800163
+            ],
+            [
+              77.16016039559925,
+              28.593127819586595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-167",
+        "name": "Dhaula Kuan",
+        "annualVolumeIndex": 26.856433608059298,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.09764421327918,
+              28.631423182799693
+            ],
+            [
+              77.0980396336911,
+              28.62666853527213
+            ],
+            [
+              77.10315324599081,
+              28.624666306471514
+            ],
+            [
+              77.10787183720205,
+              28.627418364724903
+            ],
+            [
+              77.10747712420522,
+              28.632173029674288
+            ],
+            [
+              77.10236311257275,
+              28.63417561898159
+            ],
+            [
+              77.09764421327918,
+              28.631423182799693
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-168",
+        "name": "Fateh Nagar",
+        "annualVolumeIndex": 49.663011178731125,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.08348957078596,
+              28.623165226494713
+            ],
+            [
+              77.08388596668533,
+              28.618410984192234
+            ],
+            [
+              77.08899952694094,
+              28.616409484154175
+            ],
+            [
+              77.09371709083355,
+              28.619161866109263
+            ],
+            [
+              77.09332140216041,
+              28.623916126098823
+            ],
+            [
+              77.08820744235909,
+              28.625917986479347
+            ],
+            [
+              77.08348957078596,
+              28.623165226494713
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-169",
+        "name": "Janakpuri",
+        "annualVolumeIndex": 56.17983039046821,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1401266353941,
+              28.656191210804753
+            ],
+            [
+              77.14051912644847,
+              28.651435350589832
+            ],
+            [
+              77.14563289054085,
+              28.649430934336653
+            ],
+            [
+              77.15035456226174,
+              28.652182017332706
+            ],
+            [
+              77.1499627791879,
+              28.656937894172817
+            ],
+            [
+              77.14484861640351,
+              28.658942671424832
+            ],
+            [
+              77.1401266353941,
+              28.656191210804753
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-170",
+        "name": "Kirti Nagar",
+        "annualVolumeIndex": 33.887734077544636,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.08543334981755,
+              28.65920569577083
+            ],
+            [
+              77.08582981994603,
+              28.65444955184529
+            ],
+            [
+              77.09094607363954,
+              28.652446987307393
+            ],
+            [
+              77.09566625713151,
+              28.655200206266407
+            ],
+            [
+              77.09527049499853,
+              28.659956367802742
+            ],
+            [
+              77.09015384136872,
+              28.661959292802422
+            ],
+            [
+              77.08543334981755,
+              28.65920569577083
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-171",
+        "name": "Meera Bagh",
+        "annualVolumeIndex": 51.06811651753336,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.13461919346803,
+              28.66295184963871
+            ],
+            [
+              77.13501212336921,
+              28.65819561944689
+            ],
+            [
+              77.1401266353941,
+              28.656191210804753
+            ],
+            [
+              77.14484861640351,
+              28.658942671424832
+            ],
+            [
+              77.14445639462213,
+              28.663698918333576
+            ],
+            [
+              77.13934148370237,
+              28.665703687938475
+            ],
+            [
+              77.13461919346803,
+              28.66295184963871
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-172",
+        "name": "Moti Nagar",
+        "annualVolumeIndex": 43.13227430220748,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.09408286657184,
+              28.674226365266843
+            ],
+            [
+              77.09447879973098,
+              28.669469447349147
+            ],
+            [
+              77.09959585329203,
+              28.667466161823732
+            ],
+            [
+              77.10431737361067,
+              28.67021943365947
+            ],
+            [
+              77.1039221487752,
+              28.6749763690143
+            ],
+            [
+              77.09880469528808,
+              28.676980015129423
+            ],
+            [
+              77.09408286657184,
+              28.674226365266843
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-175",
+        "name": "Paschim Vihar",
+        "annualVolumeIndex": 49.70521462978541,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.15429360523099,
+              28.664445266246883
+            ],
+            [
+              77.15468511886812,
+              28.659689002799958
+            ],
+            [
+              77.15979893210988,
+              28.65768385700861
+            ],
+            [
+              77.1645216301832,
+              28.66043461353463
+            ],
+            [
+              77.1641308247147,
+              28.66519089334095
+            ],
+            [
+              77.15901661299516,
+              28.66719640029502
+            ],
+            [
+              77.15429360523099,
+              28.664445266246883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-176",
+        "name": "Patel Nagar",
+        "annualVolumeIndex": 32.93559311146908,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12911056448075,
+              28.669712850480973
+            ],
+            [
+              77.12950393340154,
+              28.66495625046323
+            ],
+            [
+              77.13461919346803,
+              28.66295184963871
+            ],
+            [
+              77.13934148370237,
+              28.665703687938475
+            ],
+            [
+              77.13894882304065,
+              28.670460304764966
+            ],
+            [
+              77.13383316387633,
+              28.67246506651609
+            ],
+            [
+              77.12911056448075,
+              28.669712850480973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-177",
+        "name": "Punjabi Bagh",
+        "annualVolumeIndex": 44.60695946254572,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.11180193869332,
+              28.639680167004215
+            ],
+            [
+              77.1121963831352,
+              28.63492511474932
+            ],
+            [
+              77.11731004675607,
+              28.632922156991793
+            ],
+            [
+              77.12202966504532,
+              28.635673890851496
+            ],
+            [
+              77.12163592820717,
+              28.64042896026279
+            ],
+            [
+              77.11652186546682,
+              28.64243227869112
+            ],
+            [
+              77.11180193869332,
+              28.639680167004215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-178",
+        "name": "Rajouri Garden",
+        "annualVolumeIndex": 43.222108015584936,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.12045437751014,
+              28.654695682622986
+            ],
+            [
+              77.12084828445181,
+              28.649939856194646
+            ],
+            [
+              77.12596274630629,
+              28.64793617703153
+            ],
+            [
+              77.1306837003186,
+              28.650687963531173
+            ],
+            [
+              77.13029050130825,
+              28.655443806942174
+            ],
+            [
+              77.12517564034505,
+              28.657447846904017
+            ],
+            [
+              77.12045437751014,
+              28.654695682622986
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-179",
+        "name": "Shivaji Place",
+        "annualVolumeIndex": 43.630895698987295,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.08662258895987,
+              28.64493802069358
+            ],
+            [
+              77.08701888786979,
+              28.64018263355972
+            ],
+            [
+              77.0921339943626,
+              28.63818042099287
+            ],
+            [
+              77.09685320167449,
+              28.640933235158883
+            ],
+            [
+              77.09645761045724,
+              28.64568863989834
+            ],
+            [
+              77.09134210422603,
+              28.647691212899336
+            ],
+            [
+              77.08662258895987,
+              28.64493802069358
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-181",
+        "name": "Tilak Nagar",
+        "annualVolumeIndex": 51.13338121553436,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.05160184767799,
+              28.649438642822755
+            ],
+            [
+              77.05200070943815,
+              28.644682940277157
+            ],
+            [
+              77.05711760393845,
+              28.64268184313926
+            ],
+            [
+              77.06183603723417,
+              28.645436088483606
+            ],
+            [
+              77.06143788322923,
+              28.65019180926289
+            ],
+            [
+              77.05632058816387,
+              28.652193266497278
+            ],
+            [
+              77.05160184767799,
+              28.649438642822755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-183",
+        "name": "Vikas Nagar",
+        "annualVolumeIndex": 60.42535912409327,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.06695258512093,
+              28.643434622275148
+            ],
+            [
+              77.06735029934048,
+              28.638679270888474
+            ],
+            [
+              77.07246610015693,
+              28.636677795912707
+            ],
+            [
+              77.07718458689865,
+              28.63943131212331
+            ],
+            [
+              77.07678758032124,
+              28.644186681472913
+            ],
+            [
+              77.07167137935055,
+              28.64618851668213
+            ],
+            [
+              77.06695258512093,
+              28.643434622275148
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "locality-reference-184",
+        "name": "Vikaspuri",
+        "annualVolumeIndex": 57.6377079582178,
+        "reportedCases": null,
+        "riskScore": null,
+        "confidence": "low",
+        "dataType": "model-estimate-with-assumed-spatial-mapping"
+      }
+    }
+  ]
+}

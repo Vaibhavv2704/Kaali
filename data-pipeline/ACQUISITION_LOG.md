@@ -52,3 +52,9 @@ Reviewed https://dmsouthwest.delhi.gov.in/jurisdiction-maps-of-district/ through
 Read original workspace locality/population/traffic files, preserving originals; Desktop paths absent. Exact 23 hashes/byte sizes and 20 traffic-date/coverage summaries in sources/supplied-locality-context.json. Swapped coordinates corrected in memory. 153 accepted locality references; 78 with historical probe matches, six density matches, 73 population matches. Ward name matches are not spatial joins. No local crime label or district allocation added. No new crime download.
 
 Policy-aware MapTiler public client mapstyle.ts download succeeded; original raw receipt stores retrieval timestamp/hash under raw/acquisition-audits. Parsed 43 metadata variants without explicit active deprecation flags. Full methodology: SUPPLIED_CONTEXT_REPORT.md.
+
+## ML volume model — 2026-10-02
+
+Reused the two existing SHA-frozen 2022/2024 NCRB workbooks and independent report-total receipt; no new crime download, retrieval date or reuse licence asserted. Expanded model-only training to 109 paired geographic reporting units across the three states. Existing manifest rows retain original receipt gaps. Source exclusions, all six state-total checks, training rows, fold identities and artifact hashes are saved under reports/ml-volume-v1/. Supplied historical context and reviewed Delhi NCT outline/OSM references are reused only for explicitly assumed display interpolation; no matching police geography acquired.
+
+Reviewed official Ollama API documentation https://docs.ollama.com/api/generate for optional local text generation. Local runtime check found no installed/running Ollama; no model downloaded. This documentation is not a crime dataset or a licence for a chosen model. User must review that model's individual licence before distributing it.
