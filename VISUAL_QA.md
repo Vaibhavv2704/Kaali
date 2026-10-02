@@ -19,3 +19,4 @@ Not covered: real-phone 60fps measurements, live GPS grant/movement, screen-read
 ## Mobile refinement
 
 Production preview checked at 360x800, short 360x640, 390x844 and desktop 1280x720. Mobile controls have distinct positions with one expanded sheet at a time. Sheets use an opaque theme surface to avoid labels showing through reading content. District search/Rohini selection, help filters/metro toggle, Escape collapse, both themes and mobile page navigation passed. DOM checks showed no horizontal overflow; the browser console returned no errors. Six mobile screenshots now show this production preview. Live GPS permission and physical-device performance were not tested.
+The authorized Render deployment was then checked at 360x800. Vertical controls, paired capsules and an opaque expanded help sheet are live; both themes load, no horizontal overflow or console errors were observed. Mobile map screenshots are now from that live build.
