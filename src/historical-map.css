@@ -93,3 +93,11 @@
 .historical-location-card details p{font-size:12px;line-height:1.55;overflow-wrap:anywhere;}
 @keyframes awareness-enter{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
 @media(prefers-reduced-motion:reduce){.historical-location-card{animation:none;}}
+.historical-location-card.is-collapsed{border-radius:999px;padding:8px 16px;overflow:visible;}
+.historical-location-card .location-card-heading{width:100%;margin:0;top:0;background:transparent;text-align:left;}
+.location-card-heading>span{display:flex;flex-direction:column;gap:2px;}
+.location-card-heading small{font-size:11px;font-weight:400;color:var(--muted);}
+.location-card-heading>svg{transition:transform .2s ease;}
+.is-expanded .location-card-heading>svg{transform:rotate(180deg);}
+#location-advice-body[hidden]{display:none;}
+@media(prefers-reduced-motion:reduce){.location-card-heading>svg{transition:none;}}

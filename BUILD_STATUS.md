@@ -332,3 +332,8 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 ## Handoff consistency — 2026-10-02
 
 - Usage available; tracked checkout clean, supplied untracked datasets/artifacts preserved. Updated NEXT_STEPS.md to match the latest ML cohort, automatic advisory shading, simplified advice, single location control and help-layer defaults. Removed stale statements about optional scenario switches and persistence being the selected latest model; retained the distinct older cohort and all evidence/visual-review gates. Documentation only; no app/source/model changes or repeated runtime checks.
+
+## Collapsible surroundings capsule — 2026-10-02
+
+- Your surroundings now collapses/reopens through an accessible disclosure header. Collapsed capsule keeps the current advisory level visible; hidden advice/actions are removed from keyboard navigation. Collapsing preserves the GPS watch, position and map dot. Separate Stop location remains inside the expanded card and still clears GPS. Chevron motion respects reduced-motion preference.
+- Type-check and lint pass. Production build is checked before commit; visual browser QA remains pending under the recorded URL-policy block. No crime/model/advisory rules or supplied files changed.
