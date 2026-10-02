@@ -314,3 +314,9 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Already-granted browser geolocation permission resumes the client-only watch automatically on mount and centers/zooms when its first position arrives. New permission retains consent flow; Stop and unmount clear GPS. No location storage. Privacy/AI requests remain anonymous categories only.
 - Type-check, lint, 14 targeted advisory/model/privacy/location regressions and publication validation pass. Visual QA remains pending under the existing browser URL-policy block; no screenshot claims. Production build result recorded after completion.
 - Production build passes with the existing large lazy MapLibre chunk warning. Changes committed separately from the preserved supplied raw datasets.
+
+## Detailed automatic advice card — 2026-10-02
+
+- Removed How this advice is formed and Generate AI advice locally from the location card, including all AI request state/calls and runtime setup text in this component. Existing optional server/library remains available for future work but the card makes no generation request. Automatic on-device wording is not described as live AI.
+- Expanded each advisory level's precautions with route/pickup planning, booking verification, phone readiness, optional journey sharing/check-ins and practical responses to discomfort. Retained awareness/care reminder, emergency contact, short estimate disclaimer, auto-location and explicit native share. Crime/model/source data unchanged.
+- Type-check and lint pass. Targeted advisory/location tests and production build are verified before commit. Browser visual QA remains pending under the existing URL-policy block.
