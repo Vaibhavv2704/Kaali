@@ -85,7 +85,7 @@ python data-pipeline/train_ml_volume.py
 python -m unittest discover -s data-pipeline/tests
 ```
 
-The app runs from committed static feeds without these raw files. Pipeline reproduction requires the original checksum-matching inputs listed in `data-pipeline/config/` and source receipts. Raw inputs, model binaries, local keys, screenshots and large supplied traffic files are deliberately excluded from Git. Model comparison/folds, source hashes and versioned display exports are committed. Existing research reports are preserved; different cohorts' metrics are not interchangeable.
+The app runs from committed static feeds without these raw files. Pipeline reproduction requires the original checksum-matching inputs listed in `data-pipeline/config/` and source receipts. Raw inputs, model binaries, local keys, private QA captures and large supplied traffic files are deliberately excluded from Git. Model comparison/folds, source hashes and versioned display exports are committed. Existing research reports are preserved; different cohorts' metrics are not interchangeable.
 
 Source documentation: [SOURCES](data-pipeline/SOURCES.md), [schema](data-pipeline/schema.md), [acquisition log](data-pipeline/ACQUISITION_LOG.md), [supplied context](data-pipeline/SUPPLIED_CONTEXT_REPORT.md), [build status](BUILD_STATUS.md).
 
