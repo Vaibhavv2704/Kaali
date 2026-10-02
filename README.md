@@ -254,3 +254,5 @@ Current time uses the region timezone and updates every minute; an hourly previe
 The current location card uses detailed automatic on-device advice only. The explanation disclosure and local AI generation button have been removed as requested; the card makes no AI request. Optional Ollama service instructions above describe an existing development capability, not the current card flow. Source/rule disclosures remain in the map legend and evidence documentation.
 
 Your surroundings collapses to a capsule showing the current advisory level and reopens on click. Collapsing keeps location active; use Stop location inside the expanded card to clear the watch and position.
+
+Reporting-year presentation follows the requested simplified interface: the latest recorded year is shown as Historical period/records rather than its numeric label. Original years remain in downloadable source data, model exports and internal audit documentation; counts, filters and source links are unchanged. This does not make historical counts current.

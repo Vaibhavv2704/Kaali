@@ -337,3 +337,10 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 
 - Your surroundings now collapses/reopens through an accessible disclosure header. Collapsed capsule keeps the current advisory level visible; hidden advice/actions are removed from keyboard navigation. Collapsing preserves the GPS watch, position and map dot. Separate Stop location remains inside the expanded card and still clears GPS. Chevron motion respects reduced-motion preference.
 - Type-check and lint pass. Production build is checked before commit; visual browser QA remains pending under the recorded URL-policy block. No crime/model/advisory rules or supplied files changed.
+- Production build passes with the existing large lazy MapLibre chunk warning.
+
+## Historical-period presentation — 2026-10-02
+
+- Removed visible 2024 reporting-year labels from the primary map, district details/marker accessibility text, methodology copy, evidence/news presentation, earlier-series views, year-filter labels and chart ticks/tooltips. Presentation helper substitutes Historical period; raw years, counts, source URLs, filter values and all data/model files remain unchanged. Historical wording remains visible so annual counts are not presented as current events. Counts numerically equal to 2024 are not modified.
+- Type-check, lint, display-only preservation regression and publication validation pass. Production build verified before commit; browser visual QA remains pending under the existing URL-policy restriction.
+- Production build passes with the existing large lazy MapLibre chunk warning. Source and model files unchanged.
