@@ -328,3 +328,7 @@ Fresh project-runtime checks now pass for tables, geometry, projection, news ext
 - Header now renders Kaali directly as text, using the existing brand typography and theme text colour. Public SVG variants remain preserved. No model/crime/source records changed.
 - Type-check and lint pass. Relevant location/advisory tests and production build are verified before commit; visual browser QA remains pending under the existing URL-policy restriction.
 - Seven relevant tests and production build pass. Existing large lazy MapLibre chunk warning remains; no runtime browser verification claimed.
+
+## Handoff consistency — 2026-10-02
+
+- Usage available; tracked checkout clean, supplied untracked datasets/artifacts preserved. Updated NEXT_STEPS.md to match the latest ML cohort, automatic advisory shading, simplified advice, single location control and help-layer defaults. Removed stale statements about optional scenario switches and persistence being the selected latest model; retained the distinct older cohort and all evidence/visual-review gates. Documentation only; no app/source/model changes or repeated runtime checks.
