@@ -11,3 +11,7 @@ data-pipeline/raw/
 data-pipeline/artifacts/
 .sites-runtime/
 .pnpm-store/
+artifacts/
+data-pipeline/delhi_neighbour.csv
+data-pipeline/population density wardwise*.csv
+data-pipeline/new_delhi_traffic_dataset/

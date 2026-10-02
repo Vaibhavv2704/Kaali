@@ -1,6 +1,10 @@
 # Kaali: what happens next
 
-## Work I can continue in this workspace
+## Delhi NCR early access
+
+The requested early-access software scope is complete. See RELEASE_NOTES.md and VISUAL_QA.md for release coverage and checks. GitHub/Render publication is being verified. The items below are future evidence and research improvements, not an instruction to keep changing this release automatically.
+
+## Future research work
 
 - Collect permitted public reports; review locality/date/time associations and deduplicate events.
 - Keep source references and aggregate crime context visible with their limitations. Convicted-person profiles have been removed at your request.

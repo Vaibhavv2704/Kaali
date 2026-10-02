@@ -10,7 +10,9 @@
 
 
 /* Brand assets preserve the existing header dimensions. */
-.brand-logo{display:block;width:132px;height:39px;object-fit:contain;object-position:left center}.brand-tagline{font-size:10px;line-height:1.5;color:var(--muted);max-width:180px}.about-name{margin-top:32px}.about-name h2{font-size:17px;font-weight:550}.about-name p{font-size:12px;color:var(--muted)}@media(max-width:1280px){.brand-tagline{display:none}}@media(max-width:760px){.brand-logo{width:112px;height:34px}}
+.brand-logo{display:block;width:132px;height:39px;object-fit:contain;object-position:left center}.brand-wordmark{display:grid;line-height:1.05}.release-label{font-size:9px;font-weight:500;letter-spacing:0;line-height:1.4;color:var(--muted);margin-top:5px;white-space:nowrap}.brand-tagline{font-size:10px;line-height:1.5;color:var(--muted);max-width:180px}.about-name{margin-top:32px}.about-name h2{font-size:17px;font-weight:550}.about-name p{font-size:12px;color:var(--muted)}@media(max-width:1280px){.brand-tagline{display:none}}@media(max-width:760px){.brand-logo{width:112px;height:34px}.release-label{font-size:8px}}
+@media(max-width:760px){.helpline-controls .tabs-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;border-radius:20px;}.helpline-controls .tabs-trigger{min-width:0;min-height:44px;padding:8px;white-space:normal;}.helpline-card.featured{flex-wrap:wrap;}.helpline-card.featured .number-column{padding-left:0;}.coverage-table{table-layout:fixed;overflow-wrap:anywhere;}.page-footnote,.ncr-evidence-record{overflow-wrap:anywhere;}}
+.header{position:fixed;}
 
 /* The details sheet has a fixed handle and an independently scrolling body. */
 .detail{display:flex;flex-direction:column;overflow:hidden;padding:0}

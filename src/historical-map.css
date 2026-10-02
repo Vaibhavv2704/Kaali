@@ -101,3 +101,7 @@
 .is-expanded .location-card-heading>svg{transform:rotate(180deg);}
 #location-advice-body[hidden]{display:none;}
 @media(prefers-reduced-motion:reduce){.location-card-heading>svg{transition:none;}}
+@media(max-width:760px){
+ .historical-layout .maplibregl-ctrl-bottom-right{bottom:144px!important;}
+ .historical-details,.historical-legend.is-open{bottom:172px;}
+}

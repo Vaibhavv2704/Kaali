@@ -1,7 +1,8 @@
 {
   "name": "kaali",
-  "version": "0.1.0",
+  "version": "0.1.0-early-access",
   "private": true,
+  "packageManager": "pnpm@11.19.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",

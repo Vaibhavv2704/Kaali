@@ -1,6 +1,6 @@
 # Kaali build status
 
-Updated 2026-09-30. Read this with README.md and the user’s requirements before continuing.
+Updated 2026-10-02. Delhi NCR early-access release scope is complete. GitHub/Render publication is being verified; scientific data/model gaps remain documented research work. Read README.md and RELEASE_NOTES.md before changing the completed scope.
 
 ## Latest design preference
 
